@@ -1,0 +1,81 @@
+VER 3 0100000000000014 "." "INV_MISC_QUESTIONMARK"
+#showtooltip Axe Toss(Special Ability)
+/cast [@focus,exists][@mouseover,exist,harm][] Axe Toss(Special Ability)
+END
+VER 3 0100000000000011 "Banish" "INV_MISC_QUESTIONMARK"
+#showtooltip Banish
+/cast [@mouseover,harm] Banish; [harm] Banish
+END
+VER 3 0100000000000007 "Cataclysm" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Cataclysm
+END
+VER 3 0100000000000017 "Drain life" "INV_MISC_QUESTIONMARK"
+#showtooltip Drain Life
+/cancelaura Burning Rush
+/cast Drain Life
+END
+VER 3 0100000000000009 "DSI / Demonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Channel Demonfire; [talent:7/3] Dark Soul: Instability
+/w Holýcrap-Draenor Pi me
+END
+VER 3 010000000000001A "fg" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Grimoire: Felguard(Summon)
+END
+VER 3 010000000000000D "Gateaway" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Demonic Gateway
+END
+VER 3 0100000000000016 "h" "INV_MISC_QUESTIONMARK"
+#showtooltip Soul Rot(Night Fae)
+/cast Soul Rot(Night Fae)
+/use 13
+END
+VER 3 0100000000000004 "Havoc" "INV_MISC_QUESTIONMARK"
+#showtooltip Havoc
+/tar kin'tessa
+/cast havoc
+/targetlasttarget
+END
+VER 3 0100000000000013 "HavocMs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,nodead] [] Havoc
+END
+VER 3 0100000000000005 "Infernal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Summon Infernal
+END
+VER 3 0100000000000012 "IQD" "INV_MISC_QUESTIONMARK"
+#showtooltip 13
+/use 13
+/cleartarget
+/use 13
+/targetlasttarget
+END
+VER 3 0100000000000018 "Pet command" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,nodead] [] Command Demon
+END
+VER 3 010000000000000C "PetAbilities" "INV_MISC_QUESTIONMARK"
+#showtooltip Spell Lock(Command Demon Ability)
+/cast [@focus,exists][@mouseover,exists,harm][] Spell Lock(Command Demon Ability)
+END
+VER 3 0100000000000006 "Rain of Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Rain of Fire
+END
+VER 3 0100000000000008 "Shadowfury" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Shadowfury
+END
+VER 3 0100000000000019 "Slow curse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,nodead] [] Curse of Exhaustion
+END
+VER 3 0100000000000015 "Tyrant" "INV_MISC_QUESTIONMARK"
+#showtooltip Summon Demonic Tyrant
+/use 13
+/Cast Summon Demonic Tyrant
+END

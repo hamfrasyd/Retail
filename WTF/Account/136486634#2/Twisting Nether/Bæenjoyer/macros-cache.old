@@ -1,0 +1,127 @@
+VER 3 0100000000000017 "CancelAuraImmune" "895888"
+/cancelaura Netherwalk
+END
+VER 3 010000000000000A "ConsumeMagic" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Consume Magic
+END
+VER 3 010000000000000B "Disrupt" "INV_Misc_QuestionMark"
+#showtooltip Disrupt
+/stopcasting
+/cast [@focus,exists][@mouseover,harm,nodead] [] Disrupt
+END
+VER 3 0100000000000013 "e" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Chaos Strike
+END
+VER 3 010000000000000C "Fel Eruption" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Fel Eruption
+END
+VER 3 0100000000000001 "Infernal Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip Infernal Strike
+/cast [@cursor] Infernal Strike
+END
+VER 3 010000000000000E "Meta@mouse" "INV_Misc_QuestionMark"
+#showtooltip Metamorphosis
+/cast [@cursor] Metamorphosis
+END
+VER 3 010000000000000F "Metamorphosis" "INV_Misc_QuestionMark"
+#showtooltip Metamorphosis
+/cast [@player] Metamorphosis
+END
+VER 3 0100000000000010 "Prison" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Imprison
+END
+VER 3 0100000000000018 "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Deadly Calm; [talent:6/2] Avatar;
+/use 13
+/cast Warbreaker
+END
+VER 3 0100000000000019 "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Deadly Calm; [talent:6/2] Avatar;
+/use 13
+/cast Berserking(Racial)
+/cast Warbreaker
+END
+VER 3 010000000000001A "Row3bear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:3/1] Typhoon; [@cursor][talent:3/3] Ursol's Vortex
+END
+VER 3 0100000000000012 "Sigil of Chains" "INV_Misc_QuestionMark"
+#showtooltip Sigil of Chains
+/cast [@cursor] Sigil of Chains
+END
+VER 3 0100000000000002 "Sigil of Flame" "INV_MISC_QUESTIONMARK"
+#showtooltip Sigil of Flame
+/cast [@cursor] Sigil of Flame
+END
+VER 3 0100000000000003 "Sigil of Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip Sigil of Silence
+/cast [@cursor] Sigil of Silence
+END
+VER 3 010000000000001B "SoccerXanesh" "1394892"
+Soccer 1: Quísha - Keyali - Timinic
+Soccer 2: Yorksèn - Bacard - Sunkissed
+Soccer 3: Valathae - Lisperia - Sootup
+END
+VER 3 010000000000001C "Stormbolt" "INV_Misc_QuestionMark"
+#showtooltip Storm Bolt
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 010000000000001D "Stormbolt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 010000000000001E "SWDeathBAR" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/1] Shadow Word: Death; [talent:6/2] Purify Disease;  [talent:6/3] Shadow Word: Death
+END
+VER 3 0100000000000006 "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Torment
+END
+VER 3 010000000000001F "Taunt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Taunt
+END
+VER 3 0100000000000004 "Throw" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Throw Glaive
+END
+VER 3 0100000000000014 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1NM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000020 "VuhDoDCShieldData" "132281"
+R1SH1PH1LR1DR1PT2NM2WM[x]2SR3SR3OT3RM3HM3RM4HR4NM4HR4IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2WM[x][x]0__[x][x][x][x][x][x][x][x][x]0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000015 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bæe[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000021 "VuhDoDCShieldNames" "132281"
+NFaiZenBosOveGriLezPlå[x]ValMurMelKîlTheZelHelEasJamItz[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bad[x][x]Kir[x][x][x][x][x][x][x][x][x]Kuz[x]Dol[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000022 "WarriorAvatarDea" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/2] Avatar: [talent:6/3] Deadly Calm:
+END
+VER 3 0100000000000023 "WarriorBloodofTh" "INV_Misc_QuestionMark"
+#showtooltip Blood of the Enemy(Azerite Essence)
+/cast Berserking(Racial)
+/cast Blood of the Enemy(Azerite Essence)
+END
+VER 3 0100000000000024 "WarriorGuardiano" "INV_Misc_QuestionMark"
+#showtooltip Guardian of Azeroth(Azerite Essence)
+/cast Berserking(Racial)
+/cast Guardian of Azeroth(Azerite Essence)
+END
+VER 3 0100000000000025 "WarriorHeroicLea" "INV_Misc_QuestionMark"
+#showtooltip Heroic Leap
+/cast [@cursor] Heroic Leap
+/cancelaura Bladestorm
+END

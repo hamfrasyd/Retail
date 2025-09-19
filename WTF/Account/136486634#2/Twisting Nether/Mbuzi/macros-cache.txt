@@ -1,0 +1,77 @@
+VER 3 010000000000000C "Avatar" "134400"
+#showtooltip Avatar
+/cast Avatar
+/cast Recklessness
+/cast Colossus Smash
+/cast Berserking(Racial)
+/use Tempered Potion
+END
+VER 3 0100000000000011 "CS" "134400"
+#showtooltip
+/cast Colossus Smash
+END
+VER 3 0100000000000010 "D + Ber Stance" "134400"
+#showtooltip
+/cast [stance:2]!Defensive Stance;!Berserker Stance
+END
+VER 3 010000000000000F "D+B Stance" "134400"
+#showtooltip
+/cast [stance:2]!Defensive Stance;!Battle Stance
+END
+VER 3 0100000000000012 "ExecuteMouseOver" "134400"
+#showtooltip Execute
+/cast [@mouseover,exists,harm][] Execute
+END
+VER 3 0100000000000006 "Hamstring" "134400"
+#showtooltip Hamstring
+/cast [@mouseover,exists,harm][] Hamstring
+END
+VER 3 0100000000000007 "Heroic Leap" "134400"
+#showtooltip Heroic Leap
+/cancelaura Bladestorm
+/cast [@cursor] Heroic Leap
+END
+VER 3 0100000000000008 "Heroic Throw" "134400"
+#showtooltip Heroic Throw
+/cast [@mouseover,exists,harm][] Heroic Throw
+END
+VER 3 010000000000000A "Intervene" "134400"
+#showtooltip Intervene
+/cast [@mouseover,help,nodead][help,nodead] Intervene
+END
+VER 3 0100000000000005 "Intimidate Shout" "134400"
+#showtooltip Intimidating Shout
+/cancelaura Bladestorm
+/cast [@mouseover,exists,harm][] Intimidating Shout
+END
+VER 3 010000000000000E "Pummel" "134400"
+#showtooltip Pummel
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Pummel
+END
+VER 3 010000000000000D "Ravager" "134400"
+#showtooltip Ravager
+/cast [@cursor] Ravager
+/use Fleeting Elemental Potion of Ultimate Power
+END
+VER 3 010000000000000B "Recklessness" "134400"
+#showtooltip Recklessness
+/cast Recklessness
+/cast Berserking(Racial)
+END
+VER 3 0100000000000004 "Spear of Bastion" "134400"
+#showtooltip Champion's Spear
+/cast Recklessness
+/cast Avatar
+/use [@cursor] Champion's Spear
+/cast Berserking(Racial)
+END
+VER 3 0100000000000003 "Storm Bolt" "134400"
+#showtooltip Storm Bolt
+/cancelaura Bladestorm
+/cast [@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 0100000000000009 "Taunt" "134400"
+#showtooltip Taunt
+/cast [@mouseover,exists,harm][] Taunt
+END

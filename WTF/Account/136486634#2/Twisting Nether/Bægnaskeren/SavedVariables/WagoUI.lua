@@ -1,0 +1,4 @@
+
+WagoUICDB = {
+["hasLoggedIn"] = true,
+}

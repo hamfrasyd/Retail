@@ -1,0 +1,22 @@
+VER 3 0100000000000001 "Heroic Leap" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Heroic Leap
+END
+VER 3 0100000000000002 "Heroic Throw" "INV_Misc_QuestionMark"
+#showtooltip Heroic Throw
+/cast [@mouseover,exists] Heroic Throw; Heroic Throw
+END
+VER 3 0100000000000003 "IntShout" "INV_Misc_QuestionMark"
+#showtooltip Intimidating Shout
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Intimidating Shout
+END
+VER 3 0100000000000004 "Pummel" "INV_Misc_QuestionMark"
+#showtooltip Pummel
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Pummel
+END
+VER 3 0100000000000005 "Row 3" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:3/3] Slam; [talent:3/2] Whirlwind; [talent:3/1] Slam;
+END

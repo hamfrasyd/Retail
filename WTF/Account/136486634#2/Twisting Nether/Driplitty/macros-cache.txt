@@ -1,0 +1,69 @@
+VER 3 0100000000000003 "CancelAuraImmune" "895888"
+/cancelaura Netherwalk
+END
+VER 3 0100000000000004 "ConsumeMagic" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Consume Magic
+END
+VER 3 0100000000000005 "Disrupt" "INV_Misc_QuestionMark"
+#showtooltip Disrupt
+/stopcasting
+/cast [@focus,exists][@mouseover,harm,nodead] [] Disrupt
+END
+VER 3 0100000000000006 "e" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast Chaos Strike
+END
+VER 3 0100000000000007 "Fel Eruption" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Fel Eruption
+END
+VER 3 0100000000000008 "Infernal Strike" "INV_Misc_QuestionMark"
+#showtooltip Infernal Strike
+/cast [@cursor] Infernal Strike
+END
+VER 3 0100000000000009 "Meta@mouse" "INV_Misc_QuestionMark"
+#showtooltip Metamorphosis
+/cast [@cursor] Metamorphosis
+END
+VER 3 010000000000000A "Metamorphosis" "INV_Misc_QuestionMark"
+#showtooltip Metamorphosis
+/cast [@player] Metamorphosis
+END
+VER 3 010000000000000B "Prison" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Imprison
+END
+VER 3 010000000000000C "Sigil of Chains" "INV_Misc_QuestionMark"
+#showtooltip Sigil of Chains
+/cast [@cursor] Sigil of Chains
+END
+VER 3 010000000000000D "Sigil of Flame" "INV_Misc_QuestionMark"
+#showtooltip Sigil of Flame
+/cast [@cursor] Sigil of Flame
+END
+VER 3 010000000000000E "Sigil of Silence" "INV_Misc_QuestionMark"
+#showtooltip Sigil of Silence
+/cast [@cursor] Sigil of Silence
+END
+VER 3 010000000000000F "Taunt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Torment
+END
+VER 3 0100000000000010 "Throw" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Throw Glaive
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1VR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000011 "VuhDoDCShieldData" "132281"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1NM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000012 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dri[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dri[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

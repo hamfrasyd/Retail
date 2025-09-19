@@ -1,0 +1,587 @@
+
+Bartender4DB = {
+["namespaces"] = {
+["StatusTrackingBar"] = {
+["profiles"] = {
+["FragUI"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 2,
+["x"] = -289.5,
+["point"] = "TOP",
+},
+["version"] = 3,
+},
+["Zenikanova - Kel'Thuzad"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 29,
+["x"] = -289.5,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["QueueStatus"] = {
+["profiles"] = {
+["FragUI"] = {
+["position"] = {
+["y"] = -159,
+["x"] = -25,
+["point"] = "TOPRIGHT",
+["scale"] = 0.8,
+},
+["version"] = 3,
+},
+["Zenikanova - Kel'Thuzad"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 40.5,
+["x"] = -324,
+},
+},
+},
+},
+["ActionBars"] = {
+["profiles"] = {
+["FragUI"] = {
+["actionbars"] = {
+{
+["showgrid"] = true,
+["hideequipped"] = true,
+["fadeoutdelay"] = 0,
+["version"] = 3,
+["elements"] = {
+["macro"] = {
+["textAnchor"] = "CENTER",
+["fontSize"] = 12,
+["textOffsetY"] = 0,
+},
+["hotkey"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+["count"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+},
+["visibility"] = {
+["always"] = false,
+},
+["padding"] = 1,
+["fadeoutalpha"] = 0,
+["position"] = {
+["y"] = 34,
+["x"] = -388.5,
+["point"] = "BOTTOM",
+["scale"] = 0.7,
+},
+["hideborder"] = true,
+["hidemacrotext"] = true,
+["WoW10Layout"] = true,
+["states"] = {
+["stance"] = {
+["DRUID"] = {
+["moonkin"] = 10,
+},
+},
+},
+},
+{
+["showgrid"] = true,
+["hideequipped"] = true,
+["fadeoutdelay"] = 0,
+["hideborder"] = true,
+["elements"] = {
+["macro"] = {
+["fontSize"] = 12,
+["textAnchor"] = "CENTER",
+},
+["hotkey"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+["count"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+},
+["visibility"] = {
+["always"] = false,
+["overridebar"] = false,
+["vehicleui"] = false,
+},
+["padding"] = 1,
+["version"] = 3,
+["position"] = {
+["y"] = 67,
+["x"] = -388.5,
+["point"] = "BOTTOM",
+["scale"] = 0.7,
+},
+["fadeoutalpha"] = 0,
+["hidemacrotext"] = true,
+["WoW10Layout"] = true,
+},
+{
+["showgrid"] = true,
+["hideequipped"] = true,
+["fadeoutdelay"] = 0,
+["hideborder"] = true,
+["elements"] = {
+["macro"] = {
+["textAnchor"] = "CENTER",
+["fontSize"] = 12,
+["textOffsetY"] = 0,
+},
+["hotkey"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+["count"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+},
+["visibility"] = {
+["always"] = false,
+["overridebar"] = false,
+["vehicleui"] = false,
+},
+["padding"] = 1,
+["version"] = 3,
+["position"] = {
+["y"] = 34,
+["x"] = -2.05,
+["point"] = "BOTTOM",
+["scale"] = 0.7,
+},
+["fadeoutalpha"] = 0,
+["hidemacrotext"] = true,
+["WoW10Layout"] = true,
+},
+{
+["showgrid"] = true,
+["hideequipped"] = true,
+["fadeoutdelay"] = 0,
+["hideborder"] = true,
+["elements"] = {
+["macro"] = {
+["fontSize"] = 12,
+["textAnchor"] = "CENTER",
+},
+["hotkey"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+["count"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+},
+["visibility"] = {
+["always"] = false,
+["overridebar"] = false,
+["vehicleui"] = false,
+},
+["padding"] = 1,
+["version"] = 3,
+["position"] = {
+["y"] = 67,
+["x"] = -2.5,
+["point"] = "BOTTOM",
+["scale"] = 0.7,
+},
+["fadeoutalpha"] = 0,
+["hidemacrotext"] = true,
+["WoW10Layout"] = true,
+},
+{
+["hideequipped"] = true,
+["fadeoutdelay"] = 0,
+["fadeoutalpha"] = 0,
+["buttons"] = 6,
+["visibility"] = {
+["always"] = false,
+["possess"] = false,
+["overridebar"] = false,
+["vehicle"] = false,
+["vehicleui"] = false,
+},
+["elements"] = {
+["hotkey"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+},
+["count"] = {
+["font"] = "Friz Quadrata TT",
+["fontSize"] = 15,
+["textOffsetY"] = 0,
+["textJustifyH"] = "CENTER",
+["textOffsetX"] = 0,
+["textAnchor"] = "CENTER",
+},
+},
+["padding"] = 1,
+["hideborder"] = true,
+["hidehotkey"] = true,
+["position"] = {
+["y"] = -205,
+["x"] = -185.5,
+["point"] = "TOPRIGHT",
+["scale"] = 0.663,
+},
+["version"] = 3,
+["hidemacrotext"] = true,
+["WoW10Layout"] = true,
+},
+{
+["showgrid"] = true,
+["hideequipped"] = true,
+["fadeoutdelay"] = 0,
+["buttons"] = 6,
+["visibility"] = {
+["custom"] = true,
+["customdata"] = "[possessbar] show; [overridebar] show; [vehicleui] show; hide",
+["overridebar"] = false,
+["always"] = false,
+["vehicleui"] = false,
+},
+["padding"] = 1,
+["fadeoutalpha"] = 0,
+["version"] = 3,
+["hideborder"] = true,
+["position"] = {
+["y"] = 375.5,
+["x"] = -141.5,
+["point"] = "BOTTOM",
+},
+["hidemacrotext"] = true,
+["WoW10Layout"] = true,
+["states"] = {
+["customEnabled"] = true,
+["custom"] = "[overridebar] 18; [vehicleui] 16; [possessbar] 16; [bonusbar:5] 11;",
+["enabled"] = true,
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = -224.0001220703125,
+["x"] = -284.4999389648438,
+["point"] = "CENTER",
+},
+["WoW10Layout"] = true,
+},
+{
+["WoW10Layout"] = true,
+},
+{
+["WoW10Layout"] = true,
+},
+{
+["WoW10Layout"] = true,
+},
+[14] = {
+["version"] = 3,
+["position"] = {
+["y"] = -224.0001220703125,
+["x"] = -284.4999389648438,
+["point"] = "CENTER",
+},
+["WoW10Layout"] = true,
+},
+[13] = {
+["version"] = 3,
+["position"] = {
+["y"] = -224.0001220703125,
+["x"] = -284.4999389648438,
+["point"] = "CENTER",
+},
+["WoW10Layout"] = true,
+},
+[15] = {
+["version"] = 3,
+["position"] = {
+["y"] = -224.0001220703125,
+["x"] = -284.4999389648438,
+["point"] = "CENTER",
+},
+["WoW10Layout"] = true,
+},
+},
+},
+["Zenikanova - Kel'Thuzad"] = {
+["actionbars"] = {
+{
+["position"] = {
+["y"] = 82,
+["x"] = -285,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+["WoW10Layout"] = true,
+["showgrid"] = true,
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["WoW10Layout"] = true,
+["position"] = {
+["y"] = -223.9998168945313,
+["x"] = -284.5,
+["point"] = "CENTER",
+},
+},
+{
+["flyoutDirection"] = "LEFT",
+["position"] = {
+["y"] = 193,
+["x"] = -54,
+["point"] = "RIGHT",
+},
+["rows"] = 12,
+["WoW10Layout"] = true,
+["version"] = 3,
+},
+{
+["flyoutDirection"] = "LEFT",
+["position"] = {
+["y"] = 193,
+["x"] = -104,
+["point"] = "RIGHT",
+},
+["rows"] = 12,
+["WoW10Layout"] = true,
+["version"] = 3,
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["WoW10Layout"] = true,
+["position"] = {
+["y"] = 184,
+["x"] = -285,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["WoW10Layout"] = true,
+["position"] = {
+["y"] = 133,
+["x"] = -285,
+["point"] = "BOTTOM",
+},
+},
+{
+["WoW10Layout"] = true,
+},
+{
+["WoW10Layout"] = true,
+},
+{
+["WoW10Layout"] = true,
+},
+{
+["WoW10Layout"] = true,
+},
+[14] = {
+["WoW10Layout"] = true,
+},
+[13] = {
+["WoW10Layout"] = true,
+},
+[15] = {
+["WoW10Layout"] = true,
+},
+},
+},
+},
+},
+["ExtraActionBar"] = {
+["profiles"] = {
+["FragUI"] = {
+["enabled"] = false,
+["position"] = {
+["y"] = 286.9999389648438,
+["x"] = -63.499755859375,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["Zenikanova - Kel'Thuzad"] = {
+["version"] = 3,
+["position"] = {
+["y"] = -252.4999389648438,
+["x"] = -63.50006103515625,
+["point"] = "CENTER",
+},
+},
+},
+},
+["MicroMenu"] = {
+["profiles"] = {
+["FragUI"] = {
+["skin"] = {
+["Zoom"] = true,
+},
+["version"] = 3,
+["position"] = {
+["y"] = -183.5,
+["x"] = -184.5,
+["point"] = "TOPRIGHT",
+["scale"] = 0.5,
+},
+["padding"] = 9,
+},
+["Zenikanova - Kel'Thuzad"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = -284,
+["point"] = "BOTTOMRIGHT",
+},
+},
+},
+},
+["BagBar"] = {
+["profiles"] = {
+["FragUI"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 0.50006103515625,
+["x"] = 43.4998779296875,
+["point"] = "CENTER",
+},
+},
+["Zenikanova - Kel'Thuzad"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 80,
+["x"] = -212,
+["point"] = "BOTTOMRIGHT",
+},
+},
+},
+},
+["BlizzardArt"] = {
+["profiles"] = {
+["Zenikanova - Kel'Thuzad"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 87,
+["x"] = -288.5,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+["artLayout"] = "MODERN",
+},
+},
+},
+["StanceBar"] = {
+["profiles"] = {
+["FragUI"] = {
+["enabled"] = false,
+["version"] = 3,
+["skin"] = {
+["Zoom"] = true,
+},
+["position"] = {
+["y"] = 12.74990844726563,
+["x"] = -158.2502136230469,
+["point"] = "CENTER",
+["scale"] = 1,
+},
+["padding"] = 1,
+},
+["Zenikanova - Kel'Thuzad"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -285,
+["point"] = "BOTTOM",
+["y"] = 168,
+},
+},
+},
+},
+["PetBar"] = {
+["profiles"] = {
+["FragUI"] = {
+["hideequipped"] = true,
+["fadeoutdelay"] = 0,
+["fadeout"] = true,
+["fadeoutalpha"] = 0,
+["version"] = 3,
+["position"] = {
+["y"] = 105.5,
+["x"] = -158.4999847412109,
+["point"] = "BOTTOM",
+},
+["padding"] = 1,
+["hidemacrotext"] = true,
+["visibility"] = {
+["vehicle"] = false,
+["overridebar"] = false,
+["vehicleui"] = false,
+},
+["hideborder"] = true,
+},
+["Zenikanova - Kel'Thuzad"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 168,
+["x"] = -41,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["Vehicle"] = {
+["profiles"] = {
+["FragUI"] = {
+["position"] = {
+["y"] = 175.1,
+["x"] = -16.1,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["Zenikanova - Kel'Thuzad"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 153,
+["x"] = -337,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+},
+["profileKeys"] = {
+["Zenikanova - Kel'Thuzad"] = "FragUI",
+},
+["profiles"] = {
+["FragUI"] = {
+["minimapIcon"] = {
+["hide"] = true,
+},
+["colors"] = {
+["range"] = {
+["b"] = 0.250980406999588,
+["g"] = 0.250980406999588,
+["r"] = 1,
+},
+},
+},
+["Zenikanova - Kel'Thuzad"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+},
+}

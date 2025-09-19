@@ -1,0 +1,71 @@
+
+NSRT = {
+["NSUI"] = {
+["scale"] = 1,
+["externals_anchor"] = {
+["settings"] = {
+["anchorPoint"] = {
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+150,
+},
+["height"] = 70,
+["width"] = 70,
+},
+},
+["AutoComplete"] = {
+["WA"] = {
+},
+["Addon"] = {
+},
+},
+},
+["NickNames"] = {
+},
+["Settings"] = {
+["SuF"] = false,
+["CooldownThreshold"] = 20,
+["Grid2"] = false,
+["Minimap"] = {
+["hide"] = false,
+["showInCompartment"] = true,
+},
+["PASelfPing"] = false,
+["TTSVoice"] = 2,
+["NickNamesSyncAccept"] = 2,
+["UpdateWhitelist"] = {
+},
+["OmniCD"] = false,
+["TTS"] = true,
+["Unhalted"] = false,
+["WA"] = false,
+["Translit"] = false,
+["GlobalNickNames"] = false,
+["VersionCheckRemoveResponse"] = false,
+["ShareNickNames"] = 4,
+["AcceptNickNames"] = 4,
+["WeakAurasImportAccept"] = 1,
+["MRT"] = false,
+["CheckCooldowns"] = false,
+["Debug"] = false,
+["DebugLogs"] = false,
+["TTSVolume"] = 50,
+["MRTNoteComparison"] = false,
+["NickNamesSyncSend"] = 3,
+["LIQUID_MACRO"] = false,
+["Cell"] = false,
+["ElvUI"] = false,
+["AutoUpdateRaidWA"] = false,
+["ExternalSelfPing"] = false,
+["AutoUpdateWA"] = false,
+["Blizzard"] = false,
+["PAExtraAction"] = false,
+["VersionCheckPresets"] = {
+},
+["UnreadyOnCooldown"] = false,
+},
+["CooldownList"] = {
+},
+}

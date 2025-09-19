@@ -1,0 +1,17 @@
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+RaiderIO_DB_TW_R: disabled
+RaiderIO_DB_TW_M: disabled
+RaiderIO_DB_TW_F: disabled
+RaiderIO_DB_KR_R: disabled
+RaiderIO_DB_KR_M: disabled
+RaiderIO_DB_KR_F: disabled
+RaiderIO_DB_EU_R: disabled
+RaiderIO_DB_EU_M: disabled
+RaiderIO_DB_EU_F: disabled
+Blizzard_CombatText: enabled

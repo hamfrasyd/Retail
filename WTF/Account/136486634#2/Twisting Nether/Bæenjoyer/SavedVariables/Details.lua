@@ -1,0 +1,2876 @@
+
+_detalhes_database = {
+["savedbuffs"] = {
+},
+["mythic_dungeon_id"] = 0,
+["tabela_historico"] = {
+["tabelas"] = {
+{
+{
+["tipo"] = 2,
+["combatId"] = 5,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.003497,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["total_without_pet"] = 4607.003497,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 4607.003497,
+["spec"] = 577,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3674-09B14E08",
+["damage_from"] = {
+["Environment (Fire)"] = true,
+},
+["targets"] = {
+["Dung Beetle"] = 4607,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1755935450,
+["friendlyfire"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[258921] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Dung Beetle"] = 4607,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 4607,
+["c_max"] = 4607,
+["id"] = 258921,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 4607,
+["successful_casted"] = 0,
+["c_total"] = 4607,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 1755935448,
+["damage_taken"] = 23.003497,
+["start_time"] = 1755935448,
+["delay"] = 0,
+["last_dps"] = 3981.852633512568,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "49743",
+["total_without_pet"] = 0.001438,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.001438,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3772-1-8285-49743-0000296336",
+["damage_from"] = {
+["Bæenjoyer"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1755935450,
+["totalabsorbed"] = 0.001438,
+["nome"] = "Dung Beetle",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 4607.001438,
+["start_time"] = 1755935450,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 5,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 138.005096,
+["total_without_pet"] = 0.005096,
+["total"] = 0.005096,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["serial"] = "Player-3674-09B14E08",
+["totalabsorb"] = 0.005096,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.005096,
+["last_event"] = 1755935449,
+["healing_taken"] = 0.005096,
+["end_time"] = 1755935450,
+["aID"] = "3674-09B14E08",
+["targets_overheal"] = {
+["Bæenjoyer"] = 138,
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[213011] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Bæenjoyer"] = 138,
+},
+["n_max"] = 0,
+["targets"] = {
+["Bæenjoyer"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 138,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 213011,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 4,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["start_time"] = 1755935449,
+["classe"] = "DEMONHUNTER",
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.005096,
+["delay"] = 0,
+["spec"] = 577,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 5,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 5,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[258920] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 2,
+["id"] = 258920,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[162264] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 2,
+["id"] = 162264,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 4,
+["buff_uptime_targets"] = {
+},
+["spec"] = 577,
+["grupo"] = true,
+["nome"] = "Bæenjoyer",
+["last_event"] = 1755935450,
+["classe"] = "DEMONHUNTER",
+["serial"] = "Player-3674-09B14E08",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 5,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Bæenjoyer"] = "Player-3674-09B14E08",
+},
+["CombatStartedAt"] = 246461.229,
+["tempo_start"] = 1755935448,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Bæenjoyer"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+102533,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+4607,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Kalimdor",
+["data_fim"] = "09:50:50",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Dung Beetle",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.157000000006519,
+["overall_added"] = true,
+["CombatEndedAt"] = 246462.386,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "09:50:49",
+["end_time"] = 246462.386,
+["mapId"] = 1,
+["combat_id"] = 5,
+["timeStart"] = 1755935449,
+["timeEnd"] = 1755935450,
+["frags"] = {
+["Dung Beetle"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["combat_counter"] = 8,
+["player_last_events"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Bæenjoyer"] = 0.005096,
+},
+},
+["damage"] = {
+{
+["Bæenjoyer"] = 4607.003497,
+},
+},
+},
+["start_time"] = 246461.229,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 4,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.008808,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["total_without_pet"] = 4779.008808,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 4779.008808,
+["spec"] = 577,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3674-09B14E08",
+["damage_from"] = {
+},
+["targets"] = {
+["Dung Beetle"] = 4779,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1755935448,
+["friendlyfire"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[210153] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 4779,
+["targets"] = {
+["Dung Beetle"] = 4779,
+},
+["n_total"] = 4779,
+["n_min"] = 4779,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 4779,
+["c_max"] = 0,
+["id"] = 210153,
+["r_dmg"] = 0,
+["spellschool"] = 127,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 1755935447,
+["damage_taken"] = 0.008808,
+["start_time"] = 1755935447,
+["delay"] = 0,
+["last_dps"] = 7432.362065528736,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "49743",
+["total_without_pet"] = 0.007255,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.007255,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3772-1-8285-49743-0000296319",
+["damage_from"] = {
+["Bæenjoyer"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1755935448,
+["totalabsorbed"] = 0.007255,
+["nome"] = "Dung Beetle",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 4779.007255,
+["start_time"] = 1755935448,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 4,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 143.002363,
+["total_without_pet"] = 0.002363,
+["total"] = 0.002363,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["serial"] = "Player-3674-09B14E08",
+["totalabsorb"] = 0.002363,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.002363,
+["last_event"] = 1755935447,
+["healing_taken"] = 0.002363,
+["end_time"] = 1755935448,
+["aID"] = "3674-09B14E08",
+["targets_overheal"] = {
+["Bæenjoyer"] = 143,
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[213011] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Bæenjoyer"] = 143,
+},
+["n_max"] = 0,
+["targets"] = {
+["Bæenjoyer"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 143,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 213011,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 4,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["start_time"] = 1755935447,
+["classe"] = "DEMONHUNTER",
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.002363,
+["delay"] = 0,
+["spec"] = 577,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 4,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 4,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[427901] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 427901,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[258920] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 0,
+["id"] = 258920,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[162264] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 162264,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 2,
+["buff_uptime_targets"] = {
+},
+["spec"] = 577,
+["grupo"] = true,
+["nome"] = "Bæenjoyer",
+["last_event"] = 1755935448,
+["classe"] = "DEMONHUNTER",
+["serial"] = "Player-3674-09B14E08",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 4,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Bæenjoyer"] = "Player-3674-09B14E08",
+},
+["CombatStartedAt"] = 246459.651,
+["tempo_start"] = 1755935447,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+4779,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+4779,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Bæenjoyer"] = {
+["Immolation Aura"] = 1,
+["Glide"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Kalimdor",
+["data_fim"] = "09:50:49",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Dung Beetle",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.470000000001164,
+["overall_added"] = true,
+["CombatEndedAt"] = 246461.121,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "09:50:48",
+["end_time"] = 246461.121,
+["mapId"] = 1,
+["combat_id"] = 4,
+["timeStart"] = 1755935448,
+["timeEnd"] = 1755935449,
+["frags"] = {
+["Dung Beetle"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["combat_counter"] = 7,
+["player_last_events"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Bæenjoyer"] = 0.002363,
+},
+},
+["damage"] = {
+{
+["Bæenjoyer"] = 4779.008808,
+},
+},
+},
+["start_time"] = 246459.651,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 3,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.007907,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["total_without_pet"] = 2654.007907,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 2654.007907,
+["spec"] = 577,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3674-09B14E08",
+["damage_from"] = {
+},
+["targets"] = {
+["Spiny Lizard"] = 2654,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1755935442,
+["friendlyfire"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 2654,
+["targets"] = {
+["Spiny Lizard"] = 2654,
+},
+["n_total"] = 2654,
+["n_min"] = 2654,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 2654,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 1755935441,
+["damage_taken"] = 0.007907,
+["start_time"] = 1755935441,
+["delay"] = 0,
+["last_dps"] = 3033.151893714286,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "49837",
+["total_without_pet"] = 0.005312,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.005312,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3772-1-8285-49837-0000296314",
+["damage_from"] = {
+["Bæenjoyer"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1755935442,
+["totalabsorbed"] = 0.005312,
+["nome"] = "Spiny Lizard",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 2654.005312,
+["start_time"] = 1755935442,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 3,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[162264] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 0,
+["id"] = 162264,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[389847] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 0,
+["id"] = 389847,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 0,
+["buff_uptime_targets"] = {
+},
+["spec"] = 577,
+["grupo"] = true,
+["nome"] = "Bæenjoyer",
+["last_event"] = 1755935442,
+["classe"] = "DEMONHUNTER",
+["serial"] = "Player-3674-09B14E08",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 3,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Bæenjoyer"] = "Player-3674-09B14E08",
+},
+["CombatStartedAt"] = 246454.212,
+["tempo_start"] = 1755935441,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+2654,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+2654,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Kalimdor",
+["data_fim"] = "09:50:43",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Spiny Lizard",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 0.875,
+["overall_added"] = true,
+["CombatEndedAt"] = 246455.087,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "09:50:42",
+["end_time"] = 246455.087,
+["mapId"] = 1,
+["combat_id"] = 3,
+["timeStart"] = 1755935442,
+["timeEnd"] = 1755935443,
+["frags"] = {
+["Spiny Lizard"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["combat_counter"] = 6,
+["player_last_events"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage"] = {
+{
+["Bæenjoyer"] = 2654.007907,
+},
+},
+},
+["start_time"] = 246454.212,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.002674,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["total_without_pet"] = 1697.002674,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1697.002674,
+["spec"] = 577,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3674-09B14E08",
+["damage_from"] = {
+},
+["targets"] = {
+["Spiny Lizard"] = 1697,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1755908048,
+["friendlyfire"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[258922] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Spiny Lizard"] = 1697,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1697,
+["c_max"] = 1697,
+["id"] = 258922,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 1697,
+["successful_casted"] = 0,
+["c_total"] = 1697,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 1755908047,
+["damage_taken"] = 0.002674,
+["start_time"] = 1755908047,
+["delay"] = 0,
+["last_dps"] = 1702.109000997842,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "49837",
+["total_without_pet"] = 0.002148,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.002148,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3772-1-8285-49837-0001A8C1E4",
+["damage_from"] = {
+["Bæenjoyer"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1755908048,
+["totalabsorbed"] = 0.002148,
+["nome"] = "Spiny Lizard",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 1697.002148,
+["start_time"] = 1755908048,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["targets_overheal"] = {
+["Bæenjoyer"] = 51,
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 51.002794,
+["total_without_pet"] = 0.002794,
+["total"] = 0.002794,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["serial"] = "Player-3674-09B14E08",
+["totalabsorb"] = 0.002794,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.002794,
+["last_event"] = 1755908047,
+["healing_taken"] = 0.002794,
+["end_time"] = 1755908048,
+["aID"] = "3674-09B14E08",
+["healing_from"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[213011] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Bæenjoyer"] = 51,
+},
+["n_max"] = 0,
+["targets"] = {
+["Bæenjoyer"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 51,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 213011,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 4,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["start_time"] = 1755908047,
+["classe"] = "DEMONHUNTER",
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.002794,
+["delay"] = 0,
+["spec"] = 577,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 2,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[389847] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 389847,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 225788,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[258920] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 258920,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[1214887] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 1214887,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 5,
+["buff_uptime_targets"] = {
+},
+["spec"] = 577,
+["grupo"] = true,
+["nome"] = "Bæenjoyer",
+["last_event"] = 1755908048,
+["classe"] = "DEMONHUNTER",
+["serial"] = "Player-3674-09B14E08",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Bæenjoyer"] = "Player-3674-09B14E08",
+},
+["CombatStartedAt"] = 219057.047,
+["tempo_start"] = 1755908047,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Wulima"] = {
+["total"] = 0,
+["last"] = 0,
+},
+["Bæenjoyer"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+1697,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+1697,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Bæenjoyer"] = {
+["Vengeful Retreat"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Kalimdor",
+["data_fim"] = "02:14:09",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Spiny Lizard",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 0.9970000000030268,
+["overall_added"] = true,
+["CombatEndedAt"] = 219058.044,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "02:14:08",
+["end_time"] = 219058.044,
+["mapId"] = 1,
+["combat_id"] = 2,
+["timeStart"] = 1755908048,
+["timeEnd"] = 1755908049,
+["frags"] = {
+["Spiny Lizard"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["combat_counter"] = 5,
+["player_last_events"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Bæenjoyer"] = 0.002794,
+},
+},
+["damage"] = {
+{
+["Bæenjoyer"] = 1697.002674,
+},
+},
+},
+["start_time"] = 219057.047,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.005484,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["total_without_pet"] = 1748.005484,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1748.005484,
+["spec"] = 577,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3674-09B14E08",
+["damage_from"] = {
+},
+["targets"] = {
+["Dung Beetle"] = 1748,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1755908046,
+["friendlyfire"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[258922] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Dung Beetle"] = 1748,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1748,
+["c_max"] = 1748,
+["id"] = 258922,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 1748,
+["successful_casted"] = 0,
+["c_total"] = 1748,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 1755908045,
+["damage_taken"] = 0.005484,
+["start_time"] = 1755908045,
+["delay"] = 0,
+["last_dps"] = 1746.259224743137,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "49743",
+["total_without_pet"] = 0.002151,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.002151,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3772-1-8285-49743-0001A8C1DF",
+["damage_from"] = {
+["Bæenjoyer"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1755908046,
+["totalabsorbed"] = 0.002151,
+["nome"] = "Dung Beetle",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 1748.002151,
+["start_time"] = 1755908046,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["targets_overheal"] = {
+["Bæenjoyer"] = 53,
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 53.00599,
+["total_without_pet"] = 0.00599,
+["total"] = 0.00599,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["serial"] = "Player-3674-09B14E08",
+["totalabsorb"] = 0.00599,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.00599,
+["last_event"] = 1755908045,
+["healing_taken"] = 0.00599,
+["end_time"] = 1755908046,
+["aID"] = "3674-09B14E08",
+["healing_from"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[213011] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Bæenjoyer"] = 53,
+},
+["n_max"] = 0,
+["targets"] = {
+["Bæenjoyer"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 53,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 213011,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 4,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["start_time"] = 1755908045,
+["classe"] = "DEMONHUNTER",
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.00599,
+["delay"] = 0,
+["spec"] = 577,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[389847] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 0,
+["id"] = 389847,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 225788,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[258920] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 258920,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[1214887] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 1214887,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 4,
+["buff_uptime_targets"] = {
+},
+["spec"] = 577,
+["grupo"] = true,
+["nome"] = "Bæenjoyer",
+["last_event"] = 1755908046,
+["classe"] = "DEMONHUNTER",
+["serial"] = "Player-3674-09B14E08",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Bæenjoyer"] = "Player-3674-09B14E08",
+},
+["CombatStartedAt"] = 219055.044,
+["tempo_start"] = 1755908045,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+1748,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+1748,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Bæenjoyer"] = {
+["Fel Rush"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Kalimdor",
+["data_fim"] = "02:14:07",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Dung Beetle",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.001000000018394,
+["overall_added"] = true,
+["CombatEndedAt"] = 219056.045,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "02:14:06",
+["end_time"] = 219056.045,
+["mapId"] = 1,
+["combat_id"] = 1,
+["timeStart"] = 1755908046,
+["timeEnd"] = 1755908047,
+["frags"] = {
+["Dung Beetle"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["combat_counter"] = 4,
+["player_last_events"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Bæenjoyer"] = 0.00599,
+},
+},
+["damage"] = {
+{
+["Bæenjoyer"] = 1748.005484,
+},
+},
+},
+["start_time"] = 219055.044,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+},
+},
+["ocd_tracker"] = {
+["enabled"] = false,
+["current_cooldowns"] = {
+},
+["lines_per_column"] = 12,
+["group_frames"] = true,
+["width"] = 120,
+["frames"] = {
+["defensive-raid"] = {
+},
+["main"] = {
+},
+["ofensive"] = {
+},
+["defensive-target"] = {
+},
+["utility"] = {
+},
+["defensive-personal"] = {
+},
+},
+["show_options"] = false,
+["ignored_cooldowns"] = {
+},
+["height"] = 18,
+["framme_locked"] = false,
+["own_frame"] = {
+["defensive-raid"] = false,
+["ofensive"] = false,
+["defensive-target"] = false,
+["utility"] = false,
+["defensive-personal"] = false,
+},
+["cooldowns"] = {
+},
+["show_conditions"] = {
+["only_inside_instance"] = true,
+["only_in_group"] = true,
+},
+["show_title"] = true,
+["filters"] = {
+["itemutil"] = false,
+["itempower"] = false,
+["defensive-target"] = false,
+["itemheal"] = false,
+["defensive-personal"] = false,
+["defensive-raid"] = false,
+["ofensive"] = true,
+["crowdcontrol"] = false,
+["utility"] = false,
+},
+},
+["combat_counter"] = 8,
+["player_stats"] = {
+},
+["character_data"] = {
+["logons"] = 9,
+},
+["tabela_instancias"] = {
+},
+["arena_data_compressed"] = {
+},
+["arena_data_index_selected"] = 1,
+["on_death_menu"] = false,
+["cached_talents"] = {
+},
+["last_instance_id"] = 0,
+["data_harvest_for_charsts"] = {
+["players"] = {
+{
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
+},
+},
+["totals"] = {
+{
+["combatObjectSubTableKey"] = 1,
+["name"] = "Damage of All Player Combined",
+["combatObjectSubTableName"] = "totals",
+},
+},
+},
+["announce_interrupts"] = {
+["enabled"] = false,
+["whisper"] = "",
+["channel"] = "SAY",
+["custom"] = "",
+["next"] = "",
+},
+["announce_prepots"] = {
+["enabled"] = false,
+["channel"] = "SELF",
+["reverse"] = false,
+},
+["active_profile"] = "FragUI",
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
+},
+["benchmark_db"] = {
+["frame"] = {
+},
+},
+["local_instances_config"] = {
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["is_open"] = true,
+["isLocked"] = true,
+["snap"] = {
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -469.3999557495117,
+["x"] = 848,
+["w"] = 219.9998016357422,
+["h"] = 141,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["horizontalSnap"] = false,
+["verticalSnap"] = false,
+["isLocked"] = true,
+["is_open"] = true,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["snap"] = {
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -469.2999038696289,
+["x"] = 625,
+["w"] = 219.9998016357422,
+["h"] = 141,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+},
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["combat_log"] = {
+["inverse_deathlog_overalldata"] = false,
+["track_hunter_frenzy"] = false,
+["merge_gemstones_1007"] = false,
+["merge_critical_heals"] = false,
+["inverse_deathlog_raid"] = false,
+["calc_evoker_damage"] = true,
+["evoker_show_realtimedps"] = false,
+["inverse_deathlog_mplus"] = false,
+},
+["cached_roles"] = {
+},
+["mythic_plus_log"] = {
+},
+["force_font_outline"] = "",
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
+["last_version"] = "11.2.0 13705",
+["data_harvested_for_charts"] = {
+},
+["plugin_database"] = {
+["DETAILS_PLUGIN_TINY_THREAT"] = {
+["enabled"] = true,
+["only_my_group"] = false,
+["animate"] = false,
+["disable_gouge"] = false,
+["hide_pull_bar"] = false,
+["author"] = "Terciob",
+["playercolor"] = {
+1,
+1,
+1,
+},
+["usefocus"] = false,
+["updatespeed"] = 1,
+["playSound"] = false,
+["showamount"] = false,
+["useplayercolor"] = false,
+["absolute_mode"] = false,
+["show_party_pets"] = false,
+["playSoundFile"] = "Details Threat Warning Volume 3",
+["useclasscolors"] = false,
+},
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
+["DETAILS_PLUGIN_VANGUARD"] = {
+["tank_block_size_height"] = 50,
+["show_power_bar"] = false,
+["first_run"] = false,
+["aura_timer_text_size"] = 14,
+["tank_block_castbar_size_height"] = 16,
+["show_health_bar"] = true,
+["aura_offset_y"] = 0,
+["enabled"] = true,
+["show_cast_bar"] = false,
+["author"] = "Terciob",
+["tank_block_size"] = 150,
+["bar_height"] = 24,
+["tank_block_texture"] = "Details Serenity",
+["tank_block_color"] = {
+0.074509,
+0.035294,
+0.035294,
+0.832845,
+},
+["tank_block_height"] = 40,
+["tank_block_powerbar_size_height"] = 10,
+["show_inc_bars"] = true,
+},
+["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+["enabled"] = true,
+["encounter_timers_bw"] = {
+},
+["max_emote_segments"] = 3,
+["last_section_selected"] = "main",
+["author"] = "Terciob",
+["window_scale"] = 1,
+["hide_on_combat"] = false,
+["show_icon"] = 5,
+["opened"] = 0,
+["encounter_timers_dbm"] = {
+},
+},
+["DETAILS_PLUGIN_RAIDCHECK"] = {
+["enabled"] = true,
+["food_tier1"] = true,
+["mythic_1_4"] = true,
+["food_tier2"] = true,
+["author"] = "Terciob",
+["use_report_panel"] = true,
+["pre_pot_healers"] = false,
+["pre_pot_tanks"] = false,
+["food_tier3"] = true,
+},
+["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+["use_square_mode"] = false,
+["is_first_run"] = false,
+["arrow_color"] = {
+1,
+1,
+1,
+0.5,
+},
+["scale"] = 1,
+["arrow_anchor_y"] = 0,
+["minimap"] = {
+["minimapPos"] = 160,
+["radius"] = 160,
+["hide"] = false,
+},
+["row_height"] = 20,
+["arrow_anchor_x"] = 0,
+["font_color"] = {
+1,
+1,
+1,
+1,
+},
+["row_texture"] = "Details Serenity",
+["square_grow_direction"] = "right",
+["point"] = "CENTER",
+["main_frame_strata"] = "LOW",
+["square_amount"] = 5,
+["enabled"] = false,
+["arrow_size"] = 10,
+["y"] = 0.000335693359375,
+["row_spacement"] = 21,
+["main_frame_color"] = {
+0,
+0,
+0,
+0.2,
+},
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
+["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["use_spark"] = true,
+["per_second"] = {
+["enabled"] = false,
+["point"] = "CENTER",
+["scale"] = 1,
+["font_shadow"] = true,
+["y"] = 0.000396728515625,
+["x"] = 3.0517578125e-05,
+["size"] = 32,
+["update_speed"] = 0.05,
+["attribute_type"] = 1,
+},
+["x"] = 0,
+["font_face"] = "Friz Quadrata TT",
+["square_size"] = 32,
+["font_size"] = 10,
+["author"] = "Terciob",
+["main_frame_locked"] = false,
+["main_frame_size"] = {
+300,
+499.9999389648438,
+},
+},
+},
+["last_realversion"] = 165,
+["combat_id"] = 5,
+["savedStyles"] = {
+},
+["last_instance_time"] = 0,
+["last_day"] = "31",
+["announce_deaths"] = {
+["enabled"] = false,
+["last_hits"] = 1,
+["only_first"] = 5,
+["where"] = 1,
+},
+["tabela_overall"] = {
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["total_without_pet"] = 15485.033386,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 15485.033386,
+["spec"] = 577,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3674-09B14E08",
+["damage_from"] = {
+},
+["targets"] = {
+["Dung Beetle"] = 11134,
+["Spiny Lizard"] = 4351,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1755908047,
+["totalabsorbed"] = 0.033386,
+["classe"] = "DEMONHUNTER",
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 2654,
+["targets"] = {
+["Spiny Lizard"] = 2654,
+},
+["n_total"] = 2654,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 2654,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[258922] = {
+["c_amt"] = 2,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Dung Beetle"] = 1748,
+["Spiny Lizard"] = 1697,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 3445,
+["c_max"] = 1748,
+["id"] = 258922,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 3445,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[210153] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 4779,
+["targets"] = {
+["Dung Beetle"] = 4779,
+},
+["n_total"] = 4779,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 4779,
+["c_max"] = 0,
+["id"] = 210153,
+["r_dmg"] = 0,
+["spellschool"] = 127,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[258921] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Dung Beetle"] = 4607,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 4607,
+["c_max"] = 4607,
+["id"] = 258921,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 4607,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 0.033386,
+["start_time"] = 1755908038,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "49743",
+["total_without_pet"] = 0.014842,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.014842,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3772-1-8285-49743-0001A8C1DF",
+["damage_from"] = {
+["Bæenjoyer"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1755908047,
+["totalabsorbed"] = 0.014842,
+["nome"] = "Dung Beetle",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 11134.014842,
+["start_time"] = 1755908044,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "49837",
+["total_without_pet"] = 0.01586,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.01586,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3772-1-8285-49837-0001A8C1E4",
+["damage_from"] = {
+["Bæenjoyer"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1755908049,
+["totalabsorbed"] = 0.01586,
+["nome"] = "Spiny Lizard",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 4351.01586,
+["start_time"] = 1755908046,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["targets_overheal"] = {
+["Bæenjoyer"] = 385,
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 385.0195670000001,
+["total_without_pet"] = 0.019567,
+["total"] = 0.019567,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["serial"] = "Player-3674-09B14E08",
+["totalabsorb"] = 0.019567,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.019567,
+["last_event"] = 0,
+["healing_taken"] = 0.019567,
+["end_time"] = 1755908047,
+["aID"] = "3674-09B14E08",
+["healing_from"] = {
+},
+["nome"] = "Bæenjoyer",
+["spells"] = {
+["_ActorTable"] = {
+[213011] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Bæenjoyer"] = 385,
+},
+["n_max"] = 0,
+["targets"] = {
+["Bæenjoyer"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 4,
+["overheal"] = 385,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 213011,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 4,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 4,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["start_time"] = 1755908040,
+["classe"] = "DEMONHUNTER",
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.019567,
+["delay"] = 0,
+["spec"] = 577,
+},
+},
+},
+{
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["aID"] = "3674-09B14E08",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[389847] = {
+["refreshamt"] = 0,
+["activedamt"] = 3,
+["appliedamt"] = 3,
+["id"] = 389847,
+["uptime"] = 1,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[225788] = {
+["refreshamt"] = 0,
+["activedamt"] = 2,
+["appliedamt"] = 2,
+["id"] = 225788,
+["uptime"] = 2,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[258920] = {
+["refreshamt"] = 0,
+["activedamt"] = 4,
+["appliedamt"] = 4,
+["id"] = 258920,
+["uptime"] = 4,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[427901] = {
+["refreshamt"] = 0,
+["activedamt"] = 1,
+["appliedamt"] = 1,
+["id"] = 427901,
+["uptime"] = 1,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[1214887] = {
+["refreshamt"] = 0,
+["activedamt"] = 2,
+["appliedamt"] = 2,
+["id"] = 1214887,
+["uptime"] = 2,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[162264] = {
+["refreshamt"] = 0,
+["activedamt"] = 3,
+["appliedamt"] = 3,
+["id"] = 162264,
+["uptime"] = 3,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[430191] = {
+["refreshamt"] = 0,
+["activedamt"] = 2,
+["appliedamt"] = 2,
+["id"] = 430191,
+["uptime"] = 2,
+["targets"] = {
+},
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 15,
+["nome"] = "Bæenjoyer",
+["spec"] = 577,
+["grupo"] = true,
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["classe"] = "DEMONHUNTER",
+["serial"] = "Player-3674-09B14E08",
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["boss_hp"] = 1,
+["tempo_start"] = 1755908045,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+15485.046674,
+0.016243,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+15485.02837,
+0.016243,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = false,
+["overall_refreshed"] = true,
+["amountCasts"] = {
+["Bæenjoyer"] = {
+["Vengeful Retreat"] = 1,
+["Glide"] = 1,
+["Immolation Aura"] = 1,
+["Fel Rush"] = 1,
+},
+},
+["zoneName"] = "Kalimdor",
+["data_fim"] = "09:50:50",
+["cleu_timeline"] = {
+},
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage"] = {
+},
+},
+["end_time"] = 246462.386,
+["mapId"] = 1,
+["raid_roster"] = {
+},
+["combat_counter"] = 3,
+["is_challenge"] = false,
+["frags"] = {
+},
+["player_last_events"] = {
+},
+["overall_enemy_name"] = "-- x -- x --",
+["data_inicio"] = "02:14:06",
+["spells_cast_timeline"] = {
+},
+["start_time"] = 246456.886,
+["TimeData"] = {
+["Raid Damage Done"] = {
+},
+},
+["segments_added"] = {
+{
+["elapsed"] = 1.157000000006519,
+["type"] = 0,
+["name"] = "Dung Beetle",
+["clock"] = "09:50:49",
+},
+{
+["elapsed"] = 1.470000000001164,
+["type"] = 0,
+["name"] = "Dung Beetle",
+["clock"] = "09:50:48",
+},
+{
+["elapsed"] = 0.875,
+["type"] = 0,
+["name"] = "Spiny Lizard",
+["clock"] = "09:50:42",
+},
+{
+["elapsed"] = 0.9970000000030268,
+["type"] = 0,
+["name"] = "Spiny Lizard",
+["clock"] = "02:14:08",
+},
+{
+["elapsed"] = 1.001000000018394,
+["type"] = 0,
+["name"] = "Dung Beetle",
+["clock"] = "02:14:06",
+},
+},
+},
+["ignore_nicktag"] = false,
+["arena_data_headers"] = {
+},
+["nick_tag_cache"] = {
+["nextreset"] = 1757204000,
+["last_version"] = 16,
+},
+["announce_cooldowns"] = {
+["enabled"] = false,
+["ignored_cooldowns"] = {
+},
+["custom"] = "",
+["channel"] = "RAID",
+},
+["rank_window"] = {
+["last_difficulty"] = 15,
+["last_raid"] = "",
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["cached_specs"] = {
+["Player-3674-0B921804"] = 65,
+["Player-3674-09B14E08"] = 577,
+},
+}

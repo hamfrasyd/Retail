@@ -1,0 +1,77 @@
+VER 3 0100000000000002 "Blood of the Ene" "INV_Misc_QuestionMark"
+#showtooltip Blood of the Enemy(Azerite Essence)
+/cast Berserking(Racial)
+/cast Avatar
+/cast Blood of the Enemy(Azerite Essence)
+END
+VER 3 0100000000000003 "Bloodthirst" "INV_Misc_QuestionMark"
+#showtooltip Bloodthirst
+/cast [@mouseover,exists] Bloodthirst; Bloodthirst
+END
+VER 3 010000000000000A "Essence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt,@player] [@mouseover,exists,nodead] [@cursor,combat] [] Heart Essence
+/cast Ancestral Call(Racial)
+END
+VER 3 010000000000000D "Execute" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm][] Execute
+END
+VER 3 010000000000000E "Heroic Leap" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Heroic Leap
+END
+VER 3 010000000000000F "Heroic Throw" "INV_Misc_QuestionMark"
+#showtooltip Heroic Throw
+/cast [@mouseover,exists] Heroic Throw; Heroic Throw
+END
+VER 3 0100000000000010 "Intervene" "INV_Misc_QuestionMark"
+#showtooltip Intervene
+/cast [@mouseover,help,nodead][help,nodead] Intervene
+END
+VER 3 010000000000000B "IntShout" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm][] Intimidating Shout
+END
+VER 3 0100000000000011 "IntShout" "INV_Misc_QuestionMark"
+#showtooltip Intimidating Shout
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Intimidating Shout
+END
+VER 3 0100000000000001 "Lucid" "INV_MISC_QUESTIONMARK"
+/cast Memory of Lucid Dreams
+/cast Ancestral Call(Racial)
+END
+VER 3 0100000000000012 "Pummel" "INV_Misc_QuestionMark"
+#showtooltip Pummel
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Pummel
+END
+VER 3 0100000000000009 "Rend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm][] Rend
+END
+VER 3 0100000000000004 "Row 30" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:3/3] Slam; [talent:3/2] Whirlwind; [talent:3/1] Slam;
+END
+VER 3 0100000000000005 "Row 30 2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:3/3] Whirlwind; [talent:3/2] Slam; [talent:3/1] Whirlwind;
+END
+VER 3 0100000000000006 "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Bladestorm; [talent:6/2] Dragon Roar;
+END
+VER 3 0100000000000007 "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Deadly Calm; [talent:6/2] Avatar;
+END
+VER 3 0100000000000008 "Stormbolt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 010000000000000C "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm][] Taunt
+END

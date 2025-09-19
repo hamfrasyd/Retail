@@ -1,0 +1,515 @@
+VER 3 0000000000000001 "." "134400"
+/rw group 1 and 3 on green
+/rw group 2 and 4 on purple
+END
+VER 3 0000000000000002 "." "INV_Misc_QuestionMark"
+#showtooltip Shadowfiend
+/cast Shadowfiend
+/use Inscrutable Quantum Device
+END
+VER 3 0000000000000003 "." "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/1] Leap of Faith; [talent:5/2] Leap of Faith; [talent;5/3] Shadow Word: Death
+END
+VER 3 0000000000000004 "." "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/1] Shadow Word: Death; [talent:5/2] Shadow Word: Death; [talent;5/3] Unholy Nova(Necrolord)
+END
+VER 3 0000000000000005 "." "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/1] Unholy Nova(Necrolord); [talent:5/2] Unholy Nova(Necrolord); [talent;5/3] Power Infusion
+END
+VER 3 0000000000000006 "." "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/1] Vampiric Embrace; [talent:6/2] Purify Disease; [talent:6/3] Vampiric Embrace
+END
+VER 3 0000000000000007 "." "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/2] Divine Star;  [talent:6/3] Halo
+END
+VER 3 0000000000000008 "." "INV_Misc_QuestionMark"
+#showtooltip
+/cast Warbreaker
+/use 14
+END
+VER 3 0000000000000009 "." "INV_Misc_QuestionMark"
+#showtooltip Intervene
+/cast [@mouseover,help,nodead][help,nodead] Intervene
+END
+VER 3 000000000000000A "." "132628"
+You use Hunter's Mark -> Double Tap -> Night fae ability - > Volley -> Aimed shot -> Chimera Shot -> Aimed Shot -> Chimera Shot -> Rapid Fire
+END
+VER 3 000000000000000B "1Essence" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt,@player] [@mouseover,exists,nodead] [@cursor,combat] [] Heart Essence
+/use 13
+END
+VER 3 000000000000000C "AAB" "INV_Misc_QuestionMark"
+#showtooltip
+/click ExtraActionButton1
+END
+VER 3 000000000000000D "AAP_MACRO" "INV_Misc_QuestionMark"
+#showtooltip
+/use Frostflurry Focus
+END
+VER 3 000000000000000E "ABigWigs" "134231"
+/bw
+END
+VER 3 000000000000000F "ACancelBoP" "135964"
+/cancelaura Blessing of Protection
+END
+VER 3 0000000000000010 "AElvUI" "236373"
+/ec
+END
+VER 3 0000000000000011 "AFocus Mouseover" "136032"
+/focus mouseover
+END
+VER 3 0000000000000012 "AHealthstone" "INV_Misc_QuestionMark"
+#showtooltip item:5512
+/stopcasting
+/use Healthstone
+END
+VER 3 0000000000000013 "AMRT" "3601560"
+/mrt
+END
+VER 3 0000000000000014 "ATrinket1" "1033908"
+/use 13
+END
+VER 3 0000000000000015 "ATrinket2" "132366"
+/use 14
+END
+VER 3 0000000000000016 "AtrinketMO" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] 14
+END
+VER 3 0000000000000017 "AWeakAuras" "237383"
+/wa
+END
+VER 3 0000000000000018 "CovenantSignatur" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Door of Shadows
+/cast Soulshape
+/cast Fleshcraft
+/cast Summon Steward
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
+END
+VER 3 0000000000000019 "CovenantWarrior" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Spear of Bastion
+/cast Conqueror's Banner
+/cast Ancient Aftershock
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Spear of Bastion" or G"Conqueror's Banner"or G"Ancient Aftershock")
+END
+VER 3 000000000000001A "Door of Shadows" "INV_Misc_QuestionMark"
+#showtooltip Door of Shadows(Venthyr)
+/cast [@cursor] Door of Shadows(Venthyr)
+END
+VER 3 000000000000001B "DruidRebirth" "INV_Misc_QuestionMark"
+#showtooltip Rebirth
+/use [@mouseover,help,nodead][help,nodead] Rebirth
+END
+VER 3 000000000000001C "HideLUAErrors" "3490572"
+/console scriptErrors 0
+END
+VER 3 000000000000001D "HPriestrow7" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:7/2] Apotheosis; [talent:7/3] Holy Word: Salvation
+END
+VER 3 000000000000001E "Hunter Intrrupt" "INV_Misc_QuestionMark"
+#showtooltip Counter Shot
+/stopcasting
+/stopcasting
+/cast [@focus,exists][@mouseover,exist,harm][] Counter Shot
+END
+VER 3 000000000000001F "HunterBindingShi" "INV_Misc_QuestionMark"
+#showtooltip Binding Shot
+/cast [@cursor] Binding Shot
+END
+VER 3 0000000000000020 "HunterVolley" "INV_Misc_QuestionMark"
+#showtooltip Volley
+/cast [@cursor] Volley
+END
+VER 3 0000000000000021 "HunterVolley" "INV_Misc_QuestionMark"
+#showtooltip Volley
+/cast [@cursor] Volley
+/use Overcharged Anima Battery
+END
+VER 3 0000000000000022 "HunterWildspirit" "134400"
+/showtooltip Wild Spirits(Night Fae)
+/cast [@cursor] Wild Spirits(Night Fae)
+END
+VER 3 0000000000000023 "Intervene" "134400"
+#Showtooltip Intervene
+/cast [target=mouseover,exists] Intervene; Intervene
+END
+VER 3 0000000000000024 "LeapFPI" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/1] 13; [talent:5/2] 13;  [talent:5/3] Leap of Faith
+END
+VER 3 0000000000000025 "MageArcanePower" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Arcane Power
+/cast Berserking(Racial)
+END
+VER 3 0000000000000026 "MonkOxStatue" "134400"
+/target Black Ox Statue
+/cast  Provoke
+/targetlasttarget
+END
+VER 3 0000000000000027 "MonkRow75" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/3] Dampen Harm; [talent:5/2] Diffuse Magic; [talent:5/1] Healing Elixir;
+END
+VER 3 0000000000000028 "MonkRow90" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Invoke Chi-Ji, the Red Crane; [talent:6/2] Refreshing Jade Wind; [@cursor][talent:6/1] Summon Jade Serpent Statue;
+END
+VER 3 0000000000000029 "PaladinAW" "134400"
+/cast Avenging Wrath
+/use Talisman of Resurgence
+END
+VER 3 000000000000002A "PaladinBoP" "134400"
+#Showtooltip Blessing of Protection
+/cast [target=mouseover,exists] Blessing of Protection; Blessing of Protection
+END
+VER 3 000000000000002B "PaladinREPBLIGHT" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:3/3] Blinding Light;[target=mouseover,help][talent:3/2] Repentance;
+END
+VER 3 000000000000002C "PaladinSac" "134400"
+#Showtooltip Blessing of Sacrifice
+/cast [target=mouseover,exists] Blessing of Sacrifice; Blessing of Sacrifice
+END
+VER 3 000000000000002D "PaladinStun" "134400"
+#Showtooltip Psychic Horror
+/cast [target=mouseover,exists] Hammer of Justice; Hammer of Justice
+END
+VER 3 000000000000002E "PIROW" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/1] Leap of Faith; [talent:5/2] Leap of Faith;  [talent:5/3] Power Infusion
+END
+VER 3 000000000000002F "Power" "INV_Misc_QuestionMark"
+#showtooltips Power Infusion
+/use Wakener's Frond
+/cast Power Infusion
+END
+VER 3 0000000000000030 "Priest row 60" "134400"
+/cast Damnation
+/cast Void Torrent
+END
+VER 3 0000000000000031 "Priest row 7" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:7/1] Fleshcraft(Necrolord); [talent:7/2] Fleshcraft(Necrolord); [talent:7/3] Evangelism
+END
+VER 3 0000000000000032 "PriestBarrier" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Barrier
+/cast [@cursor] Power Word: Barrier
+END
+VER 3 0000000000000033 "PriestBuff" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Power Word: Fortitude
+END
+VER 3 0000000000000034 "PriestDamnation" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Damnation; Damnation
+END
+VER 3 0000000000000035 "PriestDevouringp" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Devouring Plague; Devouring Plague
+END
+VER 3 0000000000000036 "PriestFear" "INV_Misc_QuestionMark"
+#showtooltip Psychic Horror
+/cast [@mouseover,exists,harm][] Psychic Horror
+END
+VER 3 0000000000000037 "PriestFeather" "INV_Misc_QuestionMark"
+#showtooltip Angelic Feather
+/cast [@cursor] Angelic Feather
+END
+VER 3 0000000000000038 "priestGrip" "INV_Misc_QuestionMark"
+#showtooltip Leap of Faith
+/cast [@mouseover,help,nodead][help,nodead]Leap of Faith
+END
+VER 3 0000000000000039 "PriestMassDispel" "INV_Misc_QuestionMark"
+#showtooltip Mass Dispel
+/cast [@cursor] Mass Dispel
+END
+VER 3 000000000000003A "PriestMC" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Mind Control
+END
+VER 3 000000000000003B "PriestMindblast" "INV_Misc_QuestionMark"
+#showtooltip Mind Blast
+/cast [nochanneling:Penance] Mind Blast
+END
+VER 3 000000000000003C "PriestMindfaly" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Mind Flay; Mind Flay
+END
+VER 3 000000000000003D "PriestMindSear" "134400"
+#Showtooltip Mind Sear
+/cast [target=mouseover,exists] Mind Sear; Mind Sear
+END
+VER 3 000000000000003E "PriestPenance" "134400"
+#Showtooltip Penance
+/cast [target=mouseover,exists] Penance; Penance
+END
+VER 3 000000000000003F "PriestPI" "INV_Misc_QuestionMark"
+#showtooltips Power Infusion
+/cast Power Infusion
+END
+VER 3 0000000000000040 "Priestradiance" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Radiance
+/cast [nochanneling:Penance] Power Word: Radiance
+END
+VER 3 0000000000000041 "PriestRadiance" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Radiance
+/cast Fade
+/cast Power Word: Radiance
+END
+VER 3 0000000000000042 "PriestSanctify" "INV_Misc_QuestionMark"
+#showtooltip Holy Word: Sanctify
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 0000000000000043 "PriestSelfFeathe" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Angelic Feather
+END
+VER 3 0000000000000044 "PriestShackleUnd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Shackle Undead
+END
+VER 3 0000000000000045 "PriestShadowCras" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Shadow Crash; Shadow Crash
+END
+VER 3 0000000000000046 "PriestShadowfien" "134400"
+#Showtooltip Shadowfiend
+/cast [target=mouseover,exists] Shadowfiend; Shadowfiend
+/use Sinful Aspirant's Badge of Ferocity
+END
+VER 3 0000000000000047 "PriestShadowmend" "INV_Misc_QuestionMark"
+#showtooltip Shadow Mend
+/cast Fade
+/cast Shadow Mend
+END
+VER 3 000000000000004A "PriestShield" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Shield
+/cast Fade
+/cast Power Word: Shield
+END
+VER 3 0000000000000048 "PriestShield" "INV_Misc_QuestionMark"
+#showtooltip Pain Suppression
+/cast Pain Suppression
+/cast Power Word: Shield
+END
+VER 3 0000000000000049 "PriestShield" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Shield
+/cast [@mouseover,help,nodead][help,nodead] Power Word: Shield
+END
+VER 3 000000000000004B "PriestSilence" "INV_Misc_QuestionMark"
+#showtooltip Silence
+/stopcasting
+/cast [@focus,exists][@mouseover,exists,harm][] Silence
+END
+VER 3 000000000000004C "PriestSmite" "135924"
+#Showtooltip 
+/cast [target=mouseover,exists] Smite; Smite
+END
+VER 3 000000000000004D "PriestSolace" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Solace(Talent)
+/cast [nochanneling:Penance] Power Word: Solace(Talent)
+END
+VER 3 000000000000004E "PriestSolace" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Power Word: Solace(Talent); Power Word: Solace(Talent)
+END
+VER 3 000000000000004F "PriestSoothe" "135933"
+#Showtooltip Shackle Undead
+/cast [target=mouseover,exists] Mind Soothe; Mind Soothe
+END
+VER 3 0000000000000050 "PriestSPain" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Shadow Word: Pain; Shadow Word: Pain
+END
+VER 3 0000000000000051 "PriestStun" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Holy Word: Chastise
+END
+VER 3 0000000000000052 "PriestSWDeath" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Shadow Word: Death
+END
+VER 3 0000000000000053 "PSH" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:4/1] Devouring Plague; [talent:4/2] Devouring Plague;  [talent:4/3] Psychic Horror
+END
+VER 3 0000000000000054 "pVPvENDOR" "134331"
+/click ItemUpgradeFrameUpgradeButton
+/click StaticPopup1Button1
+END
+VER 3 0000000000000055 "RaidRa-den" "237047"
+/cancelaura Atonement
+/cancelaura Enveloping Mist
+/cancelaura Glimmer of Light
+/cancelaura Riptide
+/cancelaura Prayer of Mending
+/cancelaura Renewing Mist
+/cancelaura Renew
+/cancelaura Echo of Light
+/cancelaura Seed of Eonar
+/cancelaura Bracing Chill
+END
+VER 3 0000000000000056 "Recklessness" "INV_Misc_QuestionMark"
+#showtooltip Recklessness
+/cast Berserking(Racial)
+/cast Recklessness
+END
+VER 3 0000000000000057 "Remove Corruptio" "INV_Misc_QuestionMark"
+#showtooltip Remove Corruption
+/use [@mouseover,help,nodead][help,nodead] Remove Corruption
+END
+VER 3 0000000000000058 "Rend" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Rend
+END
+VER 3 0000000000000059 "res" "INV_Misc_QuestionMark"
+#showtooltip Disposable Spectrophasic Reanimator
+/cast [@mouseover,help,nodead][help,nodead]Disposable Spectrophasic Reanimator
+END
+VER 3 000000000000005A "RogueBackStrike" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [bonusbar:1] Shadowstrike;Backstab
+END
+VER 3 000000000000005B "RogueBlind" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Blind; Blind
+END
+VER 3 000000000000005C "RogueDistract" "INV_Misc_QuestionMark"
+#showtooltip Distract
+/cast [@cursor] Distract
+END
+VER 3 000000000000005D "RogueKick" "INV_Misc_QuestionMark"
+#showtooltip Kick
+/cast [@focus,exists][@mouseover,exists,harm][] Kick
+END
+VER 3 000000000000005E "RogueMutiAbush" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [bonusbar:1] Ambush;Mutilate
+END
+VER 3 000000000000005F "RogueSap" "134400"
+#Showtooltip 
+/cast [target=mouseover,exists] Sap; Sap
+END
+VER 3 0000000000000060 "RogueShadowStep" "134400"
+#Showtooltip Shadowstep
+/cast [target=mouseover,exists] Shadowstep; Shadowstep
+END
+VER 3 0000000000000061 "RogueStun" "134400"
+/cast [bonusbar:1] Cheap Shot;Kidney Shot
+END
+VER 3 0000000000000062 "RogueTricks" "INV_Misc_QuestionMark"
+#showtooltip Tricks of the Trade
+/cast [target=name of tank] Tricks of the Trade
+END
+VER 3 0000000000000063 "RoguevVanish" "INV_Misc_QuestionMark"
+#showtooltipp Vanish
+/cast [nocombat] Stealth
+/cast [combat] Vanish
+END
+VER 3 0000000000000064 "Row 2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:2/1] Intimidating Shout; [talent:2/2] Intimidating Shout; [talent:2/3] Storm Bolt
+END
+VER 3 0000000000000065 "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Deadly Calm; [talent:6/2] Avatar;
+/use 13
+/cast Berserking(Racial)
+/cast Warbreaker
+END
+VER 3 0000000000000066 "SoccerXanesh" "1394892"
+Soccer 1: Quísha - Keyali - Timinic
+Soccer 2: Yorksèn - Bacard - Sunkissed
+Soccer 3: Valathae - Lisperia - Sootup
+END
+VER 3 0000000000000067 "Stormbolt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 0000000000000068 "Stormbolt" "INV_Misc_QuestionMark"
+#showtooltip Storm Bolt
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 0000000000000069 "SWDeathBAR" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/1] Shadow Word: Death; [talent:6/2] Purify Disease;  [talent:6/3] Shadow Word: Death
+END
+VER 3 000000000000006A "Taunt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Taunt
+END
+VER 3 000000000000006B "VuhDoDCShieldData" "132281"
+R2NT1WT1PH1MR1MR1SR2PM2IR[x]2WM3WM3LR4LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2IH[x][x][x][x][x][x][x][x][x][x][x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000006C "VuhDoDCShieldNames" "132281"
+NBlîAssGloСэйClaPerСерAry[x]IziКикBobWâl[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Quí[x][x][x][x][x][x][x][x][x][x][x]ThoKep[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000006D "WarriorAvatarDea" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/2] Avatar: [talent:6/3] Deadly Calm:
+END
+VER 3 000000000000006E "WarriorBloodofTh" "INV_Misc_QuestionMark"
+#showtooltip Blood of the Enemy(Azerite Essence)
+/cast Berserking(Racial)
+/cast Blood of the Enemy(Azerite Essence)
+END
+VER 3 000000000000006F "WarriorGuardiano" "INV_Misc_QuestionMark"
+#showtooltip Guardian of Azeroth(Azerite Essence)
+/cast Berserking(Racial)
+/cast Guardian of Azeroth(Azerite Essence)
+END
+VER 3 0000000000000070 "WarriorHeroicLea" "INV_Misc_QuestionMark"
+#showtooltip Heroic Leap
+/cast [@cursor] Heroic Leap
+/cancelaura Bladestorm
+END
+VER 3 0000000000000071 "WarriorHeroicThr" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Heroic Throw
+END
+VER 3 0000000000000072 "WarriorPummel" "INV_Misc_QuestionMark"
+#showtooltip Pummel
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] pummel
+END
+VER 3 0000000000000073 "WarriorRecklessn" "INV_Misc_QuestionMark"
+#showtooltip Recklessness
+/cast Berserking(Racial)
+/cast Recklessness
+/cast Siegebreaker
+END
+VER 3 0000000000000074 "XHide Minimap" "134430"
+/run MainMenuBarLeftEndCap:Hide();MainMenuBarRightEndCap:Hide()
+/run local m=MinimapCluster if m:IsShown()then m:Hide()else m:Show()end
+END
+VER 3 0000000000000075 "XTilt" "134466"
+/script SetCVar( "colorblindSimulator", 3);
+/script SetCVar( "Gamma", 2.8 );
+/script SetCVar( "Brightness", 24 );
+/script SetCVar( "Contrast", 94 );
+END
+VER 3 0000000000000076 "XTooltip" "897140"
+/script GameTooltip.Temphide = function() GameTooltip:Hide() end; GameTooltip:SetScript("OnShow", GameTooltip.Temphide)
+/stopmacro [btn:1]
+/script GameTooltip:SetScript("OnShow", GameTooltip.Show);
+END
+VER 3 0000000000000077 "XUntilt" "134468"
+/script SetCVar( "colorblindSimulator", 0);
+/script SetCVar( "Gamma", 1);
+/script SetCVar( "Brightness", 50 );
+/script SetCVar( "Contrast", 50 );
+END
+VER 3 0000000000000078 "XWeather0" "135750"
+/console weatherdensity 0
+END

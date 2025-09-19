@@ -1,0 +1,43 @@
+VER 3 0100000000000007 "d" "134400"
+#showtooltip Blessing of Freedom
+/cast [@mouseover,exists,help][] Blessing of Freedom
+END
+VER 3 0100000000000005 "Final Reckoning" "135878"
+#showtooltip Final Reckoning
+/cast [@cursor] Final Reckoning
+END
+VER 3 0100000000000004 "Freedom" "134400"
+#Showtooltip Blessing of Freedom
+/cast [target=mouseover,exists] Blessing of Freedom; Blessing of Freedom
+END
+VER 3 0100000000000006 "HoJ" "134400"
+#showtooltip Hammer of Justice
+/cast [@mouseover,exists,harm][] Hammer of Justice
+END
+VER 3 0100000000000009 "Rebuke" "134400"
+#showtooltip Rebuke
+/cast [@focus,exists][@mouseover,exists,harm][] Rebuke
+END
+VER 3 010000000000000A "Slow" "134400"
+#showtooltip Hand of Hindrance
+/cast [@mouseover,exists,harm][] Hand of Hindrance
+END
+VER 3 0100000000000008 "Taunt" "134400"
+#showtooltip Hand of Reckoning
+/cast [@mouseover,exists,harm][] Hand of Reckoning
+END
+VER 3 0100000000000003 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000C "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000B "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Pon[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

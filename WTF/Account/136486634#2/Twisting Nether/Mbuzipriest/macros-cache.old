@@ -1,0 +1,127 @@
+VER 3 010000000000005A "1" "INV_Misc_QuestionMark"
+#showtooltip
+/target [@mouseover]
+/cast Fae Guardians
+/targetlasttarget
+END
+VER 3 010000000000004E "3" "INV_Misc_QuestionMark"
+/rw {rt3} {rt3} Stack on Purple{rt3} {rt3}
+END
+VER 3 010000000000004D "4" "INV_MISC_QUESTIONMARK"
+/rw {rt7} {rt7} Stack on Cross {rt7} {rt7}
+END
+VER 3 0100000000000049 "AFeather Player" "INV_Misc_QuestionMark"
+#showtooltip Angelic Feather
+/cast [@player] Angelic Feather
+END
+VER 3 0100000000000059 "AFocus Mouseover" "136032"
+/focus mouseover
+END
+VER 3 010000000000004A "Desperate Prayer" "INV_Misc_QuestionMark"
+#showtooltip Desperate Prayer
+/cast Fade
+/cast Desperate Prayer
+/cast Power Word: Shield
+END
+VER 3 010000000000004B "DispelMagic" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Dispel Magic
+END
+VER 3 0100000000000058 "fHeal on me" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash Heal
+/cast [@player] Flash Heal
+END
+VER 3 010000000000004C "Penance" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt,@player] [mod,@mouseover,help,nodead] [@mouseover,harm,nodead] [] Penance
+END
+VER 3 010000000000005C "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Deadly Calm; [talent:6/2] Avatar;
+/use 13
+/cast Berserking(Racial)
+/cast Warbreaker
+END
+VER 3 010000000000005B "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Deadly Calm; [talent:6/2] Avatar;
+/use 13
+/cast Warbreaker
+END
+VER 3 010000000000004F "Row 6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/1] Damnation; [talent:6/2] Vampiric Embrace; [talent:6/3] Void Torrent
+END
+VER 3 0100000000000050 "Row 6BAR" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/1] Damnation; [talent:6/3] Void Torrent
+END
+VER 3 010000000000005D "Row3bear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:3/1] Typhoon; [@cursor][talent:3/3] Ursol's Vortex
+END
+VER 3 0100000000000051 "SCrash" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/1] Power Infusion; [talent:5/2] Power Infusion; [talent;5/3] Shadow Crash
+END
+VER 3 0100000000000052 "SCrashBAR" "INV_Misc_QuestionMark"
+#showtooltip Shadow Crash
+/cast [@cursor] Shadow Crash
+END
+VER 3 0100000000000053 "Smite" "INV_Misc_QuestionMark"
+#showtooltip Smite
+/cast [nochanneling:Penance] Smite
+END
+VER 3 010000000000005E "SoccerXanesh" "1394892"
+Soccer 1: Quísha - Keyali - Timinic
+Soccer 2: Yorksèn - Bacard - Sunkissed
+Soccer 3: Valathae - Lisperia - Sootup
+END
+VER 3 0100000000000060 "Stormbolt" "INV_Misc_QuestionMark"
+#showtooltip Storm Bolt
+/cancelaura Bladestorm
+/cast [@focus,exists][@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 010000000000005F "Stormbolt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Storm Bolt
+END
+VER 3 0100000000000054 "SW: Pain" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod:alt,@mouseover] Vampiric Touch; Vampiric Touch
+END
+VER 3 0100000000000057 "swdeath" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm][] Shadow Word: Death
+END
+VER 3 0100000000000061 "SWDeathBAR" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/1] Shadow Word: Death; [talent:6/2] Purify Disease;  [talent:6/3] Shadow Word: Death
+END
+VER 3 0100000000000055 "SWVoid" "INV_Misc_QuestionMark"
+#showtooltip Shadow Word: Void
+/cast Shadow Word: Void
+END
+VER 3 0100000000000062 "Taunt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,harm][] Taunt
+END
+VER 3 0100000000000056 "Vampiric Touch" "INV_Misc_QuestionMark"
+#showtooltip Void Eruption
+/cast [@mouseover,harm,nodead][]Void Eruption
+END
+VER 3 0100000000000063 "VuhDoDCShieldData" "132281"
+R1SH1PH1LR1DR1PT2NM2WM[x]2SR3SR3OT3RM3HM3RM4HR4NM4HR4IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2WM[x][x]0__[x][x][x][x][x][x][x][x][x]0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000064 "VuhDoDCShieldNames" "132281"
+NFaiZenBosOveGriLezPlå[x]ValMurMelKîlTheZelHelEasJamItz[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bad[x][x]Kir[x][x][x][x][x][x][x][x][x]Kuz[x]Dol[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000065 "WarriorAvatarDea" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/2] Avatar: [talent:6/3] Deadly Calm:
+END
+VER 3 0100000000000066 "WarriorBloodofTh" "INV_Misc_QuestionMark"
+#showtooltip Blood of the Enemy(Azerite Essence)
+/cast Berserking(Racial)
+/cast Blood of the Enemy(Azerite Essence)
+END

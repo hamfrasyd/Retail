@@ -1,0 +1,41 @@
+VER 3 0100000000000006 "#showtooltip/cas" "134400"
+#showtooltip
+/cast [@cursor] Totemic Projection
+END
+VER 3 0100000000000001 "." "134400"
+#showtooltip
+/cast Ascendance
+/use 14
+END
+VER 3 0100000000000004 "a" "134400"
+#showtooltip
+/cast [@cursor] Liquid Magma Totem
+END
+VER 3 010000000000000A "a" "134400"
+#showtooltip Healing surge
+/cast [@mouseover, exists] Healing surge; Healing surge
+END
+VER 3 0100000000000007 "a" "134400"
+#showtooltip Primordial Wave
+/cast [@mouseover, exists] Primordial Wave; Primordial Wave
+END
+VER 3 0100000000000009 "a" "134400"
+#showtooltip Hex
+/cast [@mouseover, exists] Hex; Hex
+END
+VER 3 0100000000000008 "d" "134400"
+#showtooltip Flame Shock
+/cast [@mouseover, exists] Flame Shock; Flame Shock
+END
+VER 3 0100000000000002 "d" "134400"
+#showtooltip
+/cast [@mouseover,exists,harm][] Wind Shear
+END
+VER 3 0100000000000003 "d" "134400"
+#showtooltip
+/cast [@cursor] Earthquake
+END
+VER 3 0100000000000005 "q" "134400"
+#showtooltip
+/cast [@cursor] Wind Rush Totem
+END

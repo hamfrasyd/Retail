@@ -1,0 +1,173 @@
+VER 3 0000000000000020 "." "134400"
+#showtooltip
+/cast Whirling Surge
+END
+VER 3 0000000000000005 "....ReadyCheck" "876916"
+/readycheck
+END
+VER 3 0000000000000006 "...Pull 10" "876914"
+/pull 14
+END
+VER 3 0000000000000007 "..CancelPull" "876915"
+/pull 0
+/rw PULL CANCELLED
+END
+VER 3 0000000000000008 ".CancelBoP" "136103"
+/cancelaura Blessing of Protection
+END
+VER 3 0000000000000009 ".EngiBelt" "134400"
+#showtooltip
+/use 6
+END
+VER 3 0000000000000001 ".Focus Mouseover" "1016706"
+/focus [@mouseover]
+END
+VER 3 0000000000000004 ".Healthstone" "538745"
+#showtooltip item:5512
+/stopcasting
+/use Healthstone
+END
+VER 3 0000000000000002 ".Trinket 1" "134400"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000003 ".Trinket 2" "134400"
+#showtooltip
+/use 14
+END
+VER 3 000000000000000C ".Weapon 1" "134400"
+#showtooltip
+/use 16
+/use 13
+END
+VER 3 000000000000000A ".WorldMarker" "1390944"
+/click ExtraActionButton1
+/wm [@cursor]1
+END
+VER 3 0000000000000022 "11" "134400"
+/g Alright, you demon-dicking, mythic Diemnsius-spanking maniacs! Your blades are so sharp, they’d circumcise that scaly bastard’s ego in one swipe!
+END
+VER 3 0000000000000023 "22" "134400"
+/g Charge in like you’re humping a cosmic jackhammer, making that overgrown iguana scream for its safe word!
+END
+VER 3 0000000000000024 "333" "134400"
+/g You’re the galaxy’s horniest demon-busters, so go pound that lizard into a XXX-rated highlight reel! Now thrust in there and make that beast nut out of fear!
+END
+VER 3 000000000000001F "d" "134400"
+ {star} Left
+||cffff7c0aPocheru||r 
+||cfff48cbaShowtime||r 
+||cffffffffParavoids||r 
+||cffc69b6dMougkri||r
+||cffc41e3aBentejuas||r 
+||cfff48cbaJudgememe||r 
+||cffa330c9Krusheto||r 
+{triangle} Right
+||cff00ff98Akirafu||r
+||cffffffffFawltyhealer||r 
+||cffc
+END
+VER 3 0000000000000021 "d" "134400"
+END
+VER 3 000000000000001B "d" "134400"
+/rw {triangle} Group 1 and 2 (GREEN)
+/rw {circle} Group3 and 4 (ORANGE)
+END
+VER 3 0000000000000019 "NS Ext Macro" "135966"
+/run NSAPI:ExternalRequest();
+END
+VER 3 000000000000001A "NS Innervate" "136048"
+/run NSAPI:InnervateRequest();
+END
+VER 3 0000000000000018 "NS PA Macro" "132288"
+/run NSAPI:PrivateAura();
+END
+VER 3 000000000000001D "pot" "134400"
+#showtooltip
+/use Tempered Potion
+/cast Berserking(Racial)
+END
+VER 3 000000000000001E "pot2" "134400"
+#showtooltip
+/use Tempered Potion
+/cast Berserking(Racial)
+END
+VER 3 0000000000000025 "ShamanAscendance" "134400"
+#showtooltip
+/cast Ascendance
+/use Araz's Ritual Forge
+END
+VER 3 0000000000000032 "ShamanCleanse" "134400"
+#showtooltip Cleanse Spirit
+/cast [@mouseover, exists] Cleanse Spirit; Cleanse Spirit
+END
+VER 3 0000000000000026 "ShamanEarthquake" "134400"
+#showtooltip
+/cast [@cursor] Earthquake
+END
+VER 3 0000000000000030 "ShamanEarthShiel" "134400"
+#showtooltip Earth Shield
+/cast [@mouseover, exists] Earth Shield; Earth Shield
+END
+VER 3 000000000000002F "ShamanEgrabTotem" "134400"
+#showtooltip
+/cast [@cursor] Earthgrab Totem
+/cast [@cursor] Earthbind Totem
+END
+VER 3 000000000000002B "ShamanFlameShock" "134400"
+#showtooltip Flame Shock
+/cast [@mouseover, exists] Flame Shock; Flame Shock
+END
+VER 3 0000000000000031 "ShamanFWLS" "134400"
+#showtooltip
+/castsequence reset=10 Flametongue Weapon, Lightning Shield
+END
+VER 3 000000000000002D "ShamanHealingS" "134400"
+#showtooltip Healing surge
+/cast [@mouseover, exists] Healing surge; Healing surge
+END
+VER 3 000000000000002C "ShamanHex" "134400"
+#showtooltip Hex
+/cast [@mouseover, exists] Hex; Hex
+END
+VER 3 0000000000000027 "ShamanLMTotem" "134400"
+#showtooltip
+/cast [@cursor] Liquid Magma Totem
+END
+VER 3 000000000000002A "ShamanPrimodialW" "134400"
+#showtooltip Primordial Wave
+/cast [@mouseover, exists] Primordial Wave; Primordial Wave
+END
+VER 3 000000000000002E "ShamanStun" "134400"
+#showtooltip
+/cast [@cursor] Capacitor Totem
+END
+VER 3 0000000000000029 "ShamanTPTotem" "134400"
+#showtooltip
+/cast [@cursor] Totemic Projection
+END
+VER 3 0000000000000028 "ShamanWRTotem" "134400"
+#showtooltip
+/cast [@cursor] Wind Rush Totem
+END
+VER 3 0000000000000014 "WarrHackPummelSt" "134400"
+"
+/tar boss1
+/targetenemy
+/focus
+/tar player
+/tar focus
+/tar boss1
+/targetlasttarget
+/castsequence [harm,nodead] reset=40 Pummel, Storm Bolt
+/tar boss1
+"
+END
+VER 3 000000000000001C "WarrRavagerBlade" "134400"
+#showtooltip
+/cast [known:228920,@cursor] Ravager; Bladestorm
+END
+VER 3 0000000000000015 "WarrWrThrow" "134400"
+#showtooltip Wrecking Throw
+/cast [@mouseover,exists,harm][] Wrecking Throw
+END
