@@ -53,10 +53,6 @@ END
 VER 3 0000000000000024 "333" "134400"
 /g You’re the galaxy’s horniest demon-busters, so go pound that lizard into a XXX-rated highlight reel! Now thrust in there and make that beast nut out of fear!
 END
-VER 3 000000000000001B "d" "134400"
-/rw {triangle} Group 1 and 2 (GREEN)
-/rw {circle} Group3 and 4 (ORANGE)
-END
 VER 3 000000000000001F "d" "134400"
  {star} Left
 ||cffff7c0aPocheru||r 
@@ -72,6 +68,10 @@ VER 3 000000000000001F "d" "134400"
 ||cffc
 END
 VER 3 0000000000000021 "d" "134400"
+END
+VER 3 000000000000001B "d" "134400"
+/rw {triangle} Group 1 and 2 (GREEN)
+/rw {circle} Group3 and 4 (ORANGE)
 END
 VER 3 0000000000000019 "NS Ext Macro" "135966"
 /run NSAPI:ExternalRequest();
@@ -91,6 +91,64 @@ VER 3 000000000000001E "pot2" "134400"
 #showtooltip
 /use Tempered Potion
 /cast Berserking(Racial)
+END
+VER 3 0000000000000025 "ShamanAscendance" "134400"
+#showtooltip
+/cast Ascendance
+/use Araz's Ritual Forge
+END
+VER 3 0000000000000032 "ShamanCleanse" "134400"
+#showtooltip Cleanse Spirit
+/cast [@mouseover, exists] Cleanse Spirit; Cleanse Spirit
+END
+VER 3 0000000000000026 "ShamanEarthquake" "134400"
+#showtooltip
+/cast [@cursor] Earthquake
+END
+VER 3 0000000000000030 "ShamanEarthShiel" "134400"
+#showtooltip Earth Shield
+/cast [@mouseover, exists] Earth Shield; Earth Shield
+END
+VER 3 000000000000002F "ShamanEgrabTotem" "134400"
+#showtooltip
+/cast [@cursor] Earthgrab Totem
+/cast [@cursor] Earthbind Totem
+END
+VER 3 000000000000002B "ShamanFlameShock" "134400"
+#showtooltip Flame Shock
+/cast [@mouseover, exists] Flame Shock; Flame Shock
+END
+VER 3 0000000000000031 "ShamanFWLS" "134400"
+#showtooltip
+/castsequence reset=10 Flametongue Weapon, Lightning Shield
+END
+VER 3 000000000000002D "ShamanHealingS" "134400"
+#showtooltip Healing surge
+/cast [@mouseover, exists] Healing surge; Healing surge
+END
+VER 3 000000000000002C "ShamanHex" "134400"
+#showtooltip Hex
+/cast [@mouseover, exists] Hex; Hex
+END
+VER 3 0000000000000027 "ShamanLMTotem" "134400"
+#showtooltip
+/cast [@cursor] Liquid Magma Totem
+END
+VER 3 000000000000002A "ShamanPrimodialW" "134400"
+#showtooltip Primordial Wave
+/cast [@mouseover, exists] Primordial Wave; Primordial Wave
+END
+VER 3 000000000000002E "ShamanStun" "134400"
+#showtooltip
+/cast [@cursor] Capacitor Totem
+END
+VER 3 0000000000000029 "ShamanTPTotem" "134400"
+#showtooltip
+/cast [@cursor] Totemic Projection
+END
+VER 3 0000000000000028 "ShamanWRTotem" "134400"
+#showtooltip
+/cast [@cursor] Wind Rush Totem
 END
 VER 3 0000000000000014 "WarrHackPummelSt" "134400"
 "

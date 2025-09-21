@@ -3,22 +3,22 @@ RaiderIO_Config = {
 ["previouslyEnabledLogging"] = true,
 ["profilePoint"] = {
 ["y"] = 0,
-["x"] = -16,
+["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Mbuzi-twisting-nether"
+RaiderIO_LastCharacter = "eu-Bægnaskeren-twisting-nether"
 RaiderIO_MissingCharacters = {
-["eu-Xdzgather-twisting-nether"] = true,
-["eu-Móon-twisting-nether"] = true,
-["eu-Naqhua-twisting-nether"] = true,
-["eu-Midase-twisting-nether"] = true,
+["eu-Nuly-chamber-of-aspects"] = true,
+["eu-Xaril-kazzak"] = true,
+["eu-Hauntedmeto-doomhammer"] = true,
+["eu-Eivyn-terenas"] = true,
 }
 RaiderIO_MissingServers = {
 }

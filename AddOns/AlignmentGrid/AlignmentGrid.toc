@@ -1,0 +1,7 @@
+## Interface: 80205
+## Title: Alignment Grid
+## Notes: Overlays a grid on-screen to aid in aligning the user interface.
+## Author: Ben Walker
+## Version: 2 (8.2.5)
+
+AlignmentGrid.lua

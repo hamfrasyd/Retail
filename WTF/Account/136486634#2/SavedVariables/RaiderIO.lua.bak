@@ -3,14 +3,14 @@ RaiderIO_Config = {
 ["previouslyEnabledLogging"] = true,
 ["profilePoint"] = {
 ["y"] = 0,
-["x"] = -16,
+["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["hide"] = false,
 ["lock"] = false,
+["hide"] = false,
 },
 }
 RaiderIO_LastCharacter = "eu-Bægnaskeren-twisting-nether"

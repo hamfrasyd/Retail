@@ -8,9 +8,9 @@ LS_GLASS_GLOBAL_CONFIG = {
 ["Kassedamen - Twisting Nether"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
-["Lilgoat - Twisting Nether"] = "Default",
-["Mbuzi - Draenor"] = "Default",
 ["Ponypala - Twisting Nether"] = "Default",
+["Mbuzi - Draenor"] = "Default",
+["Lilgoat - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

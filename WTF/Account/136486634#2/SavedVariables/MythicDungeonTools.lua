@@ -1,14 +1,14 @@
 
 MythicDungeonToolsDB = {
 ["profileKeys"] = {
-["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
 ["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
+["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
 },
 ["global"] = {
-["latestDungeonSeen"] = 123,
 ["minimap"] = {
 ["showInCompartment"] = true,
 },
+["latestDungeonSeen"] = 123,
 ["maximized"] = false,
 ["presets"] = {
 [123] = {
@@ -18,8 +18,9 @@ MythicDungeonToolsDB = {
 ["value"] = {
 ["currentPull"] = 1,
 ["currentSublevel"] = 1,
-["riftOffsets"] = {
+["pulls"] = {
 {
+["color"] = "ff3eff",
 },
 },
 ["currentDungeonIdx"] = 123,
@@ -27,9 +28,8 @@ MythicDungeonToolsDB = {
 ["selection"] = {
 1,
 },
-["pulls"] = {
+["riftOffsets"] = {
 {
-["color"] = "ff3eff",
 },
 },
 },
