@@ -3,7 +3,7 @@ RaiderIO_Config = {
 ["previouslyEnabledLogging"] = true,
 ["profilePoint"] = {
 ["y"] = 0,
-["x"] = -16.00000190734863,
+["x"] = -16,
 ["point"] = "TOPLEFT",
 },
 ["minimapIcon"] = {
@@ -15,6 +15,8 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Bægnaskeren-twisting-nether"
 RaiderIO_MissingCharacters = {
+["eu-Astartes-twisting-nether"] = true,
+["eu-Monalis-twisting-nether"] = true,
 }
 RaiderIO_MissingServers = {
 }

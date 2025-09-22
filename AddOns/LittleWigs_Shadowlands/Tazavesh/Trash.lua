@@ -25,6 +25,7 @@ mod:RegisterEnableMob(
 	176396, -- Defective Sorter
 	176395, -- Overloaded Mailemental
 	176394, -- P.O.S.T. Worker
+	177999, -- Xy'darid
 	246285, -- Bazaar Overseer
 	179840, -- Market Peacekeeper
 	179841, -- Veteran Sparkcaster
@@ -54,11 +55,27 @@ if L then
 	------ Streets of Wonder ------
 	L.zophex_warmup_trigger = "Surrender... all... contraband..."
 	L.menagerie_warmup_trigger = "Now for the item you have all been awaiting! The allegedly demon-cursed Edge of Oblivion!"
+	L.menagerie_warmup_trigger2 = "Cartel Xy has a profitable venture. Hopefully this inclines them to aid our own."
+	L.mailroom_door_trigger = "A friend here may be of help in acquiring Zo's signature."
+	L.vendor_active_trigger = "Myza's Oasis. The most intoxicating establishment in Tazavesh. Gaining the owner's favor will secure Cartel Au's signature."
 	L.soazmi_warmup_trigger = "Excuse our intrusion, So'leah. I hope we caught you at an inconvenient time."
 	L.portal_authority = "Tazavesh Portal Authority"
 	L.custom_on_portal_autotalk = CL.autotalk
 	L.custom_on_portal_autotalk_desc = "Instantly open portals back to the entrance when talking to Broker NPCs."
 	L.custom_on_portal_autotalk_icon = mod:GetMenuIcon("SAY")
+	L.mailroom_door = CL.door_open
+	L.mailroom_door_desc = "Show a bar indicating when the door to the mailroom will open."
+	L.mailroom_door_icon = "inv_misc_paperpackage01a"
+	L.vendor_active = "Vendor active"
+	L.vendor_active_desc = "Show a bar indicating when the vendor for the Trading Game will be active."
+	L.vendor_active_icon = "inv_misc_coin_04"
+	L.vendor_autopurchase = "Auto-purchase trading game item"
+	L.vendor_autopurchase_desc = "Automatically purchase the initial trading game item from the vendor."
+	L.vendor_autopurchase_icon = "inv_misc_coin_04"
+	L.vendor_autopurchase_message = "Purchased %s"
+	L.tradeable_goods = "Tradeable Goods"
+	L.tradeable_goods_desc = "Show a message indicating when tradeable goods have been picked up."
+	L.tradeable_goods_icon = "inv_crate_02"
 	L.trading_game = "Trading Game"
 	L.trading_game_desc = "Alerts with the right password during the Trading Game."
 	L.trading_game_icon = "achievement_dungeon_brokerdungeon"
@@ -131,11 +148,15 @@ local passwordId = nil
 -- Initialization
 --
 
-local wanderingPulsarMarker = mod:AddMarkerOption(true, "npc", 7, 357256, 7) -- Wandering Pulsar
+local wanderingPulsarMarker = mod:AddMarkerOption(true, "npc", 8, 357256, 8) -- Wandering Pulsar
 function mod:GetOptions()
 	return {
 		------ Streets of Wonder ------
 		"custom_on_portal_autotalk",
+		"mailroom_door",
+		"vendor_active",
+		"vendor_autopurchase",
+		"tradeable_goods",
 		"trading_game",
 		"custom_on_trading_game_autotalk",
 		-- Gatewarden Zo'mazz
@@ -234,11 +255,11 @@ function mod:GetOptions()
 		},
 		{
 			tabName = self:BossName(2436), -- Mailroom Mayhem
-			{"custom_on_portal_autotalk", 347721, 347775, 347716},
+			{"custom_on_portal_autotalk", "mailroom_door", 347721, 347775, 347716},
 		},
 		{
 			tabName = self:BossName(2452), -- Myza's Oasis
-			{"custom_on_portal_autotalk", "trading_game", "custom_on_trading_game_autotalk", 355830, 357197, 356967, 357229, 357029, 1240821, 1240912},
+			{"custom_on_portal_autotalk", "vendor_active", "vendor_autopurchase", "tradeable_goods", "trading_game", "custom_on_trading_game_autotalk", 355830, 357197, 356967, 357229, 357029, 1240821, 1240912},
 		},
 		{
 			tabName = self:BossName(2451), -- So'azmi
@@ -258,7 +279,8 @@ function mod:GetOptions()
 		},
 		------ Streets of Wonder ------
 		["custom_on_portal_autotalk"] = L.portal_authority,
-		["trading_game"] = L.trading_game,
+		["mailroom_door"] = CL.general,
+		["vendor_active"] = L.trading_game,
 		[352796] = L.gatewarden_zomazz,
 		[355900] = L.customs_security,
 		[355915] = L.interrogation_specialist,
@@ -302,6 +324,8 @@ function mod:OnBossEnable()
 	-- Trading Game, warmups
 	self:RegisterEvent("CHAT_MSG_MONSTER_SAY")
 	self:RegisterEvent("CHAT_MSG_MONSTER_YELL")
+	self:RegisterEvent("MERCHANT_SHOW")
+	self:Log("SPELL_AURA_APPLIED", "TradeableGoods", 358903, 358915, 358917, 358906, 358905, 358910, 351275, 352129, 358911, 352133, 352131, 352130, 358909, 358904, 352125, 352134, 358912, 358914, 358908, 358916, 358918, 358907, 358900, 352128, 352127, 358901, 358913, 352132) -- A History of Maldraxxus, Aromatic Spices, Balanced Sword, Bolt of Kyrian Brightweave, Bolt of Silk, Bones of Mortanis, Carrying Goods, Cheap Spices, Chunk of Jade, Common Drum, Cracked Warhammer, Damaged Flask, Demon Skull, Denathrius' Private Diary, Dull Opal, Dusty Skull, Eye of Valinor, Harp of Marasmius, Kleia's Special Cake, Myza's Special Spice, Perfect Replica of Remornia, Plate of Ripe Purians, Potion of Invisibility, Stale Bread, Threadbare Cloth, Vial of Nurgash's Blood, Vulpera Flute, Worn Journal
 
 	-- Auto-gossip
 	self:RegisterEvent("GOSSIP_SHOW")
@@ -532,12 +556,23 @@ function mod:CHAT_MSG_MONSTER_SAY(event, msg)
 			self:PlaySound("trading_game", "info")
 		end
 	elseif msg == L.menagerie_warmup_trigger then
-		-- Menagerie warmup
+		-- Menagerie warmup (doesn't occur in Mythic Plus)
 		local menagerieModule = BigWigs:GetBossModule("The Grand Menagerie", true)
 		if menagerieModule then
 			menagerieModule:Enable()
 			menagerieModule:Warmup()
 		end
+	elseif self:MythicPlus() and msg == L.menagerie_warmup_trigger2 then
+		-- Menagerie warmup (Mythic Plus)
+		local menagerieModule = BigWigs:GetBossModule("The Grand Menagerie", true)
+		if menagerieModule then
+			menagerieModule:Enable()
+			menagerieModule:WarmupMythicPlus()
+		end
+	elseif msg == L.mailroom_door_trigger then
+		self:Bar("mailroom_door", 5.4, L.mailroom_door, L.mailroom_door_icon)
+	elseif msg == L.vendor_active_trigger then
+		self:Bar("vendor_active", 26.5, L.vendor_active, L.vendor_active_icon)
 	elseif msg == L.soazmi_warmup_trigger then
 		-- So'azmi warmup
 		local soazmiModule = BigWigs:GetBossModule("So'azmi", true)
@@ -563,6 +598,33 @@ function mod:CHAT_MSG_MONSTER_YELL(event, msg)
 			zophexModule:Enable()
 			zophexModule:Warmup()
 		end
+	end
+end
+
+function mod:MERCHANT_SHOW()
+	if self:GetOption("vendor_autopurchase") > 0 then
+		local mobId = self:MobId(self:UnitGUID("npc"))
+		if mobId == 177999 then -- Xy'darid
+			local itemName, _, _, _, numAvailable = GetMerchantItemInfo(1)
+			if numAvailable == 1 then
+				if itemName then
+					BuyMerchantItem(1, 1)
+					CloseMerchant()
+					self:Message("vendor_autopurchase", "cyan", L.vendor_autopurchase_message:format(itemName), L.vendor_autopurchase_icon)
+					self:PlaySound("vendor_autopurchase", "info")
+				else
+					-- item info wasn't loaded, try again
+					self:SimpleTimer(function() mod:MERCHANT_SHOW() end, 0.1)
+				end
+			end
+		end
+	end
+end
+
+function mod:TradeableGoods(args)
+	self:TargetMessage("tradeable_goods", "cyan", args.destName, args.spellName, args.spellId)
+	if self:Me(args.destGUID) then
+		self:PlaySound("tradeable_goods", "info")
 	end
 end
 
@@ -1124,7 +1186,7 @@ end
 -- Cartel Muscle
 
 function mod:CartelMuscleEngaged(guid)
-	self:Nameplate(357229, 9.1, guid) -- Chronolight Enhancer
+	self:Nameplate(357229, 8.1, guid) -- Chronolight Enhancer
 	self:Nameplate(356967, 27.7, guid) -- Hyperlight Backhand
 end
 
@@ -1218,7 +1280,7 @@ end
 -- P.O.S.T. Worker
 
 function mod:POSTWorkerEngaged(guid)
-	self:Nameplate(347716, 9.2, guid) -- Letter Opener
+	self:Nameplate(347716, 9.1, guid) -- Letter Opener
 end
 
 do
@@ -1764,7 +1826,7 @@ do
 	function mod:MarkWanderingPulsar(_, unit, guid)
 		if wanderingPulsarGUID == guid then
 			wanderingPulsarGUID = nil
-			self:CustomIcon(wanderingPulsarMarker, unit, 7)
+			self:CustomIcon(wanderingPulsarMarker, unit, 8)
 			self:UnregisterTargetEvents()
 		end
 	end

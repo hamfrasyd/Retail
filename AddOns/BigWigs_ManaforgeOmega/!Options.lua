@@ -85,7 +85,7 @@ BigWigs:AddSounds("Soulbinder Naazindhri", {
 	[1227048] = "warning",
 	[1227052] = "alarm",
 	[1227276] = "warning",
-	[1241100] = {"alarm","alert","warning"},
+	[1241100] = {"alarm","warning"},
 	[1242086] = "underyou",
 })
 

@@ -14,7 +14,7 @@ OmniCCDB = {
 },
 ["global"] = {
 ["dbVersion"] = 6,
-["addonVersion"] = "11.2.6",
+["addonVersion"] = "11.2.7",
 },
 ["profiles"] = {
 ["FragUI"] = {

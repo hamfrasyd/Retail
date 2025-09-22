@@ -518,10 +518,10 @@ DetailsDataStorage = {
 ["dps_best_when"] = 1757170939,
 },
 ["heroic"] = {
-["time_incombat"] = 2211.067999999971,
+["time_incombat"] = 2608.084000000033,
 ["time_fasterkill"] = 291.73199999996,
 ["wipes"] = 0,
-["kills"] = 6,
+["kills"] = 7,
 ["dps_best"] = 7422563.938502029,
 ["dps_best_raid"] = 156434708.2973629,
 ["time_fasterkill_when"] = 1756318074,
@@ -529,23 +529,23 @@ DetailsDataStorage = {
 ["dps_best_raid_when"] = 1756318074,
 },
 ["raidfinder"] = {
-["time_incombat"] = 849.349000000002,
-["time_fasterkill"] = 375.4670000000042,
+["time_incombat"] = 1194.63999999997,
+["time_fasterkill"] = 345.2909999999683,
 ["wipes"] = 0,
-["kills"] = 2,
+["kills"] = 3,
 ["dps_best"] = 1314916.339939162,
-["dps_best_raid"] = 43513536.13499939,
-["time_fasterkill_when"] = 1755906456,
-["dps_best_raid_when"] = 1755906456,
+["dps_best_raid"] = 47353671.19907991,
+["time_fasterkill_when"] = 1758444358,
+["dps_best_raid_when"] = 1758444358,
 ["dps_best_when"] = 1757355485,
 },
 },
 [3130] = {
 ["normal"] = {
-["time_incombat"] = 639.2220000000088,
+["time_incombat"] = 828.9890000000014,
 ["time_fasterkill"] = 181.2440000000061,
 ["wipes"] = 0,
-["kills"] = 3,
+["kills"] = 4,
 ["dps_best"] = 7086505.942297362,
 ["dps_best_raid"] = 79356759.50857918,
 ["time_fasterkill_when"] = 1757169630,
@@ -564,10 +564,10 @@ DetailsDataStorage = {
 ["dps_best_raid_when"] = 1757854971,
 },
 ["heroic"] = {
-["time_incombat"] = 1282.027999999929,
+["time_incombat"] = 1546.420000000038,
 ["time_fasterkill"] = 198.9019999999437,
 ["wipes"] = 0,
-["kills"] = 5,
+["kills"] = 6,
 ["dps_best"] = 6992724.091929947,
 ["dps_best_raid"] = 134014117.0828225,
 ["time_fasterkill_when"] = 1757512049,
@@ -656,7 +656,7 @@ DetailsDataStorage = {
 [3133] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 5,
+["wipes"] = 6,
 ["kills"] = 0,
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
@@ -724,10 +724,10 @@ DetailsDataStorage = {
 },
 [3132] = {
 ["normal"] = {
-["time_incombat"] = 673.6989999999932,
+["time_incombat"] = 869.4590000000026,
 ["time_fasterkill"] = 194.8530000000028,
 ["wipes"] = 0,
-["kills"] = 3,
+["kills"] = 4,
 ["dps_best"] = 5682331.316465459,
 ["dps_best_raid"] = 76970722.10011694,
 ["time_fasterkill_when"] = 1757170358,
@@ -851,6 +851,17 @@ DetailsDataStorage = {
 ["time_fasterkill_when"] = 0,
 ["dps_best_when"] = 0,
 ["dps_best_raid"] = 0,
+},
+[3122] = {
+["time_incombat"] = 0,
+["time_fasterkill"] = 0,
+["wipes"] = 1,
+["kills"] = 0,
+["dps_best"] = 0,
+["dps_best_raid"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 },
 ["mythic"] = {
@@ -1097,11 +1108,6 @@ DetailsDataStorage = {
 },
 ["servertime"] = 1756316937,
 ["HEALER"] = {
-["Scribbles"] = {
-["total"] = 987272421,
-["itemLevel"] = 709.8125,
-["classId"] = 5,
-},
 ["Crusherdruid-LaughingSkull"] = {
 ["total"] = 875409079,
 ["itemLevel"] = 709.5625,
@@ -1111,6 +1117,11 @@ DetailsDataStorage = {
 ["total"] = 878526981,
 ["itemLevel"] = 709.4375,
 ["classId"] = 2,
+},
+["Scribbles"] = {
+["total"] = 987272421,
+["itemLevel"] = 709.8125,
+["classId"] = 5,
 },
 ["Bucketqt"] = {
 ["total"] = 780984777,
@@ -1240,11 +1251,6 @@ DetailsDataStorage = {
 ["elapsed"] = 233.850999999966,
 ["servertime"] = 1756317572,
 ["HEALER"] = {
-["Culez-TarrenMill"] = {
-["total"] = 479344322,
-["itemLevel"] = 709.4375,
-["classId"] = 2,
-},
 ["Scribbles"] = {
 ["total"] = 550650032,
 ["itemLevel"] = 709.1333333333333,
@@ -1254,6 +1260,11 @@ DetailsDataStorage = {
 ["total"] = 462190125,
 ["itemLevel"] = 709.5625,
 ["classId"] = 11,
+},
+["Culez-TarrenMill"] = {
+["total"] = 479344322,
+["itemLevel"] = 709.4375,
+["classId"] = 2,
 },
 ["Bucketqt"] = {
 ["total"] = 536847315,
@@ -1383,11 +1394,6 @@ DetailsDataStorage = {
 ["elapsed"] = 213.8479999999981,
 ["servertime"] = 1756318540,
 ["HEALER"] = {
-["Culez-TarrenMill"] = {
-["total"] = 662400645,
-["itemLevel"] = 709.4375,
-["classId"] = 2,
-},
 ["Scribbles"] = {
 ["total"] = 597539917,
 ["itemLevel"] = 709.8125,
@@ -1397,6 +1403,11 @@ DetailsDataStorage = {
 ["total"] = 482948300,
 ["itemLevel"] = 709.5625,
 ["classId"] = 11,
+},
+["Culez-TarrenMill"] = {
+["total"] = 662400645,
+["itemLevel"] = 709.4375,
+["classId"] = 2,
 },
 ["Bucketqt"] = {
 ["total"] = 545464753,
@@ -1526,11 +1537,6 @@ DetailsDataStorage = {
 ["elapsed"] = 291.73199999996,
 ["servertime"] = 1756318074,
 ["HEALER"] = {
-["Culez-TarrenMill"] = {
-["total"] = 957761327,
-["itemLevel"] = 709.4375,
-["classId"] = 2,
-},
 ["Scribbles"] = {
 ["total"] = 1028786439,
 ["itemLevel"] = 709.8125,
@@ -1540,6 +1546,11 @@ DetailsDataStorage = {
 ["total"] = 917653132,
 ["itemLevel"] = 709.5625,
 ["classId"] = 11,
+},
+["Culez-TarrenMill"] = {
+["total"] = 957761327,
+["itemLevel"] = 709.4375,
+["classId"] = 2,
 },
 ["Bucketqt"] = {
 ["total"] = 1120566933,

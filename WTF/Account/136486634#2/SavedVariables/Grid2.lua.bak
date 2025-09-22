@@ -129,13 +129,13 @@ Grid2DB = {
 ["minimapIcon"] = {
 ["hide"] = true,
 },
-["PosY"] = -510.2932307815572,
+["PosY"] = -509.5819417349558,
 ["BackgroundA"] = 0,
 ["BackgroundB"] = 0,
 ["BorderG"] = 0,
 ["BorderTexture"] = "None",
 ["Padding"] = 1,
-["PosX"] = 410.0269048976843,
+["PosX"] = 477.5824502627002,
 ["extraThemes"] = {
 {
 ["BackgroundTexture"] = "None",
@@ -168,13 +168,13 @@ Grid2DB = {
 },
 ["clamp"] = true,
 ["groupAnchor"] = "TOPLEFT",
-["PosY"] = -510.0802620363174,
+["PosY"] = -510.0801253175705,
 ["anchors"] = {
 },
 ["BackgroundR"] = 0,
 ["unitsPerColumns"] = {
 },
-["PosX"] = 408.7468658637954,
+["PosX"] = 476.4444424756366,
 ["horizontal"] = false,
 ["BackgroundA"] = 0,
 ["BackgroundG"] = 0,
@@ -396,7 +396,12 @@ Grid2DB = {
 ["mouseoverTexture"] = "Solid",
 ["frameWidth"] = 85,
 ["frameBorderDistance"] = 0,
-["frameTexture"] = "Atrocity",
+["frameBorderColor"] = {
+["a"] = 1,
+["r"] = 0,
+["g"] = 0,
+["b"] = 0,
+},
 ["frameContentColor"] = {
 ["a"] = 1,
 ["r"] = 0.1333333402872086,
@@ -404,26 +409,21 @@ Grid2DB = {
 ["b"] = 0.1333333402872086,
 },
 ["frameHeight"] = 54,
+["frameBorderTexture"] = "Square Full White",
+["shadowDisabled"] = true,
+["barTexture"] = "Blizzard Raid Bar",
+["frameTexture"] = "Atrocity",
+["frameWidths"] = {
+},
+["displayZoomedIcons"] = true,
+["font"] = "Friz Quadrata TT",
+["mouseoverHighlight"] = true,
 ["mouseoverColor"] = {
 ["a"] = 1,
 ["r"] = 1,
 ["g"] = 1,
 ["b"] = 1,
 },
-["shadowDisabled"] = true,
-["barTexture"] = "Blizzard Raid Bar",
-["frameBorderColor"] = {
-["a"] = 1,
-["r"] = 0,
-["g"] = 0,
-["b"] = 0,
-},
-["frameWidths"] = {
-},
-["displayZoomedIcons"] = true,
-["font"] = "Friz Quadrata TT",
-["mouseoverHighlight"] = true,
-["frameBorderTexture"] = "Square Full White",
 ["frameHeights"] = {
 },
 ["orientation"] = "HORIZONTAL",
@@ -486,16 +486,16 @@ Grid2DB = {
 ["orientation"] = "HORIZONTAL",
 ["frameHeights"] = {
 },
-["frameHeight"] = 65,
-["frameBorderColor"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 0,
-["r"] = 0,
-},
+["frameHeight"] = 64,
+["frameBorderTexture"] = "Square Full White",
 ["shadowDisabled"] = true,
 ["barTexture"] = "Atrocity",
-["frameTexture"] = "Atrocity",
+["mouseoverColor"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
 ["frameWidths"] = {
 [25] = 127.8,
 [30] = 106.4,
@@ -503,19 +503,19 @@ Grid2DB = {
 ["mouseoverHighlight"] = false,
 ["font"] = "Friz Quadrata TT",
 ["displayZoomedIcons"] = true,
-["mouseoverColor"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
+["frameTexture"] = "Atrocity",
 ["frameContentColor"] = {
 ["a"] = 1,
 ["b"] = 0.1333333402872086,
 ["g"] = 0.1333333402872086,
 ["r"] = 0.1333333402872086,
 },
-["frameBorderTexture"] = "Square Full White",
+["frameBorderColor"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 0,
+["r"] = 0,
+},
 ["frameWidth"] = 160,
 ["frameBorderDistance"] = 0,
 },
@@ -535,11 +535,11 @@ Grid2DB = {
 ["mouseoverTexture"] = "Blizzard Quest Title Highlight",
 ["frameWidth"] = 115,
 ["fontFlags"] = "OUTLINE",
-["mouseoverColor"] = {
+["frameBorderColor"] = {
 ["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
+["r"] = 0,
+["g"] = 0,
+["b"] = 0,
 },
 ["frameContentColor"] = {
 ["a"] = 1,
@@ -548,21 +548,21 @@ Grid2DB = {
 ["b"] = 0.1333333402872086,
 },
 ["frameHeight"] = 51,
-["frameBorderTexture"] = "Square Full White",
+["frameTexture"] = "Blizzard Raid Bar",
 ["shadowDisabled"] = true,
-["barTexture"] = "Blizzard Raid Bar",
-["frameBorderColor"] = {
+["barTexture"] = "Atrocity",
+["mouseoverColor"] = {
 ["a"] = 1,
-["r"] = 0,
-["g"] = 0,
-["b"] = 0,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
 },
 ["frameWidths"] = {
 },
 ["displayZoomedIcons"] = true,
 ["font"] = "Friz Quadrata TT",
 ["mouseoverHighlight"] = false,
-["frameTexture"] = "Blizzard Raid Bar",
+["frameBorderTexture"] = "Square Full White",
 ["orientation"] = "HORIZONTAL",
 ["frameHeights"] = {
 },
@@ -578,8 +578,8 @@ Grid2DB = {
 ["fontFlags"] = "OUTLINE",
 ["frameHeight"] = 61,
 ["shadowDisabled"] = true,
-["barTexture"] = "Blizzard Raid Bar",
-["frameTexture"] = "Blizzard Raid Bar",
+["barTexture"] = "Atrocity",
+["frameTexture"] = "Atrocity",
 ["frameBorderDistance"] = 0,
 ["font"] = "Friz Quadrata TT",
 ["orientation"] = "HORIZONTAL",
@@ -620,7 +620,12 @@ Grid2DB = {
 ["mouseoverTexture"] = "Blizzard Quest Title Highlight",
 ["frameWidth"] = 85,
 ["frameBorderDistance"] = 0,
-["frameTexture"] = "Blizzard Raid Bar",
+["mouseoverColor"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
 ["frameContentColor"] = {
 ["a"] = 1,
 ["r"] = 0.1333333402872086,
@@ -628,26 +633,21 @@ Grid2DB = {
 ["b"] = 0.1333333402872086,
 },
 ["frameHeight"] = 54,
+["frameBorderTexture"] = "Square Full White",
+["shadowDisabled"] = true,
+["barTexture"] = "Blizzard Raid Bar",
+["frameTexture"] = "Blizzard Raid Bar",
+["frameWidths"] = {
+},
+["displayZoomedIcons"] = true,
+["font"] = "Friz Quadrata TT",
+["mouseoverHighlight"] = false,
 ["frameBorderColor"] = {
 ["a"] = 1,
 ["r"] = 0,
 ["g"] = 0,
 ["b"] = 0,
 },
-["shadowDisabled"] = true,
-["barTexture"] = "Blizzard Raid Bar",
-["mouseoverColor"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
-["frameWidths"] = {
-},
-["displayZoomedIcons"] = true,
-["font"] = "Friz Quadrata TT",
-["mouseoverHighlight"] = false,
-["frameBorderTexture"] = "Square Full White",
 ["frameHeights"] = {
 },
 ["orientation"] = "HORIZONTAL",
@@ -657,6 +657,7 @@ Grid2DB = {
 },
 },
 },
+["displayZoomedIcons"] = true,
 ["iconSize"] = 30,
 ["mouseoverTexture"] = "Solid",
 ["fontFlags"] = "OUTLINE",
@@ -666,7 +667,6 @@ Grid2DB = {
 ["frameBorderColor"] = {
 ["a"] = 1,
 },
-["displayZoomedIcons"] = true,
 ["frameBorderDistance"] = 0,
 ["font"] = "Friz Quadrata TT",
 ["orientation"] = "HORIZONTAL",
@@ -690,7 +690,7 @@ Grid2DB = {
 ["Driplitty - Twisting Nether"] = "FragUI - Colour",
 ["Mbuzi - Twisting Nether"] = "FragUI - Colour",
 ["Bæenjoyer - Twisting Nether"] = "FragUI - Colour",
-["Bægnaskeren - Twisting Nether"] = "FragUI - Colour - Healer",
+["Bægnaskeren - Twisting Nether"] = "FragUI - Colour_1",
 ["Kassedamen - Twisting Nether"] = "FragUI - Colour",
 ["Dådyret - Draenor"] = "FragUI - Colour",
 ["Mbuzipriest - Twisting Nether"] = "FragUI - Colour",
@@ -2249,6 +2249,43 @@ Grid2DB = {
 },
 },
 ["FragUI - Colour - Healer"] = {
+["themes"] = {
+["enabled"] = {
+["30"] = 1,
+["raid"] = 1,
+["default"] = 0,
+["party"] = 0,
+},
+["indicators"] = {
+{
+["RaidDebuffs(30M)"] = true,
+["BetterHPBar"] = true,
+["PartyBuffs"] = true,
+["PartyDebuffs"] = true,
+["HealerBuffs(30M)"] = true,
+["RaidBuffs(30M)"] = true,
+},
+{
+["RaidDebuffs"] = true,
+["RaidBuffs"] = true,
+["Externals"] = true,
+},
+[0] = {
+["RaidDebuffs"] = true,
+["health"] = true,
+["RaidBuffs(30M)"] = true,
+["RaidDebuffs(30M)"] = true,
+["HealerBuffs(30M)"] = true,
+["RaidBuffs"] = true,
+["RoleIndicator"] = true,
+},
+},
+["names"] = {
+"Raid",
+"Raid (30M)",
+[0] = "Party",
+},
+},
 ["indicators"] = {
 ["Indicators"] = {
 ["fontSize"] = 8,
@@ -2664,6 +2701,109 @@ Grid2DB = {
 },
 ["fontJustifyH"] = "RIGHT",
 },
+},
+["raidSizeType"] = 1,
+["statusMap"] = {
+["Indicators"] = {
+["summon"] = 51,
+["raid-icon-player"] = 50,
+["ready-check"] = 53,
+["resurrection"] = 54,
+["phased"] = 52,
+},
+["BetterHPBar"] = {
+["heal-absorbs"] = 5,
+["shields"] = 4,
+["heals-incoming"] = 2,
+["my-heals-incoming"] = 3,
+["health-current"] = 1,
+},
+["PartyBuffs"] = {
+["buffs-RaidWideDefensiveCooldowns"] = 51,
+["buffs-DefensiveCooldowns"] = 50,
+["buffs-TanksActiveMitigation"] = 52,
+},
+["HealerBuffs"] = {
+["buffs-HealerBuffs-mine"] = 50,
+},
+["RoleIndicator"] = {
+["dungeon-role"] = 50,
+["leader"] = 51,
+},
+["RaidDebuffs(30M)"] = {
+["debuffs-Debuffs"] = 50,
+},
+["TRText-color"] = {
+},
+["BetterHPBar-color"] = {
+["classcolor"] = 54,
+["debuffs-Dispellable"] = 57,
+["vehicle"] = 56,
+["reactioncolor"] = 53,
+["offline"] = 55,
+},
+["RaidBuffs(30M)"] = {
+["buffs-RaidWideDefensiveCooldowns"] = 52,
+["buffs-DefensiveCooldowns"] = 51,
+["buffs-TanksActiveMitigation"] = 50,
+},
+["border"] = {
+["buff-Prescience-mine"] = 51,
+["threat"] = 50,
+},
+["Externals"] = {
+["buffs-Externals"] = 50,
+},
+["heals"] = {
+},
+["PartyDebuffs"] = {
+["debuffs-Debuffs"] = 50,
+},
+["TRText"] = {
+},
+["heals-color"] = {
+},
+["HealerBuffs(30M)"] = {
+["buffs-HealerBuffs-mine"] = 50,
+},
+["alpha"] = {
+["range"] = 99,
+},
+["TLText-color"] = {
+},
+["RaidDebuffs"] = {
+["debuffs-Debuffs"] = 50,
+},
+["CText"] = {
+},
+["health"] = {
+["health-current"] = 50,
+},
+["background"] = {
+},
+["RaidBuffs"] = {
+["buffs-RaidWideDefensiveCooldowns"] = 51,
+["buffs-TanksActiveMitigation"] = 52,
+["buffs-DefensiveCooldowns"] = 50,
+},
+["TLText"] = {
+["name"] = 50,
+},
+["HealerMana-color"] = {
+["lowmana"] = 51,
+["mana"] = 50,
+},
+["health-color"] = {
+["classcolor"] = 103,
+["debuffs-Dispellable"] = 106,
+["offline"] = 104,
+["reactioncolor"] = 102,
+["vehicle"] = 105,
+},
+},
+["versions"] = {
+["Grid2"] = 14,
+["Grid2RaidDebuffs"] = 4,
 },
 ["statuses"] = {
 ["debuffs-Debuffs"] = {
@@ -3870,145 +4010,6 @@ Grid2DB = {
 },
 },
 },
-["themes"] = {
-["enabled"] = {
-["30"] = 2,
-["raid"] = 1,
-["default"] = 0,
-["party"] = 0,
-},
-["indicators"] = {
-{
-["RaidDebuffs(30M)"] = true,
-["BetterHPBar"] = true,
-["PartyBuffs"] = true,
-["PartyDebuffs"] = true,
-["HealerBuffs(30M)"] = true,
-["RaidBuffs(30M)"] = true,
-},
-{
-["RaidDebuffs"] = true,
-["RaidBuffs"] = true,
-["Externals"] = true,
-},
-[0] = {
-["RaidDebuffs"] = true,
-["health"] = true,
-["RaidBuffs(30M)"] = true,
-["RaidDebuffs(30M)"] = true,
-["HealerBuffs(30M)"] = true,
-["RaidBuffs"] = true,
-["RoleIndicator"] = true,
-},
-},
-["names"] = {
-"Raid",
-"Raid (30M)",
-[0] = "Party",
-},
-},
-["versions"] = {
-["Grid2"] = 14,
-["Grid2RaidDebuffs"] = 4,
-},
-["statusMap"] = {
-["Indicators"] = {
-["summon"] = 51,
-["raid-icon-player"] = 50,
-["ready-check"] = 53,
-["resurrection"] = 54,
-["phased"] = 52,
-},
-["BetterHPBar"] = {
-["heal-absorbs"] = 5,
-["shields"] = 4,
-["heals-incoming"] = 2,
-["my-heals-incoming"] = 3,
-["health-current"] = 1,
-},
-["PartyBuffs"] = {
-["buffs-RaidWideDefensiveCooldowns"] = 51,
-["buffs-DefensiveCooldowns"] = 50,
-["buffs-TanksActiveMitigation"] = 52,
-},
-["HealerBuffs"] = {
-["buffs-HealerBuffs-mine"] = 50,
-},
-["RoleIndicator"] = {
-["dungeon-role"] = 50,
-["leader"] = 51,
-},
-["RaidDebuffs(30M)"] = {
-["debuffs-Debuffs"] = 50,
-},
-["TRText-color"] = {
-},
-["BetterHPBar-color"] = {
-["classcolor"] = 54,
-["debuffs-Dispellable"] = 57,
-["vehicle"] = 56,
-["reactioncolor"] = 53,
-["offline"] = 55,
-},
-["RaidBuffs(30M)"] = {
-["buffs-RaidWideDefensiveCooldowns"] = 52,
-["buffs-DefensiveCooldowns"] = 51,
-["buffs-TanksActiveMitigation"] = 50,
-},
-["border"] = {
-["buff-Prescience-mine"] = 51,
-["threat"] = 50,
-},
-["Externals"] = {
-["buffs-Externals"] = 50,
-},
-["heals"] = {
-},
-["PartyDebuffs"] = {
-["debuffs-Debuffs"] = 50,
-},
-["TRText"] = {
-},
-["heals-color"] = {
-},
-["HealerBuffs(30M)"] = {
-["buffs-HealerBuffs-mine"] = 50,
-},
-["alpha"] = {
-["range"] = 99,
-},
-["TLText-color"] = {
-},
-["RaidDebuffs"] = {
-["debuffs-Debuffs"] = 50,
-},
-["CText"] = {
-},
-["health"] = {
-["health-current"] = 50,
-},
-["background"] = {
-},
-["RaidBuffs"] = {
-["buffs-RaidWideDefensiveCooldowns"] = 51,
-["buffs-TanksActiveMitigation"] = 52,
-["buffs-DefensiveCooldowns"] = 50,
-},
-["TLText"] = {
-["name"] = 50,
-},
-["HealerMana-color"] = {
-["lowmana"] = 51,
-["mana"] = 50,
-},
-["health-color"] = {
-["classcolor"] = 103,
-["debuffs-Dispellable"] = 106,
-["offline"] = 104,
-["reactioncolor"] = 102,
-["vehicle"] = 105,
-},
-},
 ["hideBlizzard"] = {
 ["raid"] = true,
 ["party"] = true,
@@ -4332,152 +4333,19 @@ Grid2DB = {
 },
 },
 ["statuses"] = {
-["debuff-Forbearance"] = {
-["type"] = "debuff",
-["spellName"] = 25771,
+["debuffs-Dispellable"] = {
+["type"] = "debuffs",
+["lazyFiltering"] = true,
+["filterDispelDebuffs"] = true,
+["debuffTypeColorize"] = true,
 ["color1"] = {
 ["a"] = 1,
+["b"] = 0.2,
+["g"] = 0.2,
 ["r"] = 1,
-["g"] = 0,
-["b"] = 0,
-},
-},
-["resurrection"] = {
-["onlyReviving"] = true,
-},
-["buffs-DefensiveCooldowns"] = {
-["type"] = "buffs",
-["auras"] = {
-187827,
-212800,
-196555,
-48792,
-48707,
-49039,
-194679,
-55233,
-81256,
-22812,
-22842,
-61336,
-200851,
-50334,
-204066,
-102558,
-102342,
-374348,
-363916,
-357170,
-264735,
-186265,
-45438,
-342246,
-113862,
-414658,
-55342,
-120954,
-122783,
-122278,
-115176,
-322507,
-116849,
-125174,
-403876,
-1022,
-184662,
-6940,
-31850,
-212641,
-204018,
-327193,
-47585,
-193065,
-586,
-19236,
-33206,
-47788,
-31224,
-5277,
-260881,
-108271,
-114893,
-104773,
-108416,
-184364,
-23920,
-118038,
-871,
-12975,
-190456,
-1044,
-},
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-},
-["buff-Prescience-mine"] = {
-["color2"] = {
-["a"] = 1,
-["b"] = 0.8000000715255737,
-["g"] = 0.8000000715255737,
-["r"] = 0.8000000715255737,
-},
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 0.5058823823928833,
-["g"] = 0.9803922176361084,
-["r"] = 1,
-},
-["mine"] = 1,
-["colorThreshold"] = {
-5,
-},
-["colorCount"] = 2,
-["load"] = {
-["playerClassSpec"] = {
-["EVOKER3"] = true,
-},
-},
-["spellName"] = 410089,
-},
-["mana"] = {
-["displayType"] = false,
-["load"] = {
-["unitRole"] = {
-["HEALER"] = true,
-},
-},
-["color1"] = {
-["g"] = 0.501960813999176,
-["r"] = 0.250980406999588,
-},
-},
-["range"] = {
-["default"] = 0.5,
-},
-["classcolor"] = {
-["colors"] = {
-["UNKNOWN_UNIT"] = {
-["r"] = 0.6000000238418579,
-["g"] = 0.6000000238418579,
-["b"] = 0.6000000238418579,
-},
-["UNKNOWN_PET"] = {
-["r"] = 0.250980406999588,
-["b"] = 0.250980406999588,
-},
-["HOSTILE"] = {
-["g"] = 0.250980406999588,
-["b"] = 0.250980406999588,
-},
 },
 },
 ["raid-debuffs"] = {
-["debuffTypeColorize"] = true,
 ["debuffs"] = {
 [1272] = {
 435567,
@@ -5272,6 +5140,212 @@ Grid2DB = {
 469478,
 },
 },
+["debuffTypeColorize"] = true,
+},
+["threat"] = {
+["color2"] = {
+["r"] = 1,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+["color3"] = {
+["r"] = 0,
+["g"] = 0,
+["b"] = 0,
+},
+["blinkThreshold"] = false,
+["color1"] = {
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+},
+["buffs-DefensiveCooldowns"] = {
+["type"] = "buffs",
+["auras"] = {
+187827,
+212800,
+196555,
+48792,
+48707,
+49039,
+194679,
+55233,
+81256,
+22812,
+22842,
+61336,
+200851,
+50334,
+204066,
+102558,
+102342,
+374348,
+363916,
+357170,
+264735,
+186265,
+45438,
+342246,
+113862,
+414658,
+55342,
+120954,
+122783,
+122278,
+115176,
+322507,
+116849,
+125174,
+403876,
+1022,
+184662,
+6940,
+31850,
+212641,
+204018,
+327193,
+47585,
+193065,
+586,
+19236,
+33206,
+47788,
+31224,
+5277,
+260881,
+108271,
+114893,
+104773,
+108416,
+184364,
+23920,
+118038,
+871,
+12975,
+190456,
+1044,
+},
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+},
+["buff-Prescience-mine"] = {
+["color2"] = {
+["a"] = 1,
+["b"] = 0.8000000715255737,
+["g"] = 0.8000000715255737,
+["r"] = 0.8000000715255737,
+},
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 0.5058823823928833,
+["g"] = 0.9803922176361084,
+["r"] = 1,
+},
+["mine"] = 1,
+["colorThreshold"] = {
+5,
+},
+["colorCount"] = 2,
+["load"] = {
+["playerClassSpec"] = {
+["EVOKER3"] = true,
+},
+},
+["spellName"] = 410089,
+},
+["range"] = {
+["default"] = 0.5,
+},
+["classcolor"] = {
+["colors"] = {
+["HOSTILE"] = {
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+["UNKNOWN_UNIT"] = {
+["r"] = 0.6000000238418579,
+["g"] = 0.6000000238418579,
+["b"] = 0.6000000238418579,
+},
+["UNKNOWN_PET"] = {
+["r"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+},
+},
+["health-current"] = {
+["addPercentShield"] = true,
+},
+["offline"] = {
+["color1"] = {
+["r"] = 0.3019607961177826,
+["g"] = 0.3019607961177826,
+["b"] = 0.3019607961177826,
+},
+},
+["debuff-Forbearance"] = {
+["type"] = "debuff",
+["spellName"] = 25771,
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 0,
+["b"] = 0,
+},
+},
+["death"] = {
+["color1"] = {
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+},
+["debuff-Bleed"] = {
+["setupFunc"] = "debuffType-Bleed",
+["type"] = "debuffType",
+["subType"] = "Bleed",
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 0.2,
+["b"] = 0.6,
+},
+},
+["mana"] = {
+["displayType"] = false,
+["load"] = {
+["unitRole"] = {
+["HEALER"] = true,
+},
+},
+["color1"] = {
+["g"] = 0.501960813999176,
+["r"] = 0.250980406999588,
+},
+},
+["debuffs-Debuffs"] = {
+["combineStacks"] = true,
+["auras"] = {
+390435,
+57723,
+57723,
+80354,
+57724,
+264689,
+206151,
+},
+["useSpellId"] = true,
+["type"] = "debuffs",
+["color1"] = {
+["a"] = 1,
+["b"] = 0.2,
+["g"] = 0.2,
+["r"] = 1,
+},
 },
 ["reactioncolor"] = {
 ["colors"] = {
@@ -5295,21 +5369,31 @@ Grid2DB = {
 },
 },
 },
-["threat"] = {
-["color2"] = {
-["r"] = 1,
-["g"] = 0.501960813999176,
-["b"] = 0.250980406999588,
+["resurrection"] = {
+["onlyReviving"] = true,
 },
-["blinkThreshold"] = false,
-["color3"] = {
-["r"] = 0,
-["g"] = 0,
-["b"] = 0,
+["vehicle"] = {
+["color1"] = {
+["a"] = 1,
+["r"] = 0.250980406999588,
+},
+},
+["dungeon-role"] = {
+["useAlternateIcons"] = true,
+},
+["buffs-TanksActiveMitigation"] = {
+["type"] = "buffs",
+["auras"] = {
+203819,
+192081,
+132404,
+132403,
 },
 ["color1"] = {
-["g"] = 0.250980406999588,
-["b"] = 0.250980406999588,
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
 },
 },
 ["shields"] = {
@@ -5329,32 +5413,6 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
-["debuff-Bleed"] = {
-["setupFunc"] = "debuffType-Bleed",
-["type"] = "debuffType",
-["subType"] = "Bleed",
-["color1"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 0.2,
-["b"] = 0.6,
-},
-},
-["debuffs-Dispellable"] = {
-["type"] = "debuffs",
-["lazyFiltering"] = true,
-["filterDispelDebuffs"] = true,
-["debuffTypeColorize"] = true,
-["color1"] = {
-["a"] = 1,
-["b"] = 0.2,
-["g"] = 0.2,
-["r"] = 1,
-},
-},
-["health-current"] = {
-["addPercentShield"] = true,
-},
 ["buffs-RaidWideDefensiveCooldowns"] = {
 ["type"] = "buffs",
 ["auras"] = {
@@ -5365,63 +5423,6 @@ Grid2DB = {
 81782,
 325174,
 97463,
-},
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-},
-["debuffs-Debuffs"] = {
-["combineStacks"] = true,
-["auras"] = {
-390435,
-57723,
-57723,
-80354,
-57724,
-264689,
-206151,
-},
-["useSpellId"] = true,
-["type"] = "debuffs",
-["color1"] = {
-["a"] = 1,
-["b"] = 0.2,
-["g"] = 0.2,
-["r"] = 1,
-},
-},
-["vehicle"] = {
-["color1"] = {
-["a"] = 1,
-["r"] = 0.250980406999588,
-},
-},
-["death"] = {
-["color1"] = {
-["g"] = 0.250980406999588,
-["b"] = 0.250980406999588,
-},
-},
-["dungeon-role"] = {
-["useAlternateIcons"] = true,
-},
-["offline"] = {
-["color1"] = {
-["r"] = 0.3019607961177826,
-["g"] = 0.3019607961177826,
-["b"] = 0.3019607961177826,
-},
-},
-["buffs-TanksActiveMitigation"] = {
-["type"] = "buffs",
-["auras"] = {
-203819,
-192081,
-132404,
-132403,
 },
 ["color1"] = {
 ["a"] = 1,

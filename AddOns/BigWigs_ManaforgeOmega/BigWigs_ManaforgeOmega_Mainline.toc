@@ -23,7 +23,7 @@
 ## Notes-zhCN: BigWigs 法力熔炉：欧米伽模块
 ## Notes-zhTW: BigWigs 法力熔爐歐美加模組
 ## IconTexture: Interface\AddOns\BigWigs\Media\Icons\minimap_raid.tga
-## Version: v399.3
+## Version: v399.5
 
 ## LoadOnDemand: 1
 ## Dependencies: BigWigs

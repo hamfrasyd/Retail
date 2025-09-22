@@ -1,0 +1,140 @@
+
+CliqueDB = nil
+CliqueDB3 = {
+["char"] = {
+["Bægnaskeren - Twisting Nether"] = {
+["spec1_profileKey"] = "Bægnaskeren - Twisting Nether",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["fastooc"] = false,
+["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["downclick"] = false,
+["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
+["specswap"] = false,
+},
+},
+["profileKeys"] = {
+["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+},
+["profiles"] = {
+["Bægnaskeren - Twisting Nether"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["spell"] = "Healing Surge",
+["key"] = "T",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
+["type"] = "spell",
+},
+{
+["spell"] = "Earthen Wall Totem",
+["key"] = "SHIFT-1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136098,
+["type"] = "spell",
+},
+{
+["spell"] = "Earth Shield",
+["key"] = "SHIFT-C",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136089,
+["type"] = "spell",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Skyfury",
+["key"] = "F4",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 4630367,
+["type"] = "spell",
+},
+{
+["spell"] = "Wind Rush Totem",
+["key"] = "SHIFT-R",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 538576,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Wave",
+["key"] = "MOUSEWHEELUP",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
+},
+{
+["spell"] = "Chain Heal",
+["key"] = "2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 6712961,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Rain",
+["key"] = "C",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136037,
+["type"] = "spell",
+},
+{
+["spell"] = "Earthliving Weapon",
+["key"] = "ALT-2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 237578,
+["type"] = "spell",
+},
+{
+["spell"] = "Purify Spirit",
+["key"] = "F2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 236288,
+["type"] = "spell",
+},
+{
+["spell"] = "Riptide",
+["key"] = "MOUSEWHEELDOWN",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 252995,
+["type"] = "spell",
+},
+},
+},
+},
+}
