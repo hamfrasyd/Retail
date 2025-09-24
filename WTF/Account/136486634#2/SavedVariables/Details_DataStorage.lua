@@ -130,6 +130,200 @@ DetailsDataStorage = {
 },
 },
 ["mythic"] = {
+[3129] = {
+{
+["DAMAGER"] = {
+["Belzan"] = {
+["total"] = 1617534286,
+["itemLevel"] = 708.25,
+["classId"] = 9,
+},
+["Mbuzi"] = {
+["total"] = 1533717114,
+["itemLevel"] = 709.3125,
+["classId"] = 1,
+},
+["Blockeg"] = {
+["total"] = 1086064702,
+["itemLevel"] = 708.8125,
+["classId"] = 1,
+},
+["Maedox-Draenor"] = {
+["total"] = 1336344423,
+["itemLevel"] = 706.6875,
+["classId"] = 3,
+},
+["Salamisamuel-Ragnaros"] = {
+["total"] = 1560894864,
+["itemLevel"] = 707.1875,
+["classId"] = 12,
+},
+["Eskabigd-Kazzak"] = {
+["total"] = 1633832724,
+["itemLevel"] = 713.375,
+["classId"] = 11,
+},
+["Recessgus"] = {
+["total"] = 1446136438,
+["itemLevel"] = 708.75,
+["classId"] = 8,
+},
+["Housingmain"] = {
+["total"] = 1717866057,
+["itemLevel"] = 709.1875,
+["classId"] = 6,
+},
+["Lilmagi-Ravencrest"] = {
+["total"] = 1772063718,
+["itemLevel"] = 710.5,
+["classId"] = 8,
+},
+["Poetwobad"] = {
+["total"] = 1587202285,
+["itemLevel"] = 709.1875,
+["classId"] = 4,
+},
+["Kadabalkeze-Ragnaros"] = {
+["total"] = 1045440156,
+["itemLevel"] = 710,
+["classId"] = 2,
+},
+["Asekia-Draenor"] = {
+["total"] = 1523436981,
+["itemLevel"] = 710.375,
+["classId"] = 12,
+},
+["Mikkeldruid"] = {
+["total"] = 1465948208,
+["itemLevel"] = 705,
+["classId"] = 11,
+},
+["Fætterguf"] = {
+["total"] = 1305890208,
+["itemLevel"] = 707.0625,
+["classId"] = 4,
+},
+},
+["time"] = 1757095327,
+["date"] = "20:02 05/09/25",
+["elapsed"] = 422.527,
+["servertime"] = 1757095327,
+["HEALER"] = {
+["Scribbles"] = {
+["total"] = 2370995758,
+["itemLevel"] = 711.375,
+["classId"] = 5,
+},
+["Drukena-Draenor"] = {
+["total"] = 1023564544,
+["itemLevel"] = 702.8125,
+["classId"] = 11,
+},
+},
+["guild"] = "Internet Friends",
+},
+{
+["date"] = "19:55 22/09/25",
+["guild"] = "Internet Friends",
+["DAMAGER"] = {
+["Chalupabatmn-TarrenMill"] = {
+["total"] = 1437224377,
+["itemLevel"] = 711.375,
+["classId"] = 3,
+},
+["Psykose-Draenor"] = {
+["total"] = 1407871595,
+["itemLevel"] = 715.5625,
+["classId"] = 12,
+},
+["Shuudon"] = {
+["total"] = 1628767013,
+["itemLevel"] = 714.9375,
+["classId"] = 3,
+},
+["Minienhanced"] = {
+["total"] = 1243317655,
+["itemLevel"] = 709.1875,
+["classId"] = 7,
+},
+["Mikkelsham"] = {
+["total"] = 1464825678,
+["itemLevel"] = 711.1875,
+["classId"] = 7,
+},
+["Mukena-Draenor"] = {
+["total"] = 1426911006,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Recessgus"] = {
+["total"] = 1530859417,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Housingmain"] = {
+["total"] = 1297533727,
+["itemLevel"] = 710.6666666666666,
+["classId"] = 6,
+},
+["Chappertwo"] = {
+["total"] = 1525443549,
+["itemLevel"] = 712.9375,
+["classId"] = 1,
+},
+["Kegdk"] = {
+["total"] = 806061454,
+["itemLevel"] = 711.5625,
+["classId"] = 6,
+},
+["Kadabalkeze-Ragnaros"] = {
+["total"] = 832868760,
+["itemLevel"] = 712.5625,
+["classId"] = 2,
+},
+["Belzan"] = {
+["total"] = 1469835156,
+["itemLevel"] = 713.3125,
+["classId"] = 9,
+},
+["Eskabigd-Kazzak"] = {
+["total"] = 1546069040,
+["itemLevel"] = 716.9375,
+["classId"] = 11,
+},
+["Fætterguf"] = {
+["total"] = 889328875,
+["itemLevel"] = 713.6875,
+["classId"] = 4,
+},
+},
+["elapsed"] = 313.6429999999236,
+["servertime"] = 1758563712,
+["HEALER"] = {
+["Bucketqt"] = {
+["total"] = 1492613244,
+["itemLevel"] = 710.0625,
+["classId"] = 10,
+},
+["Meowni"] = {
+["total"] = 1207292852,
+["itemLevel"] = 716.0625,
+["classId"] = 11,
+},
+["Scribbles"] = {
+["total"] = 1500910001,
+["itemLevel"] = 713.1875,
+["classId"] = 5,
+},
+["Bægnaskeren"] = {
+["total"] = 791330218,
+["itemLevel"] = 712.375,
+["classId"] = 7,
+},
+},
+["time"] = 1758563712,
+},
+},
 [3130] = {
 {
 ["DAMAGER"] = {
@@ -222,98 +416,106 @@ DetailsDataStorage = {
 },
 ["guild"] = "Internet Friends",
 },
-},
-[3129] = {
 {
+["date"] = "20:07 22/09/25",
+["guild"] = "Internet Friends",
 ["DAMAGER"] = {
-["Belzan"] = {
-["total"] = 1617534286,
-["itemLevel"] = 708.25,
-["classId"] = 9,
-},
-["Mbuzi"] = {
-["total"] = 1533717114,
-["itemLevel"] = 709.3125,
-["classId"] = 1,
-},
-["Blockeg"] = {
-["total"] = 1086064702,
-["itemLevel"] = 708.8125,
-["classId"] = 1,
-},
-["Maedox-Draenor"] = {
-["total"] = 1336344423,
-["itemLevel"] = 706.6875,
+["Chalupabatmn-TarrenMill"] = {
+["total"] = 2271459699,
+["itemLevel"] = 711.375,
 ["classId"] = 3,
 },
-["Salamisamuel-Ragnaros"] = {
-["total"] = 1560894864,
-["itemLevel"] = 707.1875,
+["Psykose-Draenor"] = {
+["total"] = 2317233788,
+["itemLevel"] = 715.5625,
 ["classId"] = 12,
 },
-["Eskabigd-Kazzak"] = {
-["total"] = 1633832724,
-["itemLevel"] = 713.375,
+["Meowni"] = {
+["total"] = 1622795107,
+["itemLevel"] = 716.0625,
 ["classId"] = 11,
 },
+["Shuudon"] = {
+["total"] = 2264867947,
+["itemLevel"] = 714.9375,
+["classId"] = 3,
+},
+["Minienhanced"] = {
+["total"] = 1668878264,
+["itemLevel"] = 709.1875,
+["classId"] = 7,
+},
+["Mikkelsham"] = {
+["total"] = 1998081947,
+["itemLevel"] = 711.1875,
+["classId"] = 7,
+},
+["Mukena-Draenor"] = {
+["total"] = 2353599035,
+["itemLevel"] = 711.1333333333333,
+["classId"] = 8,
+},
 ["Recessgus"] = {
-["total"] = 1446136438,
-["itemLevel"] = 708.75,
+["total"] = 2283290839,
+["itemLevel"] = 711.6875,
 ["classId"] = 8,
 },
 ["Housingmain"] = {
-["total"] = 1717866057,
-["itemLevel"] = 709.1875,
+["total"] = 1797038678,
+["itemLevel"] = 710.6666666666666,
 ["classId"] = 6,
 },
-["Lilmagi-Ravencrest"] = {
-["total"] = 1772063718,
-["itemLevel"] = 710.5,
-["classId"] = 8,
+["Chappertwo"] = {
+["total"] = 2717261260,
+["itemLevel"] = 712.9375,
+["classId"] = 1,
 },
-["Poetwobad"] = {
-["total"] = 1587202285,
-["itemLevel"] = 709.1875,
-["classId"] = 4,
+["Kegdk"] = {
+["total"] = 1283077262,
+["itemLevel"] = 711.5625,
+["classId"] = 6,
 },
 ["Kadabalkeze-Ragnaros"] = {
-["total"] = 1045440156,
-["itemLevel"] = 710,
+["total"] = 1293270753,
+["itemLevel"] = 712.5625,
 ["classId"] = 2,
 },
-["Asekia-Draenor"] = {
-["total"] = 1523436981,
-["itemLevel"] = 710.375,
-["classId"] = 12,
+["Belzan"] = {
+["total"] = 2395101534,
+["itemLevel"] = 712.8666666666667,
+["classId"] = 9,
 },
-["Mikkeldruid"] = {
-["total"] = 1465948208,
-["itemLevel"] = 705,
+["Eskabigd-Kazzak"] = {
+["total"] = 1979494290,
+["itemLevel"] = 716.9375,
 ["classId"] = 11,
 },
 ["Fætterguf"] = {
-["total"] = 1305890208,
-["itemLevel"] = 707.0625,
+["total"] = 2521053992,
+["itemLevel"] = 713.6875,
 ["classId"] = 4,
 },
 },
-["time"] = 1757095327,
-["date"] = "20:02 05/09/25",
-["elapsed"] = 422.527,
-["servertime"] = 1757095327,
+["elapsed"] = 299.0379999999423,
+["servertime"] = 1758564477,
 ["HEALER"] = {
+["Bucketqt"] = {
+["total"] = 2003674255,
+["itemLevel"] = 710.0625,
+["classId"] = 10,
+},
 ["Scribbles"] = {
-["total"] = 2370995758,
-["itemLevel"] = 711.375,
+["total"] = 1897311881,
+["itemLevel"] = 713.1875,
 ["classId"] = 5,
 },
-["Drukena-Draenor"] = {
-["total"] = 1023564544,
-["itemLevel"] = 702.8125,
-["classId"] = 11,
+["Bægnaskeren"] = {
+["total"] = 1590611024,
+["itemLevel"] = 712.375,
+["classId"] = 7,
 },
 },
-["guild"] = "Internet Friends",
+["time"] = 1758564476,
 },
 },
 [3131] = {
@@ -408,6 +610,313 @@ DetailsDataStorage = {
 },
 ["guild"] = "Internet Friends",
 },
+{
+["date"] = "20:21 22/09/25",
+["guild"] = "Internet Friends",
+["DAMAGER"] = {
+["Chalupabatmn-TarrenMill"] = {
+["total"] = 2065449812,
+["itemLevel"] = 711.375,
+["classId"] = 3,
+},
+["Psykose-Draenor"] = {
+["total"] = 1916673414,
+["itemLevel"] = 715.5625,
+["classId"] = 12,
+},
+["Shuudon"] = {
+["total"] = 2054828965,
+["itemLevel"] = 714.9375,
+["classId"] = 3,
+},
+["Minienhanced"] = {
+["total"] = 1580504932,
+["itemLevel"] = 709.5625,
+["classId"] = 7,
+},
+["Mikkelsham"] = {
+["total"] = 1651490934,
+["itemLevel"] = 711.1875,
+["classId"] = 7,
+},
+["Mukena-Draenor"] = {
+["total"] = 1834822035,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Recessgus"] = {
+["total"] = 2033964703,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Housingmain"] = {
+["total"] = 1758386844,
+["itemLevel"] = 711.25,
+["classId"] = 6,
+},
+["Chappertwo"] = {
+["total"] = 2048239135,
+["itemLevel"] = 712.4666666666667,
+["classId"] = 1,
+},
+["Kegdk"] = {
+["total"] = 1007866198,
+["itemLevel"] = 711.5625,
+["classId"] = 6,
+},
+["Kadabalkeze-Ragnaros"] = {
+["total"] = 1164648658,
+["itemLevel"] = 712.75,
+["classId"] = 2,
+},
+["Belzan"] = {
+["total"] = 1844418658,
+["itemLevel"] = 713.3125,
+["classId"] = 9,
+},
+["Eskabigd-Kazzak"] = {
+["total"] = 1676649028,
+["itemLevel"] = 716.9375,
+["classId"] = 11,
+},
+["Fætterguf"] = {
+["total"] = 1779259227,
+["itemLevel"] = 713.6875,
+["classId"] = 4,
+},
+},
+["elapsed"] = 352.6489999999758,
+["servertime"] = 1758565305,
+["HEALER"] = {
+["Bucketqt"] = {
+["total"] = 1905646950,
+["itemLevel"] = 710.0625,
+["classId"] = 10,
+},
+["Meowni"] = {
+["total"] = 1516503625,
+["itemLevel"] = 716.0625,
+["classId"] = 11,
+},
+["Scribbles"] = {
+["total"] = 1901913382,
+["itemLevel"] = 713.1875,
+["classId"] = 5,
+},
+["Bægnaskeren"] = {
+["total"] = 1354789715,
+["itemLevel"] = 712.375,
+["classId"] = 7,
+},
+},
+["time"] = 1758565305,
+},
+},
+[3132] = {
+{
+["guild"] = "Internet Friends",
+["time"] = 1758567637,
+["elapsed"] = 412.2750000000233,
+["DAMAGER"] = {
+["Chalupabatmn-TarrenMill"] = {
+["total"] = 2830780039,
+["itemLevel"] = 711.375,
+["classId"] = 3,
+},
+["Psykose-Draenor"] = {
+["total"] = 2853002636,
+["itemLevel"] = 715.5625,
+["classId"] = 12,
+},
+["Meowni"] = {
+["total"] = 2683698816,
+["itemLevel"] = 715.4,
+["classId"] = 11,
+},
+["Kadabalkeze-Ragnaros"] = {
+["total"] = 1553845236,
+["itemLevel"] = 712.75,
+["classId"] = 2,
+},
+["Minienhanced"] = {
+["total"] = 2210696579,
+["itemLevel"] = 709.5625,
+["classId"] = 7,
+},
+["Mikkelsham"] = {
+["total"] = 2690697005,
+["itemLevel"] = 711.1875,
+["classId"] = 7,
+},
+["Chappertwo"] = {
+["total"] = 2939163053,
+["itemLevel"] = 712.9375,
+["classId"] = 1,
+},
+["Recessgus"] = {
+["total"] = 2448797423,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Housingmain"] = {
+["total"] = 2304774211,
+["itemLevel"] = 711.25,
+["classId"] = 6,
+},
+["Mukena-Draenor"] = {
+["total"] = 2952760783,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Kegdk"] = {
+["total"] = 1532569355,
+["itemLevel"] = 711.5625,
+["classId"] = 6,
+},
+["Eskabigd-Kazzak"] = {
+["total"] = 2411074996,
+["itemLevel"] = 716.9375,
+["classId"] = 11,
+},
+["Belzan"] = {
+["total"] = 2651279401,
+["itemLevel"] = 713.3125,
+["classId"] = 9,
+},
+["Fætterguf"] = {
+["total"] = 2483255191,
+["itemLevel"] = 713.6875,
+["classId"] = 4,
+},
+["Shuudon"] = {
+["total"] = 2503371013,
+["itemLevel"] = 714.9375,
+["classId"] = 3,
+},
+},
+["servertime"] = 1758567638,
+["HEALER"] = {
+["Bægnaskeren"] = {
+["total"] = 1665933471,
+["itemLevel"] = 712.375,
+["classId"] = 7,
+},
+["Scribbles"] = {
+["total"] = 2125010648,
+["itemLevel"] = 713.75,
+["classId"] = 5,
+},
+["Bucketqt"] = {
+["total"] = 2044373385,
+["itemLevel"] = 711.125,
+["classId"] = 10,
+},
+},
+["date"] = "21:00 22/09/25",
+},
+},
+[3133] = {
+{
+["guild"] = "Internet Friends",
+["time"] = 1758568982,
+["elapsed"] = 302.3470000000671,
+["DAMAGER"] = {
+["Chalupabatmn-TarrenMill"] = {
+["total"] = 1499101855,
+["itemLevel"] = 711.375,
+["classId"] = 3,
+},
+["Psykose-Draenor"] = {
+["total"] = 1332928041,
+["itemLevel"] = 715.5625,
+["classId"] = 12,
+},
+["Kadabalkeze-Ragnaros"] = {
+["total"] = 842452008,
+["itemLevel"] = 712.75,
+["classId"] = 2,
+},
+["Minienhanced"] = {
+["total"] = 1317635343,
+["itemLevel"] = 710.75,
+["classId"] = 7,
+},
+["Mikkelsham"] = {
+["total"] = 1359759907,
+["itemLevel"] = 711.1875,
+["classId"] = 7,
+},
+["Chappertwo"] = {
+["total"] = 1618680978,
+["itemLevel"] = 712.9375,
+["classId"] = 1,
+},
+["Recessgus"] = {
+["total"] = 1191682904,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Housingmain"] = {
+["total"] = 1427294827,
+["itemLevel"] = 711.25,
+["classId"] = 6,
+},
+["Mukena-Draenor"] = {
+["total"] = 1554231961,
+["itemLevel"] = 711.6875,
+["classId"] = 8,
+},
+["Kegdk"] = {
+["total"] = 946982607,
+["itemLevel"] = 711.5625,
+["classId"] = 6,
+},
+["Eskabigd-Kazzak"] = {
+["total"] = 1370912541,
+["itemLevel"] = 717.5,
+["classId"] = 11,
+},
+["Belzan"] = {
+["total"] = 1232621116,
+["itemLevel"] = 713.6875,
+["classId"] = 9,
+},
+["Fætterguf"] = {
+["total"] = 1376439656,
+["itemLevel"] = 713.6875,
+["classId"] = 4,
+},
+["Shuudon"] = {
+["total"] = 1347049842,
+["itemLevel"] = 714.9375,
+["classId"] = 3,
+},
+},
+["servertime"] = 1758568983,
+["HEALER"] = {
+["Bægnaskeren"] = {
+["total"] = 1480450675,
+["itemLevel"] = 712.375,
+["classId"] = 7,
+},
+["Meowni"] = {
+["total"] = 1175093765,
+["itemLevel"] = 716.0625,
+["classId"] = 11,
+},
+["Scribbles"] = {
+["total"] = 1334559097,
+["itemLevel"] = 713.75,
+["classId"] = 5,
+},
+["Bucketqt"] = {
+["total"] = 1446576391,
+["itemLevel"] = 711.125,
+["classId"] = 10,
+},
+},
+["date"] = "21:23 22/09/25",
+},
 },
 },
 ["Data"] = {
@@ -472,21 +981,21 @@ DetailsDataStorage = {
 ["dps_best_when"] = 1757505517,
 },
 ["mythic"] = {
-["time_incombat"] = 1199.53799999997,
-["time_fasterkill"] = 336.987999999983,
+["time_incombat"] = 1513.180999999894,
+["time_fasterkill"] = 313.6429999999236,
 ["wipes"] = 0,
-["kills"] = 3,
+["kills"] = 4,
 ["dps_best"] = 4253997.879668619,
-["dps_best_raid"] = 64437334.10982318,
-["time_fasterkill_when"] = 1758043174,
+["dps_best_raid"] = 69412821.59016876,
+["time_fasterkill_when"] = 1758563712,
 ["dps_best_when"] = 1757854146,
-["dps_best_raid_when"] = 1758043174,
+["dps_best_raid_when"] = 1758563712,
 },
 ["heroic"] = {
-["time_incombat"] = 1866.449999999981,
+["time_incombat"] = 2120.512000000015,
 ["time_fasterkill"] = 216.6469999999972,
 ["wipes"] = 0,
-["kills"] = 7,
+["kills"] = 8,
 ["dps_best"] = 4856551.741760423,
 ["dps_best_raid"] = 92215487.5072792,
 ["time_fasterkill_when"] = 1757160802,
@@ -553,15 +1062,15 @@ DetailsDataStorage = {
 ["dps_best_when"] = 1757169630,
 },
 ["mythic"] = {
-["time_incombat"] = 1087.863000000017,
-["time_fasterkill"] = 347.6540000000096,
+["time_incombat"] = 1386.900999999959,
+["time_fasterkill"] = 299.0379999999423,
 ["wipes"] = 0,
-["kills"] = 3,
+["kills"] = 4,
 ["dps_best"] = 7850369.713951478,
-["dps_best_raid"] = 100868024.6625169,
-["time_fasterkill_when"] = 1758043903,
+["dps_best_raid"] = 116901595.7738038,
+["time_fasterkill_when"] = 1758564476,
 ["dps_best_when"] = 1757854971,
-["dps_best_raid_when"] = 1757854971,
+["dps_best_raid_when"] = 1758564476,
 },
 ["heroic"] = {
 ["time_incombat"] = 1546.420000000038,
@@ -612,7 +1121,7 @@ DetailsDataStorage = {
 [3129] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 2,
+["wipes"] = 3,
 ["kills"] = 0,
 ["dps_best"] = 0,
 ["dps_best_raid_when"] = 0,
@@ -689,15 +1198,15 @@ DetailsDataStorage = {
 ["dps_best_when"] = 1758207571,
 },
 ["mythic"] = {
-["time_incombat"] = 1187.294000000026,
-["time_fasterkill"] = 377.6640000000189,
+["time_incombat"] = 1539.943000000002,
+["time_fasterkill"] = 352.6489999999758,
 ["wipes"] = 0,
-["kills"] = 3,
+["kills"] = 4,
 ["dps_best"] = 5631775.316042913,
-["dps_best_raid"] = 75074815.53179172,
-["time_fasterkill_when"] = 1758045823,
+["dps_best_raid"] = 80709285.15323156,
+["time_fasterkill_when"] = 1758565305,
 ["dps_best_when"] = 1757856049,
-["dps_best_raid_when"] = 1758045823,
+["dps_best_raid_when"] = 1758565305,
 },
 ["heroic"] = {
 ["time_incombat"] = 1855.884999999966,
@@ -734,6 +1243,17 @@ DetailsDataStorage = {
 ["dps_best_raid_when"] = 1757441909,
 ["dps_best_when"] = 1757170358,
 },
+["mythic"] = {
+["time_incombat"] = 412.2750000000233,
+["time_fasterkill"] = 412.2750000000233,
+["wipes"] = 0,
+["kills"] = 1,
+["dps_best"] = 430299.3002268703,
+["dps_best_raid_when"] = 1758567637,
+["time_fasterkill_when"] = 1758567637,
+["dps_best_when"] = 1758567637,
+["dps_best_raid"] = 104134630.7391852,
+},
 ["heroic"] = {
 ["time_incombat"] = 1631.670999999959,
 ["time_fasterkill"] = 233.850999999966,
@@ -768,6 +1288,17 @@ DetailsDataStorage = {
 ["time_fasterkill_when"] = 1757171350,
 ["dps_best_raid_when"] = 1757171350,
 ["dps_best_when"] = 1757171350,
+},
+["mythic"] = {
+["time_incombat"] = 302.3470000000671,
+["time_fasterkill"] = 302.3470000000671,
+["wipes"] = 0,
+["kills"] = 1,
+["dps_best"] = 125273.5532486798,
+["dps_best_raid_when"] = 1758568982,
+["time_fasterkill_when"] = 1758568982,
+["dps_best_when"] = 1758568982,
+["dps_best_raid"] = 72113077.71863179,
 },
 ["heroic"] = {
 ["time_incombat"] = 1661.640000000014,
@@ -865,6 +1396,28 @@ DetailsDataStorage = {
 },
 },
 ["mythic"] = {
+[3133] = {
+["time_incombat"] = 0,
+["time_fasterkill"] = 0,
+["wipes"] = 1,
+["kills"] = 0,
+["dps_best"] = 0,
+["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
+["dps_best_raid"] = 0,
+},
+[3132] = {
+["time_incombat"] = 0,
+["time_fasterkill"] = 0,
+["wipes"] = 2,
+["kills"] = 0,
+["dps_best"] = 0,
+["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
+["dps_best_raid"] = 0,
+},
 [3131] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
@@ -875,6 +1428,17 @@ DetailsDataStorage = {
 ["time_fasterkill_when"] = 0,
 ["dps_best_when"] = 0,
 ["dps_best_raid_when"] = 0,
+},
+[3122] = {
+["time_incombat"] = 0,
+["time_fasterkill"] = 0,
+["wipes"] = 4,
+["kills"] = 0,
+["dps_best"] = 0,
+["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
+["dps_best_raid"] = 0,
 },
 },
 },
@@ -1108,11 +1672,6 @@ DetailsDataStorage = {
 },
 ["servertime"] = 1756316937,
 ["HEALER"] = {
-["Crusherdruid-LaughingSkull"] = {
-["total"] = 875409079,
-["itemLevel"] = 709.5625,
-["classId"] = 11,
-},
 ["Culez-TarrenMill"] = {
 ["total"] = 878526981,
 ["itemLevel"] = 709.4375,
@@ -1122,6 +1681,11 @@ DetailsDataStorage = {
 ["total"] = 987272421,
 ["itemLevel"] = 709.8125,
 ["classId"] = 5,
+},
+["Crusherdruid-LaughingSkull"] = {
+["total"] = 875409079,
+["itemLevel"] = 709.5625,
+["classId"] = 11,
 },
 ["Bucketqt"] = {
 ["total"] = 780984777,
@@ -1251,11 +1815,6 @@ DetailsDataStorage = {
 ["elapsed"] = 233.850999999966,
 ["servertime"] = 1756317572,
 ["HEALER"] = {
-["Scribbles"] = {
-["total"] = 550650032,
-["itemLevel"] = 709.1333333333333,
-["classId"] = 5,
-},
 ["Crusherdruid-LaughingSkull"] = {
 ["total"] = 462190125,
 ["itemLevel"] = 709.5625,
@@ -1265,6 +1824,11 @@ DetailsDataStorage = {
 ["total"] = 479344322,
 ["itemLevel"] = 709.4375,
 ["classId"] = 2,
+},
+["Scribbles"] = {
+["total"] = 550650032,
+["itemLevel"] = 709.1333333333333,
+["classId"] = 5,
 },
 ["Bucketqt"] = {
 ["total"] = 536847315,
@@ -1394,11 +1958,6 @@ DetailsDataStorage = {
 ["elapsed"] = 213.8479999999981,
 ["servertime"] = 1756318540,
 ["HEALER"] = {
-["Scribbles"] = {
-["total"] = 597539917,
-["itemLevel"] = 709.8125,
-["classId"] = 5,
-},
 ["Crusherdruid-LaughingSkull"] = {
 ["total"] = 482948300,
 ["itemLevel"] = 709.5625,
@@ -1408,6 +1967,11 @@ DetailsDataStorage = {
 ["total"] = 662400645,
 ["itemLevel"] = 709.4375,
 ["classId"] = 2,
+},
+["Scribbles"] = {
+["total"] = 597539917,
+["itemLevel"] = 709.8125,
+["classId"] = 5,
 },
 ["Bucketqt"] = {
 ["total"] = 545464753,
@@ -1537,11 +2101,6 @@ DetailsDataStorage = {
 ["elapsed"] = 291.73199999996,
 ["servertime"] = 1756318074,
 ["HEALER"] = {
-["Scribbles"] = {
-["total"] = 1028786439,
-["itemLevel"] = 709.8125,
-["classId"] = 5,
-},
 ["Crusherdruid-LaughingSkull"] = {
 ["total"] = 917653132,
 ["itemLevel"] = 709.5625,
@@ -1551,6 +2110,11 @@ DetailsDataStorage = {
 ["total"] = 957761327,
 ["itemLevel"] = 709.4375,
 ["classId"] = 2,
+},
+["Scribbles"] = {
+["total"] = 1028786439,
+["itemLevel"] = 709.8125,
+["classId"] = 5,
 },
 ["Bucketqt"] = {
 ["total"] = 1120566933,

@@ -3,17 +3,17 @@ ExtraQuestButtonDB3 = {
 ["profiles"] = {
 ["Mbuzi"] = {
 ["artworkAlpha"] = 1,
-["noCooldownText"] = false,
+["artworkStyle"] = "Default",
 ["trackingOnly"] = false,
 ["position"] = {
 ["y"] = 109.9995803833008,
 ["x"] = -0.9989013671875,
 ["point"] = "BOTTOM",
 },
-["artworkStyle"] = "Default",
-["distanceYd"] = 1000,
-["zoneOnly"] = false,
 ["scale"] = 1,
+["zoneOnly"] = false,
+["distanceYd"] = 1000,
+["noCooldownText"] = false,
 },
 },
 }

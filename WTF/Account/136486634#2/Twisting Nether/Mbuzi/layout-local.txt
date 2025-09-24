@@ -29,8 +29,8 @@ W: 128
 H: 64
 Frame: MRTNote
 FrameLevel: 1
-Anchor: LEFT
+Anchor: TOPLEFT
 X: 1
-Y: 184
+Y: -192
 W: 342
 H: 281

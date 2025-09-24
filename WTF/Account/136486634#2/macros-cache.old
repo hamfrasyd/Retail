@@ -62,6 +62,10 @@ VER 3 0000000000000025 "ShamanAscendance" "134400"
 /cast Ascendance
 /use Araz's Ritual Forge
 END
+VER 3 0000000000000036 "ShamanBuff" "134400"
+#showtooltip
+/castsequence reset=10 Water Shield, Lightning Shield
+END
 VER 3 0000000000000032 "ShamanCleanse" "134400"
 #showtooltip Cleanse Spirit
 /cast [@mouseover, exists] Cleanse Spirit; Cleanse Spirit

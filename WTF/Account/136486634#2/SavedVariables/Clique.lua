@@ -8,23 +8,24 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["fastooc"] = false,
-["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
 ["downclick"] = false,
 ["specswap"] = false,
-["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
+["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
 },
 },
 ["profileKeys"] = {
 ["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 },
 ["profiles"] = {
 ["Bægnaskeren - Twisting Nether"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -133,6 +134,25 @@ CliqueDB3 = {
 },
 ["icon"] = 252995,
 ["type"] = "spell",
+},
+},
+},
+["Mbuzi - Twisting Nether"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 },
 },

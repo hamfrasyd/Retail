@@ -1,7 +1,6 @@
 # Syndicator
 
-## [235](https://github.com/TheMouseNest/Syndicator/tree/235) (2025-09-17)
-[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/234...235) 
+## [238](https://github.com/TheMouseNest/Syndicator/tree/238) (2025-09-23)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/237...238) 
 
-- Rename Main.lua -> Initialize.lua where appropriate  
-- Search: Add check for spell data being uncached, potentially breaking #knowledge  
+- All: Unify toc lines (client restart required)  

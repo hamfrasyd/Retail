@@ -56,7 +56,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "29a2347" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "2fabdec" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -150,8 +150,8 @@ public.GetSpellName = C_Spell.GetSpellName
 public.GetSpellTexture = C_Spell.GetSpellTexture
 public.IsItemInRange = C_Item.IsItemInRange
 public.IsSpellKnownOrInSpellBook = C_SpellBook.IsSpellKnownOrInSpellBook -- XXX [Mainline:✓ MoP:✗ Wrath:✗ Vanilla:✗]
-public.IsPlayerSpell = public.IsSpellKnownOrInSpellBook or IsPlayerSpell
-public.IsSpellKnown = public.IsSpellKnownOrInSpellBook or IsSpellKnown
+public.IsPlayerSpell = IsPlayerSpell or public.IsSpellKnownOrInSpellBook
+public.IsSpellKnown = IsSpellKnown or public.IsSpellKnownOrInSpellBook
 public.PlaySoundFile = PlaySoundFile
 public.RegisterAddonMessagePrefix = RegisterAddonMessagePrefix
 public.SendAddonMessage = SendAddonMessage
