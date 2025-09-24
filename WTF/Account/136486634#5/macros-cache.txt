@@ -1,0 +1,13 @@
+VER 3 0000000000000001 "." "INV_MISC_QUESTIONMARK"
+/follow Hannahuntana
+END
+VER 3 0000000000000002 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000003 "d" "INV_MISC_QUESTIONMARK"
+/click ActionButton8 Button5
+/run local b=ActionButton8 _MH=_MH or(b:SetAttribute("*type5","macro")or SecureHandlerWrapScript(b,"PreClick",b,'Z=IsShiftKeyDown()and 0 or(Z or 0)%5+1 self:SetAttribute("macrotext5","/cwm [mod]all\\10/wm [nomod]"..Z)'))or 1
+END
+VER 3 0000000000000004 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP Guides - current step has no configured targets
+END

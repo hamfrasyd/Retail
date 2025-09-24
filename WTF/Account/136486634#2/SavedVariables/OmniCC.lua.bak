@@ -9,8 +9,8 @@ OmniCCDB = {
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
 ["Ponypala - Twisting Nether"] = "Default",
-["Mbuzi - Draenor"] = "Default",
 ["Lilgoat - Twisting Nether"] = "Default",
+["Mbuzi - Draenor"] = "Default",
 },
 ["global"] = {
 ["dbVersion"] = 6,
@@ -212,16 +212,6 @@ OmniCCDB = {
 },
 },
 ["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["minutes"] = {
-},
-["seconds"] = {
-},
-["soon"] = {
-},
-},
-},
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
 ["minutes"] = {
@@ -232,6 +222,18 @@ OmniCCDB = {
 },
 },
 ["enableText"] = false,
+},
+["Default"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["seconds"] = {
+},
+["soon"] = {
+},
+},
+["mmSSDuration"] = 300,
+["maxDuration"] = 300,
 },
 },
 },

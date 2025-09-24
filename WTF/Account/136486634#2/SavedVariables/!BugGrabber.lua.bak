@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 375,
+["session"] = 389,
 ["errors"] = {
 {
 ["message"] = "FontString:SetFormattedText(): Font not set",
@@ -116,20 +116,44 @@ BugGrabberDB = {
 ["counter"] = 3,
 },
 {
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'UnhaltedUF' tried to call the protected function 'UUF_Player:ClearAllPoints()'.",
-["time"] = "2025/09/21 10:48:16",
-["locals"] = "frame = EditBox {\n BottomRightCorner = Texture {\n }\n Center = Texture {\n }\n RightEdge = Texture {\n }\n backdropInfo = <table> {\n }\n BottomEdge = Texture {\n }\n BottomLeftCorner = Texture {\n }\n obj = <table> {\n }\n TopEdge = Texture {\n }\n TopRightCorner = Texture {\n }\n TopLeftCorner = Texture {\n }\n LeftEdge = Texture {\n }\n}\nself = <table> {\n disabled = false\n hightext = FontString {\n }\n parent = <table> {\n }\n step = 0.100000\n alignoffset = 25\n userdata = <table> {\n }\n value = -438.200000\n relWidth = 0.500000\n base = <table> {\n }\n type = \"Slider\"\n AceGUIWidgetVersion = 23\n max = 999\n label = FontString {\n }\n width = \"relative\"\n min = -999\n lowtext = FontString {\n }\n events = <table> {\n }\n editbox = EditBox {\n }\n frame = Frame {\n }\n slider = Slider {\n }\n}\nvalue = -438.200000\n",
-["stack"] = "[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/widgets/AceGUIWidget-Slider.lua]:107: in function <...ions/libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua:95>",
-["session"] = 348,
-["counter"] = 1,
-},
-{
 ["message"] = "Interface/AddOns/Baganator/Core/Initialize.lua:48: Use your addon website/client to install |cffd1b219Syndicator|r in order to use Baganator.",
 ["time"] = "2025/09/24 06:35:27",
 ["locals"] = "(*temporary) = \"Use your addon website/client to install |cffd1b219Syndicator|r in order to use Baganator.\"\n",
 ["stack"] = "[C]: in function 'error'\n[Interface/AddOns/Baganator/Core/Initialize.lua]:48: in function <Interface/AddOns/Baganator/Core/Initialize.lua:32>\n[C]: in function 'xpcall'\n[Interface/AddOns/Baganator/Core/Utilities.lua]:14: in function <Interface/AddOns/Baganator/Core/Utilities.lua:11>",
 ["session"] = 373,
 ["counter"] = 1,
+},
+{
+["message"] = "Attempted to use invalid tag [Name:Coloured].",
+["time"] = "2025/09/24 18:42:00",
+["locals"] = "self = <table> {\n disabled = false\n label = FontString {\n }\n parent = <table> {\n }\n alignoffset = 30\n userdata = <table> {\n }\n lasttext = \"[Name:Coloured]\"\n button = Button {\n }\n relWidth = 1\n base = <table> {\n }\n type = \"EditBox\"\n AceGUIWidgetVersion = 29\n disablebutton = false\n width = \"relative\"\n events = <table> {\n }\n frame = Frame {\n }\n editbox = AceGUI-3.0EditBox1 {\n }\n}\nname = \"OnEnterPressed\"\n",
+["stack"] = "[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/AceGUI-3.0.lua]:300: in function 'Fire'\n[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/widgets/AceGUIWidget-EditBox.lua]:70: in function <...ons/libs/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:67>",
+["session"] = 380,
+["counter"] = 1,
+},
+{
+["message"] = "...s/AceGUI-3.0-41/widgets/AceGUIWidget-DropDown-Items.lua:14: script ran too long",
+["time"] = "2025/09/24 21:41:43",
+["locals"] = "self = <table> {\n parent = <table> {\n }\n alignoffset = 18\n AceGUIWidgetVersion = 38\n LayoutPaused = true\n localstatus = <table> {\n }\n content = Frame {\n }\n width = \"fill\"\n tablist = <table> {\n }\n border = Frame {\n }\n userdata = <table> {\n }\n children = <table> {\n }\n type = \"TabGroup\"\n num = 1\n titletext = FontString {\n }\n events = <table> {\n }\n base = <table> {\n }\n tabs = <table> {\n }\n borderoffset = 30\n frame = Frame {\n }\n}\nvalue = \"sounds\"\nstatus = <table> {\n selected = \"sounds\"\n}\nfound = true\n",
+["stack"] = "[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'\n[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...libs/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>",
+["session"] = 387,
+["counter"] = 1,
+},
+{
+["message"] = "bad argument #2 to '?' (Usage: self:SetStatusBarColor(color [, a]))",
+["time"] = "2025/09/24 22:35:09",
+["locals"] = "self = <table> {\n statuses = <table> {\n }\n prototype = <table> {\n }\n opacity = 1\n backColor = <table> {\n }\n name = \"health-color\"\n priorities = <table> {\n }\n parentName = \"health\"\n dbx = <table> {\n }\n}\nparent = Grid2LayoutHeader5UnitButton1 {\n Indicators = Frame {\n }\n currentBackdrop = <table> {\n }\n RaidBuffs = Frame {\n }\n RoleIndicator = Frame {\n }\n RightEdge = Texture {\n }\n container = Texture {\n }\n IsPingable = true\n TRText = Frame {\n }\n TLText = Frame {\n }\n Center = Texture {\n }\n BetterHPBar = Frame {\n }\n PartyBuffs = Frame {\n }\n BottomEdge = Texture {\n }\n unit = \"raid15\"\n BottomRightCorner = Texture {\n }\n HealerMana = Frame {\n }\n BottomLeftCorner = Texture {\n }\n TopRightCorner = Texture {\n }\n TopLeftCorner = Texture {\n }\n backdropInfo = <table> {\n }\n TopEdge = Texture {\n }\n heals = StatusBar {\n }\n PartyDebuffs = Frame {\n }\n RaidDebuffs = Frame {\n }\n CText = Frame {\n }\n health = StatusBar {\n }\n LeftEdge = Texture {\n }\n}\nunit = \"raid15\"\nstatus = <table> {\n color = <table> {\n }\n enabled = true\n typ = <table> {\n }\n handlerType = \"debuff\"\n name = \"debuffs-Dispellable\"\n tex = <table> {\n }\n vId = 0\n tkr = <table> {\n }\n indicators = <table> {\n }\n exp = <table> {\n }\n spells = <table> {\n }\n priorities = <table> {\n }\n cnt = <table> {\n }\n dbx = <table> {\n }\n idx = <table> {\n }\n dur = <table> {\n }\n isMine = false\n seen = false\n val = <table> {\n }\n}\nbar = StatusBar {\n indicator = <table> {\n }\n}\nr = nil\ng = nil\nb = nil\na = nil\n",
+["stack"] = "[Interface/AddOns/Grid2/modules/IndicatorBar.lua]:261: in function 'OnUpdate'\n[Interface/AddOns/Grid2/GridIndicator.lua]:103: in function 'Update'\n[Interface/AddOns/Grid2/GridFrame.lua]:195: in function 'UpdateIndicators'\n[Interface/AddOns/Grid2/GridFrame.lua]:89: in function <Interface/AddOns/Grid2/GridFrame.lua:81>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:210: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:130>\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:495: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:394>\n[C]: in function 'resume'\n[Interface/AddOns/WagoUI/libs/LibAsync-3/LibAsync.lua]:162: in function <Interface/AddOns/WagoUI/libs/LibAsync/LibAsync.lua:149>",
+["session"] = 387,
+["counter"] = 37,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'UnhaltedUF' tried to call the protected function 'UUF_Player:ClearAllPoints()'.",
+["time"] = "2025/09/21 10:48:16",
+["locals"] = "frame = EditBox {\n BottomRightCorner = Texture {\n }\n Center = Texture {\n }\n RightEdge = Texture {\n }\n backdropInfo = <table> {\n }\n BottomEdge = Texture {\n }\n BottomLeftCorner = Texture {\n }\n obj = <table> {\n }\n TopEdge = Texture {\n }\n TopRightCorner = Texture {\n }\n TopLeftCorner = Texture {\n }\n LeftEdge = Texture {\n }\n}\nself = <table> {\n disabled = false\n hightext = FontString {\n }\n parent = <table> {\n }\n step = 0.100000\n alignoffset = 25\n userdata = <table> {\n }\n value = -438.200000\n relWidth = 0.500000\n base = <table> {\n }\n type = \"Slider\"\n AceGUIWidgetVersion = 23\n max = 999\n label = FontString {\n }\n width = \"relative\"\n min = -999\n lowtext = FontString {\n }\n events = <table> {\n }\n editbox = EditBox {\n }\n frame = Frame {\n }\n slider = Slider {\n }\n}\nvalue = -438.200000\n",
+["stack"] = "[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/widgets/AceGUIWidget-Slider.lua]:107: in function <...ions/libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua:95>",
+["session"] = 387,
+["counter"] = 2,
 },
 },
 }

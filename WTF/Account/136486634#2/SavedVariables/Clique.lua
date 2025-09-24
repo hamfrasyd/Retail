@@ -7,18 +7,38 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["fastooc"] = false,
-["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
 ["downclick"] = false,
+["fastooc"] = false,
 ["specswap"] = false,
 ["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
 },
 },
 ["profileKeys"] = {
+["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
 ["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
 ["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 },
 ["profiles"] = {
+["Mbuzipriest - Twisting Nether"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
 ["Bægnaskeren - Twisting Nether"] = {
 ["bindings"] = {
 {
@@ -36,6 +56,22 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 136044,
+["type"] = "spell",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Skyfury",
+["key"] = "F4",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 4630367,
 ["type"] = "spell",
 },
 {
@@ -57,55 +93,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spell"] = "Skyfury",
-["key"] = "F4",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 4630367,
-["type"] = "spell",
-},
-{
 ["spell"] = "Wind Rush Totem",
 ["key"] = "SHIFT-R",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 538576,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Wave",
-["key"] = "MOUSEWHEELUP",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
-["type"] = "spell",
-},
-{
-["spell"] = "Chain Heal",
-["key"] = "2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 6712961,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Rain",
-["key"] = "C",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136037,
 ["type"] = "spell",
 },
 {
@@ -118,12 +111,39 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["spell"] = "Chain Heal",
+["key"] = "2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 6712961,
+["type"] = "spell",
+},
+{
 ["spell"] = "Purify Spirit",
 ["key"] = "F2",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 236288,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Wave",
+["key"] = "MOUSEWHEELUP",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Rain",
+["key"] = "C",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136037,
 ["type"] = "spell",
 },
 {

@@ -1,0 +1,44 @@
+
+RangeDisplayDB3 = {
+["namespaces"] = {
+},
+["profileKeys"] = {
+["Bægnaskeren - Twisting Nether"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["locked"] = true,
+["units"] = {
+["pet"] = {
+},
+["playertarget"] = {
+["fontSize"] = 11,
+["point"] = "RIGHT",
+["font"] = "Expressway",
+["fontOutline"] = "OUTLINE",
+["y"] = -205.5553436279297,
+["x"] = -479.5563049316406,
+["relPoint"] = "RIGHT",
+},
+["focus"] = {
+["fontSize"] = 11,
+["point"] = "LEFT",
+["font"] = "Expressway",
+["fontOutline"] = "OUTLINE",
+["y"] = -242.2223663330078,
+["x"] = 417.5556945800781,
+["relPoint"] = "LEFT",
+},
+["arena2"] = {
+},
+["mouseover"] = {
+["enabled"] = false,
+},
+["arena5"] = {
+},
+["arena4"] = {
+},
+},
+},
+},
+}

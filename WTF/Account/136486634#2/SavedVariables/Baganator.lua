@@ -231,17 +231,17 @@ BAGANATOR_CONFIG = {
 85,
 },
 ["icon_text_font_size"] = 14,
-["sort_ignore_slots_count_2"] = 0,
 ["bag_view_width"] = 12,
+["sort_ignore_slots_count_2"] = 0,
 ["disabled_skins"] = {
 },
 ["setting_anchors"] = false,
 ["bag_empty_space_at_top"] = false,
 ["bag_view_type"] = "category",
-["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
 "Bægnaskeren-TwistingNether",
 },
+["debug_keywords"] = false,
 ["category_migration"] = 5,
 ["auto_sort_on_open"] = false,
 ["skins"] = {

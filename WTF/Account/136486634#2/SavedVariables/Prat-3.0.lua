@@ -10,8 +10,29 @@ Prat3DB = {
 },
 },
 },
+["Prat_Editbox"] = {
+["profiles"] = {
+["Default"] = {
+["edgeSize"] = 1,
+["attach"] = "TOP",
+["border"] = "Grid2 Pixel",
+["font"] = "Expressway",
+["background"] = "Blizzard ChatFrame Background",
+},
+},
+},
+["Prat_Font"] = {
+["profiles"] = {
+["Default"] = {
+["outlinemode"] = "OUTLINE",
+["fontface"] = "Expressway",
+["rememberfont"] = true,
+},
+},
+},
 },
 ["profileKeys"] = {
+["Mbuzipriest - Twisting Nether"] = "Default",
 ["Bægnaskeren - Twisting Nether"] = "Default",
 },
 ["profiles"] = {

@@ -227,13 +227,11 @@ BAGANATOR_CONFIG = {
 ["setting_anchors"] = false,
 ["disabled_skins"] = {
 },
-["bag_view_width"] = 12,
+["sort_ignore_slots_count_2"] = 0,
 ["bag_icon_size"] = 37,
 ["new_items_flashing"] = true,
 ["character_bank_view_width"] = 14,
-["recent_characters_main_view"] = {
-"Bægnaskeren-TwistingNether",
-},
+["debug_keywords"] = false,
 ["category_migration"] = 5,
 ["auto_sort_on_open"] = false,
 ["show_buttons_on_alt"] = false,
@@ -259,11 +257,13 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["debug_keywords"] = false,
+["recent_characters_main_view"] = {
+"Bægnaskeren-TwistingNether",
+},
 ["bag_view_type"] = "category",
 ["bag_empty_space_at_top"] = false,
 ["show_sort_button_2"] = true,
-["sort_ignore_slots_count_2"] = 0,
+["bag_view_width"] = 12,
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
 -115,

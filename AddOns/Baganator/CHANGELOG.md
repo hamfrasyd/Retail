@@ -1,6 +1,7 @@
 # Baganator
 
-## [753](https://github.com/TheMouseNest/Baganator/tree/753) (2025-09-23)
-[Full Changelog](https://github.com/TheMouseNest/Baganator/compare/752...753) 
+## [754](https://github.com/TheMouseNest/Baganator/tree/754) (2025-09-24)
+[Full Changelog](https://github.com/TheMouseNest/Baganator/compare/753...754) 
 
-- All: Unify toc lines  
+- Always show deposit buttons in bank if "Show buttons when holding alt" enabled  
+- Categories: Prioritise default "Quest" category slightly  

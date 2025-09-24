@@ -8,16 +8,16 @@ BigWigs3DB = {
 ["Kassedamen - Twisting Nether"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
-["Lilgoat - Twisting Nether"] = "Default",
 ["Mbuzi - Draenor"] = "Default",
+["Lilgoat - Twisting Nether"] = "Default",
 ["Ponypala - Twisting Nether"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2409] = true,
-[-2296] = true,
 [1034] = true,
 [-323] = true,
+[-2296] = true,
 },
 },
 ["namespaces"] = {
@@ -154,13 +154,13 @@ BigWigs3DB = {
 ["BigWigs_Bosses_Soulbinder Naazindhri"] = {
 ["profiles"] = {
 ["AtrocityUI"] = {
-[1242086] = 0,
+[1225582] = 0,
 [1227848] = 3129591,
 [1241100] = 0,
-[1225582] = 0,
+[1227052] = 3064567,
 ["custom_on_1227276"] = false,
 [1226827] = 0,
-[1227052] = 3064567,
+[1242086] = 0,
 },
 },
 },
@@ -197,8 +197,8 @@ BigWigs3DB = {
 ["Default"] = {
 [445518] = 0,
 [451288] = 0,
-[459444] = 0,
 [445570] = 0,
+[459444] = 0,
 [438696] = 0,
 [443203] = 0,
 },
@@ -206,9 +206,9 @@ BigWigs3DB = {
 [445518] = 0,
 [443203] = 0,
 [451288] = 0,
-[445570] = 0,
-[438696] = 0,
 [459444] = 0,
+[438696] = 0,
+[445570] = 0,
 },
 },
 },
@@ -273,9 +273,8 @@ BigWigs3DB = {
 ["BigWigs_Bosses_Forgeweaver Araz"] = {
 ["profiles"] = {
 ["AtrocityUI"] = {
-[1234328] = 3129591,
-[1227631] = 3129591,
 [1232221] = 3129591,
+[1227631] = 3129591,
 [1248171] = 3064054,
 [1228502] = 0,
 [1228216] = 11452663,
@@ -387,10 +386,10 @@ nil,
 },
 ["bossCountdowns"] = {
 ["BigWigs_Bosses_Loom'ithar"] = {
-[1226311] = "esES: Default (Female)",
-[1228059] = "enUS: Default (Male)",
 [1226395] = "enUS: Default (Male)",
+[1228059] = "enUS: Default (Male)",
 [1246921] = "zhCN: Default (Female)",
+[1226311] = "esES: Default (Female)",
 },
 ["BigWigs_Bosses_Soulbinder Naazindhri"] = {
 [1227848] = "enUS: Default (Male)",
@@ -407,8 +406,8 @@ nil,
 [1227631] = "enUS: Default (Male)",
 },
 },
-["fontName"] = "Expressway",
 ["voice"] = "enUS: Default (Female)",
+["fontName"] = "Expressway",
 },
 ["Default"] = {
 ["outline"] = "OUTLINE",
@@ -570,10 +569,15 @@ nil,
 },
 },
 ["barColor"] = {
-["BigWigs_Bosses_Anub'ikkaj"] = {
-[426860] = {
+["BigWigs_Bosses_Rasha'nan Dawnbreaker"] = {
+[434089] = {
 0,
 1,
+0,
+},
+[434655] = {
+1,
+0.501960813999176,
 0,
 },
 },
@@ -653,36 +657,11 @@ nil,
 0.4862745404243469,
 },
 },
-["BigWigs_Bosses_Rasha'nan Dawnbreaker"] = {
-[434089] = {
+["BigWigs_Bosses_Anub'ikkaj"] = {
+[426860] = {
 0,
 1,
 0,
-},
-[434655] = {
-1,
-0.501960813999176,
-0,
-},
-},
-["BigWigs_Bosses_Plexus Sentinel"] = {
-[1219607] = {
-1,
-0.501960813999176,
-0.1019607931375504,
-0.8999999761581421,
-},
-[1219263] = {
-0.5058823823928833,
-0.4235294461250305,
-0.9137255549430847,
-0.8999999761581421,
-},
-[1219450] = {
-1,
-1,
-0.1019607931375504,
-0.8999999761581421,
 },
 },
 ["BigWigs_Bosses_Fractillus"] = {
@@ -711,6 +690,26 @@ nil,
 0.8999999761581421,
 },
 },
+["BigWigs_Bosses_Plexus Sentinel"] = {
+[1219607] = {
+1,
+0.501960813999176,
+0.1019607931375504,
+0.8999999761581421,
+},
+[1219263] = {
+0.5058823823928833,
+0.4235294461250305,
+0.9137255549430847,
+0.8999999761581421,
+},
+[1219450] = {
+1,
+1,
+0.1019607931375504,
+0.8999999761581421,
+},
+},
 ["BigWigs_Bosses_Forgeweaver Araz"] = {
 [1232221] = {
 1,
@@ -736,16 +735,16 @@ nil,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1228188] = {
-0.3725490272045136,
-1,
-0.4352941513061523,
-0.8999999761581421,
-},
 [1228216] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
+0.8999999761581421,
+},
+[1228188] = {
+0.3725490272045136,
+1,
+0.4352941513061523,
 0.8999999761581421,
 },
 [1228214] = {
@@ -956,16 +955,16 @@ nil,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1228188] = {
-0.3725490272045136,
-1,
-0.4352941513061523,
-0.8999999761581421,
-},
 [1228216] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
+0.8999999761581421,
+},
+[1228188] = {
+0.3725490272045136,
+1,
+0.4352941513061523,
 0.8999999761581421,
 },
 [1228214] = {
@@ -1257,10 +1256,10 @@ nil,
 },
 ["emphasizeGrowup"] = true,
 ["texture"] = "Atrocity",
-["spacing"] = 3,
+["expWidth"] = 206,
 ["fontSize"] = 11,
 ["barStyle"] = "ElvUI",
-["expWidth"] = 206,
+["spacing"] = 3,
 ["emphasizeTime"] = 12,
 },
 },
@@ -1284,47 +1283,6 @@ nil,
 [439792] = 0,
 [439776] = 0,
 [457877] = 0,
-},
-},
-},
-["BigWigs_Bosses_Shadowcrown"] = {
-["profiles"] = {
-["AtrocityUI"] = {
-[428086] = 3064567,
-},
-},
-},
-["BigWigs_Bosses_Ulgrax the Devourer"] = {
-["profiles"] = {
-["Default"] = {
-[440849] = 0,
-[435138] = 0,
-[443842] = 0,
-[455831] = 0,
-[439037] = 0,
-[438012] = 0,
-[435136] = 0,
-[445052] = 0,
-[439419] = 0,
-[445123] = 0,
-[441452] = 0,
-[440177] = 0,
-[438657] = 0,
-},
-["AtrocityUI"] = {
-[440849] = 0,
-[435138] = 0,
-[443842] = 0,
-[455831] = 0,
-[441452] = 0,
-[438012] = 0,
-[435136] = 0,
-[439037] = 0,
-[439419] = 0,
-[445123] = 0,
-[445052] = 0,
-[440177] = 0,
-[438657] = 0,
 },
 },
 },
@@ -1392,10 +1350,10 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_Mug'Zee, Heads of Security"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 ["profiles"] = {
 ["FragUI"] = {
-[466539] = 966903,
+["disabled"] = true,
 },
 },
 },
@@ -1429,6 +1387,20 @@ nil,
 },
 },
 },
+["BigWigs_Bosses_Mug'Zee, Heads of Security"] = {
+["profiles"] = {
+["FragUI"] = {
+[466539] = 966903,
+},
+},
+},
+["BigWigs_Bosses_Shadowcrown"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[428086] = 3064567,
+},
+},
+},
 ["BigWigs_Bosses_Vexie and the Geargrinders"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -1456,19 +1428,19 @@ nil,
 ["iconWidthTarget"] = 30,
 ["iconHeightOthers"] = 30,
 ["iconCooldownEdge"] = false,
-["iconCooldownInverse"] = true,
-["iconFontName"] = "Friz Quadrata TT",
 ["iconExpireGlow"] = false,
+["iconFontName"] = "Friz Quadrata TT",
+["iconCooldownInverse"] = true,
 ["iconFontSize"] = 15,
 ["textOutline"] = "OUTLINE",
-["textSpacing"] = 3,
+["textFontSize"] = 21,
 ["iconWidthOthers"] = 30,
 ["iconZoom"] = 0.3,
 ["textOffsetY"] = 25,
 ["iconOffsetX"] = -4,
 ["textUppercase"] = false,
 ["iconHeightTarget"] = 30,
-["textFontSize"] = 21,
+["textSpacing"] = 3,
 },
 ["AtrocityUI"] = {
 ["textFontName"] = "Expressway",
@@ -1518,17 +1490,44 @@ nil,
 },
 },
 },
+["BigWigs_Bosses_Ulgrax the Devourer"] = {
+["profiles"] = {
+["Default"] = {
+[440849] = 0,
+[435138] = 0,
+[443842] = 0,
+[455831] = 0,
+[440177] = 0,
+[438657] = 0,
+[435136] = 0,
+[439037] = 0,
+[439419] = 0,
+[445123] = 0,
+[445052] = 0,
+[441452] = 0,
+[438012] = 0,
+},
+["AtrocityUI"] = {
+[440849] = 0,
+[435138] = 0,
+[443842] = 0,
+[455831] = 0,
+[440177] = 0,
+[438657] = 0,
+[435136] = 0,
+[441452] = 0,
+[439419] = 0,
+[445123] = 0,
+[439037] = 0,
+[445052] = 0,
+[438012] = 0,
+},
+},
+},
 ["BigWigs_Bosses_Dimensius, the All-Devouring"] = {
 ["profiles"] = {
 ["AtrocityUI"] = {
 [1243690] = 3129591,
-},
-},
-},
-["BigWigs_Plugins_Raid Icons"] = {
-["profiles"] = {
-["FragUI"] = {
-["disabled"] = true,
 },
 },
 },
@@ -1537,9 +1536,9 @@ nil,
 ["Player-3674-0B92E4B7"] = {
 ["playerRating"] = 2817,
 ["specId"] = 264,
-["keyMap"] = 0,
+["keyMap"] = 503,
 ["name"] = "Bægnaskeren",
-["keyLevel"] = 0,
+["keyLevel"] = 12,
 ["realm"] = "Twisting Nether",
 },
 },

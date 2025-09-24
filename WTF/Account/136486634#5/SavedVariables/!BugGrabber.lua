@@ -1,0 +1,15 @@
+
+BugGrabberDB = {
+["lastSanitation"] = 3,
+["session"] = 13,
+["errors"] = {
+{
+["message"] = "C stack overflow",
+["time"] = "2025/09/24 18:47:17",
+["locals"] = "self = BossTargetFrameContainer {\n systemInfo = <table> {\n }\n downKeys = <table> {\n }\n smallSize = true\n spacing = 10\n alwaysUseTopRightAnchor = true\n isManagedFrame = true\n hasActiveChanges = false\n dirty = false\n systemIndex = 6\n snappedFrames = <table> {\n }\n isRightManagedFrame = true\n castBarOnSide = true\n layoutParent = UIParentRightManagedFrameContainer {\n }\n lastSystemIndex = 6\n dirtySettings = <table> {\n }\n savedSystemInfo = <table> {\n }\n settingMap = <table> {\n }\n breakSnappedFramesOnSave = true\n settingDisplayInfoMap = <table> {\n }\n settingsDialogAnchor = <table> {\n }\n systemNameString = \"Boss Frames\"\n BossTargetFrames = <table> {\n }\n respectChildScale = true\n layoutIndex = 4\n hideWhenActionBarIsOverriden = false\n Selection = Frame {\n }\n defaultHideSelection = true\n system = 3\n align = \"right\"\n rightPadding = -70\n}\nparent = Frame {\n}\nhiddenParent = Frame {\n}\n",
+["stack"] = "[Interface/AddOns/UnhaltedUF/Libs/oUF/blizzard.lua]:26: in function <Interface/AddOns/UnhaltedUF/Libs/oUF/blizzard.lua:24>\n[C]: ?\n[C]: in function 'SetParent'\n[Interface/AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua]:1709: in function <.../AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua:1707>\n[C]: in function 'SetParent'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/blizzard.lua]:26: in function <Interface/AddOns/UnhaltedUF/Libs/oUF/blizzard.lua:24>\n[C]: ?\n[C]: in function 'SetParent'\n[Interface/AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua]:1709: in function <.../AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua:1707>\n[C]: in function 'SetParent'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/blizzard.lua]:26: in function <Interface/AddOns/UnhaltedUF/Libs/oUF/blizzard.lua:24>\n[C]: ?\n...[Interface/AddOns/ElvUI_Libraries/Core/oUF/ouf.lua]:776: in function <Interface/AddOns/ElvUI_Libraries/Core/oUF/ouf.lua:766>\n[tail call]: ?\n[Interface/AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua]:761: in function <.../AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua:752>\n[tail call]: ?\n[Interface/AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua]:1445: in function <.../AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua:1437>\n[tail call]: ?\n[Interface/AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua]:2133: in function <.../AddOns/ElvUI/Core/Modules/UnitFrames/UnitFrames.lua:2128>\n[tail call]: ?\n[Interface/AddOns/ElvUI_Libraries/Core/oUF/factory.lua]:20: in function <...nterface/AddOns/ElvUI_Libraries/Core/oUF/factory.lua:16>\n[tail call]: ?",
+["session"] = 11,
+["counter"] = 35,
+},
+},
+}

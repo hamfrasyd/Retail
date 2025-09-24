@@ -11,6 +11,7 @@ UUFDB = {
 },
 ["profileKeys"] = {
 ["Bæenjoyer - Twisting Nether"] = "FragUI - Colour",
+["Mbuzipriest - Twisting Nether"] = "Global",
 ["Bægnaskeren - Twisting Nether"] = "FragUI - Colour",
 ["Mbuzi - Twisting Nether"] = "FragUI - Colour",
 },
@@ -25,11 +26,27 @@ UUFDB = {
 ["FragUI - Colour"] = {
 ["General"] = {
 ["BackgroundTexture"] = "Interface\\Addons\\AtrocityMedia\\StatusBars\\Atrocity",
-["ForegroundTexture"] = "Interface\\Addons\\AtrocityMedia\\StatusBars\\Atrocity",
+["ForegroundTexture"] = "Interface\\Addons\\SharedMedia\\statusbar\\Melli",
+["ColourBackgroundByReaction"] = false,
 ["ForegroundColour"] = {
-0.1333333402872086,
-0.1333333402872086,
-0.1333333402872086,
+0.1019607931375504,
+0.1019607931375504,
+0.1019607931375504,
+},
+["ColourByClass"] = false,
+["Font"] = "Interface\\Addons\\AtrocityMedia\\Fonts\\Expressway.TTF",
+["MouseoverHighlight"] = {
+["Colour"] = {
+nil,
+nil,
+nil,
+0.5999999642372131,
+},
+},
+["BackgroundColour"] = {
+0.8000000715255737,
+0.8000000715255737,
+0.8000000715255737,
 },
 ["CustomColours"] = {
 ["Status"] = {
@@ -37,6 +54,11 @@ UUFDB = {
 nil,
 0.2509803921568627,
 0.2509803921568627,
+},
+{
+0.6000000238418579,
+0.6000000238418579,
+0.6000000238418579,
 },
 },
 ["Reaction"] = {
@@ -80,29 +102,27 @@ nil,
 },
 },
 ["Power"] = {
-[0] = {
+{
+0.7803922295570374,
 0.250980406999588,
-0.501960813999176,
+0.250980406999588,
 },
-},
-},
-["BackgroundColour"] = {
-0.1019607931375504,
-0.1019607931375504,
-0.1019607931375504,
-},
-["ColourBackgroundByReaction"] = false,
-["Font"] = "Interface\\Addons\\AtrocityMedia\\Fonts\\Expressway.TTF",
-["MouseoverHighlight"] = {
-["Colour"] = {
+[3] = {
 nil,
+0.960784375667572,
+0.4117647409439087,
+},
+[0] = {
 nil,
-nil,
-0.5999999642372131,
+0.6313725709915161,
+},
 },
 },
 },
 ["Pet"] = {
+["Frame"] = {
+["Width"] = 231,
+},
 ["Health"] = {
 ["HealthPrediction"] = {
 ["HealAbsorbs"] = {
@@ -112,9 +132,6 @@ nil,
 },
 },
 },
-},
-["Frame"] = {
-["Width"] = 231,
 },
 ["PowerBar"] = {
 ["BackgroundColour"] = {
@@ -1505,253 +1522,22 @@ nil,
 },
 },
 },
-["Player"] = {
-["TargetMarker"] = {
-["AnchorTo"] = "TOP",
-["AnchorFrom"] = "CENTER",
-},
-["Health"] = {
-["HealthPrediction"] = {
-["HealAbsorbs"] = {
-["Colour"] = {
-nil,
-0.2509803921568627,
-},
-},
-},
-},
-["CombatIndicator"] = {
-["Enabled"] = false,
-},
-["Frame"] = {
-["YPosition"] = -215,
-["Height"] = 36,
-["XPosition"] = -439,
-["Width"] = 231,
-},
-["PowerBar"] = {
-["BackgroundColour"] = {
-0.1019607843137255,
-0.1019607843137255,
-0.1019607843137255,
-},
-},
-["Texts"] = {
-["Second"] = {
-["FontSize"] = 11,
-},
-},
-},
-["global"] = {
-["UIScale"] = 0.5333333333333,
-},
-["Focus"] = {
-["Debuffs"] = {
-["OnlyShowPlayer"] = false,
-},
-["TargetMarker"] = {
-["AnchorTo"] = "TOPLEFT",
-["XOffset"] = -6,
-["AnchorFrom"] = "LEFT",
-["Size"] = 14,
-},
-["Range"] = {
-["Enable"] = false,
-},
-["Health"] = {
-["HealthPrediction"] = {
-["HealAbsorbs"] = {
-["Colour"] = {
-nil,
-0.2509803921568627,
-},
-},
-},
-},
-["Frame"] = {
-["YPosition"] = -5,
-["AnchorTo"] = "LEFT",
-["XPosition"] = -1.099999999999909,
-["AnchorFrom"] = "RIGHT",
-["Width"] = 80,
-["AnchorParent"] = "UUF_Player",
-["Height"] = 24,
-},
-["PowerBar"] = {
-["BackgroundColour"] = {
-0.1019607843137255,
-0.1019607843137255,
-0.1019607843137255,
-},
-},
-["Texts"] = {
-["Fourth"] = {
-["FontSize"] = 11,
-},
-["First"] = {
-["FontSize"] = 11,
-["Tag"] = "",
-},
-["Second"] = {
-["FontSize"] = 11,
-["Tag"] = "",
-},
-["Third"] = {
-["FontSize"] = 11,
-["Tag"] = "[Name:Medium]",
-},
-},
-},
-["Target"] = {
-["Debuffs"] = {
-["Enabled"] = true,
-["Num"] = 10,
-["AnchorTo"] = "BOTTOMLEFT",
-["AnchorFrom"] = "TOPLEFT",
-["YOffset"] = -1.099999999999994,
-["GrowthX"] = "RIGHT",
-["PerRow"] = 10,
-["GrowthY"] = "DOWN",
-["Size"] = 18.2,
-},
-["TargetMarker"] = {
-["AnchorTo"] = "TOP",
-["AnchorFrom"] = "CENTER",
-["Size"] = 18,
-},
-["Health"] = {
-["HealthPrediction"] = {
-["Absorbs"] = {
-["Overflow"] = {
-["Enabled"] = true,
-},
-},
-["HealAbsorbs"] = {
-["Colour"] = {
-nil,
-0.2509803921568627,
-},
-},
-},
-},
-["Buffs"] = {
-["Num"] = 10,
-["YOffset"] = 1.100000000000009,
-["PerRow"] = 10,
-["Size"] = 22.2,
-},
-["Frame"] = {
-["YPosition"] = -215,
-["Height"] = 36,
-["XPosition"] = 440,
-["Width"] = 231,
-},
-["PowerBar"] = {
-["BackgroundColour"] = {
-0.1019607843137255,
-0.1019607843137255,
-0.1019607843137255,
-},
-},
-["Texts"] = {
-["Fourth"] = {
-["FontSize"] = 11,
-},
-["First"] = {
-["FontSize"] = 11,
-["Tag"] = "[name]",
-},
-["Second"] = {
-["FontSize"] = 11,
-},
-["Third"] = {
-["FontSize"] = 11,
-["AnchorTo"] = "BOTTOMRIGHT",
-["XOffset"] = -18,
-["YOffset"] = -4,
-["AnchorFrom"] = "BOTTOM",
-["Colour"] = {
-0.9019608497619629,
-0.8627451658248901,
-0.8627451658248901,
-},
-},
-},
-},
-["TargetTarget"] = {
-["TargetMarker"] = {
-["XOffset"] = 6,
-["Size"] = 14,
-},
-["Health"] = {
-["HealthPrediction"] = {
-["HealAbsorbs"] = {
-["Colour"] = {
-nil,
-0.2509803921568627,
-},
-},
-},
-},
-["Frame"] = {
-["Enabled"] = true,
-["YPosition"] = -5,
-["Height"] = 24,
-["Width"] = 80,
-},
-["PowerBar"] = {
-["BackgroundColour"] = {
-0.1019607843137255,
-0.1019607843137255,
-0.1019607843137255,
-},
-},
-["Texts"] = {
-["Fourth"] = {
-["FontSize"] = 11,
-},
-["First"] = {
-["FontSize"] = 11,
-},
-["Second"] = {
-["FontSize"] = 11,
-},
-["Third"] = {
-["FontSize"] = 11,
-["Tag"] = "[Name:Medium]",
-},
-},
-},
-["FocusTarget"] = {
-["Health"] = {
-["HealthPrediction"] = {
-["HealAbsorbs"] = {
-["Colour"] = {
-nil,
-0.2509803921568627,
-},
-},
-},
-},
-["Frame"] = {
-["YPosition"] = -26.1,
-["AnchorTo"] = "BOTTOMLEFT",
-["AnchorFrom"] = "TOPLEFT",
-},
-["PowerBar"] = {
-["BackgroundColour"] = {
-0.1019607843137255,
-0.1019607843137255,
-0.1019607843137255,
-},
-},
-},
 ["Boss"] = {
+["Health"] = {
+["HealthPrediction"] = {
+["HealAbsorbs"] = {
+["Colour"] = {
+nil,
+0.2509803921568627,
+},
+},
+},
+},
 ["Debuffs"] = {
-["PerRow"] = 3,
+["Enabled"] = true,
 ["Num"] = 3,
 ["XOffset"] = -38,
-["Enabled"] = true,
+["PerRow"] = 3,
 ["Size"] = 36,
 },
 ["Portrait"] = {
@@ -1760,28 +1546,18 @@ nil,
 ["Size"] = 36,
 },
 ["TargetMarker"] = {
-["AnchorTo"] = "CENTER",
 ["XOffset"] = 0,
-["AnchorFrom"] = "CENTER",
 ["Size"] = 22,
-},
-["Health"] = {
-["HealthPrediction"] = {
-["HealAbsorbs"] = {
-["Colour"] = {
-nil,
-0.2509803921568627,
-},
-},
-},
+["AnchorFrom"] = "CENTER",
+["AnchorTo"] = "CENTER",
 },
 ["Frame"] = {
 ["YPosition"] = 46,
-["XPosition"] = 760,
-["Width"] = 213,
 ["Spacing"] = 26,
 ["Height"] = 36,
+["XPosition"] = 760,
 ["GrowthY"] = "UP",
+["Width"] = 213,
 },
 ["Buffs"] = {
 ["Size"] = 52,
@@ -1812,8 +1588,274 @@ nil,
 },
 },
 },
+["global"] = {
+["UIScale"] = 0.5333333333333,
+},
+["Focus"] = {
+["Debuffs"] = {
+["OnlyShowPlayer"] = false,
+},
+["Health"] = {
+["HealthPrediction"] = {
+["HealAbsorbs"] = {
+["Colour"] = {
+nil,
+0.2509803921568627,
+},
+},
+},
+},
+["TargetMarker"] = {
+["XOffset"] = -6,
+["Size"] = 14,
+["AnchorFrom"] = "LEFT",
+["AnchorTo"] = "TOPLEFT",
+},
+["PowerBar"] = {
+["BackgroundColour"] = {
+0.1019607843137255,
+0.1019607843137255,
+0.1019607843137255,
+},
+},
+["Frame"] = {
+["AnchorParent"] = "UUF_Player",
+["YPosition"] = -5,
+["AnchorTo"] = "LEFT",
+["Height"] = 24,
+["XPosition"] = -1.099999999999909,
+["AnchorFrom"] = "RIGHT",
+["Width"] = 80,
+},
+["Range"] = {
+["Enable"] = false,
+},
+["Texts"] = {
+["Fourth"] = {
+["FontSize"] = 11,
+},
+["First"] = {
+["Tag"] = "",
+["FontSize"] = 11,
+},
+["Second"] = {
+["Tag"] = "",
+["FontSize"] = 11,
+},
+["Third"] = {
+["Tag"] = "[Name:LastNameOnly:Coloured]",
+["FontSize"] = 11,
+},
+},
+},
+["Target"] = {
+["Debuffs"] = {
+["Enabled"] = true,
+["Num"] = 10,
+["AnchorTo"] = "BOTTOMLEFT",
+["AnchorFrom"] = "TOPLEFT",
+["YOffset"] = -1.099999999999994,
+["GrowthX"] = "RIGHT",
+["PerRow"] = 10,
+["GrowthY"] = "DOWN",
+["Size"] = 18.2,
+},
+["Health"] = {
+["HealthPrediction"] = {
+["Absorbs"] = {
+["Overflow"] = {
+["Enabled"] = true,
+},
+},
+["HealAbsorbs"] = {
+["Colour"] = {
+nil,
+0.2509803921568627,
+},
+},
+},
+},
+["TargetMarker"] = {
+["Size"] = 18,
+["AnchorFrom"] = "CENTER",
+["AnchorTo"] = "TOP",
+},
+["Buffs"] = {
+["PerRow"] = 10,
+["Num"] = 10,
+["Size"] = 22.2,
+["YOffset"] = 1.100000000000009,
+},
+["Frame"] = {
+["XPosition"] = 440,
+["YPosition"] = -218,
+["Width"] = 231,
+},
+["PowerBar"] = {
+["Enabled"] = false,
+["BackgroundColour"] = {
+0.1019607843137255,
+0.1019607843137255,
+0.1019607843137255,
+},
+},
+["Texts"] = {
+["Fourth"] = {
+["FontSize"] = 11,
+},
+["First"] = {
+["FontSize"] = 11,
+["AnchorTo"] = "TOPLEFT",
+["Tag"] = "[Name:LastNameOnly:Coloured]",
+["AnchorFrom"] = "TOPLEFT",
+["YOffset"] = -3,
+},
+["Second"] = {
+["FontSize"] = 11,
+["AnchorTo"] = "BOTTOMLEFT",
+["XOffset"] = 3,
+["AnchorFrom"] = "BOTTOMLEFT",
+["YOffset"] = 3,
+},
+["Third"] = {
+["FontSize"] = 11,
+["YOffset"] = 3,
+["AnchorTo"] = "BOTTOMRIGHT",
+["XOffset"] = -3,
+["Colour"] = {
+0.9019608497619629,
+0.8627451658248901,
+0.8627451658248901,
+},
+["AnchorFrom"] = "BOTTOMRIGHT",
+["Tag"] = "[powercolor][Power:PerPP]",
+},
+},
+},
+["TargetTarget"] = {
+["Health"] = {
+["HealthPrediction"] = {
+["HealAbsorbs"] = {
+["Colour"] = {
+nil,
+0.2509803921568627,
+},
+},
+},
+},
+["TargetMarker"] = {
+["XOffset"] = 6,
+["Size"] = 14,
+},
+["Frame"] = {
+["Enabled"] = true,
+["YPosition"] = -9,
+["Height"] = 24,
+["XPosition"] = 1.100000000000023,
+["Width"] = 80,
+},
+["PowerBar"] = {
+["BackgroundColour"] = {
+0.1019607843137255,
+0.1019607843137255,
+0.1019607843137255,
+},
+},
+["Texts"] = {
+["Fourth"] = {
+["FontSize"] = 11,
+},
+["First"] = {
+["FontSize"] = 11,
+},
+["Second"] = {
+["FontSize"] = 11,
+},
+["Third"] = {
+["Tag"] = "[Name:LastNameOnly:Coloured]",
+["FontSize"] = 11,
+},
+},
+},
+["FocusTarget"] = {
+["Frame"] = {
+["AnchorFrom"] = "TOPLEFT",
+["YPosition"] = -26.1,
+["AnchorTo"] = "BOTTOMLEFT",
+},
+["Health"] = {
+["HealthPrediction"] = {
+["HealAbsorbs"] = {
+["Colour"] = {
+nil,
+0.2509803921568627,
+},
+},
+},
+},
+["PowerBar"] = {
+["BackgroundColour"] = {
+0.1019607843137255,
+0.1019607843137255,
+0.1019607843137255,
+},
+},
+},
+["Player"] = {
+["Health"] = {
+["HealthPrediction"] = {
+["HealAbsorbs"] = {
+["Colour"] = {
+nil,
+0.2509803921568627,
+},
+},
+},
+},
+["TargetMarker"] = {
+["Size"] = 18,
+["AnchorFrom"] = "CENTER",
+["AnchorTo"] = "TOP",
+},
+["CombatIndicator"] = {
+["Enabled"] = false,
+},
+["Frame"] = {
+["XPosition"] = -439,
+["YPosition"] = -218,
+["Width"] = 231,
+},
+["PowerBar"] = {
+["BackgroundColour"] = {
+0.1019607843137255,
+0.1019607843137255,
+0.1019607843137255,
+},
+},
+["Texts"] = {
+["Third"] = {
+["FontSize"] = 11,
+["AnchorTo"] = "BOTTOMLEFT",
+["XOffset"] = 3,
+["YOffset"] = 3,
+["AnchorFrom"] = "BOTTOMLEFT",
+["Tag"] = "[powercolor][Power:PerPP]",
+},
+["Second"] = {
+["FontSize"] = 11,
+["AnchorTo"] = "BOTTOMRIGHT",
+["XOffset"] = 0,
+["AnchorFrom"] = "BOTTOMRIGHT",
+["YOffset"] = 3,
+},
+},
+},
 },
 ["Global"] = {
+["General"] = {
+["ForegroundTexture"] = "Interface\\Addons\\AtrocityMedia\\StatusBars\\Atrocity",
+["Font"] = "Interface\\Addons\\AtrocityMedia\\Fonts\\Expressway.TTF",
+},
 ["profile"] = {
 ["WhitelistAuras"] = {
 ["Debuffs"] = {
@@ -1975,11 +2017,11 @@ nil,
 0,
 1,
 },
-["BorderInset"] = 1,
+["Font"] = "Fonts\\FRIZQT__.TTF",
 ["DecimalPlaces"] = 1,
 ["ColourBackgroundByClass"] = false,
 ["ColourByReaction"] = true,
-["Font"] = "Fonts\\FRIZQT__.TTF",
+["BorderInset"] = 1,
 ["ColourBackgroundIfDead"] = false,
 ["BorderColour"] = {
 0,
@@ -2270,24 +2312,6 @@ nil,
 },
 ["Direction"] = "LR",
 },
-["CombatIndicator"] = {
-["Enabled"] = true,
-["AnchorTo"] = "CENTER",
-["XOffset"] = 0,
-["YOffset"] = 0,
-["AnchorFrom"] = "CENTER",
-["Size"] = 24,
-},
-["Frame"] = {
-["Enabled"] = true,
-["AnchorParent"] = "UIParent",
-["YPosition"] = -275.1,
-["AnchorTo"] = "CENTER",
-["Height"] = 42,
-["XPosition"] = -425.1,
-["AnchorFrom"] = "CENTER",
-["Width"] = 272,
-},
 ["Buffs"] = {
 ["Enabled"] = false,
 ["Num"] = 7,
@@ -2314,6 +2338,24 @@ nil,
 ["GrowthX"] = "RIGHT",
 ["GrowthY"] = "UP",
 ["Size"] = 38,
+},
+["CombatIndicator"] = {
+["Enabled"] = true,
+["AnchorTo"] = "CENTER",
+["XOffset"] = 0,
+["YOffset"] = 0,
+["AnchorFrom"] = "CENTER",
+["Size"] = 24,
+},
+["Frame"] = {
+["Enabled"] = true,
+["AnchorParent"] = "UIParent",
+["YPosition"] = -275.1,
+["AnchorTo"] = "CENTER",
+["Height"] = 42,
+["XPosition"] = -425.1,
+["AnchorFrom"] = "CENTER",
+["Width"] = 272,
 },
 ["PowerBar"] = {
 ["Enabled"] = false,
@@ -2677,24 +2719,6 @@ nil,
 },
 ["Direction"] = "LR",
 },
-["CombatIndicator"] = {
-["Enabled"] = false,
-["AnchorTo"] = "CENTER",
-["XOffset"] = 0,
-["YOffset"] = 0,
-["AnchorFrom"] = "CENTER",
-["Size"] = 24,
-},
-["Frame"] = {
-["Enabled"] = true,
-["AnchorParent"] = "UIParent",
-["YPosition"] = -275.1,
-["AnchorTo"] = "CENTER",
-["Height"] = 42,
-["XPosition"] = 425.1,
-["AnchorFrom"] = "CENTER",
-["Width"] = 272,
-},
 ["Buffs"] = {
 ["Enabled"] = true,
 ["Num"] = 7,
@@ -2721,6 +2745,24 @@ nil,
 ["GrowthX"] = "RIGHT",
 ["GrowthY"] = "UP",
 ["Size"] = 38,
+},
+["CombatIndicator"] = {
+["Enabled"] = false,
+["AnchorTo"] = "CENTER",
+["XOffset"] = 0,
+["YOffset"] = 0,
+["AnchorFrom"] = "CENTER",
+["Size"] = 24,
+},
+["Frame"] = {
+["Enabled"] = true,
+["AnchorParent"] = "UIParent",
+["YPosition"] = -275.1,
+["AnchorTo"] = "CENTER",
+["Height"] = 42,
+["XPosition"] = 425.1,
+["AnchorFrom"] = "CENTER",
+["Width"] = 272,
 },
 ["PowerBar"] = {
 ["Enabled"] = true,
@@ -3393,22 +3435,18 @@ nil,
 },
 },
 },
-["General"] = {
-["Font"] = "Interface\\Addons\\AtrocityMedia\\Fonts\\Expressway.TTF",
-["ForegroundTexture"] = "Interface\\Addons\\AtrocityMedia\\StatusBars\\Atrocity",
-},
 ["global"] = {
 ["UnitsBeingFiltered"] = {
 ["Player"] = false,
 ["Boss"] = false,
 ["Focus"] = false,
-["TargetTarget"] = false,
+["Target"] = false,
 ["Pet"] = false,
 ["FocusTarget"] = false,
-["Target"] = false,
+["TargetTarget"] = false,
 },
-["UIScaleEnabled"] = true,
-["TagUpdateInterval"] = 0.5,
+["GlobalProfile"] = "Global",
+["UIScale"] = 0.5333333333333,
 ["UseGlobalProfile"] = false,
 ["BlacklistAuras"] = {
 ["Debuffs"] = {
@@ -3416,8 +3454,8 @@ nil,
 ["Buffs"] = {
 },
 },
-["GlobalProfile"] = "Global",
-["UIScale"] = 0.5333333333333,
+["UIScaleEnabled"] = true,
+["TagUpdateInterval"] = 0.5,
 },
 },
 ["Healer"] = {
@@ -3582,11 +3620,11 @@ nil,
 0,
 1,
 },
-["BorderInset"] = 1,
+["Font"] = "Fonts\\FRIZQT__.TTF",
 ["DecimalPlaces"] = 1,
 ["ColourBackgroundByClass"] = false,
 ["ColourByReaction"] = true,
-["Font"] = "Fonts\\FRIZQT__.TTF",
+["BorderInset"] = 1,
 ["ColourBackgroundIfDead"] = false,
 ["BorderColour"] = {
 0,
@@ -3877,24 +3915,6 @@ nil,
 },
 ["Direction"] = "LR",
 },
-["CombatIndicator"] = {
-["Enabled"] = true,
-["AnchorTo"] = "CENTER",
-["XOffset"] = 0,
-["YOffset"] = 0,
-["AnchorFrom"] = "CENTER",
-["Size"] = 24,
-},
-["Frame"] = {
-["Enabled"] = true,
-["AnchorParent"] = "UIParent",
-["YPosition"] = -275.1,
-["AnchorTo"] = "CENTER",
-["Height"] = 42,
-["XPosition"] = -425.1,
-["AnchorFrom"] = "CENTER",
-["Width"] = 272,
-},
 ["Buffs"] = {
 ["Enabled"] = false,
 ["Num"] = 7,
@@ -3921,6 +3941,24 @@ nil,
 ["GrowthX"] = "RIGHT",
 ["GrowthY"] = "UP",
 ["Size"] = 38,
+},
+["CombatIndicator"] = {
+["Enabled"] = true,
+["AnchorTo"] = "CENTER",
+["XOffset"] = 0,
+["YOffset"] = 0,
+["AnchorFrom"] = "CENTER",
+["Size"] = 24,
+},
+["Frame"] = {
+["Enabled"] = true,
+["AnchorParent"] = "UIParent",
+["YPosition"] = -275.1,
+["AnchorTo"] = "CENTER",
+["Height"] = 42,
+["XPosition"] = -425.1,
+["AnchorFrom"] = "CENTER",
+["Width"] = 272,
 },
 ["PowerBar"] = {
 ["Enabled"] = false,
@@ -4284,24 +4322,6 @@ nil,
 },
 ["Direction"] = "LR",
 },
-["CombatIndicator"] = {
-["Enabled"] = false,
-["AnchorTo"] = "CENTER",
-["XOffset"] = 0,
-["YOffset"] = 0,
-["AnchorFrom"] = "CENTER",
-["Size"] = 24,
-},
-["Frame"] = {
-["Enabled"] = true,
-["AnchorParent"] = "UIParent",
-["YPosition"] = -275.1,
-["AnchorTo"] = "CENTER",
-["Height"] = 42,
-["XPosition"] = 425.1,
-["AnchorFrom"] = "CENTER",
-["Width"] = 272,
-},
 ["Buffs"] = {
 ["Enabled"] = true,
 ["Num"] = 7,
@@ -4328,6 +4348,24 @@ nil,
 ["GrowthX"] = "RIGHT",
 ["GrowthY"] = "UP",
 ["Size"] = 38,
+},
+["CombatIndicator"] = {
+["Enabled"] = false,
+["AnchorTo"] = "CENTER",
+["XOffset"] = 0,
+["YOffset"] = 0,
+["AnchorFrom"] = "CENTER",
+["Size"] = 24,
+},
+["Frame"] = {
+["Enabled"] = true,
+["AnchorParent"] = "UIParent",
+["YPosition"] = -275.1,
+["AnchorTo"] = "CENTER",
+["Height"] = 42,
+["XPosition"] = 425.1,
+["AnchorFrom"] = "CENTER",
+["Width"] = 272,
 },
 ["PowerBar"] = {
 ["Enabled"] = true,
@@ -5005,13 +5043,13 @@ nil,
 ["Player"] = false,
 ["Boss"] = false,
 ["Focus"] = false,
-["TargetTarget"] = false,
+["Target"] = false,
 ["Pet"] = false,
 ["FocusTarget"] = false,
-["Target"] = false,
+["TargetTarget"] = false,
 },
-["UIScaleEnabled"] = true,
-["TagUpdateInterval"] = 0.5,
+["GlobalProfile"] = "Global",
+["UIScale"] = 0.5333333333333,
 ["UseGlobalProfile"] = false,
 ["BlacklistAuras"] = {
 ["Debuffs"] = {
@@ -5019,8 +5057,8 @@ nil,
 ["Buffs"] = {
 },
 },
-["GlobalProfile"] = "Global",
-["UIScale"] = 0.5333333333333,
+["UIScaleEnabled"] = true,
+["TagUpdateInterval"] = 0.5,
 },
 },
 },

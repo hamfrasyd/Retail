@@ -1,0 +1,694 @@
+
+BigWigs3DB = {
+["namespaces"] = {
+["BigWigs_Plugins_Victory"] = {
+["profiles"] = {
+["FragUI"] = {
+["bigwigsVictory"] = false,
+},
+["AtrocityUI"] = {
+["soundName"] = "None",
+},
+},
+},
+["BigWigs_Bosses_Ulgrax the Devourer"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[440849] = 0,
+[435138] = 0,
+[443842] = 0,
+[455831] = 0,
+[438012] = 0,
+[438657] = 0,
+[435136] = 0,
+[441452] = 0,
+[439419] = 0,
+[445123] = 0,
+[440177] = 0,
+[439037] = 0,
+[445052] = 0,
+},
+},
+},
+["BigWigs_Bosses_Broodtwister Ovi'nax"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[446351] = 0,
+[443274] = 0,
+[442799] = 0,
+[446700] = 0,
+[450661] = 0,
+[458212] = 0,
+[442660] = 0,
+["custom_on_experimental_dosage_marks"] = false,
+},
+},
+},
+["BigWigs_Plugins_BossBlock"] = {
+["profiles"] = {
+["FragUI"] = {
+["redirectTheToasts"] = false,
+},
+},
+},
+["BigWigs_Bosses_Darkflame Cleft Trash"] = {
+["profiles"] = {
+["FragUI"] = {
+["minecart"] = 0,
+},
+},
+},
+["BigWigs_Plugins_Sounds"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+["media"] = {
+["Long"] = "None",
+["Warning"] = "None",
+["Info"] = "None",
+["Alarm"] = "None",
+["Alert"] = "None",
+},
+},
+},
+},
+["BigWigs_Plugins_Statistics"] = {
+["profiles"] = {
+["FragUI"] = {
+["disabled"] = true,
+["printVictory"] = false,
+["printDefeat"] = false,
+["printHealth"] = false,
+["printNewFastestVictory"] = false,
+},
+["AtrocityUI"] = {
+["disabled"] = true,
+},
+},
+},
+["BigWigs_Bosses_Cauldron of Carnage"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[472225] = 0,
+[1213690] = 0,
+[472222] = 0,
+[471660] = 0,
+[1214039] = 0,
+[1221826] = 0,
+[463925] = 0,
+[474159] = 0,
+[471557] = 0,
+},
+},
+},
+["BigWigs_Bosses_The One-Armed Bandit"] = {
+["profiles"] = {
+["FragUI"] = {
+["rewards"] = 0,
+[471927] = 966903,
+[465009] = 966903,
+},
+["AtrocityUI"] = {
+[469993] = 0,
+["rewards"] = 0,
+},
+},
+},
+["BigWigs_Plugins_Countdown"] = {
+["profiles"] = {
+["FragUI"] = {
+["outline"] = "OUTLINE",
+["fontName"] = "Friz Quadrata TT",
+["fontColor"] = {
+["b"] = 1,
+["g"] = 0.501960813999176,
+["r"] = 0.501960813999176,
+},
+["position"] = {
+nil,
+nil,
+nil,
+-600,
+},
+},
+["AtrocityUI"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 55,
+["fontColor"] = {
+["r"] = 0.8823529411764706,
+["g"] = 0.8823529411764706,
+["b"] = 0.8823529411764706,
+},
+["position"] = {
+"CENTER",
+"CENTER",
+nil,
+135,
+},
+["fontName"] = "Expressway",
+},
+},
+},
+["BigWigs_Plugins_AltPower"] = {
+["profiles"] = {
+["FragUI"] = {
+["disabled"] = true,
+},
+["AtrocityUI"] = {
+["disabled"] = true,
+},
+},
+},
+["BigWigs_Bosses_Stix Bunkjunker"] = {
+["profiles"] = {
+["FragUI"] = {
+["custom_off_461536"] = true,
+},
+["AtrocityUI"] = {
+[1220648] = 0,
+[472893] = 0,
+[465611] = 0,
+[464854] = 0,
+[466748] = 0,
+[1219384] = 0,
+[1217975] = 0,
+[473119] = 0,
+[465741] = 0,
+[464248] = 0,
+},
+},
+},
+["BigWigs_Plugins_Colors"] = {
+["profiles"] = {
+["FragUI"] = {
+["blue"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.250980406999588,
+0.501960813999176,
+1,
+1,
+},
+},
+},
+["cyan"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.250980406999588,
+1,
+1,
+1,
+},
+},
+},
+["barColor"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+1,
+1,
+1,
+1,
+},
+},
+},
+["purple"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.501960813999176,
+0.250980406999588,
+1,
+1,
+},
+},
+},
+["barTextShadow"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.7019608020782471,
+0.7019608020782471,
+0.7019608020782471,
+0,
+},
+},
+},
+["barBackground"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.1333333402872086,
+0.1333333402872086,
+0.1333333402872086,
+1,
+},
+},
+},
+["barEmphasized"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0,
+0.501960813999176,
+1,
+1,
+},
+},
+},
+["green"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.250980406999588,
+1,
+0.250980406999588,
+1,
+},
+},
+},
+["barText"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+1,
+1,
+1,
+1,
+},
+},
+},
+["yellow"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+1,
+1,
+0.250980406999588,
+1,
+},
+},
+},
+["orange"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+1,
+0.501960813999176,
+0.250980406999588,
+1,
+},
+},
+},
+["red"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+1,
+0.250980406999588,
+0.250980406999588,
+1,
+},
+},
+},
+},
+["AtrocityUI"] = {
+["blue"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+[4] = 1,
+},
+},
+},
+["cyan"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.5843137254901961,
+nil,
+0.9607843137254902,
+1,
+},
+},
+},
+["barColor"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.4862745098039216,
+0.4862745098039216,
+0.4862745098039216,
+0.9000000059604645,
+},
+},
+},
+["purple"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.5058823529411764,
+0.4235294117647059,
+0.9137254901960784,
+1,
+},
+},
+},
+["barTextShadow"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+[4] = 0,
+},
+},
+},
+["barEmphasized"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.9058823529411765,
+0.1647058823529412,
+0.2196078431372549,
+0.9000000059604645,
+},
+},
+},
+["green"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+[4] = 1,
+},
+},
+},
+["barBackground"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.1058823529411765,
+0.1058823529411765,
+0.1058823529411765,
+0,
+},
+},
+},
+["yellow"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+[4] = 1,
+},
+},
+},
+["orange"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+[4] = 1,
+},
+},
+},
+["red"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+[4] = 1,
+},
+},
+},
+},
+},
+},
+["BigWigs_Plugins_Raid Icons"] = {
+["profiles"] = {
+["FragUI"] = {
+["disabled"] = true,
+},
+},
+},
+["BigWigs_Plugins_Nameplates"] = {
+["profiles"] = {
+["FragUI"] = {
+["textFontName"] = "Friz Quadrata TT",
+["iconWidthTarget"] = 30,
+["iconHeightOthers"] = 30,
+["iconCooldownEdge"] = false,
+["textSpacing"] = 3,
+["iconFontName"] = "Friz Quadrata TT",
+["iconExpireGlow"] = false,
+["iconFontSize"] = 15,
+["textOutline"] = "OUTLINE",
+["textFontSize"] = 21,
+["iconWidthOthers"] = 30,
+["iconZoom"] = 0.3,
+["textOffsetY"] = 25,
+["iconOffsetX"] = -4,
+["textUppercase"] = false,
+["iconHeightTarget"] = 30,
+["iconCooldownInverse"] = true,
+},
+["AtrocityUI"] = {
+["textFontName"] = "Expressway",
+["iconWidthTarget"] = 26,
+["iconExpireGlowType"] = "proc",
+["iconHeightOthers"] = 23,
+["iconGlowPixelLines"] = 3,
+["iconGlowPixelLength"] = 5,
+["iconCooldownEdge"] = false,
+["iconGlowFrequency"] = 0.3000000000000003,
+["iconFontName"] = "Expressway",
+["textOutline"] = "OUTLINE",
+["iconFontSize"] = 13,
+["iconWidthOthers"] = 23,
+["iconZoom"] = 0.3,
+["iconOffsetX"] = 10,
+["iconGlowColor"] = {
+1,
+0.8078432083129883,
+0,
+},
+["iconHeightTarget"] = 26,
+["iconOffsetXTarget"] = 8,
+},
+},
+},
+["BigWigs_Plugins_Bars"] = {
+["profiles"] = {
+["FragUI"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 12,
+["visibleBarLimit"] = 4,
+["expHeight"] = 12,
+["emphasizeRestart"] = false,
+["expWidth"] = 120,
+["icon"] = false,
+["emphasizeTime"] = 8,
+["barStyle"] = "ElvUI",
+["growup"] = true,
+["fontSizeEmph"] = 12,
+["normalHeight"] = 26,
+["normalPosition"] = {
+"BOTTOMLEFT",
+"TOPLEFT",
+1,
+35,
+"UUF_Target",
+},
+["expPosition"] = {
+nil,
+nil,
+nil,
+0,
+"Minimap",
+},
+["fontName"] = "Friz Quadrata TT",
+["visibleBarLimitEmph"] = 6,
+["spacing"] = 3,
+["texture"] = "Blizzard Raid Bar",
+["normalWidth"] = 228,
+["emphasizeMultiplier"] = 1,
+["emphasizeMove"] = false,
+},
+["AtrocityUI"] = {
+["outline"] = "OUTLINE",
+["normalWidth"] = 176,
+["fontSizeEmph"] = 11,
+["expPosition"] = {
+"BOTTOMRIGHT",
+"TOPRIGHT",
+-1,
+3,
+"ElvUF_TargetBuffs",
+},
+["emphasizeTime"] = 12,
+["spacing"] = 3,
+["emphasizeGrowup"] = true,
+["barStyle"] = "ElvUI",
+["expWidth"] = 206,
+["fontName"] = "Expressway",
+["fontSize"] = 11,
+["texture"] = "Atrocity",
+["normalPosition"] = {
+"TOPRIGHT",
+"BOTTOMRIGHT",
+0,
+-3,
+"Minimap",
+},
+},
+},
+},
+["BigWigs_Bosses_Rasha'nan"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[439785] = 0,
+[439787] = 0,
+[455287] = 0,
+[452806] = 0,
+[439792] = 0,
+[439776] = 0,
+[457877] = 0,
+},
+},
+},
+["BattleRes"] = {
+["profiles"] = {
+["FragUI"] = {
+["imported"] = true,
+},
+["AtrocityUI"] = {
+["imported"] = true,
+},
+["Default"] = {
+["imported"] = true,
+},
+},
+},
+["BigWigs_Plugins_Messages"] = {
+["profiles"] = {
+["FragUI"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 24,
+["emphFontName"] = "Friz Quadrata TT",
+["emphFontSize"] = 38,
+["fadetime"] = 1,
+["useicons"] = false,
+["emphUppercase"] = false,
+["emphOutline"] = "OUTLINE",
+["displaytime"] = 3,
+["fontName"] = "Friz Quadrata TT",
+["normalPosition"] = {
+nil,
+nil,
+nil,
+0,
+},
+},
+["AtrocityUI"] = {
+["outline"] = "OUTLINE",
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 34,
+["fadetime"] = 1,
+["emphOutline"] = "OUTLINE",
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-232,
+},
+["fontName"] = "Expressway",
+["displaytime"] = 2.5,
+["normalPosition"] = {
+"CENTER",
+"CENTER",
+nil,
+433,
+},
+},
+},
+},
+["BigWigs_Plugins_InfoBox"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+["position"] = {
+"LEFT",
+"LEFT",
+332,
+154,
+},
+},
+},
+},
+["BigWigs_Bosses_Mug'Zee, Heads of Security"] = {
+["profiles"] = {
+["FragUI"] = {
+[466539] = 966903,
+},
+},
+},
+["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[465232] = 0,
+[1219047] = 0,
+[1218418] = 0,
+[1216934] = 0,
+[1216802] = 3129589,
+["stages"] = 0,
+[1218319] = 0,
+[1214878] = 0,
+[1216911] = 0,
+[1218342] = 0,
+[473276] = 0,
+},
+},
+},
+["BigWigs_Bosses_The Bloodbound Horror"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[445518] = 0,
+[451288] = 0,
+[443203] = 0,
+[445570] = 0,
+[438696] = 0,
+[459444] = 0,
+},
+},
+},
+["BigWigs_Bosses_Vexie and the Geargrinders"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[459683] = 0,
+[459678] = 0,
+[466615] = 0,
+[468147] = 0,
+[459978] = 0,
+[471403] = 0,
+},
+},
+},
+["BigWigs_Bosses_Chrome King Gallywix"] = {
+["profiles"] = {
+["FragUI"] = {
+[1216845] = 966903,
+},
+},
+},
+["BigWigs_Bosses_Rik Reverb"] = {
+["profiles"] = {
+["FragUI"] = {
+["custom_off_-31087"] = true,
+},
+["AtrocityUI"] = {
+[473260] = 0,
+[468119] = 0,
+[467606] = 0,
+[473655] = 0,
+[1214598] = 0,
+[1214164] = 0,
+[464518] = 0,
+[466979] = 0,
+[1217122] = 0,
+[466093] = 0,
+},
+},
+},
+},
+["profileKeys"] = {
+["Whatamelon - Twisting Nether"] = "AtrocityUI",
+["Badandbuzi - Argent Dawn"] = "Default",
+},
+["profiles"] = {
+["FragUI"] = {
+["showZoneMessages"] = false,
+},
+["AtrocityUI"] = {
+["bossModMessagesDisabled"] = true,
+},
+["Default"] = {
+},
+},
+}
+BigWigsIconDB = {
+["hide"] = true,
+}
+BigWigsStatsDB = {
+}

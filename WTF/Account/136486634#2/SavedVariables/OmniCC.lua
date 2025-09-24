@@ -12,8 +12,8 @@ OmniCCDB = {
 ["Kassedamen - Twisting Nether"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
-["Lilgoat - Twisting Nether"] = "Default",
 ["Mbuzi - Draenor"] = "Default",
+["Lilgoat - Twisting Nether"] = "Default",
 ["Ponypala - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
@@ -108,29 +108,6 @@ OmniCCDB = {
 },
 },
 ["Default"] = {
-["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["soon"] = {
-},
-["minutes"] = {
-},
-},
-},
-["Plater Nameplates Theme"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["soon"] = {
-},
-["minutes"] = {
-},
-},
-["enableText"] = false,
-},
-},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -160,18 +137,66 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
-["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["theme"] = "Plater Nameplates Theme",
+["id"] = "Plater Nameplates Rule",
 ["priority"] = 4,
+["theme"] = "Plater Nameplates Theme",
+},
+},
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["seconds"] = {
+},
+["soon"] = {
+},
+},
+},
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["seconds"] = {
+},
+["soon"] = {
+},
+},
+["enableText"] = false,
 },
 },
 },
 ["FragUI_1"] = {
+["themes"] = {
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["soon"] = {
+},
+["seconds"] = {
+},
+},
+["enableText"] = false,
+},
+["Default"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["soon"] = {
+},
+["seconds"] = {
+},
+},
+["mmSSDuration"] = 300,
+["maxDuration"] = 300,
+},
+},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -201,37 +226,14 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
+["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["id"] = "Plater Nameplates Rule",
-["priority"] = 4,
 ["theme"] = "Plater Nameplates Theme",
-},
-},
-["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["minutes"] = {
-},
-["soon"] = {
-},
-},
-},
-["Plater Nameplates Theme"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["minutes"] = {
-},
-["soon"] = {
-},
-},
-["enableText"] = false,
+["priority"] = 4,
 },
 },
 },

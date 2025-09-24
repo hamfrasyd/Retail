@@ -1,0 +1,34 @@
+
+Prat3DB = {
+["namespaces"] = {
+["Prat_Frames"] = {
+["profiles"] = {
+["Default"] = {
+["minchatwidthdefault"] = 250.0000152587891,
+["maxchatheightdefault"] = 800,
+["initialized"] = true,
+},
+},
+},
+},
+["profileKeys"] = {
+["Whatamelon - Twisting Nether"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["modules"] = {
+["ChatLog"] = 2,
+["Mentions"] = 2,
+["PopupMessage"] = 2,
+["AltNames"] = 2,
+["Sounds"] = 2,
+["Paragraph"] = 2,
+["KeyBindings"] = 2,
+["LinkInfoIcons"] = 2,
+["DebugModules"] = 2,
+["OriginalButtons"] = 2,
+["Alias"] = 2,
+},
+},
+},
+}

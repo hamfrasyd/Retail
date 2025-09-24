@@ -8,8 +8,8 @@ Details_StreamerDB = {
 ["Kassedamen - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Dådyret - Draenor"] = "Mbuzi - Twisting Nether",
 ["Mbuzipriest - Twisting Nether"] = "Mbuzi - Twisting Nether",
-["Lilgoat - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Mbuzi - Draenor"] = "Mbuzi - Twisting Nether",
+["Lilgoat - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Ponypala - Twisting Nether"] = "Mbuzi - Twisting Nether",
 },
 ["profiles"] = {

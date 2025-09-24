@@ -9,8 +9,8 @@ SimulationCraftDB = {
 ["Dådyret - Draenor"] = "Dådyret - Draenor",
 ["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
 ["Ponypala - Twisting Nether"] = "Ponypala - Twisting Nether",
-["Mbuzi - Draenor"] = "Mbuzi - Draenor",
 ["Lilgoat - Twisting Nether"] = "Lilgoat - Twisting Nether",
+["Mbuzi - Draenor"] = "Mbuzi - Draenor",
 },
 ["profiles"] = {
 ["Driplitty - Twisting Nether"] = {
@@ -38,9 +38,9 @@ SimulationCraftDB = {
 },
 ["Ponypala - Twisting Nether"] = {
 },
-["Mbuzi - Draenor"] = {
-},
 ["Lilgoat - Twisting Nether"] = {
+},
+["Mbuzi - Draenor"] = {
 },
 },
 }
