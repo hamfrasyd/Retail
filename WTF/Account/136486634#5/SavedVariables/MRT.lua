@@ -4,10 +4,7 @@ VMRT = {
 ["BlackNames"] = {
 },
 ["Strata"] = "HIGH",
-["Black"] = {
-"",
-"",
-"",
+["BlackLastUpdateTime"] = {
 },
 ["FontSize"] = 12,
 ["AutoLoad"] = {
@@ -15,29 +12,35 @@ VMRT = {
 ["PersonalHeight"] = 200,
 ["CustomRoster"] = {
 },
+["Width"] = 300.0000610351563,
+["BlackLastUpdateName"] = {
+},
+["PersonalWidth"] = 300.0000610351563,
+["OnlyPromoted"] = true,
+["Black"] = {
+"",
+"",
+"",
+},
+["Height"] = 200,
 ["Profiles"] = {
 ["Now"] = "default",
 ["List"] = {
 },
 },
-["BlackLastUpdateName"] = {
-},
-["PersonalWidth"] = 300.0000610351563,
-["OnlyPromoted"] = true,
-["BlackLastUpdateTime"] = {
-},
-["Height"] = 200,
-["Width"] = 300.0000610351563,
 ["OptionsFormatting"] = true,
 },
 ["ProfileKeys"] = {
-["Whatamelon-TwistingNether"] = "default",
+["Yesfin-ArgentDawn"] = "default",
 ["Badandbuzi-ArgentDawn"] = "default",
+["Whatamelon-TwistingNether"] = "default",
 },
 ["Encounter"] = {
 ["names"] = {
 },
 ["list"] = {
+["Yesfin"] = {
+},
 ["Whatamelon"] = {
 },
 ["Badandbuzi"] = {
@@ -65,6 +68,8 @@ VMRT = {
 ["ExCD2"] = {
 ["upd4525"] = true,
 ["gnGUIDs"] = {
+["Misswarchira"] = 259,
+["Yesfin"] = 253,
 ["Whatamelon"] = 1446,
 ["Badandbuzi"] = 1446,
 },
@@ -368,9 +373,9 @@ true,
 },
 ["v21"] = true,
 ["v55"] = true,
-["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 ["TLHistory"] = {
 },
+["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 ["Profile"] = 1,
 ["generalSound2"] = "Interface\\AddOns\\MRT\\media\\Sounds\\KittenMeow.ogg",
 ["profilesinfo"] = {
@@ -378,8 +383,8 @@ true,
 ["v38"] = true,
 ["removed"] = {
 },
-["HistoryFrameShown"] = true,
 ["FontOutline"] = true,
+["HistoryFrameShown"] = true,
 },
 ["Addon"] = {
 ["Version"] = 5215,
@@ -401,8 +406,6 @@ true,
 ["Timer"] = 0.1,
 ["EJ_CHECK_VER"] = 110200,
 },
-["Profiles"] = {
-},
 ["LootHistory"] = {
 ["instanceNames"] = {
 },
@@ -410,6 +413,8 @@ true,
 },
 ["list"] = {
 },
+},
+["Profiles"] = {
 },
 ["BossWatcher"] = {
 ["optionsDamageGraph"] = true,

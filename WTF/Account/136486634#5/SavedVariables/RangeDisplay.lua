@@ -3,11 +3,13 @@ RangeDisplayDB3 = {
 ["namespaces"] = {
 },
 ["profileKeys"] = {
-["Badandbuzi - Argent Dawn"] = "Default",
 ["Whatamelon - Twisting Nether"] = "Default",
+["Yesfin - Argent Dawn"] = "Default",
+["Badandbuzi - Argent Dawn"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
+["locked"] = true,
 ["units"] = {
 ["pet"] = {
 },

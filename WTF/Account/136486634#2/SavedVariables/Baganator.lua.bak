@@ -8,6 +8,8 @@ BAGANATOR_CONFIG = {
 ["Mbuzi-TwistingNether"] = 0,
 },
 ["currencies_tracked"] = {
+["Bæenjoyer-TwistingNether"] = {
+},
 ["Mbuzi-TwistingNether"] = {
 {
 ["currencyID"] = 3008,
@@ -36,7 +38,7 @@ BAGANATOR_CONFIG = {
 ["currencyID"] = 3290,
 },
 },
-["Bæenjoyer-TwistingNether"] = {
+["Mbuzipriest-TwistingNether"] = {
 },
 },
 ["currencies_tracked_imported"] = {
@@ -227,11 +229,14 @@ BAGANATOR_CONFIG = {
 ["setting_anchors"] = false,
 ["disabled_skins"] = {
 },
-["sort_ignore_slots_count_2"] = 0,
+["bag_view_width"] = 12,
 ["bag_icon_size"] = 37,
 ["new_items_flashing"] = true,
 ["character_bank_view_width"] = 14,
-["debug_keywords"] = false,
+["recent_characters_main_view"] = {
+"Mbuzipriest-TwistingNether",
+"Bægnaskeren-TwistingNether",
+},
 ["category_migration"] = 5,
 ["auto_sort_on_open"] = false,
 ["show_buttons_on_alt"] = false,
@@ -257,13 +262,11 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["recent_characters_main_view"] = {
-"Bægnaskeren-TwistingNether",
-},
+["debug_keywords"] = false,
 ["bag_view_type"] = "category",
 ["bag_empty_space_at_top"] = false,
 ["show_sort_button_2"] = true,
-["bag_view_width"] = 12,
+["sort_ignore_slots_count_2"] = 0,
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
 -115,

@@ -5,11 +5,12 @@ OmniCCDB = {
 ["addonVersion"] = "11.2.7",
 },
 ["profileKeys"] = {
-["Whatamelon - Twisting Nether"] = "FragUI",
 ["Badandbuzi - Argent Dawn"] = "Default",
+["Yesfin - Argent Dawn"] = "FragUI_2",
+["Whatamelon - Twisting Nether"] = "FragUI_1",
 },
 ["profiles"] = {
-["Default"] = {
+["FragUI"] = {
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -39,40 +40,16 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
+["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["id"] = "Plater Nameplates Rule",
-["priority"] = 4,
 ["theme"] = "Plater Nameplates Theme",
+["priority"] = 4,
 },
 },
-["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["soon"] = {
-},
-["minutes"] = {
-},
-},
-},
-["Plater Nameplates Theme"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["soon"] = {
-},
-["minutes"] = {
-},
-},
-},
-},
-},
-["FragUI"] = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
@@ -121,6 +98,8 @@ OmniCCDB = {
 },
 },
 },
+},
+["Default"] = {
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -158,6 +137,92 @@ OmniCCDB = {
 },
 ["theme"] = "Plater Nameplates Theme",
 ["priority"] = 4,
+},
+},
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["seconds"] = {
+},
+["soon"] = {
+},
+},
+},
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["seconds"] = {
+},
+["soon"] = {
+},
+},
+},
+},
+},
+["FragUI_1"] = {
+["rules"] = {
+{
+["enabled"] = false,
+["patterns"] = {
+"Aura",
+"Buff",
+"Debuff",
+},
+["name"] = "Auras",
+["id"] = "auras",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"Plate",
+},
+["name"] = "Unit Nameplates",
+["id"] = "plates",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"ActionButton",
+"MultiBar",
+},
+["name"] = "Action Bars",
+["id"] = "actions",
+},
+{
+["patterns"] = {
+"PlaterMainAuraIcon",
+"PlaterSecondaryAuraIcon",
+"ExtraIconRowIcon",
+},
+["id"] = "Plater Nameplates Rule",
+["priority"] = 4,
+["theme"] = "Plater Nameplates Theme",
+},
+},
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["seconds"] = {
+},
+["soon"] = {
+},
+["minutes"] = {
+},
+},
+},
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["seconds"] = {
+},
+["soon"] = {
+},
+["minutes"] = {
+},
+},
+["enableText"] = false,
 },
 },
 },

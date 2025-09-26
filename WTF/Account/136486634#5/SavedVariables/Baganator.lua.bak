@@ -122,7 +122,7 @@ BAGANATOR_CONFIG = {
 "default_junk",
 "default_special_empty",
 },
-["current_skin"] = "elvui",
+["current_skin"] = "blizzard",
 ["hide_boe_on_common"] = false,
 ["bank_view_type"] = "single",
 ["icon_grey_junk"] = false,
@@ -189,23 +189,23 @@ BAGANATOR_CONFIG = {
 ["bank_current_tab"] = 1,
 ["currencies_tracked"] = {
 },
-["sort_ignore_slots_count_2"] = 0,
-["icon_text_font_size"] = 14,
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
 -115,
 85,
 },
+["icon_text_font_size"] = 14,
 ["bag_view_width"] = 12,
+["sort_ignore_slots_count_2"] = 0,
 ["disabled_skins"] = {
 },
 ["setting_anchors"] = false,
 ["bag_empty_space_at_top"] = false,
 ["bag_view_type"] = "single",
-["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
 "Whatamelon-TwistingNether",
 },
+["debug_keywords"] = false,
 ["category_migration"] = 5,
 ["auto_sort_on_open"] = false,
 ["skins"] = {

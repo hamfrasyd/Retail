@@ -118,7 +118,7 @@ BigWigs:AddColors("Forgeweaver Araz", {
 BigWigs:AddSounds("Forgeweaver Araz", {
 	[1227631] = "warning",
 	[1228188] = "warning",
-	[1228214] = {"info","warning"},
+	[1228214] = "warning",
 	[1228216] = "warning",
 	[1228219] = "alarm",
 	[1228502] = {"alarm","warning"},

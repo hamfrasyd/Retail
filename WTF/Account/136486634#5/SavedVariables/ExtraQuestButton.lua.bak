@@ -29,6 +29,20 @@ ExtraQuestButtonDB3 = {
 ["zoneOnly"] = false,
 ["artworkStyle"] = "Default",
 },
+["UI_1080_1"] = {
+["artworkAlpha"] = 1,
+["noCooldownText"] = false,
+["trackingOnly"] = false,
+["position"] = {
+["y"] = 0,
+["x"] = 0,
+["point"] = "CENTER",
+},
+["artworkStyle"] = "Default",
+["zoneOnly"] = false,
+["distanceYd"] = 1000,
+["scale"] = 1,
+},
 ["UI_1080"] = {
 ["artworkAlpha"] = 1,
 ["scale"] = 1,

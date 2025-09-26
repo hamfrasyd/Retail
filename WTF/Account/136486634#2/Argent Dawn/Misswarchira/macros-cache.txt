@@ -1,0 +1,11 @@
+VER 3 0100000000000002 "." "INV_MISC_QUESTIONMARK"
+#showtooltip Hemorrhage
+/cast Hemorrhage
+/cast Auto Attack
+END
+VER 3 0100000000000001 "." "INV_MISC_QUESTIONMARK"
+#showtooltip Evasion
+/use Talisman of Arathor
+/cast Evasion
+/cast Recuperate
+END

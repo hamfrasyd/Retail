@@ -29,6 +29,20 @@ ExtraQuestButtonDB3 = {
 ["distanceYd"] = 1000,
 ["noCooldownText"] = false,
 },
+["UI_1080_1"] = {
+["artworkAlpha"] = 1,
+["scale"] = 1,
+["trackingOnly"] = false,
+["position"] = {
+["y"] = 0,
+["x"] = 0,
+["point"] = "CENTER",
+},
+["noCooldownText"] = false,
+["distanceYd"] = 1000,
+["zoneOnly"] = false,
+["artworkStyle"] = "Default",
+},
 ["Mbuzi"] = {
 ["artworkAlpha"] = 1,
 ["artworkStyle"] = "Default",

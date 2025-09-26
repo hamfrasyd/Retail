@@ -16,6 +16,7 @@ CliqueDB3 = {
 },
 ["profileKeys"] = {
 ["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
+["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
 ["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
 ["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 },
@@ -27,6 +28,25 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Misswarchira - Argent Dawn"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },

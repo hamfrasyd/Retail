@@ -13,6 +13,7 @@ Prat3DB = {
 },
 ["profileKeys"] = {
 ["Whatamelon - Twisting Nether"] = "Default",
+["Yesfin - Argent Dawn"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

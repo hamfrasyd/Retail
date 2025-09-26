@@ -4,13 +4,14 @@ OmniCCDB = {
 ["Driplitty - Twisting Nether"] = "Default",
 ["Mbuzi - Twisting Nether"] = "FragUI",
 ["Bæenjoyer - Twisting Nether"] = "Default",
+["Misswarchira - Argent Dawn"] = "Default",
 ["Bægnaskeren - Twisting Nether"] = "FragUI_1",
 ["Kassedamen - Twisting Nether"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
 ["Ponypala - Twisting Nether"] = "Default",
-["Lilgoat - Twisting Nether"] = "Default",
 ["Mbuzi - Draenor"] = "Default",
+["Lilgoat - Twisting Nether"] = "Default",
 },
 ["global"] = {
 ["dbVersion"] = 6,
@@ -137,14 +138,14 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
-["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["theme"] = "Plater Nameplates Theme",
+["id"] = "Plater Nameplates Rule",
 ["priority"] = 4,
+["theme"] = "Plater Nameplates Theme",
 },
 },
 ["themes"] = {
@@ -201,14 +202,14 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
+["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["id"] = "Plater Nameplates Rule",
-["priority"] = 4,
 ["theme"] = "Plater Nameplates Theme",
+["priority"] = 4,
 },
 },
 ["themes"] = {

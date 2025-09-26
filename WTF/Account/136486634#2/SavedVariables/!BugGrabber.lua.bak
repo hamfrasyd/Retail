@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 389,
+["session"] = 399,
 ["errors"] = {
 {
 ["message"] = "FontString:SetFormattedText(): Font not set",

@@ -8,6 +8,8 @@ BAGANATOR_CONFIG = {
 ["currencies_tracked"] = {
 ["Whatamelon-TwistingNether"] = {
 },
+["Yesfin-ArgentDawn"] = {
+},
 },
 ["currencies_tracked_imported"] = {
 },
@@ -122,7 +124,7 @@ BAGANATOR_CONFIG = {
 "default_junk",
 "default_special_empty",
 },
-["current_skin"] = "elvui",
+["current_skin"] = "blizzard",
 ["hide_boe_on_common"] = false,
 ["bank_view_type"] = "single",
 ["icon_grey_junk"] = false,
@@ -157,7 +159,7 @@ BAGANATOR_CONFIG = {
 },
 ["character_select_position"] = {
 "RIGHT",
-"Baganator_SingleViewBackpackViewFrameelvui",
+"Baganator_SingleViewBackpackViewFrameblizzard",
 "LEFT",
 0,
 0,
@@ -191,11 +193,15 @@ BAGANATOR_CONFIG = {
 ["setting_anchors"] = false,
 ["disabled_skins"] = {
 },
-["sort_ignore_slots_count_2"] = 0,
+["bag_view_width"] = 12,
 ["bag_icon_size"] = 37,
 ["new_items_flashing"] = true,
 ["character_bank_view_width"] = 14,
-["debug_keywords"] = false,
+["recent_characters_main_view"] = {
+"Yesfin-ArgentDawn",
+"Whatamelon-TwistingNether",
+"Badandbuzi-ArgentDawn",
+},
 ["category_migration"] = 5,
 ["auto_sort_on_open"] = false,
 ["show_buttons_on_alt"] = false,
@@ -224,13 +230,11 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["recent_characters_main_view"] = {
-"Whatamelon-TwistingNether",
-},
+["debug_keywords"] = false,
 ["bag_view_type"] = "single",
 ["bag_empty_space_at_top"] = false,
 ["show_sort_button_2"] = true,
-["bag_view_width"] = 12,
+["sort_ignore_slots_count_2"] = 0,
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
 -115,
@@ -238,7 +242,7 @@ BAGANATOR_CONFIG = {
 },
 ["currency_panel_position"] = {
 "RIGHT",
-"Baganator_SingleViewBackpackViewFrameelvui",
+"Baganator_SingleViewBackpackViewFrameblizzard",
 "LEFT",
 0,
 0,

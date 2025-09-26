@@ -1,16 +1,22 @@
 
 SimulationCraftDB = {
 ["profileKeys"] = {
-["Whatamelon - Twisting Nether"] = "Whatamelon - Twisting Nether",
 ["Badandbuzi - Argent Dawn"] = "Badandbuzi - Argent Dawn",
+["Yesfin - Argent Dawn"] = "Yesfin - Argent Dawn",
+["Whatamelon - Twisting Nether"] = "Whatamelon - Twisting Nether",
 },
 ["profiles"] = {
-["Whatamelon - Twisting Nether"] = {
+["Badandbuzi - Argent Dawn"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
 },
-["Badandbuzi - Argent Dawn"] = {
+["Yesfin - Argent Dawn"] = {
+["minimap"] = {
+["hide"] = true,
+},
+},
+["Whatamelon - Twisting Nether"] = {
 ["minimap"] = {
 ["hide"] = true,
 },

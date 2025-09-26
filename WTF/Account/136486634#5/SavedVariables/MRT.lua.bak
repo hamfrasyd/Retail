@@ -4,10 +4,7 @@ VMRT = {
 ["BlackNames"] = {
 },
 ["FontSize"] = 12,
-["Black"] = {
-"",
-"",
-"",
+["BlackLastUpdateTime"] = {
 },
 ["Strata"] = "HIGH",
 ["AutoLoad"] = {
@@ -15,27 +12,33 @@ VMRT = {
 ["OptionsFormatting"] = true,
 ["CustomRoster"] = {
 },
-["Width"] = 300.0000610351563,
-["BlackLastUpdateName"] = {
-},
-["PersonalWidth"] = 300.0000610351563,
-["OnlyPromoted"] = true,
 ["Profiles"] = {
 ["Now"] = "default",
 ["List"] = {
 },
 },
+["BlackLastUpdateName"] = {
+},
+["PersonalWidth"] = 300.0000610351563,
+["OnlyPromoted"] = true,
+["Width"] = 300.0000610351563,
 ["Height"] = 200,
-["BlackLastUpdateTime"] = {
+["Black"] = {
+"",
+"",
+"",
 },
 ["PersonalHeight"] = 200,
 },
 ["ProfileKeys"] = {
-["Whatamelon-TwistingNether"] = "default",
+["Yesfin-ArgentDawn"] = "default",
 ["Badandbuzi-ArgentDawn"] = "default",
+["Whatamelon-TwistingNether"] = "default",
 },
 ["Encounter"] = {
 ["list"] = {
+["Yesfin"] = {
+},
 ["Badandbuzi"] = {
 },
 ["Whatamelon"] = {
@@ -65,6 +68,7 @@ VMRT = {
 ["ExCD2"] = {
 ["upd4525"] = true,
 ["gnGUIDs"] = {
+["Yesfin"] = 253,
 ["Badandbuzi"] = 1446,
 ["Whatamelon"] = 1446,
 },
@@ -331,8 +335,8 @@ true,
 },
 ["v21"] = true,
 ["v55"] = true,
-["FontOutline"] = true,
 ["HistoryFrameShown"] = true,
+["FontOutline"] = true,
 ["Profile"] = 1,
 ["generalSound2"] = "Interface\\AddOns\\MRT\\media\\Sounds\\KittenMeow.ogg",
 ["profilesinfo"] = {
@@ -340,9 +344,9 @@ true,
 ["v38"] = true,
 ["removed"] = {
 },
-["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 ["TLHistory"] = {
 },
+["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 },
 ["Addon"] = {
 ["Version"] = 5215,
@@ -387,13 +391,7 @@ true,
 ["trackingDamageSpells"] = {
 },
 },
-["LootHistory"] = {
-["list"] = {
-},
-["bossNames"] = {
-},
-["instanceNames"] = {
-},
+["Profiles"] = {
 },
 ["Profile"] = "default",
 ["LootLink"] = {
@@ -411,7 +409,13 @@ true,
 true,
 },
 },
-["Profiles"] = {
+["LootHistory"] = {
+["list"] = {
+},
+["bossNames"] = {
+},
+["instanceNames"] = {
+},
 },
 ["Logging"] = {
 },

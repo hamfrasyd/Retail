@@ -1,8 +1,9 @@
 
 Details_StreamerDB = {
 ["characters"] = {
-["Whatamelon - Twisting Nether"] = "Whatamelon - Twisting Nether",
 ["Badandbuzi - Argent Dawn"] = "Whatamelon - Twisting Nether",
+["Yesfin - Argent Dawn"] = "Whatamelon - Twisting Nether",
+["Whatamelon - Twisting Nether"] = "Whatamelon - Twisting Nether",
 },
 ["profiles"] = {
 ["Whatamelon - Twisting Nether"] = {
@@ -16,8 +17,8 @@ Details_StreamerDB = {
 },
 ["arrow_anchor_y"] = 0,
 ["main_frame_size"] = {
-299.9999694824219,
-500.0000915527344,
+300,
+499.9999389648438,
 },
 ["minimap"] = {
 ["minimapPos"] = 160,
@@ -26,20 +27,20 @@ Details_StreamerDB = {
 },
 ["main_frame_locked"] = false,
 ["arrow_anchor_x"] = 0,
+["use_spark"] = true,
+["row_texture"] = "Details Serenity",
+["square_grow_direction"] = "right",
 ["row_color"] = {
 0.1,
 0.1,
 0.1,
 0.4,
 },
-["row_texture"] = "Details Serenity",
-["square_grow_direction"] = "right",
-["use_spark"] = true,
 ["author"] = "Terciob",
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["y"] = 1.52587890625e-05,
+["y"] = 0.000335693359375,
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -55,8 +56,8 @@ Details_StreamerDB = {
 ["point"] = "CENTER",
 ["scale"] = 1,
 ["font_shadow"] = true,
-["y"] = 0,
-["x"] = 0,
+["y"] = 0.000396728515625,
+["x"] = 3.0517578125e-05,
 ["attribute_type"] = 1,
 ["update_speed"] = 0.05,
 ["size"] = 32,
