@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 416,
 ["lastSanitation"] = 3,
-["session"] = 409,
 ["errors"] = {
 {
 ["message"] = "FontString:SetFormattedText(): Font not set",
@@ -152,8 +152,8 @@ BugGrabberDB = {
 ["time"] = "2025/09/21 10:48:16",
 ["locals"] = "frame = EditBox {\n BottomRightCorner = Texture {\n }\n Center = Texture {\n }\n RightEdge = Texture {\n }\n backdropInfo = <table> {\n }\n BottomEdge = Texture {\n }\n BottomLeftCorner = Texture {\n }\n obj = <table> {\n }\n TopEdge = Texture {\n }\n TopRightCorner = Texture {\n }\n TopLeftCorner = Texture {\n }\n LeftEdge = Texture {\n }\n}\nself = <table> {\n disabled = false\n hightext = FontString {\n }\n parent = <table> {\n }\n step = 0.100000\n alignoffset = 25\n userdata = <table> {\n }\n value = -438.200000\n relWidth = 0.500000\n base = <table> {\n }\n type = \"Slider\"\n AceGUIWidgetVersion = 23\n max = 999\n label = FontString {\n }\n width = \"relative\"\n min = -999\n lowtext = FontString {\n }\n events = <table> {\n }\n editbox = EditBox {\n }\n frame = Frame {\n }\n slider = Slider {\n }\n}\nvalue = -438.200000\n",
 ["stack"] = "[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/widgets/AceGUIWidget-Slider.lua]:107: in function <...ions/libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua:95>",
-["session"] = 387,
-["counter"] = 2,
+["session"] = 413,
+["counter"] = 3,
 },
 },
 }

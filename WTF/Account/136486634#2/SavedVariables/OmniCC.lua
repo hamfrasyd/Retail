@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.2.7",
+},
 ["profileKeys"] = {
 ["Driplitty - Twisting Nether"] = "Default",
 ["Mbuzi - Twisting Nether"] = "FragUI",
@@ -9,16 +13,51 @@ OmniCCDB = {
 ["Kassedamen - Twisting Nether"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
-["Ponypala - Twisting Nether"] = "Default",
 ["Lilgoat - Twisting Nether"] = "Default",
 ["Mbuzi - Draenor"] = "Default",
-},
-["global"] = {
-["dbVersion"] = 6,
-["addonVersion"] = "11.2.7",
+["Ponypala - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
 ["FragUI"] = {
+["rules"] = {
+{
+["enabled"] = false,
+["patterns"] = {
+"Aura",
+"Buff",
+"Debuff",
+},
+["name"] = "Auras",
+["id"] = "auras",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"Plate",
+},
+["name"] = "Unit Nameplates",
+["id"] = "plates",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"ActionButton",
+"MultiBar",
+},
+["name"] = "Action Bars",
+["id"] = "actions",
+},
+{
+["id"] = "Plater Nameplates Rule",
+["patterns"] = {
+"PlaterMainAuraIcon",
+"PlaterSecondaryAuraIcon",
+"ExtraIconRowIcon",
+},
+["theme"] = "Plater Nameplates Theme",
+["priority"] = 4,
+},
+},
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
@@ -34,15 +73,15 @@ OmniCCDB = {
 },
 ["hours"] = {
 ["scale"] = 1,
-["r"] = 1,
-["g"] = 1,
 ["b"] = 1,
+["g"] = 1,
+["r"] = 1,
 },
 ["charging"] = {
 ["a"] = 1,
-["b"] = 1,
-["scale"] = 1,
 ["r"] = 1,
+["scale"] = 1,
+["b"] = 1,
 },
 ["controlled"] = {
 ["scale"] = 1,
@@ -60,102 +99,24 @@ OmniCCDB = {
 ["textStyles"] = {
 ["seconds"] = {
 },
-["soon"] = {
-},
 ["minutes"] = {
+},
+["soon"] = {
 },
 },
 ["enableText"] = false,
 },
 },
-["rules"] = {
-{
-["enabled"] = false,
-["patterns"] = {
-"Aura",
-"Buff",
-"Debuff",
-},
-["name"] = "Auras",
-["id"] = "auras",
-},
-{
-["enabled"] = false,
-["patterns"] = {
-"Plate",
-},
-["name"] = "Unit Nameplates",
-["id"] = "plates",
-},
-{
-["enabled"] = false,
-["patterns"] = {
-"ActionButton",
-"MultiBar",
-},
-["name"] = "Action Bars",
-["id"] = "actions",
-},
-{
-["id"] = "Plater Nameplates Rule",
-["patterns"] = {
-"PlaterMainAuraIcon",
-"PlaterSecondaryAuraIcon",
-"ExtraIconRowIcon",
-},
-["theme"] = "Plater Nameplates Theme",
-["priority"] = 4,
-},
-},
 },
 ["Default"] = {
-["rules"] = {
-{
-["enabled"] = false,
-["patterns"] = {
-"Aura",
-"Buff",
-"Debuff",
-},
-["name"] = "Auras",
-["id"] = "auras",
-},
-{
-["enabled"] = false,
-["patterns"] = {
-"Plate",
-},
-["name"] = "Unit Nameplates",
-["id"] = "plates",
-},
-{
-["enabled"] = false,
-["patterns"] = {
-"ActionButton",
-"MultiBar",
-},
-["name"] = "Action Bars",
-["id"] = "actions",
-},
-{
-["patterns"] = {
-"PlaterMainAuraIcon",
-"PlaterSecondaryAuraIcon",
-"ExtraIconRowIcon",
-},
-["id"] = "Plater Nameplates Rule",
-["priority"] = 4,
-["theme"] = "Plater Nameplates Theme",
-},
-},
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
 ["soon"] = {
 },
-["seconds"] = {
-},
 ["minutes"] = {
+},
+["seconds"] = {
 },
 },
 },
@@ -163,22 +124,100 @@ OmniCCDB = {
 ["textStyles"] = {
 ["soon"] = {
 },
-["seconds"] = {
-},
 ["minutes"] = {
+},
+["seconds"] = {
 },
 },
 ["enableText"] = false,
+},
+},
+["rules"] = {
+{
+["enabled"] = false,
+["patterns"] = {
+"Aura",
+"Buff",
+"Debuff",
+},
+["name"] = "Auras",
+["id"] = "auras",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"Plate",
+},
+["name"] = "Unit Nameplates",
+["id"] = "plates",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"ActionButton",
+"MultiBar",
+},
+["name"] = "Action Bars",
+["id"] = "actions",
+},
+{
+["id"] = "Plater Nameplates Rule",
+["patterns"] = {
+"PlaterMainAuraIcon",
+"PlaterSecondaryAuraIcon",
+"ExtraIconRowIcon",
+},
+["theme"] = "Plater Nameplates Theme",
+["priority"] = 4,
 },
 },
 },
 ["FragUI_1"] = {
+["rules"] = {
+{
+["enabled"] = false,
+["patterns"] = {
+"Aura",
+"Buff",
+"Debuff",
+},
+["name"] = "Auras",
+["id"] = "auras",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"Plate",
+},
+["name"] = "Unit Nameplates",
+["id"] = "plates",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"ActionButton",
+"MultiBar",
+},
+["name"] = "Action Bars",
+["id"] = "actions",
+},
+{
+["patterns"] = {
+"PlaterMainAuraIcon",
+"PlaterSecondaryAuraIcon",
+"ExtraIconRowIcon",
+},
+["id"] = "Plater Nameplates Rule",
+["priority"] = 4,
+["theme"] = "Plater Nameplates Theme",
+},
+},
 ["themes"] = {
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
-["minutes"] = {
-},
 ["seconds"] = {
+},
+["minutes"] = {
 },
 ["soon"] = {
 },
@@ -187,54 +226,15 @@ OmniCCDB = {
 },
 ["Default"] = {
 ["textStyles"] = {
-["minutes"] = {
-},
 ["seconds"] = {
+},
+["minutes"] = {
 },
 ["soon"] = {
 },
 },
 ["mmSSDuration"] = 300,
 ["maxDuration"] = 300,
-},
-},
-["rules"] = {
-{
-["enabled"] = false,
-["patterns"] = {
-"Aura",
-"Buff",
-"Debuff",
-},
-["name"] = "Auras",
-["id"] = "auras",
-},
-{
-["enabled"] = false,
-["patterns"] = {
-"Plate",
-},
-["name"] = "Unit Nameplates",
-["id"] = "plates",
-},
-{
-["enabled"] = false,
-["patterns"] = {
-"ActionButton",
-"MultiBar",
-},
-["name"] = "Action Bars",
-["id"] = "actions",
-},
-{
-["id"] = "Plater Nameplates Rule",
-["patterns"] = {
-"PlaterMainAuraIcon",
-"PlaterSecondaryAuraIcon",
-"ExtraIconRowIcon",
-},
-["theme"] = "Plater Nameplates Theme",
-["priority"] = 4,
 },
 },
 },

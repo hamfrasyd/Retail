@@ -29,3 +29,4 @@ RaiderIO_DB_EU_M: disabled
 RaiderIO_DB_EU_R: disabled
 RaiderIO_DB_EU_F: disabled
 ItemVersion: disabled
+LittleWigs_MistsOfPandaria: enabled

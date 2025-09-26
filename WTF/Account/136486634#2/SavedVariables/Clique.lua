@@ -7,27 +7,27 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
-["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["downclick"] = false,
 ["specswap"] = false,
+["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
 },
 },
 ["profileKeys"] = {
 ["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
 ["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
-["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 },
 ["profiles"] = {
 ["Mbuzipriest - Twisting Nether"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -43,29 +43,10 @@ CliqueDB3 = {
 ["Misswarchira - Argent Dawn"] = {
 ["bindings"] = {
 {
-["sets"] = {
-["default"] = true,
-},
 ["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
-},
-},
-},
-["Mbuzi - Twisting Nether"] = {
-["bindings"] = {
-{
-["sets"] = {
-["default"] = true,
-},
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -81,10 +62,10 @@ CliqueDB3 = {
 ["Bægnaskeren - Twisting Nether"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -193,6 +174,25 @@ CliqueDB3 = {
 },
 ["icon"] = 252995,
 ["type"] = "spell",
+},
+},
+},
+["Mbuzi - Twisting Nether"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 },
 },

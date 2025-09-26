@@ -5,8 +5,8 @@ RangeDisplayDB3 = {
 ["profileKeys"] = {
 ["Mbuzipriest - Twisting Nether"] = "Default",
 ["Misswarchira - Argent Dawn"] = "Default",
-["Bægnaskeren - Twisting Nether"] = "Default",
 ["Mbuzi - Twisting Nether"] = "Default",
+["Bægnaskeren - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -20,8 +20,8 @@ RangeDisplayDB3 = {
 ["font"] = "Expressway",
 ["fontOutline"] = "OUTLINE",
 ["y"] = -205.5553436279297,
-["x"] = -479.5563049316406,
 ["relPoint"] = "RIGHT",
+["x"] = -479.5563049316406,
 },
 ["focus"] = {
 ["fontSize"] = 11,
@@ -29,8 +29,8 @@ RangeDisplayDB3 = {
 ["font"] = "Expressway",
 ["fontOutline"] = "OUTLINE",
 ["y"] = -242.2223663330078,
-["x"] = 417.5556945800781,
 ["relPoint"] = "LEFT",
+["x"] = 417.5556945800781,
 },
 ["arena2"] = {
 },

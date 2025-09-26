@@ -28,10 +28,10 @@ Y: 0
 W: 500
 H: 300
 Frame: ColorPickerFrame
-FrameLevel: 124
-Anchor: LEFT
-X: 220
-Y: -73
+FrameLevel: 23
+Anchor: CENTER
+X: 46
+Y: 1
 W: 388
 H: 380
 Frame: GroupLootHistoryFrame
