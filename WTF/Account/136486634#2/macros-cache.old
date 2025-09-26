@@ -60,7 +60,6 @@ END
 VER 3 0000000000000025 "ShamanAscendance" "134400"
 #showtooltip
 /cast Ascendance
-/use Araz's Ritual Forge
 END
 VER 3 0000000000000036 "ShamanBuff" "134400"
 #showtooltip
