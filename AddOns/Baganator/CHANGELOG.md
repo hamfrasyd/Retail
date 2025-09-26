@@ -1,7 +1,7 @@
 # Baganator
 
-## [754](https://github.com/TheMouseNest/Baganator/tree/754) (2025-09-24)
-[Full Changelog](https://github.com/TheMouseNest/Baganator/compare/753...754) 
+## [755](https://github.com/TheMouseNest/Baganator/tree/755) (2025-09-24)
+[Full Changelog](https://github.com/TheMouseNest/Baganator/compare/754...755) 
 
-- Always show deposit buttons in bank if "Show buttons when holding alt" enabled  
-- Categories: Prioritise default "Quest" category slightly  
+- Integrate with "Item Upgrade Quality Icons" to show icons for upgrade tracks  
+- Move Masque code into Skins callback  

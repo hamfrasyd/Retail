@@ -1,4 +1,11 @@
 Version: 1
+Frame: WeakAurasProfilingReport
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 500
+H: 300
 Frame: ColorPickerFrame
 FrameLevel: 124
 Anchor: TOP

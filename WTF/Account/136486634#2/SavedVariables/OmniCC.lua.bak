@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.2.7",
+},
 ["profileKeys"] = {
 ["Driplitty - Twisting Nether"] = "Default",
 ["Mbuzi - Twisting Nether"] = "FragUI",
@@ -9,13 +13,9 @@ OmniCCDB = {
 ["Kassedamen - Twisting Nether"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
-["Ponypala - Twisting Nether"] = "Default",
-["Mbuzi - Draenor"] = "Default",
 ["Lilgoat - Twisting Nether"] = "Default",
-},
-["global"] = {
-["dbVersion"] = 6,
-["addonVersion"] = "11.2.7",
+["Mbuzi - Draenor"] = "Default",
+["Ponypala - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
 ["FragUI"] = {
@@ -97,9 +97,9 @@ OmniCCDB = {
 },
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
-["minutes"] = {
-},
 ["seconds"] = {
+},
+["minutes"] = {
 },
 ["soon"] = {
 },
@@ -153,9 +153,9 @@ OmniCCDB = {
 ["textStyles"] = {
 ["seconds"] = {
 },
-["minutes"] = {
-},
 ["soon"] = {
+},
+["minutes"] = {
 },
 },
 },
@@ -163,9 +163,9 @@ OmniCCDB = {
 ["textStyles"] = {
 ["seconds"] = {
 },
-["minutes"] = {
-},
 ["soon"] = {
+},
+["minutes"] = {
 },
 },
 ["enableText"] = false,
@@ -217,9 +217,9 @@ OmniCCDB = {
 ["textStyles"] = {
 ["minutes"] = {
 },
-["seconds"] = {
-},
 ["soon"] = {
+},
+["seconds"] = {
 },
 },
 ["enableText"] = false,
@@ -228,9 +228,9 @@ OmniCCDB = {
 ["textStyles"] = {
 ["minutes"] = {
 },
-["seconds"] = {
-},
 ["soon"] = {
+},
+["seconds"] = {
 },
 },
 ["mmSSDuration"] = 300,

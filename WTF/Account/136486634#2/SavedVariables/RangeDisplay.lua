@@ -6,6 +6,7 @@ RangeDisplayDB3 = {
 ["Mbuzipriest - Twisting Nether"] = "Default",
 ["Misswarchira - Argent Dawn"] = "Default",
 ["Bægnaskeren - Twisting Nether"] = "Default",
+["Mbuzi - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

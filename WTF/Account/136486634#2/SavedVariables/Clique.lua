@@ -98,22 +98,6 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spell"] = "Skyfury",
-["key"] = "F4",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 4630367,
-["type"] = "spell",
-},
-{
 ["spell"] = "Earthen Wall Totem",
 ["key"] = "SHIFT-1",
 ["sets"] = {
@@ -132,39 +116,28 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Skyfury",
+["key"] = "F4",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 4630367,
+["type"] = "spell",
+},
+{
 ["spell"] = "Wind Rush Totem",
 ["key"] = "SHIFT-R",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 538576,
-["type"] = "spell",
-},
-{
-["spell"] = "Earthliving Weapon",
-["key"] = "ALT-2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 237578,
-["type"] = "spell",
-},
-{
-["spell"] = "Chain Heal",
-["key"] = "2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 6712961,
-["type"] = "spell",
-},
-{
-["spell"] = "Purify Spirit",
-["key"] = "F2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 236288,
 ["type"] = "spell",
 },
 {
@@ -177,12 +150,39 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["spell"] = "Chain Heal",
+["key"] = "2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 6712961,
+["type"] = "spell",
+},
+{
 ["spell"] = "Healing Rain",
 ["key"] = "C",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136037,
+["type"] = "spell",
+},
+{
+["spell"] = "Earthliving Weapon",
+["key"] = "ALT-2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 237578,
+["type"] = "spell",
+},
+{
+["spell"] = "Purify Spirit",
+["key"] = "F2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 236288,
 ["type"] = "spell",
 },
 {

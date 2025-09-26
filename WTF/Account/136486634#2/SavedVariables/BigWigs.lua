@@ -16,9 +16,9 @@ BigWigs3DB = {
 ["global"] = {
 ["watchedMovies"] = {
 [-2409] = true,
-[-323] = true,
 [-2296] = true,
 [1034] = true,
+[-323] = true,
 },
 },
 ["namespaces"] = {
@@ -392,10 +392,10 @@ nil,
 ["fontName"] = "Expressway",
 ["bossCountdowns"] = {
 ["BigWigs_Bosses_Loom'ithar"] = {
-[1246921] = "zhCN: Default (Female)",
-[1228059] = "enUS: Default (Male)",
 [1226311] = "esES: Default (Female)",
+[1228059] = "enUS: Default (Male)",
 [1226395] = "enUS: Default (Male)",
+[1246921] = "zhCN: Default (Female)",
 },
 ["BigWigs_Bosses_Soulbinder Naazindhri"] = {
 [1227848] = "enUS: Default (Male)",
@@ -1543,6 +1543,14 @@ nil,
 ["keyMap"] = 503,
 ["name"] = "Bægnaskeren",
 ["keyLevel"] = 12,
+["realm"] = "Twisting Nether",
+},
+["Player-3674-0A491F0C"] = {
+["playerRating"] = 2910,
+["specId"] = 72,
+["keyMap"] = 0,
+["name"] = "Mbuzi",
+["keyLevel"] = 0,
 ["realm"] = "Twisting Nether",
 },
 },

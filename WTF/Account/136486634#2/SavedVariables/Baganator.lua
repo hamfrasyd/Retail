@@ -261,7 +261,9 @@ BAGANATOR_CONFIG = {
 },
 ["recent_characters_main_view"] = {
 "Mbuzipriest-TwistingNether",
+"Mbuzi-TwistingNether",
 "Bægnaskeren-TwistingNether",
+"Misswarchira-ArgentDawn",
 },
 ["bag_view_type"] = "category",
 ["bag_empty_space_at_top"] = false,
