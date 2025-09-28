@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Paladin-Retribution',}; local provider = {region='EU',realm="Zul'jin",name='EU',type='subscribers',zone=44,date='2025-09-06',data={['Lý']='Lýsandrác:BAEBLAAECoEdAAIBAAgIwyZHAACcAwg5DAAABABjADsMAAAEAGMAOgwAAAQAYwA8DAAABABgADIMAAAEAGMAPQwAAAQAYwA+DAAAAwBjAD8MAAACAGMAAQAICMMmRwAAnAMIOQwAAAQAYwA7DAAABABjADoMAAAEAGMAPAwAAAQAYAAyDAAABABjAD0MAAAEAGMAPgwAAAMAYwA/DAAAAgBjAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Paladin-Retribution',}; local provider = {region='EU',realm="Zul'jin",name='EU',type='subscribers',zone=44,date='2025-09-26',data={['Lý']='Lýsandrác:BAECLAAFFIEKAAIBAAUICyRvBwCZAQU5DAAAAwBhADsMAAACAFEAOgwAAAMAXAA8DAAAAQBjAD0MAAABAFoAAQAFCAskbwcAmQEFOQwAAAMAYQA7DAAAAgBRADoMAAADAFwAPAwAAAEAYwA9DAAAAQBaACwABAqBJQACAQAICMUmCwIAhwMAAQAICMUmCwIAhwMAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

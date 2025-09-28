@@ -75,10 +75,10 @@ OmniCC: enabled
 OmniCC_Config: enabled
 OmniCD: enabled
 Plater: enabled
-RaiderIO_DB_EU_M: disabled
-RaiderIO: disabled
-RaiderIO_DB_EU_R: disabled
-RaiderIO_DB_EU_F: disabled
+RaiderIO_DB_EU_M: enabled
+RaiderIO: enabled
+RaiderIO_DB_EU_R: enabled
+RaiderIO_DB_EU_F: enabled
 RangeDisplay: enabled
 RangeDisplay_Options: enabled
 RCLootCouncil: enabled
@@ -103,3 +103,5 @@ ExtraQuestButton: enabled
 MoveAnything: disabled
 BigWigs_Cataclysm: enabled
 ItemVersion: disabled
+ArchonTooltip: disabled
+ArchonTooltipDB_EU: disabled

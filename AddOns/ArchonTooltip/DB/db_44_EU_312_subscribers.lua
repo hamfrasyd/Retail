@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Evoker-Devastation',}; local provider = {region='EU',realm='Magtheridon',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Ca='Carinola:BAEALAADCgYIBgABLAAECgcIFAABAJEgAA==.',['Má']='Máya:BAEALAAECgMIBAAAAA==.',Se='Serathra:BAEBLAAECoEUAAIBAAcIkSA0CwCkAgc5DAAABABfADsMAAADAFYAOgwAAAMAWQA8DAAAAwBEADIMAAADAEYAPQwAAAMAUgA+DAAAAQBbAAEABwiRIDQLAKQCBzkMAAAEAF8AOwwAAAMAVgA6DAAAAwBZADwMAAADAEQAMgwAAAMARgA9DAAAAwBSAD4MAAABAFsAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {}; local provider = {region='EU',realm='Magtheridon',name='EU',type='subscribers',zone=44,date='2025-09-25',data={['Má']='Máya:BAEALAAECgcIEQAAAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Rogue-Subtlety','Rogue-Assassination',}; local provider = {region='EU',realm='Echsenkessel',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Ta='Tarnefana:BAECLAAFFIEFAAMBAAMI6RG/BACfAAM5DAAAAgA0ADsMAAABACoAOgwAAAIAKgACAAIInBDSCAC0AAI5DAAAAQAqADsMAAABACoAAQACCHsSvwQAnwACOQwAAAEANAA6DAAAAgAqACwABAqBHQADAQAICNgjmAEAIQMAAQAICHEimAEAIQMAAgAHCCMhowwAjQIAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Rogue-Subtlety','Rogue-Assassination',}; local provider = {region='EU',realm='Echsenkessel',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Ta='Tarnefana:BAECLAAFFIEUAAMBAAUIByDZBQAYAQU5DAAABQBLADsMAAAFAEoAOgwAAAUAXwA8DAAAAwBRAD0MAAACAFIAAQADCOUd2QUAGAEDOQwAAAMANAA6DAAABQBfADwMAAADAFEAAgADCEoeowgAEQEDOQwAAAIASwA7DAAABQBKAD0MAAACAFIALAAECoEnAAMBAAgI2CNdBQDmAgABAAgIcSJdBQDmAgACAAcIIyFfFABsAgAAAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

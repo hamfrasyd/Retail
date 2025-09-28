@@ -1,4 +1,4 @@
-﻿## Interface: 110200
+## Interface: 110200
 ## Title: Archon Tooltip DB - Europe
 ## Author: Archon
 ## Dependencies: ArchonTooltip
@@ -7,7 +7,7 @@
 ## X-Database-Key: EU
 ## X-Database-Name: Europe
 ## X-Game-Version-ID: warcraft-live
-## X-Updated-At: 2025-08-30T18:33:21.000Z
+## X-Updated-At: 2025-09-22T19:06:30.000Z
 ## IconTexture: Interface/AddOns/ArchonTooltip/Media/logo-32-circle.tga
 ## Category: Archon
 

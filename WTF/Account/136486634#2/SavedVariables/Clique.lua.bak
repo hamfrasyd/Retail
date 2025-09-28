@@ -7,20 +7,82 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["fastooc"] = false,
-["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
 ["downclick"] = false,
+["fastooc"] = false,
 ["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
 ["specswap"] = false,
+["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
+},
+["Daweq - Twisting Nether"] = {
+["spec1_profileKey"] = "Daweq - Twisting Nether",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["specswap"] = false,
+["spec2_profileKey"] = "Daweq - Twisting Nether",
+["spec3_profileKey"] = "Daweq - Twisting Nether",
+},
+["Mbuzi - Twisting Nether"] = {
+["spec1_profileKey"] = "Mbuzi - Twisting Nether",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["fastooc"] = false,
+["spec3_profileKey"] = "Mbuzi - Twisting Nether",
+["downclick"] = false,
+["specswap"] = false,
+["spec2_profileKey"] = "Mbuzi - Twisting Nether",
 },
 },
 ["profileKeys"] = {
+["Weadasw - Twisting Nether"] = "Weadasw - Twisting Nether",
+["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
 ["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
-["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+["Daweq - Twisting Nether"] = "Daweq - Twisting Nether",
 },
 ["profiles"] = {
+["Weadasw - Twisting Nether"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Mbuzi - Twisting Nether"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
 ["Mbuzipriest - Twisting Nether"] = {
 ["bindings"] = {
 {
@@ -59,25 +121,6 @@ CliqueDB3 = {
 },
 },
 },
-["Mbuzi - Twisting Nether"] = {
-["bindings"] = {
-{
-["sets"] = {
-["default"] = true,
-},
-["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
 ["Bægnaskeren - Twisting Nether"] = {
 ["bindings"] = {
 {
@@ -89,12 +132,12 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["spell"] = "Healing Surge",
-["key"] = "T",
+["spell"] = "Purify Spirit",
+["key"] = "F2",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 136044,
+["icon"] = 236288,
 ["type"] = "spell",
 },
 {
@@ -103,15 +146,6 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["spell"] = "Skyfury",
-["key"] = "F4",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 4630367,
-["type"] = "spell",
 },
 {
 ["spell"] = "Earthen Wall Totem",
@@ -124,7 +158,7 @@ CliqueDB3 = {
 },
 {
 ["spell"] = "Earth Shield",
-["key"] = "SHIFT-C",
+["key"] = "C",
 ["sets"] = {
 ["default"] = true,
 },
@@ -138,6 +172,15 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 538576,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Surge",
+["key"] = "T",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
 ["type"] = "spell",
 },
 {
@@ -159,15 +202,6 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["spell"] = "Purify Spirit",
-["key"] = "F2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 236288,
-["type"] = "spell",
-},
-{
 ["spell"] = "Healing Wave",
 ["key"] = "MOUSEWHEELUP",
 ["sets"] = {
@@ -177,12 +211,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["spell"] = "Healing Rain",
-["key"] = "C",
+["spell"] = "Skyfury",
+["key"] = "F4",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 136037,
+["icon"] = 4630367,
 ["type"] = "spell",
 },
 {
@@ -193,6 +227,34 @@ CliqueDB3 = {
 },
 ["icon"] = 252995,
 ["type"] = "spell",
+},
+{
+["spell"] = "Healing Rain",
+["key"] = "SHIFT-C",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136037,
+["type"] = "spell",
+},
+},
+},
+["Daweq - Twisting Nether"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 },
 },

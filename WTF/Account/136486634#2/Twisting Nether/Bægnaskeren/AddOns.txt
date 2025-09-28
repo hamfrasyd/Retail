@@ -26,10 +26,10 @@ BigWigs_KhazAlgar: enabled
 LittleWigs_Cataclysm: enabled
 BigWigs_Cataclysm: enabled
 WorldQuestTracker: disabled
-RaiderIO: disabled
-RaiderIO_DB_EU_M: disabled
-RaiderIO_DB_EU_R: disabled
-RaiderIO_DB_EU_F: disabled
+RaiderIO: enabled
+RaiderIO_DB_EU_M: enabled
+RaiderIO_DB_EU_R: enabled
+RaiderIO_DB_EU_F: enabled
 ItemVersion: disabled
 Cell: disabled
 LittleWigs_MistsOfPandaria: enabled

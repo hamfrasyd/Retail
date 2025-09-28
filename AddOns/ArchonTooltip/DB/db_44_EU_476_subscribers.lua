@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Mage-Arcane',}; local provider = {region='EU',realm='Wrathbringer',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Uw='Uwudan:BAEALAAECgEIAQABLAAFFAMIBQABABYaAA==.Uwumage:BAECLAAFFIEFAAIBAAMIFhrHBwASAQM5DAAAAgBXADsMAAABABYAOgwAAAIAWgABAAMIFhrHBwASAQM5DAAAAgBXADsMAAABABYAOgwAAAIAWgAsAAQKgR4AAgEACAhxIy0IACMDAAEACAhxIy0IACMDAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Mage-Arcane',}; local provider = {region='EU',realm='Wrathbringer',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Uw='Uwudan:BAEALAAECgEIAQABLAAFFAUIDQABAIAfAA==.Uwumage:BAECLAAFFIENAAIBAAUIgB/QBgABAgU5DAAABABjADsMAAACACQAOgwAAAQAYwA8DAAAAgBbAD0MAAABAEwAAQAFCIAf0AYAAQIFOQwAAAQAYwA7DAAAAgAkADoMAAAEAGMAPAwAAAIAWwA9DAAAAQBMACwABAqBLAACAQAICJEl+wYATwMAAQAICJEl+wYATwMAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

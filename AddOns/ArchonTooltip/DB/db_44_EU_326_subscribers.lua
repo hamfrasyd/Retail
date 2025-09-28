@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Warrior-Fury','Warrior-Arms',}; local provider = {region='EU',realm='Shadowsong',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Th='Thunk:BAEBLAAECoEZAAMBAAcIpyEAEgCeAgc5DAAABABeADsMAAAEAFUAOgwAAAQAUwA8DAAABABLADIMAAADAFsAPQwAAAMAVwA+DAAAAwBVAAEABwhxIAASAJ4CBzkMAAAEAF4AOwwAAAQAVQA6DAAABABTADwMAAADAEsAMgwAAAIARQA9DAAAAwBXAD4MAAACAFUAAgADCA4XpRQA3QADPAwAAAEAOAAyDAAAAQBbAD4MAAABAB0AAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Warrior-Fury','Warrior-Arms',}; local provider = {region='EU',realm='Shadowsong',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Th='Thunk:BAECLAAFFIEIAAIBAAMIYhZAHgCnAAM5DAAABABeADsMAAABABIAOgwAAAMAOwABAAMIYhZAHgCnAAM5DAAABABeADsMAAABABIAOgwAAAMAOwAsAAQKgTIAAwEACAidJdwCAHkDAAEACAiHJdwCAHkDAAIAAwgOF44gANgAAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

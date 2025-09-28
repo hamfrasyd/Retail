@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {}; local provider = {region='EU',realm="Twilight'sHammer",name='EU',type='subscribers',zone=44,date='2025-09-06',data={},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Priest-Holy','Evoker-Preservation',}; local provider = {region='EU',realm="Twilight'sHammer",name='EU',type='subscribers',zone=44,date='2025-09-25',data={Pe='Petula:BAECLAAFFIEWAAIBAAUI/x21BADTAQU5DAAABgBcADsMAAAFAFgAOgwAAAYAUwA8DAAAAwAyAD0MAAACAEQAAQAFCP8dtQQA0wEFOQwAAAYAXAA7DAAABQBYADoMAAAGAFMAPAwAAAMAMgA9DAAAAgBEACwABAqBKgACAQAICOAkPQYAMgMAAQAICOAkPQYAMgMAAAA=.',Ya='Yaseravoke:BAEBLAAECoEcAAICAAgIWBnACgBhAgg5DAAAAwBDADsMAAADADsAOgwAAAMATAA8DAAAAwAaADIMAAAEAE4APQwAAAQARwA+DAAABABTAD8MAAAEADgAAgAICFgZwAoAYQIIOQwAAAMAQwA7DAAAAwA7ADoMAAADAEwAPAwAAAMAGgAyDAAABABOAD0MAAAEAEcAPgwAAAQAUwA/DAAABAA4AAEsAAUUBQgWAAEA/x0A.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

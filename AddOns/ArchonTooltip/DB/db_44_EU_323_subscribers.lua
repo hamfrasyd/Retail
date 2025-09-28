@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Unknown-Unknown',}; local provider = {region='EU',realm='Runetotem',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Br='Brauer:BAEALAAECgYIEQAAAA==.',Co='Coolbreezer:BAEALAADCgcIBwABLAAECgYIEQABAAAAAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Monk-Brewmaster',}; local provider = {region='EU',realm='Runetotem',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Br='Brauer:BAEBLAAECoEZAAIBAAcIMhqbFgDUAQc5DAAABQBUADsMAAAFAFYAOgwAAAQAUwA8DAAAAwA1ADIMAAADADcAPQwAAAMANQA+DAAAAgA0AAEABwgyGpsWANQBBzkMAAAFAFQAOwwAAAUAVgA6DAAABABTADwMAAADADUAMgwAAAMANwA9DAAAAwA1AD4MAAACADQAAAA=.',Co='Coolbreezer:BAEALAADCgcIBwABLAAECgcIGQABADIaAA==.',Ni='Nightbreezer:BAEALAADCggIEAABLAAECgcIGQABADIaAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

@@ -8,7 +8,6 @@ g_addonCategoriesCollapsed = {
 ["FragUI"] = true,
 ["Loot"] = true,
 ["Unit Frames"] = true,
-["Mythic+ Dungeons"] = true,
 ["User Interface"] = true,
 ["Buffs & Debuffs"] = true,
 }

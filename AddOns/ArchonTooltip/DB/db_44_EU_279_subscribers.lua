@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Priest-Holy',}; local provider = {region='EU',realm='Deathwing',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Si='Sinnr:BAECLAAFFIEIAAIBAAMI4SVfAgBUAQM5DAAAAwBiADsMAAACAFwAOgwAAAMAYwABAAMI4SVfAgBUAQM5DAAAAwBiADsMAAACAFwAOgwAAAMAYwAsAAQKgSAAAgEACAimJpEAAHoDAAEACAimJpEAAHoDAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Priest-Holy','Evoker-Devastation',}; local provider = {region='EU',realm='Deathwing',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Si='Sinnr:BAECLAAFFIETAAIBAAUIdSXIAQAzAgU5DAAABgBjADsMAAAEAGEAOgwAAAUAYwA8DAAAAgBbAD0MAAACAFsAAQAFCHUlyAEAMwIFOQwAAAYAYwA7DAAABABhADoMAAAFAGMAPAwAAAIAWwA9DAAAAgBbACwABAqBKgACAQAICMMmjQAAhgMAAQAICMMmjQAAhgMAAAA=.',Sy='Syxpacs:BAEALAAECgYIBgABLAAFFAUIEwABAHUlAA==.',['Tí']='Tím:BAEALAADCgcIBwABLAAFFAQIBQACANEYAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

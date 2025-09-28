@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Druid-Feral',}; local provider = {region='EU',realm='Uldum',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Re='Rendhar:BAEBLAAECoEQAAIBAAcI2h5HBwBxAgc5DAAAAwBhADsMAAAEAF0AOgwAAAMAYwA8DAAAAQAoADIMAAACAEMAPQwAAAIAWQA+DAAAAQBAAAEABwjaHkcHAHECBzkMAAADAGEAOwwAAAQAXQA6DAAAAwBjADwMAAABACgAMgwAAAIAQwA9DAAAAgBZAD4MAAABAEAAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Druid-Feral',}; local provider = {region='EU',realm='Uldum',name='EU',type='subscribers',zone=44,date='2025-09-26',data={Re='Rendhar:BAEBLAAECoETAAIBAAcIbh8LDgBOAgc5DAAAAwBhADsMAAAEAF0AOgwAAAMAYwA8DAAAAQAoADIMAAADAEMAPQwAAAIAWQA+DAAAAwBLAAEABwhuHwsOAE4CBzkMAAADAGEAOwwAAAQAXQA6DAAAAwBjADwMAAABACgAMgwAAAMAQwA9DAAAAgBZAD4MAAADAEsAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

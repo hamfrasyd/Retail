@@ -71,7 +71,7 @@ VER 3 0000000000000032 "ShamanCleanse" "134400"
 END
 VER 3 0000000000000033 "ShamanEarthAPT" "134400"
 #showtooltip
-/cast [known:Earthen Wall Totem] Earthen Wall Totem; Ancestral Protection Totem
+/cast [@cursor]Earthen Wall Totem
 END
 VER 3 0000000000000026 "ShamanEarthquake" "134400"
 #showtooltip

@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {}; local provider = {region='EU',realm='Garrosh',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Bo='Bobderbär:BAEALAAECggIEgAAAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Monk-Windwalker',}; local provider = {region='EU',realm='Garrosh',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Bo='Bobderbär:BAEBLAAECoEbAAIBAAgI2hRQGAAhAgg5DAAABQBOADsMAAAFAE0AOgwAAAUASAA8DAAAAwBQADIMAAADAC8APQwAAAMAIgA+DAAAAgALAD8MAAABABgAAQAICNoUUBgAIQIIOQwAAAUATgA7DAAABQBNADoMAAAFAEgAPAwAAAMAUAAyDAAAAwAvAD0MAAADACIAPgwAAAIACwA/DAAAAQAYAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

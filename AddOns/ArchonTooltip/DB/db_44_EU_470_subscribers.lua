@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'DeathKnight-Frost',}; local provider = {region='EU',realm='Tichondrius',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Sh='Shínigamì:BAEBLAAECoEZAAIBAAgIWB5fFwCkAgg5DAAABABVADsMAAAEAFwAOgwAAAQARQA8DAAAAwBRADIMAAADAE0APQwAAAMASAA+DAAAAgBQAD8MAAACAD4AAQAICFgeXxcApAIIOQwAAAQAVQA7DAAABABcADoMAAAEAEUAPAwAAAMAUQAyDAAAAwBNAD0MAAADAEgAPgwAAAIAUAA/DAAAAgA+AAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'DeathKnight-Frost',}; local provider = {region='EU',realm='Tichondrius',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Sh='Shínigamì:BAEBLAAECoExAAIBAAgI9yMQDAA3Awg5DAAABwBgADsMAAAHAFwAOgwAAAcAWgA8DAAABgBRADIMAAAGAGIAPQwAAAYAYgA+DAAABQBbAD8MAAAFAFcAAQAICPcjEAwANwMIOQwAAAcAYAA7DAAABwBcADoMAAAHAFoAPAwAAAYAUQAyDAAABgBiAD0MAAAGAGIAPgwAAAUAWwA/DAAABQBXAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

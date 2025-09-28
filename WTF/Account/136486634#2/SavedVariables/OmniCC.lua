@@ -6,16 +6,18 @@ OmniCCDB = {
 },
 ["profileKeys"] = {
 ["Driplitty - Twisting Nether"] = "Default",
+["Weadasw - Twisting Nether"] = "Default",
 ["Mbuzi - Twisting Nether"] = "FragUI",
 ["Bæenjoyer - Twisting Nether"] = "Default",
 ["Misswarchira - Argent Dawn"] = "Default",
 ["Bægnaskeren - Twisting Nether"] = "FragUI_1",
 ["Kassedamen - Twisting Nether"] = "Default",
+["Ponypala - Twisting Nether"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
 ["Lilgoat - Twisting Nether"] = "Default",
 ["Mbuzi - Draenor"] = "Default",
-["Ponypala - Twisting Nether"] = "Default",
+["Daweq - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
 ["FragUI"] = {
@@ -48,14 +50,14 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
-["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["theme"] = "Plater Nameplates Theme",
+["id"] = "Plater Nameplates Rule",
 ["priority"] = 4,
+["theme"] = "Plater Nameplates Theme",
 },
 },
 ["themes"] = {
@@ -67,13 +69,13 @@ OmniCCDB = {
 ["minutes"] = {
 },
 ["soon"] = {
+["b"] = 0.250980406999588,
 ["scale"] = 1,
 ["g"] = 0.250980406999588,
-["b"] = 0.250980406999588,
 },
 ["hours"] = {
-["scale"] = 1,
 ["b"] = 1,
+["scale"] = 1,
 ["g"] = 1,
 ["r"] = 1,
 },
@@ -84,15 +86,15 @@ OmniCCDB = {
 ["b"] = 1,
 },
 ["controlled"] = {
+["b"] = 1,
 ["scale"] = 1,
 ["g"] = 1,
-["b"] = 1,
 },
 },
 ["fontSize"] = 17,
 ["tenthsDuration"] = 5,
-["effect"] = "none",
 ["mmSSDuration"] = 601,
+["effect"] = "none",
 ["yOff"] = -0.5,
 },
 ["Plater Nameplates Theme"] = {
@@ -109,29 +111,6 @@ OmniCCDB = {
 },
 },
 ["Default"] = {
-["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["soon"] = {
-},
-["minutes"] = {
-},
-["seconds"] = {
-},
-},
-},
-["Plater Nameplates Theme"] = {
-["textStyles"] = {
-["soon"] = {
-},
-["minutes"] = {
-},
-["seconds"] = {
-},
-},
-["enableText"] = false,
-},
-},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -169,6 +148,29 @@ OmniCCDB = {
 },
 ["theme"] = "Plater Nameplates Theme",
 ["priority"] = 4,
+},
+},
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["minutes"] = {
+},
+["seconds"] = {
+},
+},
+},
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["minutes"] = {
+},
+["seconds"] = {
+},
+},
+["enableText"] = false,
 },
 },
 },
@@ -202,14 +204,14 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
+["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["id"] = "Plater Nameplates Rule",
-["priority"] = 4,
 ["theme"] = "Plater Nameplates Theme",
+["priority"] = 4,
 },
 },
 ["themes"] = {

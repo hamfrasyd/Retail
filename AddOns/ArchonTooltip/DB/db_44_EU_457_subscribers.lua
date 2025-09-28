@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Paladin-Holy',}; local provider = {region='EU',realm='Nozdormu',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Fe='Feuerkiesel:BAEALAADCggICAAAAA==.',Ho='Hothanatos:BAEBLAAECoEXAAIBAAgI6giNHQCKAQg5DAAAAwATADsMAAADABkAOgwAAAMAFwA8DAAAAwAZADIMAAADACMAPQwAAAMAEQA+DAAAAwARAD8MAAACABIAAQAICOoIjR0AigEIOQwAAAMAEwA7DAAAAwAZADoMAAADABcAPAwAAAMAGQAyDAAAAwAjAD0MAAADABEAPgwAAAMAEQA/DAAAAgASAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Paladin-Holy',}; local provider = {region='EU',realm='Nozdormu',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Fe='Feuerkiesel:BAEALAADCggICAAAAA==.',Ho='Hothanatos:BAEBLAAECoEnAAIBAAgIPBQ9LwCHAQg5DAAABQAjADsMAAAFAEIAOgwAAAUAUwA8DAAABQAmADIMAAAFADQAPQwAAAUAEQA+DAAABQA9AD8MAAAEADoAAQAICDwUPS8AhwEIOQwAAAUAIwA7DAAABQBCADoMAAAFAFMAPAwAAAUAJgAyDAAABQA0AD0MAAAFABEAPgwAAAUAPQA/DAAABAA6AAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

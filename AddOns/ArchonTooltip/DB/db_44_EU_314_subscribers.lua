@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Druid-Guardian',}; local provider = {region='EU',realm='Moonglade',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Xo='Xora:BAECLAAFFIENAAIBAAUIcyUJAABIAgU5DAAABABjADsMAAADAGQAOgwAAAMAYwA8DAAAAgBhAD0MAAABAFEAAQAFCHMlCQAASAIFOQwAAAQAYwA7DAAAAwBkADoMAAADAGMAPAwAAAIAYQA9DAAAAQBRACwABAqBIAACAQAICPEmBwAAqAMAAQAICPEmBwAAqAMAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Druid-Guardian',}; local provider = {region='EU',realm='Moonglade',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Xo='Xora:BAECLAAFFIEhAAIBAAYIaSYOAACjAgY5DAAABwBjADsMAAAGAGQAOgwAAAYAYwA8DAAABQBjADIMAAAEAF0APQwAAAUAYQABAAYIaSYOAACjAgY5DAAABwBjADsMAAAGAGQAOgwAAAYAYwA8DAAABQBjADIMAAAEAF0APQwAAAUAYQAsAAQKgTgAAgEACAgOJwEAALcDAAEACAgOJwEAALcDAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

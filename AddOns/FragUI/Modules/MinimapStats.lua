@@ -93,7 +93,7 @@ local function FetchVaultOptions()
         table.insert(RaidsCompleted, string.format("Slot #%d: |c" .. UNIT_CLASS_COLOUR .. "%s|r [%d]", i, DifficultyName, GViLvl))
     end
 
-    local MythicPlusRuns = C_WeeklyRewards.GetActivities(Enum.WeeklyRewardChestThresholdType.MythicPlus)
+    local MythicPlusRuns = C_WeeklyRewards.GetActivities(Enum.WeeklyRewardChestThresholdType.Activities)
     for i = 1, 3 do
         local KeyLevel = MythicPlusRuns[i].level
         local GViLvl = MythicPlusGreatVaultiLvls[MythicPlusRuns[i].level]

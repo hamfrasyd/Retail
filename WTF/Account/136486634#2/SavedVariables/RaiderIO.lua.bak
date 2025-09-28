@@ -1,0 +1,44 @@
+
+RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
+["profilePoint"] = {
+["y"] = 0,
+["x"] = -16,
+["point"] = "TOPLEFT",
+},
+}
+RaiderIO_LastCharacter = "eu-Mbuzi-twisting-nether"
+RaiderIO_MissingCharacters = {
+["eu-Baxxurion-silvermoon"] = true,
+["eu-Manat-stormscale"] = true,
+["eu-Roboor-burning-legion"] = true,
+["eu-Kyojurö-dun-modr"] = true,
+["eu-Rhazmoral-draenor"] = true,
+["eu-Fenrogar-draenor"] = true,
+["eu-Cerpadlohunt-drakthul"] = true,
+["eu-Henhen-blackrock"] = true,
+["eu-Mundwueste-blackmoore"] = true,
+["eu-Aknot-bloodfeather"] = true,
+["eu-Davidhunt-blackrock"] = true,
+["eu-ßanshê-kazzak"] = true,
+["eu-Tt-drakthul"] = true,
+["eu-Tanarosh-argent-dawn"] = true,
+["eu-Trapzilla-dalaran"] = true,
+["eu-Demonmlk-doomhammer"] = true,
+["eu-Jickswar-blackrock"] = true,
+["eu-Wshaimus-tarren-mill"] = true,
+["eu-Immomaniac-blackhand"] = true,
+["eu-Merovyn-stormscale"] = true,
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}
+RaiderIO_CompletedReplays = {
+}

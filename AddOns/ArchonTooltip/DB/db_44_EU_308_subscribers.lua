@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'Priest-Holy',}; local provider = {region='EU',realm='KulTiras',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Ca='Castiana:BAECLAAFFIEIAAIBAAMIZhDQBgD9AAM5DAAAAwAyADsMAAACAB8AOgwAAAMALAABAAMIZhDQBgD9AAM5DAAAAwAyADsMAAACAB8AOgwAAAMALAAsAAQKgRcAAgEACAh9G9URAHMCAAEACAh9G9URAHMCAAAA.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'Priest-Holy','Unknown-Unknown',}; local provider = {region='EU',realm='KulTiras',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Ca='Castiana:BAECLAAFFIENAAIBAAQITxzECQBIAQQ5DAAABABgADsMAAADACMAOgwAAAUATQA9DAAAAQBQAAEABAhPHMQJAEgBBDkMAAAEAGAAOwwAAAMAIwA6DAAABQBNAD0MAAABAFAALAAECoEXAAIBAAgIfRt2IgBQAgABAAgIfRt2IgBQAgAAAA==.',La='Lannisham:BAEALAAECggICQABLAAECggIEQACAAAAAA==.',Pa='Pawter:BAEALAAECggIDgABLAAFFAQIDQABAE8cAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end

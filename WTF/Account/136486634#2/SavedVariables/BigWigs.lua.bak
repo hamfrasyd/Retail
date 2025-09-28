@@ -2,23 +2,25 @@
 BigWigs3DB = {
 ["profileKeys"] = {
 ["Driplitty - Twisting Nether"] = "Default",
-["Mbuzi - Twisting Nether"] = "FragUI",
+["Weadasw - Twisting Nether"] = "Default",
+["Mbuzi - Twisting Nether"] = "AtrocityUI",
 ["Bæenjoyer - Twisting Nether"] = "Default",
 ["Misswarchira - Argent Dawn"] = "Default",
 ["Bægnaskeren - Twisting Nether"] = "AtrocityUI",
 ["Kassedamen - Twisting Nether"] = "Default",
-["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
+["Dådyret - Draenor"] = "Default",
 ["Ponypala - Twisting Nether"] = "Default",
 ["Mbuzi - Draenor"] = "Default",
 ["Lilgoat - Twisting Nether"] = "Default",
+["Daweq - Twisting Nether"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2409] = true,
-[-2296] = true,
 [1034] = true,
 [-323] = true,
+[-2296] = true,
 },
 },
 ["namespaces"] = {
@@ -71,8 +73,8 @@ BigWigs3DB = {
 ["disabled"] = true,
 ["printVictory"] = false,
 ["printDefeat"] = false,
-["printNewFastestVictory"] = false,
 ["printHealth"] = false,
+["printNewFastestVictory"] = false,
 },
 ["AtrocityUI"] = {
 ["disabled"] = true,
@@ -155,13 +157,13 @@ BigWigs3DB = {
 ["BigWigs_Bosses_Soulbinder Naazindhri"] = {
 ["profiles"] = {
 ["AtrocityUI"] = {
-[1242086] = 0,
+[1227052] = 3064567,
 [1227848] = 3129591,
 [1241100] = 0,
 [1225582] = 0,
 ["custom_on_1227276"] = false,
 [1226827] = 0,
-[1227052] = 3064567,
+[1242086] = 0,
 },
 },
 },
@@ -175,6 +177,14 @@ BigWigs3DB = {
 },
 ["MythicPlus"] = {
 ["profiles"] = {
+["FragUI"] = {
+["viewerPosition"] = {
+"TOPLEFT",
+"TOPLEFT",
+45,
+-62,
+},
+},
 ["AtrocityUI"] = {
 ["viewerPosition"] = {
 "TOPLEFT",
@@ -199,71 +209,17 @@ BigWigs3DB = {
 [445518] = 0,
 [451288] = 0,
 [443203] = 0,
-[445570] = 0,
-[438696] = 0,
 [459444] = 0,
+[438696] = 0,
+[445570] = 0,
 },
 ["AtrocityUI"] = {
 [445518] = 0,
 [443203] = 0,
-[445570] = 0,
 [459444] = 0,
+[445570] = 0,
 [438696] = 0,
 [451288] = 0,
-},
-},
-},
-["BigWigs_Bosses_Ulgrax the Devourer"] = {
-["profiles"] = {
-["Default"] = {
-[440849] = 0,
-[435138] = 0,
-[443842] = 0,
-[455831] = 0,
-[438012] = 0,
-[438657] = 0,
-[435136] = 0,
-[441452] = 0,
-[439419] = 0,
-[445123] = 0,
-[440177] = 0,
-[445052] = 0,
-[439037] = 0,
-},
-["AtrocityUI"] = {
-[440849] = 0,
-[435138] = 0,
-[443842] = 0,
-[455831] = 0,
-[438012] = 0,
-[438657] = 0,
-[435136] = 0,
-[445052] = 0,
-[439419] = 0,
-[445123] = 0,
-[440177] = 0,
-[439037] = 0,
-[441452] = 0,
-},
-},
-},
-["BigWigs_Bosses_Vexie and the Geargrinders"] = {
-["profiles"] = {
-["Default"] = {
-[459683] = 0,
-[471403] = 0,
-[466615] = 0,
-[468147] = 0,
-[459978] = 0,
-[459678] = 0,
-},
-["AtrocityUI"] = {
-[459683] = 0,
-[466615] = 0,
-[471403] = 0,
-[468147] = 0,
-[459978] = 0,
-[459678] = 0,
 },
 },
 },
@@ -280,13 +236,37 @@ BigWigs3DB = {
 },
 },
 },
-["BattleRes"] = {
+["BigWigs_Bosses_Ulgrax the Devourer"] = {
 ["profiles"] = {
 ["Default"] = {
-["imported"] = true,
+[440849] = 0,
+[435138] = 0,
+[443842] = 0,
+[455831] = 0,
+[438657] = 0,
+[438012] = 0,
+[435136] = 0,
+[445052] = 0,
+[439419] = 0,
+[445123] = 0,
+[441452] = 0,
+[439037] = 0,
+[440177] = 0,
 },
 ["AtrocityUI"] = {
-["imported"] = true,
+[440849] = 0,
+[435138] = 0,
+[443842] = 0,
+[455831] = 0,
+[438657] = 0,
+[438012] = 0,
+[435136] = 0,
+[439037] = 0,
+[439419] = 0,
+[445123] = 0,
+[445052] = 0,
+[441452] = 0,
+[440177] = 0,
 },
 },
 },
@@ -321,6 +301,26 @@ BigWigs3DB = {
 },
 },
 },
+["BigWigs_Plugins_InfoBox"] = {
+["profiles"] = {
+["Default"] = {
+["position"] = {
+"LEFT",
+"LEFT",
+332,
+154,
+},
+},
+["AtrocityUI"] = {
+["position"] = {
+"LEFT",
+"LEFT",
+332,
+154,
+},
+},
+},
+},
 ["BigWigs_Bosses_Darkflame Cleft Trash"] = {
 ["profiles"] = {
 ["FragUI"] = {
@@ -328,15 +328,10 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Bosses_Forgeweaver Araz"] = {
+["BigWigs_Bosses_Dimensius, the All-Devouring"] = {
 ["profiles"] = {
 ["AtrocityUI"] = {
-[1232221] = 3129591,
-[1227631] = 3129591,
-[1248171] = 3064054,
-[1228502] = 0,
-[1228216] = 11452663,
-[1228188] = 4178167,
+[1243690] = 3129591,
 },
 },
 },
@@ -352,6 +347,11 @@ BigWigs3DB = {
 },
 },
 ["AtrocityUI"] = {
+["Info"] = {
+["BigWigs_Bosses_Plexus Sentinel"] = {
+[1220679] = "|cFF7381ff2|r",
+},
+},
 ["media"] = {
 ["Long"] = "None",
 ["Warning"] = "None",
@@ -380,10 +380,33 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Bosses_Chrome King Gallywix"] = {
+["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
 ["profiles"] = {
-["FragUI"] = {
-[1216845] = 966903,
+["Default"] = {
+[465232] = 0,
+[473276] = 0,
+[1218418] = 0,
+[1216934] = 0,
+[1216802] = 3129591,
+["stages"] = 0,
+[1218319] = 0,
+[1214878] = 0,
+[1216911] = 0,
+[1218342] = 0,
+[1219047] = 0,
+},
+["AtrocityUI"] = {
+[465232] = 0,
+[1219047] = 0,
+[1214878] = 0,
+[1216934] = 0,
+[1216802] = 3129591,
+["stages"] = 0,
+[1218319] = 0,
+[1218418] = 0,
+[1216911] = 0,
+[473276] = 0,
+[1218342] = 0,
 },
 },
 },
@@ -408,26 +431,6 @@ BigWigs3DB = {
 ["Default"] = {
 [469993] = 0,
 ["rewards"] = 0,
-},
-},
-},
-["BigWigs_Plugins_InfoBox"] = {
-["profiles"] = {
-["Default"] = {
-["position"] = {
-"LEFT",
-"LEFT",
-332,
-154,
-},
-},
-["AtrocityUI"] = {
-["position"] = {
-"LEFT",
-"LEFT",
-332,
-154,
-},
 },
 },
 },
@@ -459,10 +462,10 @@ nil,
 ["fontName"] = "Expressway",
 ["bossCountdowns"] = {
 ["BigWigs_Bosses_Loom'ithar"] = {
-[1226311] = "esES: Default (Female)",
-[1228059] = "enUS: Default (Male)",
 [1226395] = "enUS: Default (Male)",
+[1228059] = "enUS: Default (Male)",
 [1246921] = "zhCN: Default (Female)",
+[1226311] = "esES: Default (Female)",
 },
 ["BigWigs_Bosses_Soulbinder Naazindhri"] = {
 [1227848] = "enUS: Default (Male)",
@@ -483,7 +486,7 @@ nil,
 "CENTER",
 "CENTER",
 nil,
-135,
+105,
 },
 ["voice"] = "enUS: Default (Female)",
 },
@@ -505,67 +508,10 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Messages"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 ["profiles"] = {
 ["FragUI"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 24,
-["emphFontName"] = "Friz Quadrata TT",
-["emphFontSize"] = 38,
-["displaytime"] = 3,
-["useicons"] = false,
-["emphUppercase"] = false,
-["fadetime"] = 1,
-["emphOutline"] = "OUTLINE",
-["fontName"] = "Friz Quadrata TT",
-["normalPosition"] = {
-nil,
-nil,
-nil,
-0,
-},
-},
-["AtrocityUI"] = {
-["outline"] = "OUTLINE",
-["emphFontName"] = "Expressway",
-["emphFontSize"] = 34,
-["fadetime"] = 1,
-["emphPosition"] = {
-"TOP",
-"TOP",
-nil,
--232,
-},
-["fontName"] = "Expressway",
-["displaytime"] = 2.5,
-["emphOutline"] = "OUTLINE",
-["normalPosition"] = {
-"CENTER",
-"CENTER",
-nil,
-433,
-},
-},
-["Default"] = {
-["outline"] = "OUTLINE",
-["emphFontName"] = "Expressway",
-["emphFontSize"] = 34,
-["displaytime"] = 2.5,
-["emphOutline"] = "OUTLINE",
-["emphPosition"] = {
-"TOP",
-"TOP",
-nil,
--232,
-},
-["fadetime"] = 1,
-["fontName"] = "Expressway",
-["normalPosition"] = {
-"CENTER",
-"CENTER",
-nil,
-433,
-},
+["disabled"] = true,
 },
 },
 },
@@ -711,83 +657,37 @@ nil,
 },
 },
 ["barColor"] = {
-["BigWigs_Bosses_Forgeweaver Araz"] = {
-[1232221] = {
-1,
-0.501960813999176,
-0.1019607931375504,
-0.8999999761581421,
-},
-[1227631] = {
-1,
-0.2000000178813934,
-0.2000000178813934,
-0.8999999761581421,
-},
-[1231720] = {
-0.5843137502670288,
-1,
-0.960784375667572,
-0.8999999761581421,
-},
-[1243901] = {
+["BigWigs_Bosses_Loom'ithar"] = {
+[1227782] = {
 1,
 1,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1228214] = {
-1,
-1,
-0.1019607931375504,
-0.8999999761581421,
-},
-[1228216] = {
+[1237212] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
 0.8999999761581421,
 },
-[1228188] = {
-0.3725490272045136,
+[1246921] = {
 1,
-0.4352941513061523,
-0.8999999761581421,
-},
-},
-["BigWigs_Bosses_Plexus Sentinel"] = {
-[1219607] = {
 1,
-0.501960813999176,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1219263] = {
+[1227226] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
 0.8999999761581421,
-},
-[1219450] = {
-1,
-1,
-0.1019607931375504,
-0.8999999761581421,
-},
-},
-["BigWigs_Bosses_Anub'ikkaj"] = {
-[426860] = {
-0,
-1,
-0,
 },
 },
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
-1,
-1,
-1,
-0.8999999761581421,
+0.6666666865348816,
+0.6666666865348816,
+0.6666666865348816,
 },
 },
 ["BigWigs_Bosses_Soulbinder Naazindhri"] = {
@@ -844,6 +744,50 @@ nil,
 0,
 },
 },
+["BigWigs_Bosses_Forgeweaver Araz"] = {
+[1232221] = {
+1,
+0.501960813999176,
+0.1019607931375504,
+0.8999999761581421,
+},
+[1227631] = {
+1,
+0.2000000178813934,
+0.2000000178813934,
+0.8999999761581421,
+},
+[1231720] = {
+0.5843137502670288,
+1,
+0.960784375667572,
+0.8999999761581421,
+},
+[1243901] = {
+1,
+1,
+0.1019607931375504,
+0.8999999761581421,
+},
+[1228188] = {
+0.3725490272045136,
+1,
+0.4352941513061523,
+0.8999999761581421,
+},
+[1228216] = {
+0.5058823823928833,
+0.4235294461250305,
+0.9137255549430847,
+0.8999999761581421,
+},
+[1228214] = {
+1,
+1,
+0.1019607931375504,
+0.8999999761581421,
+},
+},
 ["BigWigs_Bosses_Fractillus"] = {
 [1233416] = {
 1,
@@ -870,30 +814,31 @@ nil,
 0.8999999761581421,
 },
 },
-["BigWigs_Bosses_Loom'ithar"] = {
-[1227782] = {
+["BigWigs_Bosses_Plexus Sentinel"] = {
+[1219607] = {
 1,
-1,
+0.501960813999176,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1237212] = {
+[1219263] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
 0.8999999761581421,
 },
-[1246921] = {
+[1219450] = {
 1,
 1,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1227226] = {
-0.5058823823928833,
-0.4235294461250305,
-0.9137255549430847,
-0.8999999761581421,
+},
+["BigWigs_Bosses_Anub'ikkaj"] = {
+[426860] = {
+0,
+1,
+0,
 },
 },
 },
@@ -918,90 +863,37 @@ nil,
 },
 },
 ["barEmphasized"] = {
-["BigWigs_Bosses_Shadowcrown"] = {
-[451026] = {
-0.3137255012989044,
-0.1647058874368668,
-0.9058824181556702,
-0.8999999761581421,
-},
-},
-["BigWigs_Bosses_Forgeweaver Araz"] = {
-[1232221] = {
-nil,
-0.501960813999176,
-0.1019607931375504,
-0.8999999761581421,
-},
-[1227631] = {
-nil,
-0.2000000178813934,
-0.2000000178813934,
-0.8999999761581421,
-},
-[1231720] = {
-0.5843137502670288,
-1,
-0.960784375667572,
-0.8999999761581421,
-},
-[1243901] = {
+["BigWigs_Bosses_Loom'ithar"] = {
+[1227782] = {
 nil,
 1,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1228214] = {
-nil,
-1,
-0.1019607931375504,
-0.8999999761581421,
-},
-[1228216] = {
+[1237212] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
 0.8999999761581421,
 },
-[1228188] = {
-0.3725490272045136,
-1,
-0.4352941513061523,
-0.8999999761581421,
-},
-},
-["BigWigs_Bosses_Plexus Sentinel"] = {
-[1219607] = {
+[1246921] = {
 nil,
-0.501960813999176,
+1,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1219263] = {
+[1227226] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
 0.8999999761581421,
-},
-[1219450] = {
-nil,
-1,
-0.1019607931375504,
-0.8999999761581421,
-},
-},
-["BigWigs_Bosses_Anub'ikkaj"] = {
-[426860] = {
-0,
-1,
 },
 },
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
-nil,
-1,
-1,
-0.8999999761581421,
+0.6666666865348816,
+0.6666666865348816,
+0.6666666865348816,
 },
 },
 ["BigWigs_Bosses_Soulbinder Naazindhri"] = {
@@ -1056,6 +948,22 @@ nil,
 0.501960813999176,
 },
 },
+["BigWigs_Bosses_Shadowcrown"] = {
+[451026] = {
+0.3137255012989044,
+0.1647058874368668,
+0.9058824181556702,
+0.8999999761581421,
+},
+},
+["BigWigs_Bosses_Dimensius, the All-Devouring"] = {
+[1243690] = {
+0.9058824181556702,
+0.003921568859368563,
+0.6627451181411743,
+0.8999999761581421,
+},
+},
 ["BigWigs_Bosses_Fractillus"] = {
 [1233416] = {
 nil,
@@ -1082,37 +990,73 @@ nil,
 0.8999999761581421,
 },
 },
-["BigWigs_Bosses_Loom'ithar"] = {
-[1227782] = {
+["BigWigs_Bosses_Plexus Sentinel"] = {
+[1219607] = {
 nil,
-1,
+0.501960813999176,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1237212] = {
+[1219263] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
 0.8999999761581421,
 },
-[1246921] = {
+[1219450] = {
 nil,
 1,
 0.1019607931375504,
 0.8999999761581421,
 },
-[1227226] = {
+},
+["BigWigs_Bosses_Anub'ikkaj"] = {
+[426860] = {
+0,
+1,
+},
+},
+["BigWigs_Bosses_Forgeweaver Araz"] = {
+[1232221] = {
+nil,
+0.501960813999176,
+0.1019607931375504,
+0.8999999761581421,
+},
+[1227631] = {
+nil,
+0.2000000178813934,
+0.2000000178813934,
+0.8999999761581421,
+},
+[1231720] = {
+0.5843137502670288,
+1,
+0.960784375667572,
+0.8999999761581421,
+},
+[1243901] = {
+nil,
+1,
+0.1019607931375504,
+0.8999999761581421,
+},
+[1228188] = {
+0.3725490272045136,
+1,
+0.4352941513061523,
+0.8999999761581421,
+},
+[1228216] = {
 0.5058823823928833,
 0.4235294461250305,
 0.9137255549430847,
 0.8999999761581421,
 },
-},
-["BigWigs_Bosses_Dimensius, the All-Devouring"] = {
-[1243690] = {
-0.9058824181556702,
-0.003921568859368563,
-0.6627451181411743,
+[1228214] = {
+nil,
+1,
+0.1019607931375504,
 0.8999999761581421,
 },
 },
@@ -1147,13 +1091,13 @@ nil,
 },
 },
 ["BigWigs_Bosses_Forgeweaver Araz"] = {
-[1243901] = {
+[1228214] = {
 nil,
 nil,
 nil,
 1,
 },
-[1228214] = {
+[1243901] = {
 nil,
 nil,
 nil,
@@ -1305,7 +1249,7 @@ nil,
 ["iconCooldownEdge"] = false,
 ["textSpacing"] = 3,
 ["iconFontName"] = "Friz Quadrata TT",
-["iconExpireGlow"] = false,
+["iconCooldownInverse"] = true,
 ["textFontSize"] = 21,
 ["textOutline"] = "OUTLINE",
 ["iconFontSize"] = 15,
@@ -1315,30 +1259,36 @@ nil,
 ["iconOffsetX"] = -4,
 ["textUppercase"] = false,
 ["iconHeightTarget"] = 30,
-["iconCooldownInverse"] = true,
+["iconExpireGlow"] = false,
 },
 ["AtrocityUI"] = {
+["iconGrowDirectionStart"] = "RIGHT",
 ["iconWidthTarget"] = 26,
-["iconHeightOthers"] = 23,
-["iconExpireGlowType"] = "proc",
-["iconGlowFrequency"] = 0.3000000000000003,
-["iconFontName"] = "Expressway",
-["iconFontSize"] = 13,
-["iconWidthOthers"] = 23,
-["textFontName"] = "Expressway",
-["iconGlowPixelLines"] = 3,
-["iconGlowPixelLength"] = 5,
-["iconCooldownEdge"] = false,
+["textFontSize"] = 20,
+["iconHeightOthers"] = 28,
 ["iconGlowColor"] = {
 1,
 0.8078432083129883,
 0,
 },
+["iconGlowFrequency"] = 0.3000000000000003,
+["iconFontName"] = "Expressway",
+["iconFontSize"] = 13,
+["iconWidthOthers"] = 23,
+["textOffsetY"] = -5,
+["textFontName"] = "Expressway",
+["iconExpireGlowType"] = "autocast",
+["iconGlowPixelLines"] = 3,
+["iconGrowDirection"] = "RIGHT",
+["iconGlowPixelLength"] = 5,
+["iconCooldownEdge"] = false,
+["iconGrowDirectionStartTarget"] = "RIGHT",
+["iconGrowDirectionTarget"] = "RIGHT",
 ["textOutline"] = "OUTLINE",
-["iconOffsetXTarget"] = 6,
+["iconOffsetXTarget"] = -14,
 ["iconZoom"] = 0.3,
-["iconOffsetX"] = 6,
-["iconHeightTarget"] = 26,
+["iconOffsetX"] = -14,
+["iconHeightTarget"] = 28,
 },
 ["Default"] = {
 ["textFontName"] = "Expressway",
@@ -1405,32 +1355,33 @@ nil,
 ["AtrocityUI"] = {
 ["outline"] = "OUTLINE",
 ["fontSize"] = 11,
-["visibleBarLimit"] = 9,
+["visibleBarLimit"] = 7,
 ["expHeight"] = 28,
 ["emphasizeGrowup"] = true,
-["spacing"] = 3,
 ["expWidth"] = 200,
-["emphasizeTime"] = 12,
+["emphasize"] = false,
+["emphasizeTime"] = 18,
 ["barStyle"] = "ElvUI",
 ["growup"] = true,
 ["fontSizeEmph"] = 11,
 ["fontName"] = "Expressway",
-["visibleBarLimitEmph"] = 6,
-["normalHeight"] = 28,
-["texture"] = "Atrocity",
 ["expPosition"] = {
 nil,
 nil,
 14,
-58,
+56,
 "UUF_Target",
 },
+["visibleBarLimitEmph"] = 6,
+["normalWidth"] = 200,
+["normalHeight"] = 28,
+["texture"] = "Melli",
 ["normalPosition"] = {
 nil,
 nil,
-143,
--1,
-"MultiBarBottomLeftButton12",
+14,
+60,
+"UUF_Target",
 },
 },
 ["Default"] = {
@@ -1446,8 +1397,8 @@ nil,
 "Minimap",
 },
 ["emphasizeGrowup"] = true,
-["expWidth"] = 206,
 ["spacing"] = 3,
+["expWidth"] = 206,
 ["normalWidth"] = 176,
 ["barStyle"] = "ElvUI",
 ["emphasizeTime"] = 12,
@@ -1477,17 +1428,42 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_Dimensius, the All-Devouring"] = {
+["BigWigs_Bosses_Chrome King Gallywix"] = {
+["profiles"] = {
+["FragUI"] = {
+[1216845] = 966903,
+},
+},
+},
+["BigWigs_Bosses_Vexie and the Geargrinders"] = {
+["profiles"] = {
+["Default"] = {
+[459683] = 0,
+[471403] = 0,
+[466615] = 0,
+[468147] = 0,
+[459978] = 0,
+[459678] = 0,
+},
+["AtrocityUI"] = {
+[459683] = 0,
+[466615] = 0,
+[471403] = 0,
+[468147] = 0,
+[459978] = 0,
+[459678] = 0,
+},
+},
+},
+["BigWigs_Bosses_Forgeweaver Araz"] = {
 ["profiles"] = {
 ["AtrocityUI"] = {
-[1243690] = 3129591,
-},
-},
-},
-["BigWigs_Bosses_Shadowcrown"] = {
-["profiles"] = {
-["AtrocityUI"] = {
-[428086] = 3064567,
+[1232221] = 3129591,
+[1227631] = 3129591,
+[1248171] = 3064054,
+[1228502] = 0,
+[1228216] = 11452663,
+[1228188] = 4178167,
 },
 },
 },
@@ -1498,59 +1474,106 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
-["profiles"] = {
-["Default"] = {
-[465232] = 0,
-[473276] = 0,
-[1218418] = 0,
-[1216934] = 0,
-[1216802] = 3129591,
-["stages"] = 0,
-[1218319] = 0,
-[1214878] = 0,
-[1216911] = 0,
-[1218342] = 0,
-[1219047] = 0,
-},
-["AtrocityUI"] = {
-[465232] = 0,
-[1219047] = 0,
-[1214878] = 0,
-[1216934] = 0,
-[1216802] = 3129591,
-["stages"] = 0,
-[1218319] = 0,
-[1218418] = 0,
-[1216911] = 0,
-[473276] = 0,
-[1218342] = 0,
-},
-},
-},
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Plugins_Messages"] = {
 ["profiles"] = {
 ["FragUI"] = {
-["disabled"] = true,
+["outline"] = "OUTLINE",
+["fontSize"] = 24,
+["emphFontName"] = "Friz Quadrata TT",
+["emphFontSize"] = 38,
+["fadetime"] = 1,
+["useicons"] = false,
+["emphUppercase"] = false,
+["emphOutline"] = "OUTLINE",
+["displaytime"] = 3,
+["fontName"] = "Friz Quadrata TT",
+["normalPosition"] = {
+nil,
+nil,
+nil,
+0,
+},
+},
+["AtrocityUI"] = {
+["outline"] = "OUTLINE",
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 40,
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-232,
+},
+["fontName"] = "Expressway",
+["displaytime"] = 2.5,
+["emphOutline"] = "OUTLINE",
+["fadetime"] = 1,
+["normalPosition"] = {
+"CENTER",
+"CENTER",
+nil,
+239,
+},
+},
+["Default"] = {
+["outline"] = "OUTLINE",
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 34,
+["displaytime"] = 2.5,
+["emphOutline"] = "OUTLINE",
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-232,
+},
+["fadetime"] = 1,
+["fontName"] = "Expressway",
+["normalPosition"] = {
+"CENTER",
+"CENTER",
+nil,
+433,
+},
+},
+},
+},
+["BigWigs_Bosses_Shadowcrown"] = {
+["profiles"] = {
+["AtrocityUI"] = {
+[428086] = 3064567,
+},
+},
+},
+["BattleRes"] = {
+["profiles"] = {
+["FragUI"] = {
+["imported"] = true,
+},
+["AtrocityUI"] = {
+["imported"] = true,
+},
+["Default"] = {
+["imported"] = true,
 },
 },
 },
 },
 ["myKeystones"] = {
 ["Player-3674-0B92E4B7"] = {
-["playerRating"] = 2817,
-["specId"] = 264,
-["keyMap"] = 503,
+["playerRating"] = 2867,
+["specId"] = 262,
+["keyMap"] = 542,
 ["name"] = "Bægnaskeren",
-["keyLevel"] = 12,
+["keyLevel"] = 15,
 ["realm"] = "Twisting Nether",
 },
 ["Player-3674-0A491F0C"] = {
-["playerRating"] = 2910,
+["playerRating"] = 2972,
 ["specId"] = 72,
-["keyMap"] = 0,
+["keyMap"] = 392,
 ["name"] = "Mbuzi",
-["keyLevel"] = 0,
+["keyLevel"] = 12,
 ["realm"] = "Twisting Nether",
 },
 },

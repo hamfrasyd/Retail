@@ -188,4 +188,4 @@ local function parse(decoder, content, lookup, formatVersion) -- luacheck: ignor
 
 	return result
 end
- local lookup = {'DeathKnight-Blood',}; local provider = {region='EU',realm='Ambossar',name='EU',type='subscribers',zone=44,date='2025-09-06',data={Da='Darkbiscuit:BAEBLAAECoEWAAIBAAcIOBtACQApAgc5DAAABAA+ADsMAAAEADIAOgwAAAQAWgA8DAAAAwBOADIMAAADAFIAPQwAAAMARwA+DAAAAQAyAAEABwg4G0AJACkCBzkMAAAEAD4AOwwAAAQAMgA6DAAABABaADwMAAADAE4AMgwAAAMAUgA9DAAAAwBHAD4MAAABADIAAAA=.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
+ local lookup = {'DeathKnight-Blood',}; local provider = {region='EU',realm='Ambossar',name='EU',type='subscribers',zone=44,date='2025-09-25',data={Da='Darkbiscuit:BAEBLAAECoEvAAIBAAgI6CDDBQD5Agg5DAAABwBTADsMAAAHAFYAOgwAAAcAWgA8DAAABgBVADIMAAAGAFMAPQwAAAYAVAA+DAAABQBZAD8MAAADAEUAAQAICOggwwUA+QIIOQwAAAcAUwA7DAAABwBWADoMAAAHAFoAPAwAAAYAVQAyDAAABgBTAD0MAAAGAFQAPgwAAAUAWQA/DAAAAwBFAAAA.',Li='Lighthaven:BAEALAADCggICAABLAAECggILwABAOggAA==.',},}; provider.parse = parse;if ArchonTooltip.AddProviderV2 then ArchonTooltip.AddProviderV2(lookup, provider) end
