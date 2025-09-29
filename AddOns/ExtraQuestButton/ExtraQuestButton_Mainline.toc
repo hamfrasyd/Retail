@@ -1,0 +1,25 @@
+## Interface: 110200, 110205
+## Author: p3lim
+## Version: 110200.62-Release
+## Title: ExtraQuestButton
+## Notes: An extra button for quest items!
+## IconTexture: Interface\Icons\inv_gizmo_goblingtonkcontroller
+## SavedVariables: ExtraQuestButtonDB3
+## OptionalDeps: LibStub, HereBeDragons, Masque
+
+## X-Curse-Project-ID: 88865
+## X-WoWI-ID: 23464
+## X-Wago-ID: XrNkYjKa
+
+libs\Dashi\embed.xml
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibEditMode\embed.xml
+libs\HereBeDragons\HereBeDragons-2.0.lua
+
+locale\[TextLocale].lua [AllowLoadTextLocale deDE, esES, esMX, frFR, itIT, koKR, ptBR, ruRU, zhCN, zhTW]
+
+data.lua
+button.lua
+utils.lua
+addon.lua

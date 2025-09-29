@@ -1,0 +1,89 @@
+VER 3 0100000000000019 "Aim Shot" "INV_MISC_QUESTIONMARK"
+#showtooltip Aimed Shot
+/use [nochanneling:rapid fire] Aimed Shot
+END
+VER 3 010000000000001B "Arcaneshot" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Shot
+/use [nochanneling:rapid fire] Arcane Shot
+END
+VER 3 010000000000001C "barbedshot" "INV_MISC_QUESTIONMARK"
+#showtooltip Barbed Shot
+/cast Barbed Shot
+/use Claw 
+/use bite 
+END
+VER 3 010000000000001D "Bestialwrath" "INV_MISC_QUESTIONMARK"
+#showtooltip Bestial Wrath
+/petattack
+/use Bestial Wrath
+/use claw
+/use bite
+END
+VER 3 0100000000000014 "BindingShot" "INV_MISC_QUESTIONMARK"
+#showtooltip Binding Shot
+/cast [@cursor] Binding Shot
+END
+VER 3 0100000000000018 "Cobrashot" "INV_MISC_QUESTIONMARK"
+#showtooltip Cobra shot
+/cast Cobra shot
+/use Claw
+/use bite
+END
+VER 3 0100000000000010 "Disengage" "INV_MISC_QUESTIONMARK"
+#showtooltip Disengage
+/stopcasting
+/cast Disengage
+END
+VER 3 0100000000000017 "Exhiliation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !eagle eye
+END
+VER 3 010000000000001E "Feigndeath" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/use feign death
+END
+VER 3 010000000000000D "Flare" "INV_MISC_QUESTIONMARK"
+#showtooltip Flare
+/cast [@cursor] Flare
+END
+VER 3 0100000000000006 "FreezingTrap" "INV_MISC_QUESTIONMARK"
+#showtooltip Freezing Trap
+/cast [@cursor] Freezing Trap
+END
+VER 3 0100000000000013 "Interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip Counter Shot
+/stopcasting
+/stopcasting
+/cast [@focus,exists][@mouseover,exist,harm][] Counter Shot
+END
+VER 3 010000000000001F "Intimidation" "INV_MISC_QUESTIONMARK"
+#showtooltip Intimidation
+/use dash
+/petattack
+/use Intimidation
+END
+VER 3 0100000000000004 "MisdirecitonMO" "INV_MISC_QUESTIONMARK"
+#showtooltip Misdirection
+/cast [@focus,exists,noharm,nodead][@mouseover,exists,noharm,nodead][@pet] Misdirection
+END
+VER 3 0100000000000016 "Multishot" "INV_MISC_QUESTIONMARK"
+#showtooltip Multi-shot
+/use [nochanneling:rapid fire] Multi-Shot
+/use Claw
+/use bite
+END
+VER 3 0100000000000005 "TarTrap" "INV_MISC_QUESTIONMARK"
+#showtooltip Tar Trap
+/cast [@cursor] Tar Trap
+END
+VER 3 0100000000000003 "Turtl" "INV_MISC_QUESTIONMARK"
+#showtooltip Aspect of the Turtle
+/stopcasting
+/cast Aspect of the Turtle
+END
+VER 3 0100000000000015 "Volley" "INV_MISC_QUESTIONMARK"
+#showtooltip Volley
+/cast [@cursor] Volley
+END

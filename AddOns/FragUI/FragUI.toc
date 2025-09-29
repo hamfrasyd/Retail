@@ -1,0 +1,26 @@
+## Title: |cFF8080FFFrag|rUI: 1080p
+## Version: 2.0
+## Interface: 110107, 110200
+## SavedVariables: FragUIDB
+## Category-enUS: FragUI
+## IconTexture: Interface\AddOns\FragUI\Media\FragUI.png
+## Notes: Additional Tweaks & Options for users that utilize FragUI.|nSubscribe to |TInterface/AddOns/FragUI/Media/Twitch.png:16:16|t Fragnance for the UI!
+## X-Wago-ID: aNDmjp6o
+
+Libs/Init.xml
+
+Exports/BasicMinimap.lua
+Exports/Prat.lua
+Exports/Bufflehead.lua
+Exports/LSToasts.lua
+Exports/MRT.lua
+
+Config.lua
+Functions.lua
+
+Modules/CustomSkins.lua
+Modules/MinimapStats.lua
+Modules/Baganator.lua
+
+FragUI.lua
+Bindings.lua

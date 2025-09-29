@@ -1,0 +1,29 @@
+## Interface: 110200
+## Title: Grid2 |cd2ff7d0aRaidDebuffs Options|r
+## Title-esES: Grid2 |cd2ff7d0aRaidDebuffs Opciones|r
+## Notes: Load on demand Options for Grid2RaidDebuffs.
+## Notes-esES: Opciones de configuracion para el modulo Grid2RaidDebuffs.
+## Author: Michael
+## Dependencies: Grid2
+## LoadOnDemand: 1
+## Version: 2.9.5
+## IconTexture: Interface/AddOns/Grid2/media/iconsmall.tga
+
+Grid2RaidDebuffsOptions.lua
+OptionsGeneral.lua
+OptionsAdvanced.lua
+OptionsLuaCode.lua
+
+
+RaidDebuffsCataclysm.lua
+RaidDebuffsMoP.lua
+
+RaidDebuffsWoD.lua
+RaidDebuffsLegion.lua
+RaidDebuffsBfA.lua
+RaidDebuffsShadowlands.lua
+RaidDebuffsDragonflight.lua
+RaidDebuffsTheWarWithin.lua
+RaidDebuffsMythicPlus.lua
+
+

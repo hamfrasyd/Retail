@@ -1,0 +1,12 @@
+<Bindings>
+    <Binding name="FRAGUIHIDEBARS" category="|TInterface/AddOns/FragUI/Media/FragUI.png:16:16|t FragUI|r">
+        local function t(n) Bartender4.Bar.barregistry[n]:SetVisibilityOption("always",not Bartender4.Bar.barregistry[n]:GetVisibilityOption("always")) end t("1") t("2") t("3") t("4")
+    </Binding>
+    <Binding name="QUICKLEAVEPARTY" category="|TInterface/AddOns/FragUI/Media/FragUI.png:16:16|t FragUI|r">
+        C_PartyInfo.LeaveParty()
+    </Binding>
+    <Binding name="RESETINSTANCES" category="|TInterface/AddOns/FragUI/Media/FragUI.png:16:16|t FragUI|r">
+        ResetInstances()
+        print("|TInterface/AddOns/FragUI/Media/FragUI.png:16:16|t|cFF8080FFFragUI|r: Instances Reset!")
+    </Binding>
+</Bindings>
