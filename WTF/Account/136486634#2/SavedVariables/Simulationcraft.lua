@@ -8,11 +8,12 @@ SimulationCraftDB = {
 ["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
 ["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
 ["Kassedamen - Twisting Nether"] = "Kassedamen - Twisting Nether",
-["Ponypala - Twisting Nether"] = "Ponypala - Twisting Nether",
+["Hannahuntana - Argent Dawn"] = "Hannahuntana - Argent Dawn",
+["Mbuzi - Draenor"] = "Mbuzi - Draenor",
 ["Dådyret - Draenor"] = "Dådyret - Draenor",
 ["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
+["Ponypala - Twisting Nether"] = "Ponypala - Twisting Nether",
 ["Lilgoat - Twisting Nether"] = "Lilgoat - Twisting Nether",
-["Mbuzi - Draenor"] = "Mbuzi - Draenor",
 ["Daweq - Twisting Nether"] = "Daweq - Twisting Nether",
 },
 ["profiles"] = {
@@ -45,7 +46,12 @@ SimulationCraftDB = {
 },
 ["Kassedamen - Twisting Nether"] = {
 },
-["Ponypala - Twisting Nether"] = {
+["Hannahuntana - Argent Dawn"] = {
+["minimap"] = {
+["hide"] = true,
+},
+},
+["Mbuzi - Draenor"] = {
 },
 ["Dådyret - Draenor"] = {
 },
@@ -54,9 +60,9 @@ SimulationCraftDB = {
 ["hide"] = true,
 },
 },
-["Lilgoat - Twisting Nether"] = {
+["Ponypala - Twisting Nether"] = {
 },
-["Mbuzi - Draenor"] = {
+["Lilgoat - Twisting Nether"] = {
 },
 ["Daweq - Twisting Nether"] = {
 ["minimap"] = {

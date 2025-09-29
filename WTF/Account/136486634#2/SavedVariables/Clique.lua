@@ -2,6 +2,17 @@
 CliqueDB = nil
 CliqueDB3 = {
 ["char"] = {
+["Daweq - Twisting Nether"] = {
+["spec1_profileKey"] = "Daweq - Twisting Nether",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["specswap"] = false,
+["spec2_profileKey"] = "Daweq - Twisting Nether",
+["spec3_profileKey"] = "Daweq - Twisting Nether",
+},
 ["Mbuzi - Twisting Nether"] = {
 ["spec1_profileKey"] = "Mbuzi - Twisting Nether",
 ["blizzframes"] = {
@@ -10,19 +21,19 @@ CliqueDB3 = {
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Mbuzi - Twisting Nether",
 ["downclick"] = false,
-["spec2_profileKey"] = "Mbuzi - Twisting Nether",
 ["specswap"] = false,
+["spec2_profileKey"] = "Mbuzi - Twisting Nether",
 },
-["Daweq - Twisting Nether"] = {
-["spec1_profileKey"] = "Daweq - Twisting Nether",
+["Hannahuntana - Argent Dawn"] = {
+["spec1_profileKey"] = "Hannahuntana - Argent Dawn",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec3_profileKey"] = "Daweq - Twisting Nether",
-["spec2_profileKey"] = "Daweq - Twisting Nether",
 ["specswap"] = false,
+["spec2_profileKey"] = "Hannahuntana - Argent Dawn",
+["spec3_profileKey"] = "Hannahuntana - Argent Dawn",
 },
 ["Bægnaskeren - Twisting Nether"] = {
 ["spec1_profileKey"] = "Bægnaskeren - Twisting Nether",
@@ -31,122 +42,28 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
-["specswap"] = false,
 ["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["specswap"] = false,
+["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
 },
 },
 ["profileKeys"] = {
-["Weadasw - Twisting Nether"] = "Weadasw - Twisting Nether",
+["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+["Hannahuntana - Argent Dawn"] = "Hannahuntana - Argent Dawn",
 ["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
 ["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
+["Weadasw - Twisting Nether"] = "Weadasw - Twisting Nether",
 ["Daweq - Twisting Nether"] = "Daweq - Twisting Nether",
-["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
 },
 ["profiles"] = {
-["Weadasw - Twisting Nether"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
-["Mbuzi - Twisting Nether"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
-["Mbuzipriest - Twisting Nether"] = {
-["bindings"] = {
-{
-["sets"] = {
-["default"] = true,
-},
-["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
-["Misswarchira - Argent Dawn"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
-["Daweq - Twisting Nether"] = {
-["bindings"] = {
-{
-["sets"] = {
-["default"] = true,
-},
-["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
 ["Bægnaskeren - Twisting Nether"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -255,6 +172,120 @@ CliqueDB3 = {
 },
 ["icon"] = 136037,
 ["type"] = "spell",
+},
+},
+},
+["Hannahuntana - Argent Dawn"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Mbuzi - Twisting Nether"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Mbuzipriest - Twisting Nether"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Misswarchira - Argent Dawn"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Weadasw - Twisting Nether"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Daweq - Twisting Nether"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 },
 },

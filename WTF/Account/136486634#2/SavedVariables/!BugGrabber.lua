@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 484,
 ["lastSanitation"] = 3,
+["session"] = 501,
 ["errors"] = {
 {
 ["message"] = "FontString:SetFormattedText(): Font not set",
@@ -197,8 +197,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:49 Error loading Interface/AddOns/Baganator/Sorting/OrderBags.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 466,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 1,
 },
 {
@@ -219,62 +219,62 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:23 Error loading Interface/AddOns/Baganator/Embeds/json.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:20:07",
+["session"] = 467,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:39 Error loading Interface/AddOns/Baganator/Skins/Initialize.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:40 Error loading Interface/AddOns/Baganator/Skins/Blizzard.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:41 Error loading Interface/AddOns/Baganator/Skins/Dark.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:42 Error loading Interface/AddOns/Baganator/Skins/ElvUI.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:43 Error loading Interface/AddOns/Baganator/Skins/GW2.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:44 Error loading Interface/AddOns/Baganator/Skins/NDui.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:46 Error loading Interface/AddOns/Baganator/Sorting/BagUsageChecks.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:47 Error loading Interface/AddOns/Baganator/Sorting/ItemFields.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:48 Error loading Interface/AddOns/Baganator/Sorting/Order.lua",
-["time"] = "2025/09/28 21:11:05",
 ["session"] = 467,
+["time"] = "2025/09/28 21:11:05",
 ["counter"] = 2,
 },
 {

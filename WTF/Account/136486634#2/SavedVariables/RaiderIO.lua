@@ -1,15 +1,15 @@
 
 RaiderIO_Config = {
-["profilePoint"] = {
-["y"] = 0,
-["x"] = -16,
-["point"] = "TOPLEFT",
-},
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
+},
+["profilePoint"] = {
+["y"] = 0,
+["x"] = -16.00000190734863,
+["point"] = "TOPLEFT",
 },
 }
 RaiderIO_LastCharacter = "eu-Mbuzi-twisting-nether"

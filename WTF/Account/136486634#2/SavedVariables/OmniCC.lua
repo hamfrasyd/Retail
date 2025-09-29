@@ -1,9 +1,5 @@
 
 OmniCCDB = {
-["global"] = {
-["dbVersion"] = 6,
-["addonVersion"] = "11.2.7",
-},
 ["profileKeys"] = {
 ["Driplitty - Twisting Nether"] = "Default",
 ["Weadasw - Twisting Nether"] = "Default",
@@ -12,12 +8,17 @@ OmniCCDB = {
 ["Misswarchira - Argent Dawn"] = "Default",
 ["Bægnaskeren - Twisting Nether"] = "FragUI_1",
 ["Kassedamen - Twisting Nether"] = "Default",
-["Ponypala - Twisting Nether"] = "Default",
+["Hannahuntana - Argent Dawn"] = "FragUI",
+["Mbuzi - Draenor"] = "Default",
 ["Dådyret - Draenor"] = "Default",
 ["Mbuzipriest - Twisting Nether"] = "Default",
+["Ponypala - Twisting Nether"] = "Default",
 ["Lilgoat - Twisting Nether"] = "Default",
-["Mbuzi - Draenor"] = "Default",
 ["Daweq - Twisting Nether"] = "Default",
+},
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.2.7",
 },
 ["profiles"] = {
 ["FragUI"] = {
@@ -74,16 +75,16 @@ OmniCCDB = {
 ["g"] = 0.250980406999588,
 },
 ["hours"] = {
-["b"] = 1,
+["r"] = 1,
 ["scale"] = 1,
 ["g"] = 1,
-["r"] = 1,
+["b"] = 1,
 },
 ["charging"] = {
 ["a"] = 1,
-["r"] = 1,
-["scale"] = 1,
 ["b"] = 1,
+["scale"] = 1,
+["r"] = 1,
 },
 ["controlled"] = {
 ["b"] = 1,
@@ -101,9 +102,9 @@ OmniCCDB = {
 ["textStyles"] = {
 ["seconds"] = {
 },
-["minutes"] = {
-},
 ["soon"] = {
+},
+["minutes"] = {
 },
 },
 ["enableText"] = false,
@@ -111,6 +112,29 @@ OmniCCDB = {
 },
 },
 ["Default"] = {
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["seconds"] = {
+},
+["minutes"] = {
+},
+},
+},
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["seconds"] = {
+},
+["minutes"] = {
+},
+},
+["enableText"] = false,
+},
+},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -148,33 +172,35 @@ OmniCCDB = {
 },
 ["theme"] = "Plater Nameplates Theme",
 ["priority"] = 4,
-},
-},
-["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["soon"] = {
-},
-["minutes"] = {
-},
-["seconds"] = {
-},
-},
-},
-["Plater Nameplates Theme"] = {
-["textStyles"] = {
-["soon"] = {
-},
-["minutes"] = {
-},
-["seconds"] = {
-},
-},
-["enableText"] = false,
 },
 },
 },
 ["FragUI_1"] = {
+["themes"] = {
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["minutes"] = {
+},
+["seconds"] = {
+},
+},
+["enableText"] = false,
+},
+["Default"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["minutes"] = {
+},
+["seconds"] = {
+},
+},
+["mmSSDuration"] = 300,
+["maxDuration"] = 300,
+},
+},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -212,31 +238,6 @@ OmniCCDB = {
 },
 ["theme"] = "Plater Nameplates Theme",
 ["priority"] = 4,
-},
-},
-["themes"] = {
-["Plater Nameplates Theme"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["minutes"] = {
-},
-["soon"] = {
-},
-},
-["enableText"] = false,
-},
-["Default"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["minutes"] = {
-},
-["soon"] = {
-},
-},
-["mmSSDuration"] = 300,
-["maxDuration"] = 300,
 },
 },
 },
