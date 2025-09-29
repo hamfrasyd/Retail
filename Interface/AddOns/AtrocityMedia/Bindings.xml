@@ -1,5 +1,0 @@
-<Bindings>
-    <Binding name="AUIHIDEBARS" header="AUI" category="AtrocityMedia">
-      local a,b={1,4,5,6},unpack(ElvUI);for c,d in pairs(a)do local e=b.db.actionbar["bar"..d].visibility;b.db.actionbar["bar"..d].visibility=e=="hide"and"[petbattle]hide;show"or"hide"b.ActionBars:PositionAndSizeBar("bar"..d)end
-    </Binding>
-</Bindings>
