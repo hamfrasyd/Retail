@@ -7,7 +7,7 @@ g_addonCategoriesCollapsed = {
 ["Causese"] = true,
 ["FragUI"] = true,
 ["Loot"] = true,
-["Buffs & Debuffs"] = true,
-["User Interface"] = true,
 ["Unit Frames"] = true,
+["User Interface"] = true,
+["Buffs & Debuffs"] = true,
 }

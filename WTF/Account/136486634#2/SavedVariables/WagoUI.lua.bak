@@ -132,15 +132,15 @@ WagoUIDB = {
 ["profileKey"] = "AtrocityUI",
 ["importedAt"] = 1756311616,
 },
-["OmniBar"] = {
-["lastUpdatedAt"] = 1745529803,
-["profileKey"] = "AtrocityUI",
-["importedAt"] = 1755683531,
-},
 ["OmniCD"] = {
 ["lastUpdatedAt"] = 1754783868,
 ["profileKey"] = "AtrocityUI",
 ["importedAt"] = 1755939917,
+},
+["OmniBar"] = {
+["lastUpdatedAt"] = 1745529803,
+["profileKey"] = "AtrocityUI",
+["importedAt"] = 1755683531,
 },
 ["WeakAuras"] = {
 ["entries"] = {
@@ -200,15 +200,15 @@ WagoUIDB = {
 },
 ["kW1xkbow"] = {
 ["1080"] = {
-["OmniCD"] = {
-["lastUpdatedAt"] = 1754598259,
-["profileKey"] = "FragUI - Colour",
-["importedAt"] = 1755685963,
-},
 ["Unhalted Unit Frames"] = {
 ["lastUpdatedAt"] = 1754681223,
 ["profileKey"] = "FragUI - Colour",
 ["importedAt"] = 1755953890,
+},
+["OmniCD"] = {
+["lastUpdatedAt"] = 1754598259,
+["profileKey"] = "FragUI - Colour",
+["importedAt"] = 1755685963,
 },
 ["Plater"] = {
 ["lastUpdatedAt"] = 1754596365,
@@ -220,10 +220,10 @@ WagoUIDB = {
 ["profileKey"] = "FragUI",
 ["importedAt"] = 1755683696,
 },
-["Grid2"] = {
-["lastUpdatedAt"] = 1754731003,
-["profileKey"] = "FragUI - Colour",
-["importedAt"] = 1755682697,
+["Details"] = {
+["lastUpdatedAt"] = 1754598259,
+["profileKey"] = "FragUI",
+["importedAt"] = 1755682786,
 },
 ["TipTac Reborn"] = {
 ["lastUpdatedAt"] = 1757232722,
@@ -246,10 +246,10 @@ WagoUIDB = {
 },
 },
 },
-["Details"] = {
-["lastUpdatedAt"] = 1754598259,
-["profileKey"] = "FragUI",
-["importedAt"] = 1755682786,
+["Grid2"] = {
+["lastUpdatedAt"] = 1754731003,
+["profileKey"] = "FragUI - Colour",
+["importedAt"] = 1755682697,
 },
 },
 },
@@ -279,22 +279,6 @@ WagoUIDB = {
 ["Mbuzipriest - Twisting Nether"] = "|cffffffffMbuzipriest - Twisting Nether|r",
 ["Bægnaskeren - Twisting Nether"] = "|cff0070ddBægnaskeren - Twisting Nether|r",
 ["Mbuzi - Twisting Nether"] = "|cffc69b6dMbuzi - Twisting Nether|r",
-},
-["latestSeenReleasenotes"] = {
-["79ovAzjg"] = 1754935735,
-["r5oXEV1V"] = 1756559518,
-["2JoL7azj"] = 1757792063,
-["0jz7Ag1Q"] = 1758654041,
-["79ov7A1j"] = 1754948059,
-["kW1xkbow"] = 1757792141,
-["bKoeLOz4"] = 1757792184,
-["JOzRLM1A"] = 1758654141,
-["wx13eWz5"] = 1757792159,
-["G5ogYNl0"] = 1759013121,
-["QmoWRz7B"] = 1757966665,
-["xOzN20zw"] = 1758554091,
-},
-["config"] = {
 },
 ["introImportState"] = {
 ["1080"] = {
@@ -379,6 +363,22 @@ WagoUIDB = {
 },
 ["1440"] = {
 },
+},
+["config"] = {
+},
+["latestSeenReleasenotes"] = {
+["79ovAzjg"] = 1754935735,
+["r5oXEV1V"] = 1756559518,
+["2JoL7azj"] = 1757792063,
+["0jz7Ag1Q"] = 1758654041,
+["79ov7A1j"] = 1754948059,
+["kW1xkbow"] = 1757792141,
+["bKoeLOz4"] = 1757792184,
+["wx13eWz5"] = 1757792159,
+["JOzRLM1A"] = 1758654141,
+["G5ogYNl0"] = 1759013121,
+["QmoWRz7B"] = 1757966665,
+["xOzN20zw"] = 1758554091,
 },
 ["autoStart"] = false,
 ["xoffset"] = -180.6667022705078,
