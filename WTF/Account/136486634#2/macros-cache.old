@@ -60,6 +60,8 @@ END
 VER 3 0000000000000025 "ShamanAscendance" "134400"
 #showtooltip
 /cast Ascendance
+/use Araz's Ritual Forge
+/use Tempered Potion
 END
 VER 3 0000000000000036 "ShamanBuff" "134400"
 #showtooltip
@@ -71,7 +73,7 @@ VER 3 0000000000000032 "ShamanCleanse" "134400"
 END
 VER 3 0000000000000033 "ShamanEarthAPT" "134400"
 #showtooltip
-/cast [@cursor] Earthen Wall Totem
+/cast [@cursor]Earthen Wall Totem
 END
 VER 3 0000000000000026 "ShamanEarthquake" "134400"
 #showtooltip

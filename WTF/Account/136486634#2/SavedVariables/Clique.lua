@@ -18,9 +18,9 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Mbuzi - Twisting Nether",
-["downclick"] = false,
 ["specswap"] = false,
 ["spec2_profileKey"] = "Mbuzi - Twisting Nether",
 },
@@ -40,9 +40,9 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["downclick"] = false,
 ["specswap"] = false,
 ["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
 },
@@ -68,20 +68,20 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["spell"] = "Purify Spirit",
-["key"] = "F2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 236288,
-["type"] = "spell",
-},
-{
 ["type"] = "menu",
 ["key"] = "BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
+},
+{
+["spell"] = "Wind Rush Totem",
+["key"] = "SHIFT-R",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 538576,
+["type"] = "spell",
 },
 {
 ["spell"] = "Earthen Wall Totem",
@@ -102,57 +102,21 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["spell"] = "Wind Rush Totem",
-["key"] = "SHIFT-R",
+["spell"] = "Purify Spirit",
+["key"] = "F2",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 538576,
+["icon"] = 236288,
 ["type"] = "spell",
 },
 {
-["spell"] = "Healing Surge",
-["key"] = "T",
+["spell"] = "Healing Rain",
+["key"] = "SHIFT-C",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 136044,
-["type"] = "spell",
-},
-{
-["spell"] = "Earthliving Weapon",
-["key"] = "ALT-2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 237578,
-["type"] = "spell",
-},
-{
-["spell"] = "Chain Heal",
-["key"] = "2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 6712961,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Wave",
-["key"] = "MOUSEWHEELUP",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
-["type"] = "spell",
-},
-{
-["spell"] = "Skyfury",
-["key"] = "F4",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 4630367,
+["icon"] = 136037,
 ["type"] = "spell",
 },
 {
@@ -165,12 +129,48 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["spell"] = "Healing Rain",
-["key"] = "SHIFT-C",
+["spell"] = "Healing Surge",
+["key"] = "T",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 136037,
+["icon"] = 136044,
+["type"] = "spell",
+},
+{
+["spell"] = "Chain Heal",
+["key"] = "2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 6712961,
+["type"] = "spell",
+},
+{
+["spell"] = "Skyfury",
+["key"] = "F4",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 4630367,
+["type"] = "spell",
+},
+{
+["spell"] = "Earthliving Weapon",
+["key"] = "ALT-2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 237578,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Wave",
+["key"] = "MOUSEWHEELUP",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
 ["type"] = "spell",
 },
 },

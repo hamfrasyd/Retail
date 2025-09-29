@@ -8,12 +8,24 @@ RaiderIO_Config = {
 },
 ["profilePoint"] = {
 ["y"] = 0,
-["x"] = -16.00000190734863,
+["x"] = -16,
 ["point"] = "TOPLEFT",
 },
 }
-RaiderIO_LastCharacter = "eu-Mbuzi-twisting-nether"
+RaiderIO_LastCharacter = "eu-Bægnaskeren-twisting-nether"
 RaiderIO_MissingCharacters = {
+["eu-Karthmann-twisting-nether"] = true,
+["eu-Scribbles-Twisting Nether"] = true,
+["eu-Bucketqt-Twisting Nether"] = true,
+["eu-Soúp-twisting-nether"] = true,
+["eu-Leplates-twisting-nether"] = true,
+["eu-Lazaraxx-twisting-nether"] = true,
+["eu-Goatzilla-draenor"] = true,
+["eu-Mêchâ-silvermoon"] = true,
+["eu-Paerd-draenor"] = true,
+["eu-Fanii-twisting-nether"] = true,
+["eu-Kaskadehunt-twisting-nether"] = true,
+["eu-Xavitore-twisting-nether"] = true,
 }
 RaiderIO_MissingServers = {
 }

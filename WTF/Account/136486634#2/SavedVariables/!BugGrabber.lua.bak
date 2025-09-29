@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 500,
+["session"] = 506,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -146,14 +146,6 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/Grid2/modules/IndicatorMultiBar.lua]:34: in function <Interface/AddOns/Grid2/modules/IndicatorMultiBar.lua:21>\n[Interface/AddOns/Grid2/modules/IndicatorMultiBar.lua]:103: in function <Interface/AddOns/Grid2/modules/IndicatorMultiBar.lua:101>",
 ["session"] = 424,
 ["counter"] = 254,
-},
-{
-["message"] = "...terface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua:124: attempt to perform arithmetic on local 'r' (a nil value)",
-["time"] = "2025/09/28 13:20:17",
-["locals"] = "r = nil\ng = 0.631373\nb = nil\n(*temporary) = \"|cff%02x%02x%02x\"\n(*temporary) = nil\n(*temporary) = 0.631373\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on local 'r' (a nil value)\"\n",
-["stack"] = "[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:124: in function <...terface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua:116>\n[tail call]: ?\n[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:792: in function 'UpdateTag'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:668: in function 'func'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/ouf.lua]:200: in function <Interface/AddOns/UnhaltedUF/Libs/oUF/ouf.lua:183>\n[tail call]: ?\n[tail call]: ?",
-["session"] = 444,
-["counter"] = 81,
 },
 {
 ["message"] = "...ace/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua:2144: attempt to index local 'applicantInfo' (a nil value)",
@@ -302,20 +294,28 @@ BugGrabberDB = {
 ["counter"] = 7,
 },
 {
-["message"] = "Interface/AddOns/Details/functions/ej_cache.lua:85: attempt to index field 'CurrentContent' (a nil value)",
-["time"] = "2025/09/28 14:32:55",
-["locals"] = "id = 2810\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'CurrentContent' (a nil value)\"\nDetails222 = <table> {\n PlayerStats = <table> {\n }\n Cache = <table> {\n }\n ClassCache = <table> {\n }\n UnitIdCache = <table> {\n }\n CustomItemList = <table> {\n }\n PetContainer = <table> {\n }\n SpecHelpers = <table> {\n }\n Notes = <table> {\n }\n PFrame = Frame {\n }\n InstanceDifficulty = <table> {\n }\n TimeMachine = <table> {\n }\n Roskash = <table> {\n }\n ColorScheme = <table> {\n }\n Unknown = \"Unknown\"\n EncounterJournalDump = <table> {\n }\n BarIconSetList = <table> {\n }\n OneHourAuras = <table> {\n }\n CurrentDPS = <table> {\n }\n Mixins = <table> {\n }\n Parser = <table> {\n }\n EJCache = <table> {\n }\n AutoRunCode = <table> {\n }\n MythicPlusBreakdown = <table> {\n }\n Actors = <table> {\n }\n Combat = <table> {\n }\n SaveVariables = <table> {\n }\n Scheduler = <table> {\n }\n LoadSavedVariables = <table> {\n }\n GarbageCollector = <table> {\n }\n AllInOneWindow = <table> {\n }\n WarcraftLogs = <table> {\n }\n IgnoredWorldAuras = <table> {\n }\n DamageSpells = <table> {\n }\n OnUseItem = <table> {\n }\n ProfilingCache = <table> {\n }\n Cooldowns = <table> {\n }\n TrainingDummiesNpcId = <table> {\n }\n StartUp = <table> {\n }\n Date = <table> {\n }\n PrivateInstanceText = FontString {\n }\n ContextManager = <table> {\n }\n Instances = <table> {\n }\n Pets = <table> {\n }\n RegisteredFramesToColor = <table> {\n }\n commprefixes = \"Comm\"\n AuraScan = <table> {\n }\n ArenaSummary = <table> {\n }\n CooldownTracking = <table> {\n }\n Perf = <table> {\n }\n Textures = <table> {\n }\n Profiling = <table> {\n }\n Debug = <table> {\n }\n Tables = <table> {\n }\n ParsePercent = <table> {\n }\n parser_frame = Frame {\n }\n Tvs = 110200\n TimeCapture = <table> {\n }\n OptionsPanel = <table> {\n }\n GuessSpecSchedules = <table> {\n }\n MythicPlus = <table> {\n }\n Segments = <table> {\n }\n PlayerBreakdown = <table> {\n }\n BreakdownWindow = <table> {\n }\n storage = <table> {\n }\n}\n",
-["stack"] = "[Interface/AddOns/Details/functions/ej_cache.lua]:85: in function 'IsCurrentContent'\n[Interface/AddOns/Details/functions/storage.lua]:466: in function 'IsZoneIdFromCurrentExpansion'\n[Interface/AddOns/Details/core/parser.lua]:5569: in function <Interface/AddOns/Details/core/parser.lua:5541>\n[tail call]: ?",
-["session"] = 477,
-["counter"] = 2,
-},
-{
 ["message"] = "Interface/AddOns/OmniCD/Config/Party/ExtraBars.lua:319: attempt to index field '?' (a nil value)",
 ["time"] = "2025/09/29 07:11:06",
 ["locals"] = "self = <table> {\n pullout = <table> {\n }\n userdata = <table> {\n }\n disabled = false\n value = false\n parent = Frame {\n }\n base = <table> {\n }\n sub = Texture {\n }\n type = \"Dropdown-Item-Toggle-OmniCDC\"\n AceGUIWidgetVersion = 2001\n text = FontString {\n }\n highlight = Texture {\n }\n events = <table> {\n }\n check = Texture {\n }\n frame = AceGUI30DropDownItem82 {\n }\n useHighlight = true\n}\nname = \"OnValueChanged\"\n",
 ["stack"] = "[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/AceGUI-3.0.lua]:300: in function 'Fire'\n[Interface/AddOns/OmniCD/Libs/LibOmniCDC-1/AceGUI-3.0-41/widgets/AceGUIWidget-DropDown-Items.lua]:373: in function <...C/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua:363>",
 ["session"] = 480,
 ["counter"] = 2,
+},
+{
+["message"] = "Interface/AddOns/Details/functions/ej_cache.lua:85: attempt to index field 'CurrentContent' (a nil value)",
+["time"] = "2025/09/28 14:32:55",
+["locals"] = "id = 2810\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'CurrentContent' (a nil value)\"\nDetails222 = <table> {\n PlayerStats = <table> {\n }\n Cache = <table> {\n }\n ClassCache = <table> {\n }\n UnitIdCache = <table> {\n }\n CustomItemList = <table> {\n }\n PetContainer = <table> {\n }\n SpecHelpers = <table> {\n }\n Notes = <table> {\n }\n PFrame = Frame {\n }\n InstanceDifficulty = <table> {\n }\n TimeMachine = <table> {\n }\n Roskash = <table> {\n }\n ColorScheme = <table> {\n }\n Unknown = \"Unknown\"\n EncounterJournalDump = <table> {\n }\n BarIconSetList = <table> {\n }\n OneHourAuras = <table> {\n }\n CurrentDPS = <table> {\n }\n Mixins = <table> {\n }\n Parser = <table> {\n }\n EJCache = <table> {\n }\n AutoRunCode = <table> {\n }\n MythicPlusBreakdown = <table> {\n }\n Actors = <table> {\n }\n Combat = <table> {\n }\n SaveVariables = <table> {\n }\n Scheduler = <table> {\n }\n LoadSavedVariables = <table> {\n }\n GarbageCollector = <table> {\n }\n AllInOneWindow = <table> {\n }\n WarcraftLogs = <table> {\n }\n IgnoredWorldAuras = <table> {\n }\n DamageSpells = <table> {\n }\n OnUseItem = <table> {\n }\n ProfilingCache = <table> {\n }\n Cooldowns = <table> {\n }\n TrainingDummiesNpcId = <table> {\n }\n StartUp = <table> {\n }\n Date = <table> {\n }\n PrivateInstanceText = FontString {\n }\n ContextManager = <table> {\n }\n Instances = <table> {\n }\n Pets = <table> {\n }\n RegisteredFramesToColor = <table> {\n }\n commprefixes = \"Comm\"\n AuraScan = <table> {\n }\n ArenaSummary = <table> {\n }\n CooldownTracking = <table> {\n }\n Perf = <table> {\n }\n Textures = <table> {\n }\n Profiling = <table> {\n }\n Debug = <table> {\n }\n Tables = <table> {\n }\n ParsePercent = <table> {\n }\n parser_frame = Frame {\n }\n Tvs = 110200\n TimeCapture = <table> {\n }\n OptionsPanel = <table> {\n }\n GuessSpecSchedules = <table> {\n }\n MythicPlus = <table> {\n }\n Segments = <table> {\n }\n PlayerBreakdown = <table> {\n }\n BreakdownWindow = <table> {\n }\n storage = <table> {\n }\n}\n",
+["stack"] = "[Interface/AddOns/Details/functions/ej_cache.lua]:85: in function 'IsCurrentContent'\n[Interface/AddOns/Details/functions/storage.lua]:466: in function 'IsZoneIdFromCurrentExpansion'\n[Interface/AddOns/Details/core/parser.lua]:5569: in function <Interface/AddOns/Details/core/parser.lua:5541>\n[tail call]: ?",
+["session"] = 505,
+["counter"] = 3,
+},
+{
+["message"] = "...terface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua:124: attempt to perform arithmetic on local 'r' (a nil value)",
+["time"] = "2025/09/28 13:20:17",
+["locals"] = "r = nil\ng = 0.631373\nb = nil\n(*temporary) = \"|cff%02x%02x%02x\"\n(*temporary) = nil\n(*temporary) = 0.631373\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on local 'r' (a nil value)\"\n",
+["stack"] = "[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:124: in function <...terface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua:116>\n[tail call]: ?\n[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:792: in function 'UpdateTag'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:668: in function 'func'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/ouf.lua]:200: in function <Interface/AddOns/UnhaltedUF/Libs/oUF/ouf.lua:183>\n[tail call]: ?\n[tail call]: ?",
+["session"] = 506,
+["counter"] = 297,
 },
 },
 }

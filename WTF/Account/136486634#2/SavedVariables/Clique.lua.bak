@@ -7,22 +7,22 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
+["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["downclick"] = false,
 ["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
 ["specswap"] = false,
-["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
 },
 ["Mbuzi - Twisting Nether"] = {
 ["spec1_profileKey"] = "Mbuzi - Twisting Nether",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["fastooc"] = false,
-["spec3_profileKey"] = "Mbuzi - Twisting Nether",
 ["downclick"] = false,
+["fastooc"] = false,
 ["spec2_profileKey"] = "Mbuzi - Twisting Nether",
 ["specswap"] = false,
+["spec3_profileKey"] = "Mbuzi - Twisting Nether",
 },
 ["Hannahuntana - Argent Dawn"] = {
 ["spec1_profileKey"] = "Hannahuntana - Argent Dawn",
@@ -182,29 +182,11 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["spell"] = "Purify Spirit",
-["key"] = "F2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 236288,
-["type"] = "spell",
-},
-{
 ["type"] = "menu",
 ["key"] = "BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["spell"] = "Earthen Wall Totem",
-["key"] = "SHIFT-1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136098,
-["type"] = "spell",
 },
 {
 ["spell"] = "Earth Shield",
@@ -216,12 +198,48 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["spell"] = "Purify Spirit",
+["key"] = "F2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 236288,
+["type"] = "spell",
+},
+{
 ["spell"] = "Wind Rush Totem",
 ["key"] = "SHIFT-R",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 538576,
+["type"] = "spell",
+},
+{
+["spell"] = "Earthen Wall Totem",
+["key"] = "SHIFT-1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136098,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Rain",
+["key"] = "SHIFT-C",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136037,
+["type"] = "spell",
+},
+{
+["spell"] = "Skyfury",
+["key"] = "F4",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 4630367,
 ["type"] = "spell",
 },
 {
@@ -243,6 +261,15 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["spell"] = "Riptide",
+["key"] = "MOUSEWHEELDOWN",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 252995,
+["type"] = "spell",
+},
+{
 ["spell"] = "Chain Heal",
 ["key"] = "2",
 ["sets"] = {
@@ -258,33 +285,6 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 136043,
-["type"] = "spell",
-},
-{
-["spell"] = "Skyfury",
-["key"] = "F4",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 4630367,
-["type"] = "spell",
-},
-{
-["spell"] = "Riptide",
-["key"] = "MOUSEWHEELDOWN",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 252995,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Rain",
-["key"] = "SHIFT-C",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136037,
 ["type"] = "spell",
 },
 },

@@ -8,6 +8,17 @@ BAGANATOR_CONFIG = {
 ["currencies_tracked_imported"] = {
 },
 ["currencies_tracked"] = {
+["Hannahuntana-ArgentDawn"] = {
+{
+["currencyID"] = 1560,
+},
+{
+["currencyID"] = 1755,
+},
+{
+["currencyID"] = 1803,
+},
+},
 ["Mbuzi-TwistingNether"] = {
 {
 ["currencyID"] = 3008,
@@ -25,15 +36,15 @@ BAGANATOR_CONFIG = {
 ["currencyID"] = 3290,
 },
 },
-["Hannahuntana-ArgentDawn"] = {
+["Bægnaskeren-TwistingNether"] = {
 {
-["currencyID"] = 1560,
+["currencyID"] = 3008,
 },
 {
-["currencyID"] = 1755,
+["currencyID"] = 3288,
 },
 {
-["currencyID"] = 1803,
+["currencyID"] = 3290,
 },
 },
 },
@@ -193,8 +204,7 @@ BAGANATOR_CONFIG = {
 "bag_type",
 "equipment_set",
 },
-["currencies_tracked"] = {
-},
+["icon_text_quality_colors"] = false,
 ["saved_searches"] = {
 },
 ["icon_equipment_set_border"] = true,
@@ -205,14 +215,15 @@ BAGANATOR_CONFIG = {
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
 ["bank_current_tab"] = 1,
-["icon_text_quality_colors"] = false,
+["currencies_tracked"] = {
+},
 ["category_group_empty_slots"] = true,
 ["icon_text_font_size"] = 14,
 ["guild_current_tab"] = 1,
-["sort_ignore_slots_count_2"] = 0,
+["bag_view_width"] = 12,
 ["disabled_skins"] = {
 },
-["bag_view_width"] = 12,
+["sort_ignore_slots_count_2"] = 0,
 ["sort_ignore_bank_slots_count"] = 0,
 ["category_section_toggled"] = {
 },

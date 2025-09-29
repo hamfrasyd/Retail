@@ -51,14 +51,14 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
+["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["id"] = "Plater Nameplates Rule",
-["priority"] = 4,
 ["theme"] = "Plater Nameplates Theme",
+["priority"] = 4,
 },
 },
 ["themes"] = {
@@ -70,13 +70,13 @@ OmniCCDB = {
 ["minutes"] = {
 },
 ["soon"] = {
-["b"] = 0.250980406999588,
 ["scale"] = 1,
 ["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
 },
 ["hours"] = {
-["r"] = 1,
 ["scale"] = 1,
+["r"] = 1,
 ["g"] = 1,
 ["b"] = 1,
 },
@@ -87,15 +87,15 @@ OmniCCDB = {
 ["r"] = 1,
 },
 ["controlled"] = {
-["b"] = 1,
 ["scale"] = 1,
 ["g"] = 1,
+["b"] = 1,
 },
 },
 ["fontSize"] = 17,
 ["tenthsDuration"] = 5,
-["mmSSDuration"] = 601,
 ["effect"] = "none",
+["mmSSDuration"] = 601,
 ["yOff"] = -0.5,
 },
 ["Plater Nameplates Theme"] = {
@@ -176,31 +176,6 @@ OmniCCDB = {
 },
 },
 ["FragUI_1"] = {
-["themes"] = {
-["Plater Nameplates Theme"] = {
-["textStyles"] = {
-["soon"] = {
-},
-["minutes"] = {
-},
-["seconds"] = {
-},
-},
-["enableText"] = false,
-},
-["Default"] = {
-["textStyles"] = {
-["soon"] = {
-},
-["minutes"] = {
-},
-["seconds"] = {
-},
-},
-["mmSSDuration"] = 300,
-["maxDuration"] = 300,
-},
-},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -230,14 +205,39 @@ OmniCCDB = {
 ["id"] = "actions",
 },
 {
-["id"] = "Plater Nameplates Rule",
 ["patterns"] = {
 "PlaterMainAuraIcon",
 "PlaterSecondaryAuraIcon",
 "ExtraIconRowIcon",
 },
-["theme"] = "Plater Nameplates Theme",
+["id"] = "Plater Nameplates Rule",
 ["priority"] = 4,
+["theme"] = "Plater Nameplates Theme",
+},
+},
+["themes"] = {
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["minutes"] = {
+},
+["seconds"] = {
+},
+},
+["enableText"] = false,
+},
+["Default"] = {
+["textStyles"] = {
+["soon"] = {
+},
+["minutes"] = {
+},
+["seconds"] = {
+},
+},
+["mmSSDuration"] = 300,
+["maxDuration"] = 300,
 },
 },
 },

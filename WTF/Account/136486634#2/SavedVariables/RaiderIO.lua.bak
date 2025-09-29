@@ -2,7 +2,7 @@
 RaiderIO_Config = {
 ["profilePoint"] = {
 ["y"] = 0,
-["x"] = -16.00000190734863,
+["x"] = -16,
 ["point"] = "TOPLEFT",
 },
 ["minimapIcon"] = {
@@ -12,7 +12,7 @@ RaiderIO_Config = {
 ["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Mbuzi-twisting-nether"
+RaiderIO_LastCharacter = "eu-Bægnaskeren-twisting-nether"
 RaiderIO_MissingCharacters = {
 }
 RaiderIO_MissingServers = {
