@@ -63,6 +63,10 @@ VER 3 0000000000000025 "ShamanAscendance" "134400"
 /use Araz's Ritual Forge
 /use Tempered Potion
 END
+VER 3 0000000000000037 "ShamanAscendance" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Ascendance
+END
 VER 3 0000000000000036 "ShamanBuff" "134400"
 #showtooltip
 /castsequence reset=10 Water Shield, Lightning Shield
@@ -74,6 +78,10 @@ END
 VER 3 0000000000000033 "ShamanEarthAPT" "134400"
 #showtooltip
 /cast [@cursor]Ancestral Protection Totem
+END
+VER 3 0000000000000038 "ShamanEarthAPT" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor]Earthen Wall Totem
 END
 VER 3 0000000000000026 "ShamanEarthquake" "134400"
 #showtooltip

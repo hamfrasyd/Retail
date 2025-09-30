@@ -1,13 +1,24 @@
 
 BAGANATOR_CONFIG = {
-["Version"] = 1,
 ["CharacterSpecific"] = {
 ["sort_ignore_bank_slots_count"] = {
 ["Mbuzi-TwistingNether"] = 0,
 },
-["currencies_tracked_imported"] = {
+["sort_ignore_slots_count_2"] = {
+["Mbuzi-TwistingNether"] = 0,
 },
 ["currencies_tracked"] = {
+["Bægnaskeren-TwistingNether"] = {
+{
+["currencyID"] = 3008,
+},
+{
+["currencyID"] = 3288,
+},
+{
+["currencyID"] = 3290,
+},
+},
 ["Hannahuntana-ArgentDawn"] = {
 {
 ["currencyID"] = 1560,
@@ -18,6 +29,8 @@ BAGANATOR_CONFIG = {
 {
 ["currencyID"] = 1803,
 },
+},
+["Weqasadwqwe-TwistingNether"] = {
 },
 ["Mbuzi-TwistingNether"] = {
 {
@@ -36,22 +49,11 @@ BAGANATOR_CONFIG = {
 ["currencyID"] = 3290,
 },
 },
-["Bægnaskeren-TwistingNether"] = {
-{
-["currencyID"] = 3008,
 },
-{
-["currencyID"] = 3288,
-},
-{
-["currencyID"] = 3290,
+["currencies_tracked_imported"] = {
 },
 },
-},
-["sort_ignore_slots_count_2"] = {
-["Mbuzi-TwistingNether"] = 0,
-},
-},
+["Version"] = 1,
 ["Profiles"] = {
 ["DEFAULT"] = {
 ["guild_view_width"] = 14,
@@ -69,20 +71,20 @@ BAGANATOR_CONFIG = {
 ["default_battlepet"] = true,
 ["default_food"] = true,
 ["default_reagent"] = true,
-["default_junk"] = true,
+["default_weapon"] = true,
 ["default_special_empty"] = true,
-["default_miscellaneous"] = true,
-["default_key"] = true,
+["default_recipe"] = true,
+["default_gem"] = true,
 ["default_consumable"] = true,
 ["default_tradegoods"] = true,
-["default_container"] = true,
-["default_keystone"] = true,
-["default_auto_equipment_sets"] = true,
-["default_profession"] = true,
 ["default_potion"] = true,
-["default_gem"] = true,
-["default_recipe"] = true,
-["default_weapon"] = true,
+["default_keystone"] = true,
+["default_profession"] = true,
+["default_auto_equipment_sets"] = true,
+["default_container"] = true,
+["default_key"] = true,
+["default_miscellaneous"] = true,
+["default_junk"] = true,
 },
 ["show_search_box"] = true,
 ["debug_categories_search"] = false,
@@ -95,7 +97,7 @@ BAGANATOR_CONFIG = {
 ["auction_house"] = true,
 ["void_storage"] = false,
 ["guild_bank"] = false,
-["forge_of_bonds"] = false,
+["trade_partner"] = false,
 ["tradeskill"] = false,
 ["item_upgrade"] = true,
 ["character_panel"] = false,
@@ -103,13 +105,13 @@ BAGANATOR_CONFIG = {
 ["item_interaction"] = true,
 ["mail"] = false,
 ["sockets"] = false,
-["trade_partner"] = false,
+["forge_of_bonds"] = false,
 ["bank"] = true,
 },
 ["icon_corners_auto_insert_applied"] = {
 ["battle_pet_level"] = true,
-["bag_type"] = true,
 ["keystone_level"] = true,
+["bag_type"] = true,
 },
 ["migrated_sort_method"] = true,
 ["category_hidden"] = {
@@ -196,43 +198,48 @@ BAGANATOR_CONFIG = {
 ["category_horizontal_spacing_2"] = 0.3,
 ["category_default_import"] = 2,
 ["debug_categories"] = false,
-["character_bank_current_tab"] = 1,
-["currencies_tracked_imported"] = 0,
-["custom_categories"] = {
+["character_bank_current_tab"] = 0,
+["junk_plugin_ignored"] = {
 },
-["icon_bottom_left_corner_array"] = {
-"bag_type",
-"equipment_set",
+["currency_headers_collapsed"] = {
 },
-["icon_text_quality_colors"] = false,
+["character_bank_view_width"] = 14,
+["bag_view_type"] = "single",
 ["saved_searches"] = {
 },
-["icon_equipment_set_border"] = true,
+["lock_frames"] = true,
 ["category_modifications"] = {
 },
 ["warband_bank_view_width"] = 14,
 ["sort_ignore_slots_at_end"] = false,
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
-["bank_current_tab"] = 1,
-["currencies_tracked"] = {
-},
+["bank_current_tab"] = 2,
+["icon_text_quality_colors"] = false,
 ["category_group_empty_slots"] = true,
 ["icon_text_font_size"] = 14,
-["guild_current_tab"] = 1,
-["bag_view_width"] = 12,
+["character_select_position"] = {
+"RIGHT",
+"Baganator_SingleViewBackpackViewFramedark",
+"LEFT",
+0,
+0,
+},
+["new_items_flashing"] = true,
 ["disabled_skins"] = {
 },
-["sort_ignore_slots_count_2"] = 0,
+["bag_view_width"] = 12,
 ["sort_ignore_bank_slots_count"] = 0,
-["category_section_toggled"] = {
-},
-["bag_icon_size"] = 36,
+["show_buttons_on_alt"] = false,
+["bag_view_show_bag_slots"] = false,
 ["debug_keywords"] = false,
-["setting_anchors"] = false,
+["debug_timers"] = false,
 ["auto_sort_on_open"] = false,
 ["category_migration"] = 5,
-["upgrade_plugin_ignored"] = {
+["bag_view_position"] = {
+"BOTTOMRIGHT",
+0,
+0,
 },
 ["skins"] = {
 ["blizzard"] = {
@@ -247,10 +254,7 @@ BAGANATOR_CONFIG = {
 ["empty_slot_background"] = false,
 },
 },
-["bag_view_position"] = {
-"BOTTOMRIGHT",
-0,
-0,
+["upgrade_plugin_ignored"] = {
 },
 ["guild_view_dialog_position"] = {
 "BOTTOM",
@@ -259,18 +263,13 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["debug_timers"] = false,
-["bag_view_show_bag_slots"] = false,
-["show_buttons_on_alt"] = false,
-["show_sort_button_2"] = true,
-["new_items_flashing"] = true,
-["character_select_position"] = {
-"RIGHT",
-"Baganator_SingleViewBackpackViewFramedark",
-"LEFT",
-0,
-0,
+["setting_anchors"] = false,
+["bag_icon_size"] = 36,
+["category_section_toggled"] = {
 },
+["show_sort_button_2"] = true,
+["sort_ignore_slots_count_2"] = 0,
+["guild_current_tab"] = 1,
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_SingleViewBackpackViewFramedark",
@@ -278,13 +277,16 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["lock_frames"] = true,
-["bag_view_type"] = "single",
-["character_bank_view_width"] = 14,
-["currency_headers_collapsed"] = {
+["icon_equipment_set_border"] = true,
+["currencies_tracked"] = {
 },
-["junk_plugin_ignored"] = {
+["icon_bottom_left_corner_array"] = {
+"bag_type",
+"equipment_set",
 },
+["custom_categories"] = {
+},
+["currencies_tracked_imported"] = 0,
 },
 },
 }

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 512,
 ["lastSanitation"] = 3,
-["session"] = 507,
 ["errors"] = {
 {
 ["message"] = "FontString:SetFormattedText(): Font not set",
@@ -189,8 +189,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:49 Error loading Interface/AddOns/Baganator/Sorting/OrderBags.lua",
-["session"] = 466,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 466,
 ["counter"] = 1,
 },
 {
@@ -211,62 +211,62 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:23 Error loading Interface/AddOns/Baganator/Embeds/json.lua",
-["time"] = "2025/09/28 21:20:07",
 ["session"] = 467,
+["time"] = "2025/09/28 21:20:07",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:39 Error loading Interface/AddOns/Baganator/Skins/Initialize.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:40 Error loading Interface/AddOns/Baganator/Skins/Blizzard.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:41 Error loading Interface/AddOns/Baganator/Skins/Dark.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:42 Error loading Interface/AddOns/Baganator/Skins/ElvUI.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:43 Error loading Interface/AddOns/Baganator/Skins/GW2.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:44 Error loading Interface/AddOns/Baganator/Skins/NDui.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:46 Error loading Interface/AddOns/Baganator/Sorting/BagUsageChecks.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:47 Error loading Interface/AddOns/Baganator/Sorting/ItemFields.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/Baganator/Baganator.toc:48 Error loading Interface/AddOns/Baganator/Sorting/Order.lua",
-["session"] = 467,
 ["time"] = "2025/09/28 21:11:05",
+["session"] = 467,
 ["counter"] = 2,
 },
 {
@@ -310,12 +310,18 @@ BugGrabberDB = {
 ["counter"] = 3,
 },
 {
+["message"] = "..._ObjectiveTracker/Blizzard_ObjectiveTrackerBlock.lua:194: Action[SetPoint] failed because[Cannot anchor to a region dependent on it]: attempted from: Frame:SetPoint.\nRelative: [CampaignQuestObjectiveTracker.ContentsFrame.230f98f6f50.lastRegion UIParent, UIParentRightManagedFrameContainer, ObjectiveTrackerFrame, CampaignQuestObjectiveTracker.ContentsFrame.230f98f6f50.lastRegion]\nDependent: [CampaignQuestObjectiveTracker.ContentsFrame.230f98f6f50.lastRegion UIParent, UIParentRightManagedFrameContainer, ObjectiveTrackerFrame, CampaignQuestObjectiveTracker.ContentsFrame.230f98f6f50.lastRegion]\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua]:901: in function 'InvokeOnAnyEditModeSystemAnchorChanged'\n[Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua]:886: in function 'UpdateLayoutInfo'\n[Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua]:161: in function <...ddOns/Blizzard_EditMode/Mainline/EditModeManager.lua:152>\n",
+["session"] = 509,
+["time"] = "2025/09/30 07:35:50",
+["counter"] = 1,
+},
+{
 ["message"] = "...terface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua:124: attempt to perform arithmetic on local 'r' (a nil value)",
 ["time"] = "2025/09/28 13:20:17",
 ["locals"] = "r = nil\ng = 0.631373\nb = nil\n(*temporary) = \"|cff%02x%02x%02x\"\n(*temporary) = nil\n(*temporary) = 0.631373\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on local 'r' (a nil value)\"\n",
 ["stack"] = "[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:124: in function <...terface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua:116>\n[tail call]: ?\n[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:792: in function 'UpdateTag'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/elements/tags.lua]:668: in function 'func'\n[Interface/AddOns/UnhaltedUF/Libs/oUF/ouf.lua]:200: in function <Interface/AddOns/UnhaltedUF/Libs/oUF/ouf.lua:183>\n[tail call]: ?\n[tail call]: ?",
-["session"] = 506,
-["counter"] = 297,
+["session"] = 509,
+["counter"] = 327,
 },
 },
 }

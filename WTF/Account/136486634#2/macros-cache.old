@@ -73,7 +73,7 @@ VER 3 0000000000000032 "ShamanCleanse" "134400"
 END
 VER 3 0000000000000033 "ShamanEarthAPT" "134400"
 #showtooltip
-/cast [@cursor]Earthen Wall Totem
+/cast [@cursor]Ancestral Protection Totem
 END
 VER 3 0000000000000026 "ShamanEarthquake" "134400"
 #showtooltip
