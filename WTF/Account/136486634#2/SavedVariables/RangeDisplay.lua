@@ -10,14 +10,17 @@ RangeDisplayDB3 = {
 },
 },
 ["profileKeys"] = {
-["Daweq - Twisting Nether"] = "Default",
-["Hannahuntana - Argent Dawn"] = "Default",
 ["Weadasw - Twisting Nether"] = "Default",
 ["Mbuzi - Twisting Nether"] = "Default",
-["Mbuzipriest - Twisting Nether"] = "Default",
+["Bæenjoyer - Twisting Nether"] = "Default",
 ["Misswarchira - Argent Dawn"] = "Default",
-["Weqasadwqwe - Twisting Nether"] = "Default",
+["Bankaies - Aggramar"] = "Default",
 ["Bægnaskeren - Twisting Nether"] = "Default",
+["Asazzy - Twisting Nether"] = "Default",
+["Mbuzipriest - Twisting Nether"] = "Default",
+["Hannahuntana - Argent Dawn"] = "Default",
+["Weqasadwqwe - Twisting Nether"] = "Default",
+["Daweq - Twisting Nether"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -26,18 +29,18 @@ RangeDisplayDB3 = {
 ["pet"] = {
 },
 ["playertarget"] = {
-["x"] = 4.443310260772705,
+["font"] = "Expressway",
 ["fontSize"] = 11,
 ["fontOutline"] = "OUTLINE",
 ["checkVisible"] = false,
 ["y"] = -277.7776794433594,
-["font"] = "Expressway",
+["x"] = 4.443310260772705,
 },
 ["focus"] = {
 ["fontSize"] = 11,
 ["point"] = "LEFT",
-["font"] = "Expressway",
 ["relPoint"] = "LEFT",
+["font"] = "Expressway",
 ["fontOutline"] = "OUTLINE",
 ["enabled"] = false,
 ["y"] = -242.2223663330078,

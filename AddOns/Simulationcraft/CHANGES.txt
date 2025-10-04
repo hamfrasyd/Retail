@@ -1,0 +1,10 @@
+lightweight tag 9f413fe1a4d5d1e10a230ff7def5980e32f548b2 12.0.0-01
+Author:	Dave Hendler <sollaires@gmail.com>
+Date:	Fri Oct 3 10:00:06 2025 -0700
+
+commit 9f413fe1a4d5d1e10a230ff7def5980e32f548b2
+Author: Dave Hendler <sollaires@gmail.com>
+Date:   Fri Oct 3 10:00:06 2025 -0700
+
+    Initial support for Midnight
+

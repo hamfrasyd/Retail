@@ -5,4 +5,11 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 388
-H: 380
+H: 300
+Frame: MRTNote
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 1
+Y: -1
+W: 446
+H: 357

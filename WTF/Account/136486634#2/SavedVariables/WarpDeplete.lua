@@ -1,647 +1,18 @@
 
 WarpDepleteDB = {
+["profileKeys"] = {
+["Bægnaskeren - Twisting Nether"] = "Default",
+["Bankaies - Aggramar"] = "Default",
+["Hannahuntana - Argent Dawn"] = "Default",
+["Asazzy - Twisting Nether"] = "Default",
+["Bæenjoyer - Twisting Nether"] = "Default",
+["Mbuzi - Twisting Nether"] = "Default",
+["Weqasadwqwe - Twisting Nether"] = "Default",
+["Daweq - Twisting Nether"] = "Default",
+},
 ["global"] = {
 ["mdtAlertShown"] = true,
 ["splits"] = {
-[378] = {
-[11] = {
-["current"] = {
-623,
-1037,
-1522,
-1790,
-["forces"] = 1628,
-["challenge"] = 1790181,
-},
-["best"] = {
-623,
-1037,
-1522,
-1790,
-["forces"] = 1628,
-["challenge"] = 1790181,
-},
-["currentDiff"] = {
-},
-},
-[13] = {
-["current"] = {
-973,
-1464,
-},
-["best"] = {
-},
-["currentDiff"] = {
-},
-},
-[12] = {
-["current"] = {
-833,
-1178,
-1496,
-1825,
-["forces"] = 1633,
-["challenge"] = 1824818,
-},
-["best"] = {
-833,
-1178,
-1496,
-1825,
-["forces"] = 1633,
-["challenge"] = 1824818,
-},
-["currentDiff"] = {
-},
-},
-[14] = {
-["current"] = {
-783,
-1113,
-1447,
-1733,
-["forces"] = 1815,
-["challenge"] = 1815922,
-},
-["best"] = {
-783,
-1113,
-1447,
-1733,
-["forces"] = 1815,
-["challenge"] = 1815922,
-},
-["currentDiff"] = {
-},
-},
-[2] = {
-["current"] = {
-632,
-895,
-1111,
-1342,
-["forces"] = 1373,
-["challenge"] = 1373391,
-},
-["best"] = {
-632,
-895,
-1111,
-1342,
-["forces"] = 1373,
-["challenge"] = 1373391,
-},
-["currentDiff"] = {
-},
-},
-[4] = {
-["current"] = {
-542,
-808,
-978,
-1250,
-["forces"] = 861,
-["challenge"] = 1249958,
-},
-["best"] = {
-542,
-808,
-978,
-1250,
-["forces"] = 861,
-["challenge"] = 1249958,
-},
-["currentDiff"] = {
-},
-},
-},
-[525] = {
-[11] = {
-["current"] = {
-862,
-602,
-1215,
-1757,
-["forces"] = 1607,
-["challenge"] = 1756499,
-},
-["best"] = {
-704,
-436,
-984,
-1366,
-["forces"] = 1415,
-["challenge"] = 1415581,
-},
-["currentDiff"] = {
-158,
-166,
-231,
-391,
-["forces"] = 192,
-["challenge"] = 340918,
-},
-},
-[13] = {
-["current"] = {
-976,
-493,
-1291,
-1731,
-["forces"] = 1525,
-["challenge"] = 1731626,
-},
-["best"] = {
-976,
-493,
-1291,
-1731,
-["forces"] = 1525,
-["challenge"] = 1731626,
-},
-["currentDiff"] = {
-},
-},
-[10] = {
-["current"] = {
-704,
-437,
-1021,
-1350,
-["forces"] = 1192,
-["challenge"] = 1349999,
-},
-["best"] = {
-704,
-437,
-1021,
-1350,
-["forces"] = 1192,
-["challenge"] = 1349999,
-},
-["currentDiff"] = {
-},
-},
-[12] = {
-},
-[14] = {
-["current"] = {
-[2] = 724,
-},
-["best"] = {
-},
-["currentDiff"] = {
-},
-},
-},
-[499] = {
-[11] = {
-["current"] = {
-695,
-1101,
-1654,
-["forces"] = 1467,
-["challenge"] = 1653488,
-},
-["best"] = {
-695,
-1101,
-1654,
-["forces"] = 1467,
-["challenge"] = 1653488,
-},
-["currentDiff"] = {
-},
-},
-[13] = {
-},
-[10] = {
-["current"] = {
-802,
-1284,
-1735,
-["forces"] = 1589,
-["challenge"] = 1739335,
-},
-["best"] = {
-564,
-892,
-1294,
-["forces"] = 1133,
-["challenge"] = 1293706,
-},
-["currentDiff"] = {
-238,
-392,
-441,
-["forces"] = 456,
-["challenge"] = 445629,
-},
-},
-[12] = {
-["current"] = {
-891,
-1322,
-1859,
-["forces"] = 1657,
-["challenge"] = 1858344,
-},
-["best"] = {
-891,
-1322,
-1859,
-["forces"] = 1657,
-["challenge"] = 1858344,
-},
-["currentDiff"] = {
-},
-},
-[9] = {
-["current"] = {
-977,
-1359,
-1958,
-["forces"] = 1787,
-["challenge"] = 1957793,
-},
-["best"] = {
-977,
-1359,
-1958,
-["forces"] = 1787,
-["challenge"] = 1957793,
-},
-["currentDiff"] = {
-},
-},
-[2] = {
-["current"] = {
-1072,
-1438,
-2052,
-["forces"] = 1721,
-["challenge"] = 2052339,
-},
-["best"] = {
-1072,
-1438,
-2052,
-["forces"] = 1721,
-["challenge"] = 2052339,
-},
-["currentDiff"] = {
-},
-},
-},
-[503] = {
-[6] = {
-["current"] = {
-382,
-850,
-1310,
-["forces"] = 1370,
-["challenge"] = 1370035,
-},
-["best"] = {
-382,
-850,
-1310,
-["forces"] = 1370,
-["challenge"] = 1370035,
-},
-["currentDiff"] = {
-},
-},
-[2] = {
-["current"] = {
-337,
-727,
-1284,
-["forces"] = 1415,
-["challenge"] = 1414940,
-},
-["best"] = {
-337,
-727,
-1284,
-["forces"] = 1415,
-["challenge"] = 1414940,
-},
-["currentDiff"] = {
-},
-},
-[10] = {
-["current"] = {
-511,
-1066,
-1600,
-["forces"] = 0,
-["challenge"] = 1599786,
-},
-["best"] = {
-511,
-1066,
-1600,
-["forces"] = 0,
-["challenge"] = 1599786,
-},
-["currentDiff"] = {
-["forces"] = -1334,
-},
-},
-[12] = {
-["current"] = {
-602,
-1229,
-1730,
-["forces"] = 1792,
-["challenge"] = 1792125,
-},
-["best"] = {
-602,
-1229,
-1730,
-["forces"] = 1792,
-["challenge"] = 1792125,
-},
-["currentDiff"] = {
-},
-},
-[11] = {
-},
-[7] = {
-["current"] = {
-356,
-1000,
-1299,
-["forces"] = 1351,
-["challenge"] = 1350711,
-},
-["best"] = {
-356,
-1000,
-1299,
-["forces"] = 1351,
-["challenge"] = 1350711,
-},
-["currentDiff"] = {
-},
-},
-},
-[392] = {
-[11] = {
-["current"] = {
-555,
-907,
-1442,
-["forces"] = 1127,
-["challenge"] = 1442540,
-},
-["best"] = {
-555,
-907,
-1442,
-["forces"] = 1127,
-["challenge"] = 1442540,
-},
-["currentDiff"] = {
-},
-},
-[13] = {
-["current"] = {
-678,
-1068,
-2056,
-["forces"] = 1252,
-["challenge"] = 2055639,
-},
-["best"] = {
-641,
-1068,
-1661,
-["forces"] = 1252,
-["challenge"] = 1660427,
-},
-["currentDiff"] = {
-37,
--11,
-395,
-["forces"] = -90,
-["challenge"] = 395212,
-},
-},
-[10] = {
-["current"] = {
-457,
-775,
-1176,
-["forces"] = 938,
-["challenge"] = 1177236,
-},
-["best"] = {
-346,
-597,
-914,
-["forces"] = 744,
-["challenge"] = 913831,
-},
-["currentDiff"] = {
-111,
-178,
-262,
-["forces"] = 194,
-["challenge"] = 263405,
-},
-},
-[12] = {
-["current"] = {
-515,
-858,
-1317,
-["forces"] = 1039,
-["challenge"] = 1316922,
-},
-["best"] = {
-515,
-858,
-1317,
-["forces"] = 1039,
-["challenge"] = 1316922,
-},
-["currentDiff"] = {
--32,
--31,
--78,
-["forces"] = -131,
-["challenge"] = -78283,
-},
-},
-[14] = {
-["current"] = {
-657,
-1042,
-["forces"] = 1364,
-},
-["best"] = {
-},
-["currentDiff"] = {
-},
-},
-},
-[505] = {
-[11] = {
-["current"] = {
-470,
-1363,
-2072,
-["forces"] = 1757,
-["challenge"] = 2072239,
-},
-["best"] = {
-470,
-1363,
-2072,
-["forces"] = 1757,
-["challenge"] = 2072239,
-},
-["currentDiff"] = {
-},
-},
-[10] = {
-["current"] = {
-505,
-1540,
-1870,
-["forces"] = 1625,
-["challenge"] = 1870506,
-},
-["best"] = {
-505,
-1416,
-1769,
-["forces"] = 1500,
-["challenge"] = 1769492,
-},
-["currentDiff"] = {
--175,
-124,
-101,
-["forces"] = 125,
-["challenge"] = 101014,
-},
-},
-[12] = {
-["current"] = {
-499,
-},
-["best"] = {
-},
-["currentDiff"] = {
-},
-},
-[13] = {
-["current"] = {
-754,
-1546,
-1991,
-["forces"] = 1689,
-["challenge"] = 1991672,
-},
-["best"] = {
-754,
-1546,
-1991,
-["forces"] = 1689,
-["challenge"] = 1991672,
-},
-["currentDiff"] = {
-},
-},
-},
-[542] = {
-[12] = {
-["current"] = {
-412,
-1026,
-2121,
-["forces"] = 2220,
-["challenge"] = 2221470,
-},
-["best"] = {
-412,
-1026,
-2121,
-["forces"] = 1969,
-["challenge"] = 2221470,
-},
-["currentDiff"] = {
--143,
--268,
--122,
-["forces"] = 251,
-["challenge"] = -21450,
-},
-},
-[10] = {
-["current"] = {
-285,
-757,
-1375,
-["forces"] = 1201,
-["challenge"] = 1374437,
-},
-["best"] = {
-285,
-757,
-1375,
-["forces"] = 1201,
-["challenge"] = 1374437,
-},
-["currentDiff"] = {
-},
-},
-[15] = {
-["current"] = {
-324,
-891,
-1519,
-["forces"] = 1346,
-["challenge"] = 1519754,
-},
-["best"] = {
-324,
-891,
-1519,
-["forces"] = 1346,
-["challenge"] = 1519754,
-},
-["currentDiff"] = {
-},
-},
-[13] = {
-["current"] = {
-317,
-878,
-1533,
-["forces"] = 1392,
-["challenge"] = 1532213,
-},
-["best"] = {
-317,
-878,
-1533,
-["forces"] = 1392,
-["challenge"] = 1532213,
-},
-["currentDiff"] = {
--92,
--135,
--103,
-["forces"] = -34,
-["challenge"] = -104640,
-},
-},
-},
 [391] = {
 [11] = {
 ["current"] = {
@@ -796,92 +167,755 @@ WarpDepleteDB = {
 ["currentDiff"] = {
 },
 },
+[4] = {
+["current"] = {
+387,
+758,
+1128,
+1467,
+1680,
+["forces"] = 1237,
+["challenge"] = 1680223,
+},
+["best"] = {
+387,
+758,
+1128,
+1467,
+1680,
+["forces"] = 1237,
+["challenge"] = 1680223,
+},
+["currentDiff"] = {
 },
 },
 },
-["profileKeys"] = {
-["Bægnaskeren - Twisting Nether"] = "Default",
-["Hannahuntana - Argent Dawn"] = "Default",
-["Weqasadwqwe - Twisting Nether"] = "Default",
-["Mbuzi - Twisting Nether"] = "main",
+[525] = {
+[11] = {
+["current"] = {
+862,
+602,
+1215,
+1757,
+["forces"] = 1607,
+["challenge"] = 1756499,
+},
+["best"] = {
+704,
+436,
+984,
+1366,
+["forces"] = 1415,
+["challenge"] = 1415581,
+},
+["currentDiff"] = {
+158,
+166,
+231,
+391,
+["forces"] = 192,
+["challenge"] = 340918,
+},
+},
+[13] = {
+["current"] = {
+976,
+493,
+1291,
+1731,
+["forces"] = 1525,
+["challenge"] = 1731626,
+},
+["best"] = {
+976,
+493,
+1291,
+1731,
+["forces"] = 1525,
+["challenge"] = 1731626,
+},
+["currentDiff"] = {
+},
+},
+[10] = {
+["current"] = {
+704,
+437,
+1021,
+1350,
+["forces"] = 1192,
+["challenge"] = 1349999,
+},
+["best"] = {
+704,
+437,
+1021,
+1350,
+["forces"] = 1192,
+["challenge"] = 1349999,
+},
+["currentDiff"] = {
+},
+},
+[12] = {
+},
+[14] = {
+["current"] = {
+[2] = 724,
+},
+["best"] = {
+},
+["currentDiff"] = {
+},
+},
+[2] = {
+["current"] = {
+763,
+452,
+1004,
+1342,
+["forces"] = 1203,
+["challenge"] = 1341573,
+},
+["best"] = {
+763,
+452,
+1004,
+1342,
+["forces"] = 1203,
+["challenge"] = 1341573,
+},
+["currentDiff"] = {
+},
+},
+},
+[542] = {
+[13] = {
+["current"] = {
+317,
+878,
+1533,
+["forces"] = 1392,
+["challenge"] = 1532213,
+},
+["best"] = {
+317,
+878,
+1533,
+["forces"] = 1392,
+["challenge"] = 1532213,
+},
+["currentDiff"] = {
+-92,
+-135,
+-103,
+["forces"] = -34,
+["challenge"] = -104640,
+},
+},
+[10] = {
+["current"] = {
+285,
+757,
+1375,
+["forces"] = 1201,
+["challenge"] = 1374437,
+},
+["best"] = {
+285,
+757,
+1375,
+["forces"] = 1201,
+["challenge"] = 1374437,
+},
+["currentDiff"] = {
+},
+},
+[12] = {
+["current"] = {
+412,
+1026,
+2121,
+["forces"] = 2220,
+["challenge"] = 2221470,
+},
+["best"] = {
+412,
+1026,
+2121,
+["forces"] = 1969,
+["challenge"] = 2221470,
+},
+["currentDiff"] = {
+-143,
+-268,
+-122,
+["forces"] = 251,
+["challenge"] = -21450,
+},
+},
+[15] = {
+["current"] = {
+324,
+891,
+1519,
+["forces"] = 1346,
+["challenge"] = 1519754,
+},
+["best"] = {
+324,
+891,
+1519,
+["forces"] = 1346,
+["challenge"] = 1519754,
+},
+["currentDiff"] = {
+},
+},
+},
+[503] = {
+[6] = {
+["current"] = {
+382,
+850,
+1310,
+["forces"] = 1370,
+["challenge"] = 1370035,
+},
+["best"] = {
+382,
+850,
+1310,
+["forces"] = 1370,
+["challenge"] = 1370035,
+},
+["currentDiff"] = {
+},
+},
+[2] = {
+["current"] = {
+337,
+727,
+1284,
+["forces"] = 1415,
+["challenge"] = 1414940,
+},
+["best"] = {
+337,
+727,
+1284,
+["forces"] = 1415,
+["challenge"] = 1414940,
+},
+["currentDiff"] = {
+},
+},
+[10] = {
+["current"] = {
+511,
+1066,
+1600,
+["forces"] = 0,
+["challenge"] = 1599786,
+},
+["best"] = {
+511,
+1066,
+1600,
+["forces"] = 0,
+["challenge"] = 1599786,
+},
+["currentDiff"] = {
+["forces"] = -1334,
+},
+},
+[12] = {
+["current"] = {
+443,
+872,
+1147,
+["forces"] = 1407,
+["challenge"] = 1406874,
+},
+["best"] = {
+443,
+872,
+1147,
+["forces"] = 1407,
+["challenge"] = 1406874,
+},
+["currentDiff"] = {
+-159,
+-357,
+-583,
+["forces"] = -385,
+["challenge"] = -385251,
+},
+},
+[4] = {
+["current"] = {
+437,
+910,
+1260,
+["forces"] = 1338,
+["challenge"] = 1338203,
+},
+["best"] = {
+437,
+910,
+1260,
+["forces"] = 1338,
+["challenge"] = 1338203,
+},
+["currentDiff"] = {
+},
+},
+[7] = {
+["current"] = {
+356,
+1000,
+1299,
+["forces"] = 1351,
+["challenge"] = 1350711,
+},
+["best"] = {
+356,
+1000,
+1299,
+["forces"] = 1351,
+["challenge"] = 1350711,
+},
+["currentDiff"] = {
+},
+},
+[11] = {
+},
+},
+[378] = {
+[11] = {
+["current"] = {
+623,
+1037,
+1522,
+1790,
+["forces"] = 1628,
+["challenge"] = 1790181,
+},
+["best"] = {
+623,
+1037,
+1522,
+1790,
+["forces"] = 1628,
+["challenge"] = 1790181,
+},
+["currentDiff"] = {
+},
+},
+[13] = {
+["current"] = {
+973,
+1464,
+},
+["best"] = {
+},
+["currentDiff"] = {
+},
+},
+[12] = {
+["current"] = {
+833,
+1178,
+1496,
+1825,
+["forces"] = 1633,
+["challenge"] = 1824818,
+},
+["best"] = {
+833,
+1178,
+1496,
+1825,
+["forces"] = 1633,
+["challenge"] = 1824818,
+},
+["currentDiff"] = {
+},
+},
+[14] = {
+["current"] = {
+783,
+1113,
+1447,
+1733,
+["forces"] = 1815,
+["challenge"] = 1815922,
+},
+["best"] = {
+783,
+1113,
+1447,
+1733,
+["forces"] = 1815,
+["challenge"] = 1815922,
+},
+["currentDiff"] = {
+},
+},
+[4] = {
+["current"] = {
+542,
+808,
+978,
+1250,
+["forces"] = 861,
+["challenge"] = 1249958,
+},
+["best"] = {
+542,
+808,
+978,
+1250,
+["forces"] = 861,
+["challenge"] = 1249958,
+},
+["currentDiff"] = {
+},
+},
+[2] = {
+["current"] = {
+632,
+895,
+1111,
+1342,
+["forces"] = 1373,
+["challenge"] = 1373391,
+},
+["best"] = {
+632,
+895,
+1111,
+1342,
+["forces"] = 1373,
+["challenge"] = 1373391,
+},
+["currentDiff"] = {
+},
+},
+},
+[505] = {
+[11] = {
+["current"] = {
+470,
+1363,
+2072,
+["forces"] = 1757,
+["challenge"] = 2072239,
+},
+["best"] = {
+470,
+1363,
+2072,
+["forces"] = 1757,
+["challenge"] = 2072239,
+},
+["currentDiff"] = {
+},
+},
+[10] = {
+["current"] = {
+505,
+1540,
+1870,
+["forces"] = 1625,
+["challenge"] = 1870506,
+},
+["best"] = {
+505,
+1416,
+1769,
+["forces"] = 1500,
+["challenge"] = 1769492,
+},
+["currentDiff"] = {
+-175,
+124,
+101,
+["forces"] = 125,
+["challenge"] = 101014,
+},
+},
+[12] = {
+["current"] = {
+499,
+},
+["best"] = {
+},
+["currentDiff"] = {
+},
+},
+[13] = {
+["current"] = {
+489,
+1391,
+1728,
+["forces"] = 1482,
+["challenge"] = 1728549,
+},
+["best"] = {
+489,
+1391,
+1728,
+["forces"] = 1482,
+["challenge"] = 1728549,
+},
+["currentDiff"] = {
+-265,
+-155,
+-263,
+["forces"] = -207,
+["challenge"] = -263123,
+},
+},
+},
+[499] = {
+[11] = {
+["current"] = {
+695,
+1101,
+1654,
+["forces"] = 1467,
+["challenge"] = 1653488,
+},
+["best"] = {
+695,
+1101,
+1654,
+["forces"] = 1467,
+["challenge"] = 1653488,
+},
+["currentDiff"] = {
+},
+},
+[13] = {
+},
+[10] = {
+["current"] = {
+763,
+1154,
+1714,
+["forces"] = 1502,
+["challenge"] = 1715528,
+},
+["best"] = {
+564,
+892,
+1294,
+["forces"] = 1133,
+["challenge"] = 1293706,
+},
+["currentDiff"] = {
+199,
+262,
+420,
+["forces"] = 369,
+["challenge"] = 421822,
+},
+},
+[12] = {
+["current"] = {
+891,
+1322,
+1859,
+["forces"] = 1657,
+["challenge"] = 1858344,
+},
+["best"] = {
+891,
+1322,
+1859,
+["forces"] = 1657,
+["challenge"] = 1858344,
+},
+["currentDiff"] = {
+},
+},
+[9] = {
+["current"] = {
+977,
+1359,
+1958,
+["forces"] = 1787,
+["challenge"] = 1957793,
+},
+["best"] = {
+977,
+1359,
+1958,
+["forces"] = 1787,
+["challenge"] = 1957793,
+},
+["currentDiff"] = {
+},
+},
+[2] = {
+["current"] = {
+1072,
+1438,
+2052,
+["forces"] = 1721,
+["challenge"] = 2052339,
+},
+["best"] = {
+1072,
+1438,
+2052,
+["forces"] = 1721,
+["challenge"] = 2052339,
+},
+["currentDiff"] = {
+},
+},
+},
+[392] = {
+[11] = {
+["current"] = {
+555,
+907,
+1442,
+["forces"] = 1127,
+["challenge"] = 1442540,
+},
+["best"] = {
+555,
+907,
+1442,
+["forces"] = 1127,
+["challenge"] = 1442540,
+},
+["currentDiff"] = {
+},
+},
+[13] = {
+["current"] = {
+678,
+1068,
+2056,
+["forces"] = 1252,
+["challenge"] = 2055639,
+},
+["best"] = {
+641,
+1068,
+1661,
+["forces"] = 1252,
+["challenge"] = 1660427,
+},
+["currentDiff"] = {
+37,
+-11,
+395,
+["forces"] = -90,
+["challenge"] = 395212,
+},
+},
+[10] = {
+["current"] = {
+-387,
+-39,
+["forces"] = 1182,
+},
+["best"] = {
+346,
+597,
+914,
+["forces"] = 744,
+["challenge"] = 913831,
+},
+["currentDiff"] = {
+-733,
+-636,
+["forces"] = 438,
+},
+},
+[12] = {
+["current"] = {
+515,
+858,
+1317,
+["forces"] = 1039,
+["challenge"] = 1316922,
+},
+["best"] = {
+515,
+858,
+1317,
+["forces"] = 1039,
+["challenge"] = 1316922,
+},
+["currentDiff"] = {
+-32,
+-31,
+-78,
+["forces"] = -131,
+["challenge"] = -78283,
+},
+},
+[14] = {
+["current"] = {
+657,
+1042,
+["forces"] = 1364,
+},
+["best"] = {
+},
+["currentDiff"] = {
+},
+},
+},
+},
 },
 ["profiles"] = {
-["main"] = {
-["showPrideGlow"] = false,
-["bar3TextureColor"] = "ff7d7d7d",
-["objectivesFontSize"] = 11,
-["keyFontSize"] = 11,
-["splitFasterTimeColor"] = "ff2affe9",
-["timerSuccessColor"] = "ff00ff04",
-["bar2FontSize"] = 11,
-["deathsFontSize"] = 11,
-["bar1TextureColor"] = "ff7d7d7d",
-["forcesTexture"] = "Melli",
-["frameY"] = 183.1110076904297,
-["forcesGlowLineCount"] = 11,
-["barPadding"] = 1,
-["alignBossClear"] = "end",
-["bar1FontSize"] = 11,
-["verticalOffset"] = 1,
-["bar3Texture"] = "Melli",
-["frameX"] = -38.55581665039063,
-["forcesGlowColor"] = "ffe7e7e7",
-["deathsColor"] = "ff7d7d7d",
-["bar2TextureColor"] = "ff7d7d7d",
-["forcesGlowFrequency"] = 0.1,
-["forcesOverlayTextureColor"] = "ffe7e7e7",
-["keyDetailsFontSize"] = 11,
-["bar1Texture"] = "Melli",
-["forcesTextureColor"] = "ff7381ff",
-["keyColor"] = "ffffffff",
-["timerRunningColor"] = "ffffffff",
-["forcesFontSize"] = 11,
-["bar3FontSize"] = 11,
-["objectivesOffset"] = 1,
-["keyDetailsColor"] = "ffffffff",
-["timerFontSize"] = 24,
-["completedForcesColor"] = "ff00ff04",
-["forcesOverlayTexture"] = "Melli",
-["bar2Texture"] = "Melli",
-["barWidth"] = 260,
-},
 ["Default"] = {
 ["keyFontSize"] = 11,
 ["timerSuccessColor"] = "ff00ff04",
 ["bar2FontSize"] = 11,
-["deathsFontSize"] = 11,
-["forcesTexture"] = "Melli",
+["timerFontSize"] = 24,
+["deathsColor"] = "ff7d7d7d",
 ["forcesGlowLineCount"] = 11,
 ["barPadding"] = 1,
+["alignBarTexts"] = "left",
 ["verticalOffset"] = 1,
-["frameX"] = -38.55581665039063,
+["frameX"] = 1.444012880325317,
 ["forcesGlowColor"] = "ffe7e7e7",
 ["keyDetailsFontSize"] = 11,
 ["keyColor"] = "ffffffff",
 ["bar3FontSize"] = 11,
 ["keyDetailsColor"] = "ffffffff",
 ["bar3TextureColor"] = "ff7d7d7d",
-["bar2TextureColor"] = "ff7d7d7d",
+["forcesOverlayTextureColor"] = "ffe7e7e7",
 ["bar2Texture"] = "Melli",
-["frameY"] = 183.1110076904297,
-["forcesOverlayTexture"] = "Melli",
+["frameAnchor"] = "TOPLEFT",
+["forcesGlowFrequency"] = 0.1,
+["deathsFontSize"] = 11,
+["alignBossClear"] = "end",
 ["bar1FontSize"] = 11,
 ["showPrideGlow"] = false,
 ["objectivesFontSize"] = 11,
 ["bar3Texture"] = "Melli",
 ["splitFasterTimeColor"] = "ff2affe9",
-["forcesOverlayTextureColor"] = "ffe7e7e7",
-["timerFontSize"] = 24,
+["bar2TextureColor"] = "ff7d7d7d",
 ["bar1TextureColor"] = "ff7d7d7d",
-["deathsColor"] = "ff7d7d7d",
-["completedForcesColor"] = "ff00ff04",
+["forcesTexture"] = "Melli",
 ["forcesTextureColor"] = "ff7381ff",
-["forcesGlowFrequency"] = 0.1,
+["frameY"] = -0.8890559673309326,
 ["timerRunningColor"] = "ffffffff",
+["completedForcesColor"] = "ff00ff04",
 ["forcesFontSize"] = 11,
 ["objectivesOffset"] = 1,
+["forcesOverlayTexture"] = "Melli",
+["alignTexts"] = "left",
 ["bar1Texture"] = "Melli",
-["alignBossClear"] = "end",
 ["barWidth"] = 260,
 },
 },

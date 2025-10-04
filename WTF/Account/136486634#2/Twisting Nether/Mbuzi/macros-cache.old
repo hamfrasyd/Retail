@@ -4,7 +4,6 @@ VER 3 010000000000000C "Avatar" "134400"
 /cast Recklessness
 /cast Colossus Smash
 /cast Berserking(Racial)
-/use Tempered Potion
 END
 VER 3 0100000000000011 "CS" "134400"
 #showtooltip

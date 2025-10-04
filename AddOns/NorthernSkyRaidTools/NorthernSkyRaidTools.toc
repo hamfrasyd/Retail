@@ -1,0 +1,34 @@
+## Interface: 110200
+
+## Title: |cFF00FFFFNorthern Sky Raid Tools|r
+## Version: 1.2.12
+## IconTexture: Interface\AddOns\NorthernSkyRaidTools\Media\NSLogo.blp
+## Author: Reloe, Rav
+## DefaultState: Enable
+## Dependencies: WeakAuras
+## SavedVariables: NSRT
+## Category: Northern Sky
+## X-Curse-Project-ID: 954018
+## X-Wago-ID: rN4VDdKD
+
+# Libraries
+Libs\libs.xml
+
+# Main Files
+NorthernSkyRaidTools.lua
+Media.lua
+Functions.lua
+AuraResize.lua
+Comms.lua
+NickNames.lua
+EventHandler.lua
+Externals.lua
+VersionCheck.lua
+SetupManager.lua
+CooldownCheck.lua
+WeakAuras/Imports.lua
+WeakAuras/Links.lua
+
+# UI
+NSUI.lua
+SlashCommands.lua

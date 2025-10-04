@@ -1,9 +1,0 @@
-
-ElvCharacterDB = {
-["ConvertKeybindings"] = true,
-["ChatEditHistory"] = {
-"/wago",
-},
-["ChatHistoryLog"] = {
-},
-}

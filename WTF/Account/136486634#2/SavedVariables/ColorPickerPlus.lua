@@ -1,2 +1,0 @@
-
-ColorPickerPlusDB = nil

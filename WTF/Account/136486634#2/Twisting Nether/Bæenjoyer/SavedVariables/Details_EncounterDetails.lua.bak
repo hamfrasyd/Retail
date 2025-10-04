@@ -14,6 +14,37 @@ nil,
 },
 {
 },
+{
+["Raid Damage Done"] = {
+["__time"] = 1759334354,
+},
+},
+{
+["Raid Damage Done"] = {
+25485,
+["max_value"] = 25485,
+["__time"] = 1759334952,
+},
+},
+{
+["Raid Damage Done"] = {
+1728,
+["max_value"] = 1728,
+["__time"] = 1759335178,
+},
+},
+{
+["Raid Damage Done"] = {
+1684,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 1684,
+["__time"] = 1759337232,
+},
+},
 },
 ["encounter_spells"] = {
 },

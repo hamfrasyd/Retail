@@ -1,26 +1,26 @@
 
 SimulationCraftDB = {
 ["profileKeys"] = {
-["Driplitty - Twisting Nether"] = "Driplitty - Twisting Nether",
-["Weadasw - Twisting Nether"] = "Weadasw - Twisting Nether",
-["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
-["Bæenjoyer - Twisting Nether"] = "Bæenjoyer - Twisting Nether",
-["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
 ["Hannahuntana - Argent Dawn"] = "Hannahuntana - Argent Dawn",
-["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
 ["Kassedamen - Twisting Nether"] = "Kassedamen - Twisting Nether",
 ["Lilgoat - Twisting Nether"] = "Lilgoat - Twisting Nether",
-["Ponypala - Twisting Nether"] = "Ponypala - Twisting Nether",
-["Dådyret - Draenor"] = "Dådyret - Draenor",
-["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
-["Mbuzi - Draenor"] = "Mbuzi - Draenor",
-["Weqasadwqwe - Twisting Nether"] = "Weqasadwqwe - Twisting Nether",
 ["Daweq - Twisting Nether"] = "Daweq - Twisting Nether",
+["Driplitty - Twisting Nether"] = "Driplitty - Twisting Nether",
+["Bæenjoyer - Twisting Nether"] = "Bæenjoyer - Twisting Nether",
+["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
+["Bankaies - Aggramar"] = "Bankaies - Aggramar",
+["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+["Asazzy - Twisting Nether"] = "Asazzy - Twisting Nether",
+["Mbuzi - Draenor"] = "Mbuzi - Draenor",
+["Dådyret - Draenor"] = "Dådyret - Draenor",
+["Ponypala - Twisting Nether"] = "Ponypala - Twisting Nether",
+["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
+["Weqasadwqwe - Twisting Nether"] = "Weqasadwqwe - Twisting Nether",
+["Weadasw - Twisting Nether"] = "Weadasw - Twisting Nether",
 },
 ["profiles"] = {
-["Driplitty - Twisting Nether"] = {
-},
-["Weadasw - Twisting Nether"] = {
+["Hannahuntana - Argent Dawn"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
@@ -29,6 +29,17 @@ SimulationCraftDB = {
 ["minimap"] = {
 ["hide"] = true,
 },
+},
+["Kassedamen - Twisting Nether"] = {
+},
+["Lilgoat - Twisting Nether"] = {
+},
+["Daweq - Twisting Nether"] = {
+["minimap"] = {
+["hide"] = true,
+},
+},
+["Driplitty - Twisting Nether"] = {
 },
 ["Bæenjoyer - Twisting Nether"] = {
 ["minimap"] = {
@@ -40,7 +51,7 @@ SimulationCraftDB = {
 ["hide"] = true,
 },
 },
-["Hannahuntana - Argent Dawn"] = {
+["Bankaies - Aggramar"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
@@ -50,27 +61,28 @@ SimulationCraftDB = {
 ["hide"] = true,
 },
 },
-["Kassedamen - Twisting Nether"] = {
-},
-["Lilgoat - Twisting Nether"] = {
-},
-["Ponypala - Twisting Nether"] = {
-},
-["Dådyret - Draenor"] = {
-},
-["Mbuzipriest - Twisting Nether"] = {
+["Asazzy - Twisting Nether"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
 },
 ["Mbuzi - Draenor"] = {
 },
+["Dådyret - Draenor"] = {
+},
+["Ponypala - Twisting Nether"] = {
+},
+["Mbuzipriest - Twisting Nether"] = {
+["minimap"] = {
+["hide"] = true,
+},
+},
 ["Weqasadwqwe - Twisting Nether"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
 },
-["Daweq - Twisting Nether"] = {
+["Weadasw - Twisting Nether"] = {
 ["minimap"] = {
 ["hide"] = true,
 },

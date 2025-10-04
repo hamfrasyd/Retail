@@ -10,19 +10,52 @@ CliqueDB3 = {
 ["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Hannahuntana - Argent Dawn",
-["spec2_profileKey"] = "Hannahuntana - Argent Dawn",
 ["specswap"] = false,
+["spec2_profileKey"] = "Hannahuntana - Argent Dawn",
 },
 ["Mbuzi - Twisting Nether"] = {
 ["spec1_profileKey"] = "Mbuzi - Twisting Nether",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Mbuzi - Twisting Nether",
-["specswap"] = false,
+["downclick"] = false,
 ["spec3_profileKey"] = "Mbuzi - Twisting Nether",
+["specswap"] = false,
+},
+["Daweq - Twisting Nether"] = {
+["spec1_profileKey"] = "Daweq - Twisting Nether",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["specswap"] = false,
+["spec2_profileKey"] = "Daweq - Twisting Nether",
+["spec3_profileKey"] = "Daweq - Twisting Nether",
+},
+["Bankaies - Aggramar"] = {
+["spec1_profileKey"] = "Bankaies - Aggramar",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["spec2_profileKey"] = "Bankaies - Aggramar",
+["specswap"] = false,
+["spec3_profileKey"] = "Bankaies - Aggramar",
+},
+["Weqasadwqwe - Twisting Nether"] = {
+["spec1_profileKey"] = "Weqasadwqwe - Twisting Nether",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["spec2_profileKey"] = "Weqasadwqwe - Twisting Nether",
+["specswap"] = false,
+["spec3_profileKey"] = "Weqasadwqwe - Twisting Nether",
 },
 ["Bægnaskeren - Twisting Nether"] = {
 ["spec1_profileKey"] = "Bægnaskeren - Twisting Nether",
@@ -32,88 +65,31 @@ CliqueDB3 = {
 ["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Bægnaskeren - Twisting Nether",
+["specswap"] = false,
 ["spec2_profileKey"] = "Bægnaskeren - Twisting Nether",
-["specswap"] = false,
-},
-["Weqasadwqwe - Twisting Nether"] = {
-["spec1_profileKey"] = "Weqasadwqwe - Twisting Nether",
-["blizzframes"] = {
-["statusBarFix"] = false,
-},
-["fastooc"] = false,
-["spec3_profileKey"] = "Weqasadwqwe - Twisting Nether",
-["downclick"] = false,
-["specswap"] = false,
-["spec2_profileKey"] = "Weqasadwqwe - Twisting Nether",
-},
-["Daweq - Twisting Nether"] = {
-["spec1_profileKey"] = "Daweq - Twisting Nether",
-["blizzframes"] = {
-["statusBarFix"] = false,
-},
-["downclick"] = false,
-["fastooc"] = false,
-["spec3_profileKey"] = "Daweq - Twisting Nether",
-["spec2_profileKey"] = "Daweq - Twisting Nether",
-["specswap"] = false,
 },
 },
 ["profileKeys"] = {
-["Daweq - Twisting Nether"] = "Daweq - Twisting Nether",
-["Hannahuntana - Argent Dawn"] = "Hannahuntana - Argent Dawn",
 ["Weadasw - Twisting Nether"] = "Weadasw - Twisting Nether",
 ["Mbuzi - Twisting Nether"] = "Mbuzi - Twisting Nether",
-["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
+["Bæenjoyer - Twisting Nether"] = "Bæenjoyer - Twisting Nether",
 ["Misswarchira - Argent Dawn"] = "Misswarchira - Argent Dawn",
-["Weqasadwqwe - Twisting Nether"] = "Weqasadwqwe - Twisting Nether",
+["Bankaies - Aggramar"] = "Bankaies - Aggramar",
 ["Bægnaskeren - Twisting Nether"] = "Bægnaskeren - Twisting Nether",
+["Asazzy - Twisting Nether"] = "Asazzy - Twisting Nether",
+["Mbuzipriest - Twisting Nether"] = "Mbuzipriest - Twisting Nether",
+["Hannahuntana - Argent Dawn"] = "Hannahuntana - Argent Dawn",
+["Weqasadwqwe - Twisting Nether"] = "Weqasadwqwe - Twisting Nether",
+["Daweq - Twisting Nether"] = "Daweq - Twisting Nether",
 },
 ["profiles"] = {
-["Daweq - Twisting Nether"] = {
-["bindings"] = {
-{
-["sets"] = {
-["default"] = true,
-},
-["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
-["Hannahuntana - Argent Dawn"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
 ["Weadasw - Twisting Nether"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -127,6 +103,200 @@ CliqueDB3 = {
 },
 },
 ["Mbuzi - Twisting Nether"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Bæenjoyer - Twisting Nether"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Misswarchira - Argent Dawn"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Bankaies - Aggramar"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Bægnaskeren - Twisting Nether"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Wind Rush Totem",
+["key"] = "SHIFT-R",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 538576,
+["type"] = "spell",
+},
+{
+["spell"] = "Earthen Wall Totem",
+["key"] = "SHIFT-1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136098,
+["type"] = "spell",
+},
+{
+["spell"] = "Earth Shield",
+["key"] = "C",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136089,
+["type"] = "spell",
+},
+{
+["spell"] = "Purify Spirit",
+["key"] = "F2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 236288,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Rain",
+["key"] = "SHIFT-C",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136037,
+["type"] = "spell",
+},
+{
+["spell"] = "Riptide",
+["key"] = "MOUSEWHEELDOWN",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 252995,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Surge",
+["key"] = "T",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
+["type"] = "spell",
+},
+{
+["spell"] = "Chain Heal",
+["key"] = "2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 6712961,
+["type"] = "spell",
+},
+{
+["spell"] = "Skyfury",
+["key"] = "F4",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 4630367,
+["type"] = "spell",
+},
+{
+["spell"] = "Earthliving Weapon",
+["key"] = "ALT-2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 237578,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Wave",
+["key"] = "MOUSEWHEELUP",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
+},
+},
+},
+["Asazzy - Twisting Nether"] = {
 ["bindings"] = {
 {
 ["type"] = "target",
@@ -148,10 +318,10 @@ CliqueDB3 = {
 ["Mbuzipriest - Twisting Nether"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -164,13 +334,13 @@ CliqueDB3 = {
 },
 },
 },
-["Misswarchira - Argent Dawn"] = {
+["Hannahuntana - Argent Dawn"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -186,10 +356,10 @@ CliqueDB3 = {
 ["Weqasadwqwe - Twisting Nether"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -202,13 +372,13 @@ CliqueDB3 = {
 },
 },
 },
-["Bægnaskeren - Twisting Nether"] = {
+["Daweq - Twisting Nether"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -218,105 +388,6 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["spell"] = "Earth Shield",
-["key"] = "C",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136089,
-["type"] = "spell",
-},
-{
-["spell"] = "Purify Spirit",
-["key"] = "F2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 236288,
-["type"] = "spell",
-},
-{
-["spell"] = "Wind Rush Totem",
-["key"] = "SHIFT-R",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 538576,
-["type"] = "spell",
-},
-{
-["spell"] = "Earthen Wall Totem",
-["key"] = "SHIFT-1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136098,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Rain",
-["key"] = "SHIFT-C",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136037,
-["type"] = "spell",
-},
-{
-["spell"] = "Skyfury",
-["key"] = "F4",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 4630367,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Surge",
-["key"] = "T",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136044,
-["type"] = "spell",
-},
-{
-["spell"] = "Earthliving Weapon",
-["key"] = "ALT-2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 237578,
-["type"] = "spell",
-},
-{
-["spell"] = "Riptide",
-["key"] = "MOUSEWHEELDOWN",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 252995,
-["type"] = "spell",
-},
-{
-["spell"] = "Chain Heal",
-["key"] = "2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 6712961,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Wave",
-["key"] = "MOUSEWHEELUP",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
-["type"] = "spell",
 },
 },
 },
